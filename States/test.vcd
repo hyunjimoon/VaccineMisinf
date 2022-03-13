@@ -1,0 +1,9 @@
+:SCREEN WELCOME
+SCREENFONT,Times New Roman|12||0-0-0|-1--1--1
+PIXELPOS,0
+BUTTON,"test",21,28,,,,,"MENU>CSV2VDF|CovidModelInputs - TestData.csv|CovidModelInputs - TestData.vdf|",
+!
+:SCREEN ERROR2
+SCREENFONT,Times New Roman|12||0-0-0|-1--1--1
+PIXELPOS,0
+!MENU>CSV2VDF|CovidModelInputs - TestData.csv|CovidModelInputs - TestData.vdf|

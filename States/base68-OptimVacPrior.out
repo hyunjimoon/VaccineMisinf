@@ -1,0 +1,2209 @@
+:COMSYS After 927543 simulations
+:COMSYS Best payoff is -476427
+:COMSYS User terminated multiple search session
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:SEED=1
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=1
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=1e-06
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCINITMETHOD=1
+:MCPAYOFFTYPE=0
+:MCRECORD=0
+:MCSCHEDULE=0
+:MCLIMIT=5000
+:MCBURNIN=800
+:MCNCHAINS=2
+:MCOUTLIER=0.05
+:MCGAMMA=0.2
+:MCEPSILON=0.01
+:MCDELTA=0.0001
+:MCJUMP=0.05
+:MCUPDATEPAIRS=2
+:MCXOVER=0.2
+:MCTEMP=1
+:MCFTEMP=1
+:MCCOOLING=1000
+0 <= Weight on Aggregate Death Hazard[NVx] = 0.0507204  <= 1
+0 <= Weight on Aggregate Death Hazard[Vx] = 0.848695  <= 1
+100 <= Immunity Loss Time[NVx] = 213.738  <= 1000
+100 <= Immunity Loss Time[Vx] = 251.975  <= 1000
+0.2 <= Multiplier Vx Acuity[Vx] = 0.428553  <= 0.7
+30 <= Variant Replacement Time = 30.0006  <= 70
+1 <= Variant Transmission Multiplier = 2.6635  <= 4
+1e-06 <= Sensitivity to Weather = 2.33051  <= 3
+-0.5 <= Variant Vaccine Effectiveness Reduction = -0.291519  <= -0.1
+0.001 <= dalp = 0.982986  <= 1
+0.001 <= ialp = 1  <= 1
+1e-06 <= InputAve[UpAdj] = 1.0682  <= 500
+1e-06 <= InputAve[DwnAdj] = 2.23537  <= 500
+1e-06 <= InputAve[RFI] = 0.413519  <= 500
+1e-06 <= InputAve[RfSkTs] = 0.000942292  <= 500
+1e-06 <= InputAve[WRpPIn] = 0.482675  <= 500
+1e-06 <= InputAve[MInfTs] = 42.6606  <= 500
+1e-06 <= InputAve[MnCnFrc] = 0.112215  <= 500
+1e-06 <= InputAve[SnCnRdUt] = 4.0593  <= 500
+1e-06 <= InputAve[CfImCn] = 0.179145  <= 500
+1e-06 <= InputAve[ImPDnHs] = 0.167839  <= 500
+1e-06 <= InputAve[ImTrFt] = 0.431947  <= 500
+1e-06 <= InputAve[DrdFac] = 3.15484  <= 500
+1e-06 <= InputAve[MxHsFr] = 0.596827  <= 500
+1e-06 <= InputAve[BsFtRt] = 0.000578634  <= 500
+1e-06 <= InputAve[SnsWth] = 2.33148  <= 500
+1e-06 <= InputAve[Acty] = 6.01677  <= 500
+1e-06 <= InputAve[SnFtAc] = 2.15708  <= 500
+1e-06 <= InputAve[TtAsyFr] = 0.511261  <= 500
+1e-06 <= InputAve[ObsImp] = 1e-06  <= 500
+1e-06 <= InputAve[ChrImp] = 1e-06  <= 500
+1e-06 <= InputAve[LivImp] = 0.000397489  <= 500
+1e-06 <= InputAve[MTrAsym] = 0.277444  <= 500
+1e-06 <= InputAve[HspLrng] = 0.733707  <= 500
+1e-06 <= InputAve[AdhrFtg] = 1.23973  <= 500
+520 <= Variant Intro Start Time[Albania] = 610.383  <= 650
+520 <= Variant Intro Start Time[Argentina] = 520  <= 650
+520 <= Variant Intro Start Time[Australia] = 615.374  <= 650
+520 <= Variant Intro Start Time[Austria] = 611.85  <= 650
+520 <= Variant Intro Start Time[Bahrain] = 531.775  <= 650
+520 <= Variant Intro Start Time[Bangladesh] = 520  <= 650
+520 <= Variant Intro Start Time[Belarus] = 546.427  <= 650
+520 <= Variant Intro Start Time[Belgium] = 604.124  <= 650
+520 <= Variant Intro Start Time[Bolivia] = 524.355  <= 650
+520 <= Variant Intro Start Time[Bulgaria] = 520  <= 650
+520 <= Variant Intro Start Time[Canada] = 520  <= 650
+520 <= Variant Intro Start Time[Chile] = 520  <= 650
+520 <= Variant Intro Start Time[Colombia] = 521.807  <= 650
+520 <= Variant Intro Start Time[CostaRica] = 538.373  <= 650
+520 <= Variant Intro Start Time[Croatia] = 520  <= 650
+520 <= Variant Intro Start Time[Cuba] = 544.665  <= 650
+520 <= Variant Intro Start Time[Cyprus] = 604.124  <= 650
+520 <= Variant Intro Start Time[CzechRepublic] = 633.398  <= 650
+520 <= Variant Intro Start Time[Denmark] = 607.467  <= 650
+520 <= Variant Intro Start Time[DominicanRepublic] = 560.114  <= 650
+520 <= Variant Intro Start Time[Ecuador] = 593.289  <= 650
+520 <= Variant Intro Start Time[ElSalvador] = 560.144  <= 650
+520 <= Variant Intro Start Time[Estonia] = 612.124  <= 650
+520 <= Variant Intro Start Time[Ethiopia] = 520  <= 650
+520 <= Variant Intro Start Time[Finland] = 593.78  <= 650
+520 <= Variant Intro Start Time[France] = 608.622  <= 650
+520 <= Variant Intro Start Time[Germany] = 614.123  <= 650
+520 <= Variant Intro Start Time[Ghana] = 520  <= 650
+520 <= Variant Intro Start Time[Greece] = 520.66  <= 650
+520 <= Variant Intro Start Time[Hungary] = 520  <= 650
+520 <= Variant Intro Start Time[Iceland] = 560.873  <= 650
+520 <= Variant Intro Start Time[India] = 520  <= 650
+520 <= Variant Intro Start Time[Indonesia] = 540.121  <= 650
+520 <= Variant Intro Start Time[Iran] = 523.292  <= 650
+520 <= Variant Intro Start Time[Iraq] = 549.061  <= 650
+520 <= Variant Intro Start Time[Ireland] = 595.211  <= 650
+520 <= Variant Intro Start Time[Israel] = 592.406  <= 650
+520 <= Variant Intro Start Time[Italy] = 612.373  <= 650
+520 <= Variant Intro Start Time[Jamaica] = 595.624  <= 650
+520 <= Variant Intro Start Time[Japan] = 542.624  <= 650
+520 <= Variant Intro Start Time[Kazakhstan] = 525.981  <= 650
+520 <= Variant Intro Start Time[Kenya] = 532.549  <= 650
+520 <= Variant Intro Start Time[Kuwait] = 531.312  <= 650
+520 <= Variant Intro Start Time[Latvia] = 634.616  <= 650
+520 <= Variant Intro Start Time[Lithuania] = 520  <= 650
+520 <= Variant Intro Start Time[Luxembourg] = 577.149  <= 650
+520 <= Variant Intro Start Time[Madagascar] = 520  <= 650
+520 <= Variant Intro Start Time[Malawi] = 536.601  <= 650
+520 <= Variant Intro Start Time[Malaysia] = 539.675  <= 650
+520 <= Variant Intro Start Time[Maldives] = 536.619  <= 650
+520 <= Variant Intro Start Time[Malta] = 598.622  <= 650
+520 <= Variant Intro Start Time[Mexico] = 639.36  <= 650
+520 <= Variant Intro Start Time[Morocco] = 632.027  <= 650
+520 <= Variant Intro Start Time[Mozambique] = 558.257  <= 650
+520 <= Variant Intro Start Time[Nepal] = 538.874  <= 650
+520 <= Variant Intro Start Time[Netherlands] = 617.022  <= 650
+520 <= Variant Intro Start Time[NewZealand] = 520  <= 650
+520 <= Variant Intro Start Time[Nigeria] = 650  <= 650
+520 <= Variant Intro Start Time[NorthMacedonia] = 520  <= 650
+520 <= Variant Intro Start Time[Norway] = 613.393  <= 650
+520 <= Variant Intro Start Time[Pakistan] = 520.228  <= 650
+520 <= Variant Intro Start Time[Panama] = 650  <= 650
+520 <= Variant Intro Start Time[Paraguay] = 520  <= 650
+520 <= Variant Intro Start Time[Peru] = 550.986  <= 650
+520 <= Variant Intro Start Time[Philippines] = 520  <= 650
+520 <= Variant Intro Start Time[Poland] = 520  <= 650
+520 <= Variant Intro Start Time[Portugal] = 582.445  <= 650
+520 <= Variant Intro Start Time[Qatar] = 528.352  <= 650
+520 <= Variant Intro Start Time[Romania] = 650  <= 650
+520 <= Variant Intro Start Time[Russia] = 569.656  <= 650
+520 <= Variant Intro Start Time[Rwanda] = 560.759  <= 650
+520 <= Variant Intro Start Time[SaudiArabia] = 619.783  <= 650
+520 <= Variant Intro Start Time[Senegal] = 618.261  <= 650
+520 <= Variant Intro Start Time[Serbia] = 650  <= 650
+520 <= Variant Intro Start Time[Singapore] = 555.032  <= 650
+520 <= Variant Intro Start Time[Slovakia] = 650  <= 650
+520 <= Variant Intro Start Time[Slovenia] = 624.138  <= 650
+520 <= Variant Intro Start Time[SouthAfrica] = 520  <= 650
+520 <= Variant Intro Start Time[SouthKorea] = 617.104  <= 650
+520 <= Variant Intro Start Time[Spain] = 601.997  <= 650
+520 <= Variant Intro Start Time[SriLanka] = 540.552  <= 650
+520 <= Variant Intro Start Time[Sweden] = 632.441  <= 650
+520 <= Variant Intro Start Time[Switzerland] = 615.884  <= 650
+520 <= Variant Intro Start Time[Thailand] = 591.626  <= 650
+520 <= Variant Intro Start Time[Togo] = 520  <= 650
+520 <= Variant Intro Start Time[Tunisia] = 579.042  <= 650
+520 <= Variant Intro Start Time[Turkey] = 520  <= 650
+520 <= Variant Intro Start Time[UAE] = 577.374  <= 650
+520 <= Variant Intro Start Time[UK] = 562.99  <= 650
+520 <= Variant Intro Start Time[Ukraine] = 650  <= 650
+520 <= Variant Intro Start Time[Uruguay] = 520  <= 650
+520 <= Variant Intro Start Time[USA] = 580.622  <= 650
+520 <= Variant Intro Start Time[Zambia] = 526.485  <= 650
+0.001 <= alpR[Albania] = 0.200536  <= 1
+0.001 <= alpR[Argentina] = 0.175154  <= 1
+0.001 <= alpR[Australia] = 0.959745  <= 1
+0.001 <= alpR[Austria] = 0.307622  <= 1
+0.001 <= alpR[Bahrain] = 0.255228  <= 1
+0.001 <= alpR[Bangladesh] = 0.225765  <= 1
+0.001 <= alpR[Belarus] = 0.18936  <= 1
+0.001 <= alpR[Belgium] = 0.213269  <= 1
+0.001 <= alpR[Bolivia] = 0.164747  <= 1
+0.001 <= alpR[Bulgaria] = 0.761963  <= 1
+0.001 <= alpR[Canada] = 0.142417  <= 1
+0.001 <= alpR[Chile] = 0.28185  <= 1
+0.001 <= alpR[Colombia] = 0.157513  <= 1
+0.001 <= alpR[CostaRica] = 0.163324  <= 1
+0.001 <= alpR[Croatia] = 0.511503  <= 1
+0.001 <= alpR[Cuba] = 0.0886937  <= 1
+0.001 <= alpR[Cyprus] = 0.253577  <= 1
+0.001 <= alpR[CzechRepublic] = 0.243252  <= 1
+0.001 <= alpR[Denmark] = 0.191019  <= 1
+0.001 <= alpR[DominicanRepublic] = 0.180347  <= 1
+0.001 <= alpR[Ecuador] = 0.529077  <= 1
+0.001 <= alpR[ElSalvador] = 0.0709863  <= 1
+0.001 <= alpR[Estonia] = 0.0831095  <= 1
+0.001 <= alpR[Ethiopia] = 0.0757307  <= 1
+0.001 <= alpR[Finland] = 0.0581403  <= 1
+0.001 <= alpR[France] = 0.159602  <= 1
+0.001 <= alpR[Germany] = 0.19301  <= 1
+0.001 <= alpR[Ghana] = 0.512641  <= 1
+0.001 <= alpR[Greece] = 0.276804  <= 1
+0.001 <= alpR[Hungary] = 0.69781  <= 1
+0.001 <= alpR[Iceland] = 0.685925  <= 1
+0.001 <= alpR[India] = 0.138843  <= 1
+0.001 <= alpR[Indonesia] = 0.178178  <= 1
+0.001 <= alpR[Iran] = 0.171995  <= 1
+0.001 <= alpR[Iraq] = 0.524406  <= 1
+0.001 <= alpR[Ireland] = 0.244108  <= 1
+0.001 <= alpR[Israel] = 0.370745  <= 1
+0.001 <= alpR[Italy] = 0.137758  <= 1
+0.001 <= alpR[Jamaica] = 0.323141  <= 1
+0.001 <= alpR[Japan] = 0.393646  <= 1
+0.001 <= alpR[Kazakhstan] = 0.353355  <= 1
+0.001 <= alpR[Kenya] = 0.102634  <= 1
+0.001 <= alpR[Kuwait] = 0.230254  <= 1
+0.001 <= alpR[Latvia] = 0.106888  <= 1
+0.001 <= alpR[Lithuania] = 0.34891  <= 1
+0.001 <= alpR[Luxembourg] = 0.25982  <= 1
+0.001 <= alpR[Madagascar] = 0.188328  <= 1
+0.001 <= alpR[Malawi] = 0.62231  <= 1
+0.001 <= alpR[Malaysia] = 0.377478  <= 1
+0.001 <= alpR[Maldives] = 0.399981  <= 1
+0.001 <= alpR[Malta] = 0.456086  <= 1
+0.001 <= alpR[Mexico] = 0.284489  <= 1
+0.001 <= alpR[Morocco] = 0.453893  <= 1
+0.001 <= alpR[Mozambique] = 0.130128  <= 1
+0.001 <= alpR[Nepal] = 0.625806  <= 1
+0.001 <= alpR[Netherlands] = 0.164742  <= 1
+0.001 <= alpR[NewZealand] = 0.396796  <= 1
+0.001 <= alpR[Nigeria] = 0.422205  <= 1
+0.001 <= alpR[NorthMacedonia] = 0.678858  <= 1
+0.001 <= alpR[Norway] = 0.116658  <= 1
+0.001 <= alpR[Pakistan] = 0.094164  <= 1
+0.001 <= alpR[Panama] = 0.314444  <= 1
+0.001 <= alpR[Paraguay] = 0.148295  <= 1
+0.001 <= alpR[Peru] = 0.358997  <= 1
+0.001 <= alpR[Philippines] = 0.147824  <= 1
+0.001 <= alpR[Poland] = 0.718411  <= 1
+0.001 <= alpR[Portugal] = 0.351097  <= 1
+0.001 <= alpR[Qatar] = 0.236941  <= 1
+0.001 <= alpR[Romania] = 0.36456  <= 1
+0.001 <= alpR[Russia] = 0.0544181  <= 1
+0.001 <= alpR[Rwanda] = 0.284914  <= 1
+0.001 <= alpR[SaudiArabia] = 0.150274  <= 1
+0.001 <= alpR[Senegal] = 0.433559  <= 1
+0.001 <= alpR[Serbia] = 0.577236  <= 1
+0.001 <= alpR[Singapore] = 0.509766  <= 1
+0.001 <= alpR[Slovakia] = 0.529891  <= 1
+0.001 <= alpR[Slovenia] = 0.316927  <= 1
+0.001 <= alpR[SouthAfrica] = 0.0995183  <= 1
+0.001 <= alpR[SouthKorea] = 0.244096  <= 1
+0.001 <= alpR[Spain] = 0.334777  <= 1
+0.001 <= alpR[SriLanka] = 0.197406  <= 1
+0.001 <= alpR[Sweden] = 0.209988  <= 1
+0.001 <= alpR[Switzerland] = 1  <= 1
+0.001 <= alpR[Thailand] = 0.685644  <= 1
+0.001 <= alpR[Togo] = 0.461187  <= 1
+0.001 <= alpR[Tunisia] = 0.33107  <= 1
+0.001 <= alpR[Turkey] = 0.233322  <= 1
+0.001 <= alpR[UAE] = 0.130964  <= 1
+0.001 <= alpR[UK] = 0.219059  <= 1
+0.001 <= alpR[Ukraine] = 0.142937  <= 1
+0.001 <= alpR[Uruguay] = 0.396813  <= 1
+0.001 <= alpR[USA] = 0.236112  <= 1
+0.001 <= alpR[Zambia] = 0.755367  <= 1
+1e-06 <= Base Fatality Rate for Unit Acuity[Albania] = 0.000657059  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Argentina] = 0.000650618  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Australia] = 0.000661109  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Austria] = 0.000663332  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Bahrain] = 0.000652703  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Bangladesh] = 0.000660673  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Belarus] = 0.00067178  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Belgium] = 0.000669235  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Bolivia] = 0.000677985  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Bulgaria] = 0.000665525  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Canada] = 0.000667112  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Chile] = 0.000653496  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Colombia] = 0.000655721  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[CostaRica] = 0.000643034  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Croatia] = 0.00066669  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Cuba] = 0.000654846  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Cyprus] = 0.000665764  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[CzechRepublic] = 0.00063741  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Denmark] = 0.000671552  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[DominicanRepublic] = 0.0006655  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ecuador] = 0.000661531  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[ElSalvador] = 0.000659495  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Estonia] = 0.00066825  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ethiopia] = 0.000661146  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Finland] = 0.000671755  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[France] = 0.000659776  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Germany] = 0.000655983  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ghana] = 0.000648687  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Greece] = 0.000642128  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Hungary] = 0.000678659  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Iceland] = 0.000661735  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[India] = 0.000660791  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Indonesia] = 0.000667862  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Iran] = 0.000668734  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Iraq] = 0.000593984  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ireland] = 0.000659159  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Israel] = 0.000679751  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Italy] = 0.000663557  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Jamaica] = 0.000664405  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Japan] = 0.000663243  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Kazakhstan] = 0.0006621  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Kenya] = 0.000656589  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Kuwait] = 0.000596668  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Latvia] = 0.000707887  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Lithuania] = 0.000659179  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Luxembourg] = 0.000654158  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Madagascar] = 0.000660335  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Malawi] = 0.000662699  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Malaysia] = 0.000678517  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Maldives] = 0.000674804  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Malta] = 0.0006676  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Mexico] = 0.000671349  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Morocco] = 0.000673498  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Mozambique] = 0.000666694  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Nepal] = 0.000652775  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Netherlands] = 0.000669165  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[NewZealand] = 0.000663012  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Nigeria] = 0.00065504  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[NorthMacedonia] = 0.000664413  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Norway] = 0.000661013  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Pakistan] = 0.000656356  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Panama] = 0.000661566  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Paraguay] = 0.00066292  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Peru] = 0.000694514  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Philippines] = 0.0006622  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Poland] = 0.000668952  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Portugal] = 0.000667722  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Qatar] = 0.000666911  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Romania] = 0.000658291  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Russia] = 0.000663817  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Rwanda] = 0.000659891  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[SaudiArabia] = 0.000664689  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Senegal] = 0.000661068  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Serbia] = 0.000659834  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Singapore] = 0.000658715  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Slovakia] = 0.000660494  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Slovenia] = 0.000675042  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[SouthAfrica] = 0.000654198  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[SouthKorea] = 0.000659055  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Spain] = 0.000661895  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[SriLanka] = 0.000660621  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Sweden] = 0.000654446  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Switzerland] = 0.000649327  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Thailand] = 0.000664477  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Togo] = 0.00066065  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Tunisia] = 0.000685871  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Turkey] = 0.000670279  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[UAE] = 0.000666226  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[UK] = 0.000672855  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ukraine] = 0.000663018  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Uruguay] = 0.000686281  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[USA] = 0.000732275  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Zambia] = 0.000665957  <= 0.001
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Albania] = 0.00147485  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Argentina] = 0.000802524  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Australia] = 0.000705782  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Austria] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Bahrain] = 0.00061392  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Bangladesh] = 0.00260864  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Belarus] = 0.00167481  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Belgium] = 0.000911468  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Bolivia] = 0.00130536  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Bulgaria] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Canada] = 0.000729634  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Chile] = 0.000131788  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Colombia] = 0.000445472  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[CostaRica] = 0.0010985  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Croatia] = 0.000615915  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Cuba] = 0.00194494  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Cyprus] = 0.000928228  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[CzechRepublic] = 0.00119814  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Denmark] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[DominicanRepublic] = 0.0012968  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ecuador] = 0.000212335  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[ElSalvador] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Estonia] = 0.000639889  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ethiopia] = 0.00121589  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Finland] = 0.000824884  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[France] = 0.00204308  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Germany] = 0.00206592  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ghana] = 0.00010789  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Greece] = 0.000952969  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Hungary] = 0.000404843  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Iceland] = 0.000991546  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[India] = 0.00032139  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Indonesia] = 0.000181855  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Iran] = 0.00194668  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Iraq] = 0.000100041  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ireland] = 0.000552973  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Israel] = 0.000603001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Italy] = 0.00142022  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Jamaica] = 0.00101128  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Japan] = 0.000201891  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Kazakhstan] = 0.000330703  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Kenya] = 0.000950687  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Kuwait] = 0.000223291  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Latvia] = 0.000774778  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Lithuania] = 0.000655113  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Luxembourg] = 0.000537787  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Madagascar] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Malawi] = 0.00140749  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Malaysia] = 0.000418172  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Maldives] = 0.00100185  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Malta] = 0.00104644  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Mexico] = 0.00145623  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Morocco] = 0.00133164  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Mozambique] = 0.000167389  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Nepal] = 0.0012981  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Netherlands] = 0.0022665  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[NewZealand] = 0.000745572  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Nigeria] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[NorthMacedonia] = 0.00112902  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Norway] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Pakistan] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Panama] = 0.000450558  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Paraguay] = 0.000114796  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Peru] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Philippines] = 0.000609985  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Poland] = 0.000741399  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Portugal] = 0.00148861  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Qatar] = 0.000647798  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Romania] = 0.00119973  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Russia] = 0.000861999  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Rwanda] = 0.00131813  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[SaudiArabia] = 0.000348832  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Senegal] = 0.000943183  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Serbia] = 0.000493587  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Singapore] = 0.000302725  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Slovakia] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Slovenia] = 0.000788698  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[SouthAfrica] = 0.00194012  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[SouthKorea] = 0.00161735  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Spain] = 0.0013312  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[SriLanka] = 0.00190739  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Sweden] = 0.000821909  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Switzerland] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Thailand] = 0.00216849  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Togo] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Tunisia] = 0.00150423  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Turkey] = 0.000727219  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[UAE] = 0.00109428  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[UK] = 0.000687863  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ukraine] = 0.000263889  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Uruguay] = 0.0001  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[USA] = 0.00438302  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Zambia] = 0.000182199  <= 0.01
+1e-06 <= Confirmation Impact on Contact[Albania] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Argentina] = 0.334739  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Australia] = 0.275527  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Austria] = 0.0184907  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Bahrain] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Bangladesh] = 0.187377  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Belarus] = 0.330527  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Belgium] = 0.120073  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Bolivia] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Bulgaria] = 0.126999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Canada] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Chile] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Colombia] = 0.495082  <= 0.5
+1e-06 <= Confirmation Impact on Contact[CostaRica] = 0.175573  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Croatia] = 0.150637  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Cuba] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Cyprus] = 1.31542e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[CzechRepublic] = 0.000114017  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Denmark] = 0.425442  <= 0.5
+1e-06 <= Confirmation Impact on Contact[DominicanRepublic] = 0.307165  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ecuador] = 0.0292957  <= 0.5
+1e-06 <= Confirmation Impact on Contact[ElSalvador] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Estonia] = 1.00153e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ethiopia] = 0.151901  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Finland] = 0.193909  <= 0.5
+1e-06 <= Confirmation Impact on Contact[France] = 0.306306  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Germany] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ghana] = 0.145447  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Greece] = 0.314135  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Hungary] = 0.0150112  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Iceland] = 0.39604  <= 0.5
+1e-06 <= Confirmation Impact on Contact[India] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Indonesia] = 0.187551  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Iran] = 0.0070863  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Iraq] = 0.150232  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ireland] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Israel] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Italy] = 3.51546e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Jamaica] = 0.200047  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Japan] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Kazakhstan] = 0.49588  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Kenya] = 0.270034  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Kuwait] = 0.312543  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Latvia] = 0.129989  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Lithuania] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Luxembourg] = 0.0267555  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Madagascar] = 0.240133  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Malawi] = 0.144839  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Malaysia] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Maldives] = 0.0788249  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Malta] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Mexico] = 0.270864  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Morocco] = 0.31299  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Mozambique] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Nepal] = 0.242287  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Netherlands] = 0.14202  <= 0.5
+1e-06 <= Confirmation Impact on Contact[NewZealand] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Nigeria] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[NorthMacedonia] = 0.259542  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Norway] = 0.499997  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Pakistan] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Panama] = 0.0358261  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Paraguay] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Peru] = 1.07874e-05  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Philippines] = 0.481009  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Poland] = 0.230692  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Portugal] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Qatar] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Romania] = 0.0285735  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Russia] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Rwanda] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[SaudiArabia] = 0.214545  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Senegal] = 0.152273  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Serbia] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Singapore] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Slovakia] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Slovenia] = 0.0148655  <= 0.5
+1e-06 <= Confirmation Impact on Contact[SouthAfrica] = 0.334587  <= 0.5
+1e-06 <= Confirmation Impact on Contact[SouthKorea] = 0.0606134  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Spain] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[SriLanka] = 0.0839343  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Sweden] = 0.219533  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Switzerland] = 0.119425  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Thailand] = 0.314122  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Togo] = 0.461198  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Tunisia] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Turkey] = 0.460877  <= 0.5
+1e-06 <= Confirmation Impact on Contact[UAE] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[UK] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ukraine] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Uruguay] = 1e-06  <= 0.5
+1e-06 <= Confirmation Impact on Contact[USA] = 0.0367027  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Zambia] = 0.263167  <= 0.5
+2 <= Covid Acuity Relative to Flu[Albania] = 6.01484  <= 10
+2 <= Covid Acuity Relative to Flu[Argentina] = 6.01561  <= 10
+2 <= Covid Acuity Relative to Flu[Australia] = 6.01763  <= 10
+2 <= Covid Acuity Relative to Flu[Austria] = 6.02014  <= 10
+2 <= Covid Acuity Relative to Flu[Bahrain] = 6.01626  <= 10
+2 <= Covid Acuity Relative to Flu[Bangladesh] = 6.01336  <= 10
+2 <= Covid Acuity Relative to Flu[Belarus] = 6.01691  <= 10
+2 <= Covid Acuity Relative to Flu[Belgium] = 6.01962  <= 10
+2 <= Covid Acuity Relative to Flu[Bolivia] = 6.02232  <= 10
+2 <= Covid Acuity Relative to Flu[Bulgaria] = 6.01873  <= 10
+2 <= Covid Acuity Relative to Flu[Canada] = 6.01922  <= 10
+2 <= Covid Acuity Relative to Flu[Chile] = 6.01645  <= 10
+2 <= Covid Acuity Relative to Flu[Colombia] = 6.01529  <= 10
+2 <= Covid Acuity Relative to Flu[CostaRica] = 6.01371  <= 10
+2 <= Covid Acuity Relative to Flu[Croatia] = 6.01873  <= 10
+2 <= Covid Acuity Relative to Flu[Cuba] = 6.01543  <= 10
+2 <= Covid Acuity Relative to Flu[Cyprus] = 6.01885  <= 10
+2 <= Covid Acuity Relative to Flu[CzechRepublic] = 6.01019  <= 10
+2 <= Covid Acuity Relative to Flu[Denmark] = 6.02039  <= 10
+2 <= Covid Acuity Relative to Flu[DominicanRepublic] = 6.01806  <= 10
+2 <= Covid Acuity Relative to Flu[Ecuador] = 6.01447  <= 10
+2 <= Covid Acuity Relative to Flu[ElSalvador] = 6.01691  <= 10
+2 <= Covid Acuity Relative to Flu[Estonia] = 6.0196  <= 10
+2 <= Covid Acuity Relative to Flu[Ethiopia] = 6.01794  <= 10
+2 <= Covid Acuity Relative to Flu[Finland] = 6.02011  <= 10
+2 <= Covid Acuity Relative to Flu[France] = 6.01626  <= 10
+2 <= Covid Acuity Relative to Flu[Germany] = 6.01592  <= 10
+2 <= Covid Acuity Relative to Flu[Ghana] = 6.01707  <= 10
+2 <= Covid Acuity Relative to Flu[Greece] = 6.01558  <= 10
+2 <= Covid Acuity Relative to Flu[Hungary] = 6.02181  <= 10
+2 <= Covid Acuity Relative to Flu[Iceland] = 6.01822  <= 10
+2 <= Covid Acuity Relative to Flu[India] = 6.01786  <= 10
+2 <= Covid Acuity Relative to Flu[Indonesia] = 6.01958  <= 10
+2 <= Covid Acuity Relative to Flu[Iran] = 6.01878  <= 10
+2 <= Covid Acuity Relative to Flu[Iraq] = 6.01231  <= 10
+2 <= Covid Acuity Relative to Flu[Ireland] = 6.01738  <= 10
+2 <= Covid Acuity Relative to Flu[Israel] = 6.02219  <= 10
+2 <= Covid Acuity Relative to Flu[Italy] = 6.01838  <= 10
+2 <= Covid Acuity Relative to Flu[Jamaica] = 6.01876  <= 10
+2 <= Covid Acuity Relative to Flu[Japan] = 6.01856  <= 10
+2 <= Covid Acuity Relative to Flu[Kazakhstan] = 6.01833  <= 10
+2 <= Covid Acuity Relative to Flu[Kenya] = 6.01658  <= 10
+2 <= Covid Acuity Relative to Flu[Kuwait] = 6.03185  <= 10
+2 <= Covid Acuity Relative to Flu[Latvia] = 6.02963  <= 10
+2 <= Covid Acuity Relative to Flu[Lithuania] = 6.01715  <= 10
+2 <= Covid Acuity Relative to Flu[Luxembourg] = 6.01654  <= 10
+2 <= Covid Acuity Relative to Flu[Madagascar] = 6.01857  <= 10
+2 <= Covid Acuity Relative to Flu[Malawi] = 6.01833  <= 10
+2 <= Covid Acuity Relative to Flu[Malaysia] = 6.02078  <= 10
+2 <= Covid Acuity Relative to Flu[Maldives] = 6.02157  <= 10
+2 <= Covid Acuity Relative to Flu[Malta] = 6.01895  <= 10
+2 <= Covid Acuity Relative to Flu[Mexico] = 6.02019  <= 10
+2 <= Covid Acuity Relative to Flu[Morocco] = 6.02023  <= 10
+2 <= Covid Acuity Relative to Flu[Mozambique] = 6.0213  <= 10
+2 <= Covid Acuity Relative to Flu[Nepal] = 6.01562  <= 10
+2 <= Covid Acuity Relative to Flu[Netherlands] = 6.0185  <= 10
+2 <= Covid Acuity Relative to Flu[NewZealand] = 6.01803  <= 10
+2 <= Covid Acuity Relative to Flu[Nigeria] = 6.02019  <= 10
+2 <= Covid Acuity Relative to Flu[NorthMacedonia] = 6.01847  <= 10
+2 <= Covid Acuity Relative to Flu[Norway] = 6.01865  <= 10
+2 <= Covid Acuity Relative to Flu[Pakistan] = 6.01644  <= 10
+2 <= Covid Acuity Relative to Flu[Panama] = 6.01864  <= 10
+2 <= Covid Acuity Relative to Flu[Paraguay] = 6.01861  <= 10
+2 <= Covid Acuity Relative to Flu[Peru] = 6.02653  <= 10
+2 <= Covid Acuity Relative to Flu[Philippines] = 6.01385  <= 10
+2 <= Covid Acuity Relative to Flu[Poland] = 6.01948  <= 10
+2 <= Covid Acuity Relative to Flu[Portugal] = 6.01683  <= 10
+2 <= Covid Acuity Relative to Flu[Qatar] = 6.01909  <= 10
+2 <= Covid Acuity Relative to Flu[Romania] = 6.01591  <= 10
+2 <= Covid Acuity Relative to Flu[Russia] = 6.01881  <= 10
+2 <= Covid Acuity Relative to Flu[Rwanda] = 6.01756  <= 10
+2 <= Covid Acuity Relative to Flu[SaudiArabia] = 6.01911  <= 10
+2 <= Covid Acuity Relative to Flu[Senegal] = 6.01811  <= 10
+2 <= Covid Acuity Relative to Flu[Serbia] = 6.01738  <= 10
+2 <= Covid Acuity Relative to Flu[Singapore] = 6.0175  <= 10
+2 <= Covid Acuity Relative to Flu[Slovakia] = 6.01171  <= 10
+2 <= Covid Acuity Relative to Flu[Slovenia] = 6.02157  <= 10
+2 <= Covid Acuity Relative to Flu[SouthAfrica] = 6.016  <= 10
+2 <= Covid Acuity Relative to Flu[SouthKorea] = 6.01742  <= 10
+2 <= Covid Acuity Relative to Flu[Spain] = 6.01739  <= 10
+2 <= Covid Acuity Relative to Flu[SriLanka] = 6.01721  <= 10
+2 <= Covid Acuity Relative to Flu[Sweden] = 6.01621  <= 10
+2 <= Covid Acuity Relative to Flu[Switzerland] = 6.02548  <= 10
+2 <= Covid Acuity Relative to Flu[Thailand] = 6.01673  <= 10
+2 <= Covid Acuity Relative to Flu[Togo] = 6.01831  <= 10
+2 <= Covid Acuity Relative to Flu[Tunisia] = 6.0294  <= 10
+2 <= Covid Acuity Relative to Flu[Turkey] = 6.02  <= 10
+2 <= Covid Acuity Relative to Flu[UAE] = 6.01778  <= 10
+2 <= Covid Acuity Relative to Flu[UK] = 6.02056  <= 10
+2 <= Covid Acuity Relative to Flu[Ukraine] = 6.01863  <= 10
+2 <= Covid Acuity Relative to Flu[Uruguay] = 6.02334  <= 10
+2 <= Covid Acuity Relative to Flu[USA] = 6.01756  <= 10
+2 <= Covid Acuity Relative to Flu[Zambia] = 6.01875  <= 10
+1 <= Dread Factor in Risk Perception[Albania] = 9946.61  <= 100000
+1 <= Dread Factor in Risk Perception[Argentina] = 54611.5  <= 100000
+1 <= Dread Factor in Risk Perception[Australia] = 9374.91  <= 100000
+1 <= Dread Factor in Risk Perception[Austria] = 637.756  <= 100000
+1 <= Dread Factor in Risk Perception[Bahrain] = 407.416  <= 100000
+1 <= Dread Factor in Risk Perception[Bangladesh] = 530.658  <= 100000
+1 <= Dread Factor in Risk Perception[Belarus] = 182.063  <= 100000
+1 <= Dread Factor in Risk Perception[Belgium] = 48.2678  <= 100000
+1 <= Dread Factor in Risk Perception[Bolivia] = 196.514  <= 100000
+1 <= Dread Factor in Risk Perception[Bulgaria] = 3748.36  <= 100000
+1 <= Dread Factor in Risk Perception[Canada] = 475.965  <= 100000
+1 <= Dread Factor in Risk Perception[Chile] = 13.9324  <= 100000
+1 <= Dread Factor in Risk Perception[Colombia] = 77.5761  <= 100000
+1 <= Dread Factor in Risk Perception[CostaRica] = 12498.5  <= 100000
+1 <= Dread Factor in Risk Perception[Croatia] = 27089.3  <= 100000
+1 <= Dread Factor in Risk Perception[Cuba] = 21884.2  <= 100000
+1 <= Dread Factor in Risk Perception[Cyprus] = 16944.1  <= 100000
+1 <= Dread Factor in Risk Perception[CzechRepublic] = 765.94  <= 100000
+1 <= Dread Factor in Risk Perception[Denmark] = 773.245  <= 100000
+1 <= Dread Factor in Risk Perception[DominicanRepublic] = 121.322  <= 100000
+1 <= Dread Factor in Risk Perception[Ecuador] = 203.609  <= 100000
+1 <= Dread Factor in Risk Perception[ElSalvador] = 366.834  <= 100000
+1 <= Dread Factor in Risk Perception[Estonia] = 6089.15  <= 100000
+1 <= Dread Factor in Risk Perception[Ethiopia] = 1831.37  <= 100000
+1 <= Dread Factor in Risk Perception[Finland] = 9665.47  <= 100000
+1 <= Dread Factor in Risk Perception[France] = 117.503  <= 100000
+1 <= Dread Factor in Risk Perception[Germany] = 311.004  <= 100000
+1 <= Dread Factor in Risk Perception[Ghana] = 13369.7  <= 100000
+1 <= Dread Factor in Risk Perception[Greece] = 2718  <= 100000
+1 <= Dread Factor in Risk Perception[Hungary] = 1944.22  <= 100000
+1 <= Dread Factor in Risk Perception[Iceland] = 378.634  <= 100000
+1 <= Dread Factor in Risk Perception[India] = 80.8942  <= 100000
+1 <= Dread Factor in Risk Perception[Indonesia] = 777.417  <= 100000
+1 <= Dread Factor in Risk Perception[Iran] = 46.6281  <= 100000
+1 <= Dread Factor in Risk Perception[Iraq] = 903.284  <= 100000
+1 <= Dread Factor in Risk Perception[Ireland] = 250.179  <= 100000
+1 <= Dread Factor in Risk Perception[Israel] = 896.205  <= 100000
+1 <= Dread Factor in Risk Perception[Italy] = 295.607  <= 100000
+1 <= Dread Factor in Risk Perception[Jamaica] = 497.44  <= 100000
+1 <= Dread Factor in Risk Perception[Japan] = 2540.45  <= 100000
+1 <= Dread Factor in Risk Perception[Kazakhstan] = 115.111  <= 100000
+1 <= Dread Factor in Risk Perception[Kenya] = 2186.41  <= 100000
+1 <= Dread Factor in Risk Perception[Kuwait] = 2196.43  <= 100000
+1 <= Dread Factor in Risk Perception[Latvia] = 7871.96  <= 100000
+1 <= Dread Factor in Risk Perception[Lithuania] = 100000  <= 100000
+1 <= Dread Factor in Risk Perception[Luxembourg] = 370.011  <= 100000
+1 <= Dread Factor in Risk Perception[Madagascar] = 1288.12  <= 100000
+1 <= Dread Factor in Risk Perception[Malawi] = 8244.9  <= 100000
+1 <= Dread Factor in Risk Perception[Malaysia] = 1739.3  <= 100000
+1 <= Dread Factor in Risk Perception[Maldives] = 3425.08  <= 100000
+1 <= Dread Factor in Risk Perception[Malta] = 17861.1  <= 100000
+1 <= Dread Factor in Risk Perception[Mexico] = 5067.82  <= 100000
+1 <= Dread Factor in Risk Perception[Morocco] = 230.755  <= 100000
+1 <= Dread Factor in Risk Perception[Mozambique] = 9399.15  <= 100000
+1 <= Dread Factor in Risk Perception[Nepal] = 29309.1  <= 100000
+1 <= Dread Factor in Risk Perception[Netherlands] = 1665.82  <= 100000
+1 <= Dread Factor in Risk Perception[NewZealand] = 14422.4  <= 100000
+1 <= Dread Factor in Risk Perception[Nigeria] = 25109.3  <= 100000
+1 <= Dread Factor in Risk Perception[NorthMacedonia] = 4936.6  <= 100000
+1 <= Dread Factor in Risk Perception[Norway] = 1671.24  <= 100000
+1 <= Dread Factor in Risk Perception[Pakistan] = 11882.7  <= 100000
+1 <= Dread Factor in Risk Perception[Panama] = 80.3499  <= 100000
+1 <= Dread Factor in Risk Perception[Paraguay] = 205.567  <= 100000
+1 <= Dread Factor in Risk Perception[Peru] = 67.6518  <= 100000
+1 <= Dread Factor in Risk Perception[Philippines] = 1531.54  <= 100000
+1 <= Dread Factor in Risk Perception[Poland] = 10844.2  <= 100000
+1 <= Dread Factor in Risk Perception[Portugal] = 109.94  <= 100000
+1 <= Dread Factor in Risk Perception[Qatar] = 740.458  <= 100000
+1 <= Dread Factor in Risk Perception[Romania] = 192.08  <= 100000
+1 <= Dread Factor in Risk Perception[Russia] = 84.9458  <= 100000
+1 <= Dread Factor in Risk Perception[Rwanda] = 5437.02  <= 100000
+1 <= Dread Factor in Risk Perception[SaudiArabia] = 168.022  <= 100000
+1 <= Dread Factor in Risk Perception[Senegal] = 23592.6  <= 100000
+1 <= Dread Factor in Risk Perception[Serbia] = 12312.4  <= 100000
+1 <= Dread Factor in Risk Perception[Singapore] = 8593.85  <= 100000
+1 <= Dread Factor in Risk Perception[Slovakia] = 4408.43  <= 100000
+1 <= Dread Factor in Risk Perception[Slovenia] = 240.712  <= 100000
+1 <= Dread Factor in Risk Perception[SouthAfrica] = 34.4309  <= 100000
+1 <= Dread Factor in Risk Perception[SouthKorea] = 7928.31  <= 100000
+1 <= Dread Factor in Risk Perception[Spain] = 4622.98  <= 100000
+1 <= Dread Factor in Risk Perception[SriLanka] = 92292.5  <= 100000
+1 <= Dread Factor in Risk Perception[Sweden] = 483.921  <= 100000
+1 <= Dread Factor in Risk Perception[Switzerland] = 893.682  <= 100000
+1 <= Dread Factor in Risk Perception[Thailand] = 1020.75  <= 100000
+1 <= Dread Factor in Risk Perception[Togo] = 92809.3  <= 100000
+1 <= Dread Factor in Risk Perception[Tunisia] = 3989.1  <= 100000
+1 <= Dread Factor in Risk Perception[Turkey] = 172.848  <= 100000
+1 <= Dread Factor in Risk Perception[UAE] = 155.88  <= 100000
+1 <= Dread Factor in Risk Perception[UK] = 388.441  <= 100000
+1 <= Dread Factor in Risk Perception[Ukraine] = 852.142  <= 100000
+1 <= Dread Factor in Risk Perception[Uruguay] = 100000  <= 100000
+1 <= Dread Factor in Risk Perception[USA] = 151.077  <= 100000
+1 <= Dread Factor in Risk Perception[Zambia] = 7390.56  <= 100000
+1e-06 <= Impact of Population Density on Hospital Availability[Albania] = 0.0892705  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Argentina] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Australia] = 0.0718654  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Austria] = 1.8091e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Bahrain] = 0.137446  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Bangladesh] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Belarus] = 0.0644164  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Belgium] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Bolivia] = 0.20002  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Bulgaria] = 0.158206  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Canada] = 0.542017  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Chile] = 1.2646e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Colombia] = 0.03605  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[CostaRica] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Croatia] = 0.295262  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Cuba] = 0.268064  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Cyprus] = 0.211968  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[CzechRepublic] = 0.249956  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Denmark] = 0.201009  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[DominicanRepublic] = 0.431753  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ecuador] = 0.109477  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[ElSalvador] = 1.19459e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Estonia] = 0.170115  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ethiopia] = 0.1925  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Finland] = 0.391327  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[France] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Germany] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ghana] = 0.0318146  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Greece] = 0.000510751  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Hungary] = 0.323557  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Iceland] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[India] = 1.72503e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Indonesia] = 0.396122  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Iran] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Iraq] = 0.152161  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ireland] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Israel] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Italy] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Jamaica] = 0.18423  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Japan] = 0.151597  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Kazakhstan] = 0.00800348  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Kenya] = 0.188713  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Kuwait] = 0.000624582  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Latvia] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Lithuania] = 0.0957096  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Luxembourg] = 2.62293e-05  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Madagascar] = 1.10846e-05  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Malawi] = 0.182833  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Malaysia] = 0.874636  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Maldives] = 0.210858  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Malta] = 0.164713  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Mexico] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Morocco] = 0.410515  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Mozambique] = 1.34581e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Nepal] = 7.8721e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Netherlands] = 0.160076  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[NewZealand] = 0.423377  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Nigeria] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[NorthMacedonia] = 0.164168  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Norway] = 7.45372e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Pakistan] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Panama] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Paraguay] = 9.02827e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Peru] = 0.613662  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Philippines] = 0.150198  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Poland] = 0.339853  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Portugal] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Qatar] = 0.253444  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Romania] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Russia] = 0.117467  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Rwanda] = 0.174942  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[SaudiArabia] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Senegal] = 0.0401611  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Serbia] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Singapore] = 0.379812  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Slovakia] = 0.234399  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Slovenia] = 0.0434302  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[SouthAfrica] = 1.0482e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[SouthKorea] = 0.166879  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Spain] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[SriLanka] = 0.379192  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Sweden] = 0.673854  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Switzerland] = 1  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Thailand] = 0.30173  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Togo] = 0.218953  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Tunisia] = 0.91792  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Turkey] = 0.225656  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[UAE] = 0.00541467  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[UK] = 0.95613  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ukraine] = 0.153924  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Uruguay] = 1e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[USA] = 2.50731e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Zambia] = 0.14274  <= 1
+0.1 <= Impact of Treatment on Fatality Rate[Albania] = 0.417107  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Argentina] = 0.213207  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Australia] = 0.458644  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Austria] = 0.587187  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Bahrain] = 0.127539  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Bangladesh] = 0.79383  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Belarus] = 0.312429  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Belgium] = 0.782879  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Bolivia] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Bulgaria] = 0.521876  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Canada] = 0.192238  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Chile] = 0.511282  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Colombia] = 0.728074  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[CostaRica] = 0.143122  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Croatia] = 0.215543  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Cuba] = 0.323707  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Cyprus] = 0.614191  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[CzechRepublic] = 0.168519  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Denmark] = 0.371448  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[DominicanRepublic] = 0.317445  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ecuador] = 0.30837  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[ElSalvador] = 0.397656  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Estonia] = 0.747413  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ethiopia] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Finland] = 0.228055  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[France] = 0.511338  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Germany] = 0.125052  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ghana] = 0.354448  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Greece] = 0.510555  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Hungary] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Iceland] = 0.103897  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[India] = 0.487145  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Indonesia] = 0.613058  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Iran] = 0.744735  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Iraq] = 0.74224  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ireland] = 0.576031  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Israel] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Italy] = 0.614488  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Jamaica] = 0.223247  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Japan] = 0.106394  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Kazakhstan] = 0.354978  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Kenya] = 0.369519  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Kuwait] = 0.799922  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Latvia] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Lithuania] = 0.378744  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Luxembourg] = 0.503858  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Madagascar] = 0.293115  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Malawi] = 0.305866  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Malaysia] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Maldives] = 0.799812  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Malta] = 0.757122  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Mexico] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Morocco] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Mozambique] = 0.561574  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Nepal] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Netherlands] = 0.218181  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[NewZealand] = 0.348166  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Nigeria] = 0.344276  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[NorthMacedonia] = 0.558817  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Norway] = 0.437498  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Pakistan] = 0.441743  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Panama] = 0.435182  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Paraguay] = 0.458662  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Peru] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Philippines] = 0.490899  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Poland] = 0.534782  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Portugal] = 0.110838  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Qatar] = 0.636256  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Romania] = 0.46797  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Russia] = 0.377027  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Rwanda] = 0.465716  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[SaudiArabia] = 0.789427  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Senegal] = 0.395351  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Serbia] = 0.166807  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Singapore] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Slovakia] = 0.609673  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Slovenia] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[SouthAfrica] = 0.540713  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[SouthKorea] = 0.153358  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Spain] = 0.528891  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[SriLanka] = 0.100001  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Sweden] = 0.30739  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Switzerland] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Thailand] = 0.1  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Togo] = 0.43529  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Tunisia] = 0.21339  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Turkey] = 0.435529  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[UAE] = 0.148056  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[UK] = 0.313467  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ukraine] = 0.215309  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Uruguay] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[USA] = 0.528424  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Zambia] = 0.647724  <= 0.8
+1e-06 <= Learning and Death Reduction Rate[Albania] = 0.727828  <= 4
+1e-06 <= Learning and Death Reduction Rate[Argentina] = 0.251196  <= 4
+1e-06 <= Learning and Death Reduction Rate[Australia] = 0.862627  <= 4
+1e-06 <= Learning and Death Reduction Rate[Austria] = 4  <= 4
+1e-06 <= Learning and Death Reduction Rate[Bahrain] = 0.166327  <= 4
+1e-06 <= Learning and Death Reduction Rate[Bangladesh] = 3.52863  <= 4
+1e-06 <= Learning and Death Reduction Rate[Belarus] = 1.24057  <= 4
+1e-06 <= Learning and Death Reduction Rate[Belgium] = 0.444836  <= 4
+1e-06 <= Learning and Death Reduction Rate[Bolivia] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Bulgaria] = 1.02252  <= 4
+1e-06 <= Learning and Death Reduction Rate[Canada] = 0.483339  <= 4
+1e-06 <= Learning and Death Reduction Rate[Chile] = 0.155688  <= 4
+1e-06 <= Learning and Death Reduction Rate[Colombia] = 0.0988948  <= 4
+1e-06 <= Learning and Death Reduction Rate[CostaRica] = 1.08002  <= 4
+1e-06 <= Learning and Death Reduction Rate[Croatia] = 0.814299  <= 4
+1e-06 <= Learning and Death Reduction Rate[Cuba] = 3.60587  <= 4
+1e-06 <= Learning and Death Reduction Rate[Cyprus] = 1.72986  <= 4
+1e-06 <= Learning and Death Reduction Rate[CzechRepublic] = 0.0459426  <= 4
+1e-06 <= Learning and Death Reduction Rate[Denmark] = 1.3599  <= 4
+1e-06 <= Learning and Death Reduction Rate[DominicanRepublic] = 0.778492  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ecuador] = 0.274343  <= 4
+1e-06 <= Learning and Death Reduction Rate[ElSalvador] = 0.150485  <= 4
+1e-06 <= Learning and Death Reduction Rate[Estonia] = 0.894487  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ethiopia] = 0.329253  <= 4
+1e-06 <= Learning and Death Reduction Rate[Finland] = 0.822522  <= 4
+1e-06 <= Learning and Death Reduction Rate[France] = 0.412674  <= 4
+1e-06 <= Learning and Death Reduction Rate[Germany] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ghana] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Greece] = 0.375997  <= 4
+1e-06 <= Learning and Death Reduction Rate[Hungary] = 1.53644  <= 4
+1e-06 <= Learning and Death Reduction Rate[Iceland] = 0.682161  <= 4
+1e-06 <= Learning and Death Reduction Rate[India] = 0.362273  <= 4
+1e-06 <= Learning and Death Reduction Rate[Indonesia] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Iran] = 0.193709  <= 4
+1e-06 <= Learning and Death Reduction Rate[Iraq] = 0.0193262  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ireland] = 0.374759  <= 4
+1e-06 <= Learning and Death Reduction Rate[Israel] = 1.03104  <= 4
+1e-06 <= Learning and Death Reduction Rate[Italy] = 0.327782  <= 4
+1e-06 <= Learning and Death Reduction Rate[Jamaica] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Japan] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Kazakhstan] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Kenya] = 0.223982  <= 4
+1e-06 <= Learning and Death Reduction Rate[Kuwait] = 0.891553  <= 4
+1e-06 <= Learning and Death Reduction Rate[Latvia] = 1.5609  <= 4
+1e-06 <= Learning and Death Reduction Rate[Lithuania] = 1.48836  <= 4
+1e-06 <= Learning and Death Reduction Rate[Luxembourg] = 0.374312  <= 4
+1e-06 <= Learning and Death Reduction Rate[Madagascar] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Malawi] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Malaysia] = 2.93385  <= 4
+1e-06 <= Learning and Death Reduction Rate[Maldives] = 1.82002  <= 4
+1e-06 <= Learning and Death Reduction Rate[Malta] = 1.063  <= 4
+1e-06 <= Learning and Death Reduction Rate[Mexico] = 0.281393  <= 4
+1e-06 <= Learning and Death Reduction Rate[Morocco] = 1.37225  <= 4
+1e-06 <= Learning and Death Reduction Rate[Mozambique] = 4.73273e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Nepal] = 1.22544  <= 4
+1e-06 <= Learning and Death Reduction Rate[Netherlands] = 0.504549  <= 4
+1e-06 <= Learning and Death Reduction Rate[NewZealand] = 0.714115  <= 4
+1e-06 <= Learning and Death Reduction Rate[Nigeria] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[NorthMacedonia] = 0.42995  <= 4
+1e-06 <= Learning and Death Reduction Rate[Norway] = 0.938473  <= 4
+1e-06 <= Learning and Death Reduction Rate[Pakistan] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Panama] = 0.118253  <= 4
+1e-06 <= Learning and Death Reduction Rate[Paraguay] = 0.156724  <= 4
+1e-06 <= Learning and Death Reduction Rate[Peru] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Philippines] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Poland] = 1.6959  <= 4
+1e-06 <= Learning and Death Reduction Rate[Portugal] = 0.404017  <= 4
+1e-06 <= Learning and Death Reduction Rate[Qatar] = 1.73322  <= 4
+1e-06 <= Learning and Death Reduction Rate[Romania] = 0.0580719  <= 4
+1e-06 <= Learning and Death Reduction Rate[Russia] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Rwanda] = 0.279477  <= 4
+1e-06 <= Learning and Death Reduction Rate[SaudiArabia] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Senegal] = 0.0741253  <= 4
+1e-06 <= Learning and Death Reduction Rate[Serbia] = 0.728629  <= 4
+1e-06 <= Learning and Death Reduction Rate[Singapore] = 2.05231  <= 4
+1e-06 <= Learning and Death Reduction Rate[Slovakia] = 0.175267  <= 4
+1e-06 <= Learning and Death Reduction Rate[Slovenia] = 2.09105  <= 4
+1e-06 <= Learning and Death Reduction Rate[SouthAfrica] = 0.131798  <= 4
+1e-06 <= Learning and Death Reduction Rate[SouthKorea] = 0.823106  <= 4
+1e-06 <= Learning and Death Reduction Rate[Spain] = 0.502304  <= 4
+1e-06 <= Learning and Death Reduction Rate[SriLanka] = 0.11245  <= 4
+1e-06 <= Learning and Death Reduction Rate[Sweden] = 0.576805  <= 4
+1e-06 <= Learning and Death Reduction Rate[Switzerland] = 4  <= 4
+1e-06 <= Learning and Death Reduction Rate[Thailand] = 3.0056  <= 4
+1e-06 <= Learning and Death Reduction Rate[Togo] = 1e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Tunisia] = 1.0705  <= 4
+1e-06 <= Learning and Death Reduction Rate[Turkey] = 0.313581  <= 4
+1e-06 <= Learning and Death Reduction Rate[UAE] = 0.219362  <= 4
+1e-06 <= Learning and Death Reduction Rate[UK] = 0.423874  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ukraine] = 0.0450208  <= 4
+1e-06 <= Learning and Death Reduction Rate[Uruguay] = 1.06431  <= 4
+1e-06 <= Learning and Death Reduction Rate[USA] = 0.292749  <= 4
+1e-06 <= Learning and Death Reduction Rate[Zambia] = 0.143831  <= 4
+1e-06 <= Min Contact Fraction[Albania] = 0.250143  <= 0.4
+1e-06 <= Min Contact Fraction[Argentina] = 0.213623  <= 0.4
+1e-06 <= Min Contact Fraction[Australia] = 0.133276  <= 0.4
+1e-06 <= Min Contact Fraction[Austria] = 0.0869705  <= 0.4
+1e-06 <= Min Contact Fraction[Bahrain] = 0.110193  <= 0.4
+1e-06 <= Min Contact Fraction[Bangladesh] = 0.137785  <= 0.4
+1e-06 <= Min Contact Fraction[Belarus] = 0.00583965  <= 0.4
+1e-06 <= Min Contact Fraction[Belgium] = 0.0630396  <= 0.4
+1e-06 <= Min Contact Fraction[Bolivia] = 0.215093  <= 0.4
+1e-06 <= Min Contact Fraction[Bulgaria] = 0.142224  <= 0.4
+1e-06 <= Min Contact Fraction[Canada] = 0.26414  <= 0.4
+1e-06 <= Min Contact Fraction[Chile] = 0.284123  <= 0.4
+1e-06 <= Min Contact Fraction[Colombia] = 0.0754917  <= 0.4
+1e-06 <= Min Contact Fraction[CostaRica] = 0.0561227  <= 0.4
+1e-06 <= Min Contact Fraction[Croatia] = 0.0332529  <= 0.4
+1e-06 <= Min Contact Fraction[Cuba] = 0.0740129  <= 0.4
+1e-06 <= Min Contact Fraction[Cyprus] = 0.112645  <= 0.4
+1e-06 <= Min Contact Fraction[CzechRepublic] = 0.0779916  <= 0.4
+1e-06 <= Min Contact Fraction[Denmark] = 0.129119  <= 0.4
+1e-06 <= Min Contact Fraction[DominicanRepublic] = 0.0502508  <= 0.4
+1e-06 <= Min Contact Fraction[Ecuador] = 0.117495  <= 0.4
+1e-06 <= Min Contact Fraction[ElSalvador] = 0.166683  <= 0.4
+1e-06 <= Min Contact Fraction[Estonia] = 0.170767  <= 0.4
+1e-06 <= Min Contact Fraction[Ethiopia] = 0.0724209  <= 0.4
+1e-06 <= Min Contact Fraction[Finland] = 0.23593  <= 0.4
+1e-06 <= Min Contact Fraction[France] = 1e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Germany] = 0.0335713  <= 0.4
+1e-06 <= Min Contact Fraction[Ghana] = 0.172911  <= 0.4
+1e-06 <= Min Contact Fraction[Greece] = 0.101267  <= 0.4
+1e-06 <= Min Contact Fraction[Hungary] = 0.0553092  <= 0.4
+1e-06 <= Min Contact Fraction[Iceland] = 0.0759367  <= 0.4
+1e-06 <= Min Contact Fraction[India] = 0.149256  <= 0.4
+1e-06 <= Min Contact Fraction[Indonesia] = 1e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Iran] = 0.0251021  <= 0.4
+1e-06 <= Min Contact Fraction[Iraq] = 0.253658  <= 0.4
+1e-06 <= Min Contact Fraction[Ireland] = 0.0572905  <= 0.4
+1e-06 <= Min Contact Fraction[Israel] = 0.0937886  <= 0.4
+1e-06 <= Min Contact Fraction[Italy] = 0.0711891  <= 0.4
+1e-06 <= Min Contact Fraction[Jamaica] = 1e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Japan] = 0.0449415  <= 0.4
+1e-06 <= Min Contact Fraction[Kazakhstan] = 0.0730826  <= 0.4
+1e-06 <= Min Contact Fraction[Kenya] = 0.159658  <= 0.4
+1e-06 <= Min Contact Fraction[Kuwait] = 0.0925769  <= 0.4
+1e-06 <= Min Contact Fraction[Latvia] = 0.133416  <= 0.4
+1e-06 <= Min Contact Fraction[Lithuania] = 0.130002  <= 0.4
+1e-06 <= Min Contact Fraction[Luxembourg] = 0.104369  <= 0.4
+1e-06 <= Min Contact Fraction[Madagascar] = 0.0669966  <= 0.4
+1e-06 <= Min Contact Fraction[Malawi] = 0.185177  <= 0.4
+1e-06 <= Min Contact Fraction[Malaysia] = 0.049837  <= 0.4
+1e-06 <= Min Contact Fraction[Maldives] = 0.237324  <= 0.4
+1e-06 <= Min Contact Fraction[Malta] = 0.0975619  <= 0.4
+1e-06 <= Min Contact Fraction[Mexico] = 0.14652  <= 0.4
+1e-06 <= Min Contact Fraction[Morocco] = 0.0458269  <= 0.4
+1e-06 <= Min Contact Fraction[Mozambique] = 0.379039  <= 0.4
+1e-06 <= Min Contact Fraction[Nepal] = 0.15327  <= 0.4
+1e-06 <= Min Contact Fraction[Netherlands] = 0.0781519  <= 0.4
+1e-06 <= Min Contact Fraction[NewZealand] = 0.0405012  <= 0.4
+1e-06 <= Min Contact Fraction[Nigeria] = 0.222448  <= 0.4
+1e-06 <= Min Contact Fraction[NorthMacedonia] = 0.137946  <= 0.4
+1e-06 <= Min Contact Fraction[Norway] = 0.112471  <= 0.4
+1e-06 <= Min Contact Fraction[Pakistan] = 0.165275  <= 0.4
+1e-06 <= Min Contact Fraction[Panama] = 0.00711499  <= 0.4
+1e-06 <= Min Contact Fraction[Paraguay] = 0.109602  <= 0.4
+1e-06 <= Min Contact Fraction[Peru] = 0.307371  <= 0.4
+1e-06 <= Min Contact Fraction[Philippines] = 0.020991  <= 0.4
+1e-06 <= Min Contact Fraction[Poland] = 0.157474  <= 0.4
+1e-06 <= Min Contact Fraction[Portugal] = 0.10376  <= 0.4
+1e-06 <= Min Contact Fraction[Qatar] = 0.14469  <= 0.4
+1e-06 <= Min Contact Fraction[Romania] = 0.0714481  <= 0.4
+1e-06 <= Min Contact Fraction[Russia] = 0.15297  <= 0.4
+1e-06 <= Min Contact Fraction[Rwanda] = 0.00232386  <= 0.4
+1e-06 <= Min Contact Fraction[SaudiArabia] = 0.12104  <= 0.4
+1e-06 <= Min Contact Fraction[Senegal] = 0.146055  <= 0.4
+1e-06 <= Min Contact Fraction[Serbia] = 0.112915  <= 0.4
+1e-06 <= Min Contact Fraction[Singapore] = 0.326201  <= 0.4
+1e-06 <= Min Contact Fraction[Slovakia] = 0.059699  <= 0.4
+1e-06 <= Min Contact Fraction[Slovenia] = 0.0104075  <= 0.4
+1e-06 <= Min Contact Fraction[SouthAfrica] = 0.074335  <= 0.4
+1e-06 <= Min Contact Fraction[SouthKorea] = 0.0751875  <= 0.4
+1e-06 <= Min Contact Fraction[Spain] = 0.0528721  <= 0.4
+1e-06 <= Min Contact Fraction[SriLanka] = 0.0906513  <= 0.4
+1e-06 <= Min Contact Fraction[Sweden] = 0.188238  <= 0.4
+1e-06 <= Min Contact Fraction[Switzerland] = 1.22989e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Thailand] = 1e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Togo] = 0.0559044  <= 0.4
+1e-06 <= Min Contact Fraction[Tunisia] = 0.0313808  <= 0.4
+1e-06 <= Min Contact Fraction[Turkey] = 1e-06  <= 0.4
+1e-06 <= Min Contact Fraction[UAE] = 0.00397963  <= 0.4
+1e-06 <= Min Contact Fraction[UK] = 0.157135  <= 0.4
+1e-06 <= Min Contact Fraction[Ukraine] = 0.0648012  <= 0.4
+1e-06 <= Min Contact Fraction[Uruguay] = 0.191926  <= 0.4
+1e-06 <= Min Contact Fraction[USA] = 0.0757134  <= 0.4
+1e-06 <= Min Contact Fraction[Zambia] = 0.293005  <= 0.4
+1e-06 <= Multiplier Recent Infections to Test[Albania] = 73.8918  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Argentina] = 20.9459  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Australia] = 40.8285  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Austria] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Bahrain] = 96.8248  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Bangladesh] = 69.8909  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Belarus] = 144.847  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Belgium] = 6.37537  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Bolivia] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Bulgaria] = 68.5093  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Canada] = 50.54  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Chile] = 45.3875  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Colombia] = 9.00737  <= 300
+1e-06 <= Multiplier Recent Infections to Test[CostaRica] = 54.7818  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Croatia] = 79.4574  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Cuba] = 77.5495  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Cyprus] = 45.9636  <= 300
+1e-06 <= Multiplier Recent Infections to Test[CzechRepublic] = 16.7563  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Denmark] = 37.8427  <= 300
+1e-06 <= Multiplier Recent Infections to Test[DominicanRepublic] = 59.0313  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ecuador] = 38.5926  <= 300
+1e-06 <= Multiplier Recent Infections to Test[ElSalvador] = 98.0076  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Estonia] = 18.28  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ethiopia] = 50.7341  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Finland] = 71.4882  <= 300
+1e-06 <= Multiplier Recent Infections to Test[France] = 49.213  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Germany] = 64.45  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ghana] = 0.353666  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Greece] = 26.922  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Hungary] = 65.9904  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Iceland] = 49.0671  <= 300
+1e-06 <= Multiplier Recent Infections to Test[India] = 62.0223  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Indonesia] = 8.48315  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Iran] = 7.62819  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Iraq] = 7.60436  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ireland] = 43.1717  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Israel] = 51.9017  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Italy] = 22.717  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Jamaica] = 14.782  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Japan] = 2.58923  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Kazakhstan] = 39.5847  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Kenya] = 0.127671  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Kuwait] = 75.0748  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Latvia] = 17.2492  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Lithuania] = 89.0262  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Luxembourg] = 2.92005  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Madagascar] = 21.1781  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Malawi] = 46.1194  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Malaysia] = 110.926  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Maldives] = 30.6147  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Malta] = 76.8765  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Mexico] = 20.2833  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Morocco] = 92.4638  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Mozambique] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Nepal] = 94.5619  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Netherlands] = 10.8341  <= 300
+1e-06 <= Multiplier Recent Infections to Test[NewZealand] = 43.1421  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Nigeria] = 2.27143  <= 300
+1e-06 <= Multiplier Recent Infections to Test[NorthMacedonia] = 56.7895  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Norway] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Pakistan] = 96.3469  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Panama] = 11.1613  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Paraguay] = 21.6277  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Peru] = 0.000166025  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Philippines] = 12.683  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Poland] = 52.4997  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Portugal] = 142.559  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Qatar] = 48.9043  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Romania] = 1.52723  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Russia] = 14.0954  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Rwanda] = 1.60204  <= 300
+1e-06 <= Multiplier Recent Infections to Test[SaudiArabia] = 8.08846  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Senegal] = 28.2522  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Serbia] = 73.0775  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Singapore] = 58.0255  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Slovakia] = 13.9169  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Slovenia] = 15.4185  <= 300
+1e-06 <= Multiplier Recent Infections to Test[SouthAfrica] = 64.5891  <= 300
+1e-06 <= Multiplier Recent Infections to Test[SouthKorea] = 46.0401  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Spain] = 81.4478  <= 300
+1e-06 <= Multiplier Recent Infections to Test[SriLanka] = 44.7916  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Sweden] = 35.92  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Switzerland] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Thailand] = 80.3702  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Togo] = 39.0601  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Tunisia] = 42.9314  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Turkey] = 30.2597  <= 300
+1e-06 <= Multiplier Recent Infections to Test[UAE] = 119.503  <= 300
+1e-06 <= Multiplier Recent Infections to Test[UK] = 56.5785  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ukraine] = 1e-06  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Uruguay] = 67.7771  <= 300
+1e-06 <= Multiplier Recent Infections to Test[USA] = 14.651  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Zambia] = 60.6456  <= 300
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Albania] = 0.293139  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Argentina] = 0.284062  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Australia] = 0.274499  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Austria] = 0.278784  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Bahrain] = 0.266763  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Bangladesh] = 0.286988  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Belarus] = 0.283337  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Belgium] = 0.278299  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Bolivia] = 0.298267  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Bulgaria] = 0.280052  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Canada] = 0.279192  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Chile] = 0.280872  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Colombia] = 0.28529  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[CostaRica] = 0.279886  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Croatia] = 0.280824  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Cuba] = 0.286631  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Cyprus] = 0.277416  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[CzechRepublic] = 0.30379  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Denmark] = 0.279447  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[DominicanRepublic] = 0.261043  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ecuador] = 0.288113  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[ElSalvador] = 0.260326  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Estonia] = 0.270003  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ethiopia] = 0.289341  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Finland] = 0.272535  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[France] = 0.277991  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Germany] = 0.278364  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ghana] = 0.274455  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Greece] = 0.217573  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Hungary] = 0.281824  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Iceland] = 0.277863  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[India] = 0.272932  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Indonesia] = 0.278093  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Iran] = 0.27653  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Iraq] = 0.23811  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ireland] = 0.263179  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Israel] = 0.27645  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Italy] = 0.275746  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Jamaica] = 0.278047  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Japan] = 0.276086  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Kazakhstan] = 0.274565  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Kenya] = 0.304922  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Kuwait] = 0.283436  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Latvia] = 0.283433  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Lithuania] = 0.271845  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Luxembourg] = 0.270191  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Madagascar] = 0.278662  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Malawi] = 0.275994  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Malaysia] = 0.268718  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Maldives] = 0.275176  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Malta] = 0.277085  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Mexico] = 0.278867  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Morocco] = 0.281135  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Mozambique] = 0.286099  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Nepal] = 0.278653  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Netherlands] = 0.278995  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[NewZealand] = 0.277474  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Nigeria] = 0.275228  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[NorthMacedonia] = 0.281292  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Norway] = 0.275102  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Pakistan] = 0.281889  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Panama] = 0.277208  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Paraguay] = 0.275675  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Peru] = 0.269913  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Philippines] = 0.286494  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Poland] = 0.279529  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Portugal] = 0.287003  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Qatar] = 0.268535  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Romania] = 0.28169  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Russia] = 0.277109  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Rwanda] = 0.297297  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[SaudiArabia] = 0.273997  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Senegal] = 0.280841  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Serbia] = 0.279249  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Singapore] = 0.277714  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Slovakia] = 0.278241  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Slovenia] = 0.276457  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[SouthAfrica] = 0.278415  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[SouthKorea] = 0.282688  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Spain] = 0.278363  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[SriLanka] = 0.275388  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Sweden] = 0.278141  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Switzerland] = 0.288262  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Thailand] = 0.289806  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Togo] = 0.278547  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Tunisia] = 0.307525  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Turkey] = 0.280059  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[UAE] = 0.277977  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[UK] = 0.261258  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ukraine] = 0.267456  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Uruguay] = 0.269944  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[USA] = 0.269147  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Zambia] = 0.288567  <= 1
+50 <= Patient Zero Arrival Time[Albania] = 88.1435  <= 160
+50 <= Patient Zero Arrival Time[Argentina] = 127.83  <= 160
+50 <= Patient Zero Arrival Time[Australia] = 106.699  <= 160
+50 <= Patient Zero Arrival Time[Austria] = 113.5  <= 160
+50 <= Patient Zero Arrival Time[Bahrain] = 61.7445  <= 160
+50 <= Patient Zero Arrival Time[Bangladesh] = 83.484  <= 160
+50 <= Patient Zero Arrival Time[Belarus] = 141.742  <= 160
+50 <= Patient Zero Arrival Time[Belgium] = 108.151  <= 160
+50 <= Patient Zero Arrival Time[Bolivia] = 119.749  <= 160
+50 <= Patient Zero Arrival Time[Bulgaria] = 143.045  <= 160
+50 <= Patient Zero Arrival Time[Canada] = 102.761  <= 160
+50 <= Patient Zero Arrival Time[Chile] = 79.192  <= 160
+50 <= Patient Zero Arrival Time[Colombia] = 50.4945  <= 160
+50 <= Patient Zero Arrival Time[CostaRica] = 136.878  <= 160
+50 <= Patient Zero Arrival Time[Croatia] = 140.242  <= 160
+50 <= Patient Zero Arrival Time[Cuba] = 118.236  <= 160
+50 <= Patient Zero Arrival Time[Cyprus] = 134.301  <= 160
+50 <= Patient Zero Arrival Time[CzechRepublic] = 61.9945  <= 160
+50 <= Patient Zero Arrival Time[Denmark] = 91.897  <= 160
+50 <= Patient Zero Arrival Time[DominicanRepublic] = 51.7432  <= 160
+50 <= Patient Zero Arrival Time[Ecuador] = 86.5  <= 160
+50 <= Patient Zero Arrival Time[ElSalvador] = 50.2457  <= 160
+50 <= Patient Zero Arrival Time[Estonia] = 128.259  <= 160
+50 <= Patient Zero Arrival Time[Ethiopia] = 53.9921  <= 160
+50 <= Patient Zero Arrival Time[Finland] = 84.6532  <= 160
+50 <= Patient Zero Arrival Time[France] = 111.122  <= 160
+50 <= Patient Zero Arrival Time[Germany] = 100.693  <= 160
+50 <= Patient Zero Arrival Time[Ghana] = 50.499  <= 160
+50 <= Patient Zero Arrival Time[Greece] = 53.243  <= 160
+50 <= Patient Zero Arrival Time[Hungary] = 148.102  <= 160
+50 <= Patient Zero Arrival Time[Iceland] = 97.9998  <= 160
+50 <= Patient Zero Arrival Time[India] = 50.7499  <= 160
+50 <= Patient Zero Arrival Time[Indonesia] = 80.9965  <= 160
+50 <= Patient Zero Arrival Time[Iran] = 73.246  <= 160
+50 <= Patient Zero Arrival Time[Iraq] = 113.74  <= 160
+50 <= Patient Zero Arrival Time[Ireland] = 114.996  <= 160
+50 <= Patient Zero Arrival Time[Israel] = 111.867  <= 160
+50 <= Patient Zero Arrival Time[Italy] = 93.622  <= 160
+50 <= Patient Zero Arrival Time[Jamaica] = 137.996  <= 160
+50 <= Patient Zero Arrival Time[Japan] = 60.7495  <= 160
+50 <= Patient Zero Arrival Time[Kazakhstan] = 87.7398  <= 160
+50 <= Patient Zero Arrival Time[Kenya] = 98.7264  <= 160
+50 <= Patient Zero Arrival Time[Kuwait] = 125.75  <= 160
+50 <= Patient Zero Arrival Time[Latvia] = 131.257  <= 160
+50 <= Patient Zero Arrival Time[Lithuania] = 114.053  <= 160
+50 <= Patient Zero Arrival Time[Luxembourg] = 94.9984  <= 160
+50 <= Patient Zero Arrival Time[Madagascar] = 132.991  <= 160
+50 <= Patient Zero Arrival Time[Malawi] = 140.747  <= 160
+50 <= Patient Zero Arrival Time[Malaysia] = 97.3678  <= 160
+50 <= Patient Zero Arrival Time[Maldives] = 157.274  <= 160
+50 <= Patient Zero Arrival Time[Malta] = 137.493  <= 160
+50 <= Patient Zero Arrival Time[Mexico] = 130.284  <= 160
+50 <= Patient Zero Arrival Time[Morocco] = 119.995  <= 160
+50 <= Patient Zero Arrival Time[Mozambique] = 71.4979  <= 160
+50 <= Patient Zero Arrival Time[Nepal] = 159.991  <= 160
+50 <= Patient Zero Arrival Time[Netherlands] = 106.775  <= 160
+50 <= Patient Zero Arrival Time[NewZealand] = 119.742  <= 160
+50 <= Patient Zero Arrival Time[Nigeria] = 80.7481  <= 160
+50 <= Patient Zero Arrival Time[NorthMacedonia] = 139.404  <= 160
+50 <= Patient Zero Arrival Time[Norway] = 64.2144  <= 160
+50 <= Patient Zero Arrival Time[Pakistan] = 54.9936  <= 160
+50 <= Patient Zero Arrival Time[Panama] = 95.9942  <= 160
+50 <= Patient Zero Arrival Time[Paraguay] = 100.999  <= 160
+50 <= Patient Zero Arrival Time[Peru] = 120.499  <= 160
+50 <= Patient Zero Arrival Time[Philippines] = 90.7481  <= 160
+50 <= Patient Zero Arrival Time[Poland] = 134.156  <= 160
+50 <= Patient Zero Arrival Time[Portugal] = 122.1  <= 160
+50 <= Patient Zero Arrival Time[Qatar] = 50.9943  <= 160
+50 <= Patient Zero Arrival Time[Romania] = 125.499  <= 160
+50 <= Patient Zero Arrival Time[Russia] = 98.7411  <= 160
+50 <= Patient Zero Arrival Time[Rwanda] = 81.4825  <= 160
+50 <= Patient Zero Arrival Time[SaudiArabia] = 51.9943  <= 160
+50 <= Patient Zero Arrival Time[Senegal] = 72.4342  <= 160
+50 <= Patient Zero Arrival Time[Serbia] = 139.999  <= 160
+50 <= Patient Zero Arrival Time[Singapore] = 93.2498  <= 160
+50 <= Patient Zero Arrival Time[Slovakia] = 78.4987  <= 160
+50 <= Patient Zero Arrival Time[Slovenia] = 126.746  <= 160
+50 <= Patient Zero Arrival Time[SouthAfrica] = 84.4923  <= 160
+50 <= Patient Zero Arrival Time[SouthKorea] = 72.727  <= 160
+50 <= Patient Zero Arrival Time[Spain] = 114.249  <= 160
+50 <= Patient Zero Arrival Time[SriLanka] = 109.496  <= 160
+50 <= Patient Zero Arrival Time[Sweden] = 125.493  <= 160
+50 <= Patient Zero Arrival Time[Switzerland] = 121.964  <= 160
+50 <= Patient Zero Arrival Time[Thailand] = 92.4758  <= 160
+50 <= Patient Zero Arrival Time[Togo] = 50.75  <= 160
+50 <= Patient Zero Arrival Time[Tunisia] = 112.497  <= 160
+50 <= Patient Zero Arrival Time[Turkey] = 86.0388  <= 160
+50 <= Patient Zero Arrival Time[UAE] = 105.999  <= 160
+50 <= Patient Zero Arrival Time[UK] = 113.742  <= 160
+50 <= Patient Zero Arrival Time[Ukraine] = 128.103  <= 160
+50 <= Patient Zero Arrival Time[Uruguay] = 95.8297  <= 160
+50 <= Patient Zero Arrival Time[USA] = 56.2833  <= 160
+50 <= Patient Zero Arrival Time[Zambia] = 129  <= 160
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Albania] = 0.450952  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Argentina] = 0.548689  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Australia] = 0.596243  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Austria] = 0.729147  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Bahrain] = 0.521146  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Bangladesh] = 0.550983  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Belarus] = 0.799766  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Belgium] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Bolivia] = 0.798021  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Bulgaria] = 0.502863  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Canada] = 0.680366  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Chile] = 0.634029  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Colombia] = 0.719339  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[CostaRica] = 0.519542  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Croatia] = 0.672723  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Cuba] = 0.565822  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Cyprus] = 0.602915  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[CzechRepublic] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Denmark] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[DominicanRepublic] = 0.422725  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Ecuador] = 0.570386  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[ElSalvador] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Estonia] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Ethiopia] = 0.441041  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Finland] = 0.528576  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[France] = 0.603954  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Germany] = 0.758145  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Ghana] = 0.571378  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Greece] = 0.555992  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Hungary] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Iceland] = 0.473208  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[India] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Indonesia] = 0.435577  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Iran] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Iraq] = 0.490396  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Ireland] = 0.400008  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Israel] = 0.400008  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Italy] = 0.466275  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Jamaica] = 0.69737  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Japan] = 0.762453  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Kazakhstan] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Kenya] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Kuwait] = 0.788226  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Latvia] = 0.558602  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Lithuania] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Luxembourg] = 0.563438  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Madagascar] = 0.584653  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Malawi] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Malaysia] = 0.586814  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Maldives] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Malta] = 0.523283  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Mexico] = 0.504233  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Morocco] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Mozambique] = 0.540764  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Nepal] = 0.751479  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Netherlands] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[NewZealand] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Nigeria] = 0.627044  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[NorthMacedonia] = 0.741303  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Norway] = 0.586139  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Pakistan] = 0.72672  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Panama] = 0.769879  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Paraguay] = 0.587131  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Peru] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Philippines] = 0.602846  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Poland] = 0.799994  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Portugal] = 0.79994  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Qatar] = 0.604568  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Romania] = 0.543529  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Russia] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Rwanda] = 0.577957  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[SaudiArabia] = 0.631092  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Senegal] = 0.786498  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Serbia] = 0.456363  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Singapore] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Slovakia] = 0.444608  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Slovenia] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[SouthAfrica] = 0.659145  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[SouthKorea] = 0.70578  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Spain] = 0.496394  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[SriLanka] = 0.8  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Sweden] = 0.620195  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Switzerland] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Thailand] = 0.798894  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Togo] = 0.533714  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Tunisia] = 0.608565  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Turkey] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[UAE] = 0.479706  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[UK] = 0.515809  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Ukraine] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Uruguay] = 0.4  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[USA] = 0.79925  <= 0.8
+0.4 <= Reference COVID Hospitalization Fraction Confirmed[Zambia] = 0.518591  <= 0.8
+0.05 <= Reference Force of Infection[Albania] = 0.288965  <= 1.5
+0.05 <= Reference Force of Infection[Argentina] = 0.780917  <= 1.5
+0.05 <= Reference Force of Infection[Australia] = 0.382778  <= 1.5
+0.05 <= Reference Force of Infection[Austria] = 0.468292  <= 1.5
+0.05 <= Reference Force of Infection[Bahrain] = 0.196666  <= 1.5
+0.05 <= Reference Force of Infection[Bangladesh] = 0.399208  <= 1.5
+0.05 <= Reference Force of Infection[Belarus] = 0.584487  <= 1.5
+0.05 <= Reference Force of Infection[Belgium] = 0.381451  <= 1.5
+0.05 <= Reference Force of Infection[Bolivia] = 0.141552  <= 1.5
+0.05 <= Reference Force of Infection[Bulgaria] = 0.77692  <= 1.5
+0.05 <= Reference Force of Infection[Canada] = 0.279391  <= 1.5
+0.05 <= Reference Force of Infection[Chile] = 0.177481  <= 1.5
+0.05 <= Reference Force of Infection[Colombia] = 0.0833741  <= 1.5
+0.05 <= Reference Force of Infection[CostaRica] = 0.636471  <= 1.5
+0.05 <= Reference Force of Infection[Croatia] = 0.816277  <= 1.5
+0.05 <= Reference Force of Infection[Cuba] = 0.69951  <= 1.5
+0.05 <= Reference Force of Infection[Cyprus] = 0.623877  <= 1.5
+0.05 <= Reference Force of Infection[CzechRepublic] = 0.571158  <= 1.5
+0.05 <= Reference Force of Infection[Denmark] = 0.252937  <= 1.5
+0.05 <= Reference Force of Infection[DominicanRepublic] = 0.34397  <= 1.5
+0.05 <= Reference Force of Infection[Ecuador] = 0.124794  <= 1.5
+0.05 <= Reference Force of Infection[ElSalvador] = 0.146979  <= 1.5
+0.05 <= Reference Force of Infection[Estonia] = 0.500203  <= 1.5
+0.05 <= Reference Force of Infection[Ethiopia] = 0.0827859  <= 1.5
+0.05 <= Reference Force of Infection[Finland] = 0.201589  <= 1.5
+0.05 <= Reference Force of Infection[France] = 0.533844  <= 1.5
+0.05 <= Reference Force of Infection[Germany] = 0.404186  <= 1.5
+0.05 <= Reference Force of Infection[Ghana] = 0.187009  <= 1.5
+0.05 <= Reference Force of Infection[Greece] = 0.544077  <= 1.5
+0.05 <= Reference Force of Infection[Hungary] = 0.889234  <= 1.5
+0.05 <= Reference Force of Infection[Iceland] = 0.244624  <= 1.5
+0.05 <= Reference Force of Infection[India] = 0.249368  <= 1.5
+0.05 <= Reference Force of Infection[Indonesia] = 0.247619  <= 1.5
+0.05 <= Reference Force of Infection[Iran] = 0.284983  <= 1.5
+0.05 <= Reference Force of Infection[Iraq] = 0.345086  <= 1.5
+0.05 <= Reference Force of Infection[Ireland] = 0.341429  <= 1.5
+0.05 <= Reference Force of Infection[Israel] = 0.391794  <= 1.5
+0.05 <= Reference Force of Infection[Italy] = 0.502578  <= 1.5
+0.05 <= Reference Force of Infection[Jamaica] = 0.549217  <= 1.5
+0.05 <= Reference Force of Infection[Japan] = 0.240559  <= 1.5
+0.05 <= Reference Force of Infection[Kazakhstan] = 0.167459  <= 1.5
+0.05 <= Reference Force of Infection[Kenya] = 0.108781  <= 1.5
+0.05 <= Reference Force of Infection[Kuwait] = 0.357733  <= 1.5
+0.05 <= Reference Force of Infection[Latvia] = 0.573249  <= 1.5
+0.05 <= Reference Force of Infection[Lithuania] = 0.671753  <= 1.5
+0.05 <= Reference Force of Infection[Luxembourg] = 0.249828  <= 1.5
+0.05 <= Reference Force of Infection[Madagascar] = 0.199863  <= 1.5
+0.05 <= Reference Force of Infection[Malawi] = 0.220815  <= 1.5
+0.05 <= Reference Force of Infection[Malaysia] = 0.27341  <= 1.5
+0.05 <= Reference Force of Infection[Maldives] = 0.438393  <= 1.5
+0.05 <= Reference Force of Infection[Malta] = 0.710911  <= 1.5
+0.05 <= Reference Force of Infection[Mexico] = 0.445196  <= 1.5
+0.05 <= Reference Force of Infection[Morocco] = 0.662893  <= 1.5
+0.05 <= Reference Force of Infection[Mozambique] = 0.145115  <= 1.5
+0.05 <= Reference Force of Infection[Nepal] = 0.240584  <= 1.5
+0.05 <= Reference Force of Infection[Netherlands] = 0.432456  <= 1.5
+0.05 <= Reference Force of Infection[NewZealand] = 0.477483  <= 1.5
+0.05 <= Reference Force of Infection[Nigeria] = 0.264707  <= 1.5
+0.05 <= Reference Force of Infection[NorthMacedonia] = 0.884602  <= 1.5
+0.05 <= Reference Force of Infection[Norway] = 0.204486  <= 1.5
+0.05 <= Reference Force of Infection[Pakistan] = 0.235065  <= 1.5
+0.05 <= Reference Force of Infection[Panama] = 0.272232  <= 1.5
+0.05 <= Reference Force of Infection[Paraguay] = 0.232306  <= 1.5
+0.05 <= Reference Force of Infection[Peru] = 0.255051  <= 1.5
+0.05 <= Reference Force of Infection[Philippines] = 0.405716  <= 1.5
+0.05 <= Reference Force of Infection[Poland] = 0.610581  <= 1.5
+0.05 <= Reference Force of Infection[Portugal] = 0.707599  <= 1.5
+0.05 <= Reference Force of Infection[Qatar] = 0.227152  <= 1.5
+0.05 <= Reference Force of Infection[Romania] = 0.5498  <= 1.5
+0.05 <= Reference Force of Infection[Russia] = 0.245996  <= 1.5
+0.05 <= Reference Force of Infection[Rwanda] = 0.194571  <= 1.5
+0.05 <= Reference Force of Infection[SaudiArabia] = 0.200107  <= 1.5
+0.05 <= Reference Force of Infection[Senegal] = 0.397019  <= 1.5
+0.05 <= Reference Force of Infection[Serbia] = 0.737382  <= 1.5
+0.05 <= Reference Force of Infection[Singapore] = 0.172577  <= 1.5
+0.05 <= Reference Force of Infection[Slovakia] = 0.593259  <= 1.5
+0.05 <= Reference Force of Infection[Slovenia] = 0.500549  <= 1.5
+0.05 <= Reference Force of Infection[SouthAfrica] = 0.166513  <= 1.5
+0.05 <= Reference Force of Infection[SouthKorea] = 0.610604  <= 1.5
+0.05 <= Reference Force of Infection[Spain] = 0.744093  <= 1.5
+0.05 <= Reference Force of Infection[SriLanka] = 0.646824  <= 1.5
+0.05 <= Reference Force of Infection[Sweden] = 0.554401  <= 1.5
+0.05 <= Reference Force of Infection[Switzerland] = 0.949284  <= 1.5
+0.05 <= Reference Force of Infection[Thailand] = 0.66561  <= 1.5
+0.05 <= Reference Force of Infection[Togo] = 0.457807  <= 1.5
+0.05 <= Reference Force of Infection[Tunisia] = 0.710223  <= 1.5
+0.05 <= Reference Force of Infection[Turkey] = 0.313935  <= 1.5
+0.05 <= Reference Force of Infection[UAE] = 0.354963  <= 1.5
+0.05 <= Reference Force of Infection[UK] = 0.494075  <= 1.5
+0.05 <= Reference Force of Infection[Ukraine] = 0.45514  <= 1.5
+0.05 <= Reference Force of Infection[Uruguay] = 0.690979  <= 1.5
+0.05 <= Reference Force of Infection[USA] = 0.284652  <= 1.5
+0.05 <= Reference Force of Infection[Zambia] = 0.166051  <= 1.5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Albania] = 2.15539  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Argentina] = 2.1524  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Australia] = 2.1572  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Austria] = 2.15759  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Bahrain] = 2.15419  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Bangladesh] = 2.15681  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Belarus] = 2.16018  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Belgium] = 2.16133  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Bolivia] = 2.16143  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Bulgaria] = 2.15866  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Canada] = 2.15784  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Chile] = 2.15197  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Colombia] = 2.15059  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[CostaRica] = 2.15132  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Croatia] = 2.15885  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Cuba] = 2.15511  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Cyprus] = 2.15876  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[CzechRepublic] = 2.14899  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Denmark] = 2.16056  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[DominicanRepublic] = 2.15849  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ecuador] = 2.15482  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[ElSalvador] = 2.15571  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Estonia] = 2.15945  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ethiopia] = 2.15681  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Finland] = 2.15786  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[France] = 2.15753  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Germany] = 2.15517  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ghana] = 2.15725  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Greece] = 2.15183  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Hungary] = 2.1644  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Iceland] = 2.15785  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[India] = 2.15582  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Indonesia] = 2.15889  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Iran] = 2.15918  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Iraq] = 2.14315  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ireland] = 2.15853  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Israel] = 2.16259  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Italy] = 2.15757  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Jamaica] = 2.1582  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Japan] = 2.15697  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Kazakhstan] = 2.15802  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Kenya] = 2.15492  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Kuwait] = 2.13114  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Latvia] = 2.17404  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Lithuania] = 2.15602  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Luxembourg] = 2.15459  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Madagascar] = 2.15664  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Malawi] = 2.15708  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Malaysia] = 2.16208  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Maldives] = 2.1636  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Malta] = 2.15918  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Mexico] = 2.16085  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Morocco] = 2.16145  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Mozambique] = 2.16078  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Nepal] = 2.15471  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Netherlands] = 2.16132  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[NewZealand] = 2.15772  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Nigeria] = 2.15512  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[NorthMacedonia] = 2.1583  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Norway] = 2.15718  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Pakistan] = 2.15368  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Panama] = 2.15837  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Paraguay] = 2.1575  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Peru] = 2.1691  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Philippines] = 2.15753  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Poland] = 2.16036  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Portugal] = 2.15765  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Qatar] = 2.15866  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Romania] = 2.15671  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Russia] = 2.15733  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Rwanda] = 2.15771  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[SaudiArabia] = 2.15839  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Senegal] = 2.15732  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Serbia] = 2.15683  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Singapore] = 2.15639  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Slovakia] = 2.14839  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Slovenia] = 2.16172  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[SouthAfrica] = 2.15235  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[SouthKorea] = 2.15459  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Spain] = 2.15813  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[SriLanka] = 2.15629  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Sweden] = 2.15605  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Switzerland] = 2.17773  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Thailand] = 2.15656  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Togo] = 2.15733  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Tunisia] = 2.17507  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Turkey] = 2.16031  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[UAE] = 2.15884  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[UK] = 2.16475  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ukraine] = 2.15835  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Uruguay] = 2.16584  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[USA] = 2.15566  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Zambia] = 2.15873  <= 5
+0.01 <= Sensitivity of Contact Reduction to Utility[Albania] = 1.08216  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Argentina] = 3.32455  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Australia] = 8.45139  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Austria] = 0.0268261  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Bahrain] = 11.1035  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Bangladesh] = 0.0147944  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Belarus] = 0.0666657  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Belgium] = 1.7467  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Bolivia] = 14.8774  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Bulgaria] = 0.0155902  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Canada] = 0.0231145  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Chile] = 0.979427  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Colombia] = 4.85995  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[CostaRica] = 0.261298  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Croatia] = 0.677621  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Cuba] = 0.102996  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Cyprus] = 11.1576  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[CzechRepublic] = 2.08318  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Denmark] = 0.0316725  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[DominicanRepublic] = 0.802141  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ecuador] = 10.9382  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[ElSalvador] = 4.89729  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Estonia] = 0.970153  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ethiopia] = 4.3472  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Finland] = 23.894  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[France] = 0.155402  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Germany] = 0.0594947  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ghana] = 13.4859  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Greece] = 9.46273  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Hungary] = 0.0705785  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Iceland] = 3.65009  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[India] = 0.0626371  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Indonesia] = 0.457824  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Iran] = 0.520149  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Iraq] = 22.1459  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ireland] = 3.89064  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Israel] = 1.34031  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Italy] = 0.765253  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Jamaica] = 0.01  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Japan] = 3.05226  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Kazakhstan] = 1.28762  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Kenya] = 4.46216  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Kuwait] = 26.6746  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Latvia] = 0.0107695  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Lithuania] = 0.0190526  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Luxembourg] = 12.5851  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Madagascar] = 1.57384  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Malawi] = 7.18128  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Malaysia] = 0.129374  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Maldives] = 7.26608  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Malta] = 5.79049  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Mexico] = 8.77113  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Morocco] = 0.123376  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Mozambique] = 11.094  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Nepal] = 0.386676  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Netherlands] = 2.20405  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[NewZealand] = 0.01  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Nigeria] = 14.4039  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[NorthMacedonia] = 0.347949  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Norway] = 0.655298  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Pakistan] = 16.8474  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Panama] = 1.71964  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Paraguay] = 1.52155  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Peru] = 11.268  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Philippines] = 0.0839234  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Poland] = 0.0366473  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Portugal] = 1.583  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Qatar] = 8.13702  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Romania] = 0.106643  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Russia] = 0.01  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Rwanda] = 0.317014  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[SaudiArabia] = 0.556339  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Senegal] = 3.93022  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Serbia] = 3.81186  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Singapore] = 6.60318  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Slovakia] = 12.6939  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Slovenia] = 0.01  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[SouthAfrica] = 1.88026  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[SouthKorea] = 0.0353872  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Spain] = 8.60154  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[SriLanka] = 3.36089  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Sweden] = 1.56126  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Switzerland] = 0.105782  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Thailand] = 0.0491774  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Togo] = 5.68306  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Tunisia] = 3.34846  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Turkey] = 0.0307738  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[UAE] = 0.0189869  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[UK] = 3.10032  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ukraine] = 0.01  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Uruguay] = 0.257281  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[USA] = 0.436025  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Zambia] = 9.29974  <= 50
+1e-06 <= Strength of Adherence Fatigue[Albania] = 4.78636  <= 5
+1e-06 <= Strength of Adherence Fatigue[Argentina] = 3.02086  <= 5
+1e-06 <= Strength of Adherence Fatigue[Australia] = 0.361023  <= 5
+1e-06 <= Strength of Adherence Fatigue[Austria] = 2.52205  <= 5
+1e-06 <= Strength of Adherence Fatigue[Bahrain] = 3.65016  <= 5
+1e-06 <= Strength of Adherence Fatigue[Bangladesh] = 1.26547e-05  <= 5
+1e-06 <= Strength of Adherence Fatigue[Belarus] = 0.333843  <= 5
+1e-06 <= Strength of Adherence Fatigue[Belgium] = 0.641372  <= 5
+1e-06 <= Strength of Adherence Fatigue[Bolivia] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Bulgaria] = 3.37644  <= 5
+1e-06 <= Strength of Adherence Fatigue[Canada] = 0.395247  <= 5
+1e-06 <= Strength of Adherence Fatigue[Chile] = 0.108852  <= 5
+1e-06 <= Strength of Adherence Fatigue[Colombia] = 0.371575  <= 5
+1e-06 <= Strength of Adherence Fatigue[CostaRica] = 3.04133  <= 5
+1e-06 <= Strength of Adherence Fatigue[Croatia] = 2.78728  <= 5
+1e-06 <= Strength of Adherence Fatigue[Cuba] = 1.65104  <= 5
+1e-06 <= Strength of Adherence Fatigue[Cyprus] = 1.3227  <= 5
+1e-06 <= Strength of Adherence Fatigue[CzechRepublic] = 1.4203  <= 5
+1e-06 <= Strength of Adherence Fatigue[Denmark] = 2.07162  <= 5
+1e-06 <= Strength of Adherence Fatigue[DominicanRepublic] = 0.086419  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ecuador] = 0.2985  <= 5
+1e-06 <= Strength of Adherence Fatigue[ElSalvador] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Estonia] = 2.37307  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ethiopia] = 0.262402  <= 5
+1e-06 <= Strength of Adherence Fatigue[Finland] = 0.819224  <= 5
+1e-06 <= Strength of Adherence Fatigue[France] = 1.15563  <= 5
+1e-06 <= Strength of Adherence Fatigue[Germany] = 2.02508  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ghana] = 0.234579  <= 5
+1e-06 <= Strength of Adherence Fatigue[Greece] = 1.07462  <= 5
+1e-06 <= Strength of Adherence Fatigue[Hungary] = 2.47678  <= 5
+1e-06 <= Strength of Adherence Fatigue[Iceland] = 0.265546  <= 5
+1e-06 <= Strength of Adherence Fatigue[India] = 0.0978999  <= 5
+1e-06 <= Strength of Adherence Fatigue[Indonesia] = 1.65085  <= 5
+1e-06 <= Strength of Adherence Fatigue[Iran] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Iraq] = 0.0379415  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ireland] = 0.704349  <= 5
+1e-06 <= Strength of Adherence Fatigue[Israel] = 2.2765  <= 5
+1e-06 <= Strength of Adherence Fatigue[Italy] = 1.38855  <= 5
+1e-06 <= Strength of Adherence Fatigue[Jamaica] = 1.36944  <= 5
+1e-06 <= Strength of Adherence Fatigue[Japan] = 0.873408  <= 5
+1e-06 <= Strength of Adherence Fatigue[Kazakhstan] = 0.0452567  <= 5
+1e-06 <= Strength of Adherence Fatigue[Kenya] = 0.222197  <= 5
+1e-06 <= Strength of Adherence Fatigue[Kuwait] = 0.201842  <= 5
+1e-06 <= Strength of Adherence Fatigue[Latvia] = 3.44769  <= 5
+1e-06 <= Strength of Adherence Fatigue[Lithuania] = 4.34485  <= 5
+1e-06 <= Strength of Adherence Fatigue[Luxembourg] = 1.27371  <= 5
+1e-06 <= Strength of Adherence Fatigue[Madagascar] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Malawi] = 0.0626697  <= 5
+1e-06 <= Strength of Adherence Fatigue[Malaysia] = 2.12665  <= 5
+1e-06 <= Strength of Adherence Fatigue[Maldives] = 0.176912  <= 5
+1e-06 <= Strength of Adherence Fatigue[Malta] = 1.78852  <= 5
+1e-06 <= Strength of Adherence Fatigue[Mexico] = 1.76653  <= 5
+1e-06 <= Strength of Adherence Fatigue[Morocco] = 0.0662971  <= 5
+1e-06 <= Strength of Adherence Fatigue[Mozambique] = 0.209168  <= 5
+1e-06 <= Strength of Adherence Fatigue[Nepal] = 4.66064  <= 5
+1e-06 <= Strength of Adherence Fatigue[Netherlands] = 1.34693  <= 5
+1e-06 <= Strength of Adherence Fatigue[NewZealand] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Nigeria] = 0.0885231  <= 5
+1e-06 <= Strength of Adherence Fatigue[NorthMacedonia] = 2.20763  <= 5
+1e-06 <= Strength of Adherence Fatigue[Norway] = 1.3949  <= 5
+1e-06 <= Strength of Adherence Fatigue[Pakistan] = 0.347946  <= 5
+1e-06 <= Strength of Adherence Fatigue[Panama] = 0.632775  <= 5
+1e-06 <= Strength of Adherence Fatigue[Paraguay] = 1.82362  <= 5
+1e-06 <= Strength of Adherence Fatigue[Peru] = 0.0877122  <= 5
+1e-06 <= Strength of Adherence Fatigue[Philippines] = 1.5629  <= 5
+1e-06 <= Strength of Adherence Fatigue[Poland] = 3.43682  <= 5
+1e-06 <= Strength of Adherence Fatigue[Portugal] = 0.944026  <= 5
+1e-06 <= Strength of Adherence Fatigue[Qatar] = 0.390792  <= 5
+1e-06 <= Strength of Adherence Fatigue[Romania] = 1.70632  <= 5
+1e-06 <= Strength of Adherence Fatigue[Russia] = 0.727738  <= 5
+1e-06 <= Strength of Adherence Fatigue[Rwanda] = 1.11964  <= 5
+1e-06 <= Strength of Adherence Fatigue[SaudiArabia] = 1.09763e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Senegal] = 0.913561  <= 5
+1e-06 <= Strength of Adherence Fatigue[Serbia] = 1.7117  <= 5
+1e-06 <= Strength of Adherence Fatigue[Singapore] = 1e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Slovakia] = 1.25663  <= 5
+1e-06 <= Strength of Adherence Fatigue[Slovenia] = 2.62812  <= 5
+1e-06 <= Strength of Adherence Fatigue[SouthAfrica] = 0.173272  <= 5
+1e-06 <= Strength of Adherence Fatigue[SouthKorea] = 1.01284  <= 5
+1e-06 <= Strength of Adherence Fatigue[Spain] = 1.12664  <= 5
+1e-06 <= Strength of Adherence Fatigue[SriLanka] = 1.22849  <= 5
+1e-06 <= Strength of Adherence Fatigue[Sweden] = 0.504174  <= 5
+1e-06 <= Strength of Adherence Fatigue[Switzerland] = 1.6561  <= 5
+1e-06 <= Strength of Adherence Fatigue[Thailand] = 0.524308  <= 5
+1e-06 <= Strength of Adherence Fatigue[Togo] = 0.800305  <= 5
+1e-06 <= Strength of Adherence Fatigue[Tunisia] = 1.52341  <= 5
+1e-06 <= Strength of Adherence Fatigue[Turkey] = 1.24319  <= 5
+1e-06 <= Strength of Adherence Fatigue[UAE] = 2.6094e-05  <= 5
+1e-06 <= Strength of Adherence Fatigue[UK] = 1.03728  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ukraine] = 3.10541  <= 5
+1e-06 <= Strength of Adherence Fatigue[Uruguay] = 2.80923  <= 5
+1e-06 <= Strength of Adherence Fatigue[USA] = 2.2396  <= 5
+1e-06 <= Strength of Adherence Fatigue[Zambia] = 0.00734771  <= 5
+10 <= Time to Downgrade Risk[Albania] = 500  <= 500
+10 <= Time to Downgrade Risk[Argentina] = 74.3829  <= 500
+10 <= Time to Downgrade Risk[Australia] = 93.7201  <= 500
+10 <= Time to Downgrade Risk[Austria] = 500  <= 500
+10 <= Time to Downgrade Risk[Bahrain] = 500  <= 500
+10 <= Time to Downgrade Risk[Bangladesh] = 363.795  <= 500
+10 <= Time to Downgrade Risk[Belarus] = 352.407  <= 500
+10 <= Time to Downgrade Risk[Belgium] = 500  <= 500
+10 <= Time to Downgrade Risk[Bolivia] = 472.769  <= 500
+10 <= Time to Downgrade Risk[Bulgaria] = 24.5862  <= 500
+10 <= Time to Downgrade Risk[Canada] = 22.7595  <= 500
+10 <= Time to Downgrade Risk[Chile] = 500  <= 500
+10 <= Time to Downgrade Risk[Colombia] = 73.2959  <= 500
+10 <= Time to Downgrade Risk[CostaRica] = 10  <= 500
+10 <= Time to Downgrade Risk[Croatia] = 25.0574  <= 500
+10 <= Time to Downgrade Risk[Cuba] = 14.898  <= 500
+10 <= Time to Downgrade Risk[Cyprus] = 109.489  <= 500
+10 <= Time to Downgrade Risk[CzechRepublic] = 500  <= 500
+10 <= Time to Downgrade Risk[Denmark] = 17.873  <= 500
+10 <= Time to Downgrade Risk[DominicanRepublic] = 128.514  <= 500
+10 <= Time to Downgrade Risk[Ecuador] = 365.164  <= 500
+10 <= Time to Downgrade Risk[ElSalvador] = 40.8118  <= 500
+10 <= Time to Downgrade Risk[Estonia] = 224.406  <= 500
+10 <= Time to Downgrade Risk[Ethiopia] = 171.891  <= 500
+10 <= Time to Downgrade Risk[Finland] = 130.687  <= 500
+10 <= Time to Downgrade Risk[France] = 287.276  <= 500
+10 <= Time to Downgrade Risk[Germany] = 500  <= 500
+10 <= Time to Downgrade Risk[Ghana] = 165.84  <= 500
+10 <= Time to Downgrade Risk[Greece] = 498.881  <= 500
+10 <= Time to Downgrade Risk[Hungary] = 500  <= 500
+10 <= Time to Downgrade Risk[Iceland] = 321.317  <= 500
+10 <= Time to Downgrade Risk[India] = 146.236  <= 500
+10 <= Time to Downgrade Risk[Indonesia] = 96.9965  <= 500
+10 <= Time to Downgrade Risk[Iran] = 31.4852  <= 500
+10 <= Time to Downgrade Risk[Iraq] = 500  <= 500
+10 <= Time to Downgrade Risk[Ireland] = 237.08  <= 500
+10 <= Time to Downgrade Risk[Israel] = 456.972  <= 500
+10 <= Time to Downgrade Risk[Italy] = 233.981  <= 500
+10 <= Time to Downgrade Risk[Jamaica] = 201.304  <= 500
+10 <= Time to Downgrade Risk[Japan] = 242.475  <= 500
+10 <= Time to Downgrade Risk[Kazakhstan] = 500  <= 500
+10 <= Time to Downgrade Risk[Kenya] = 314.386  <= 500
+10 <= Time to Downgrade Risk[Kuwait] = 495.421  <= 500
+10 <= Time to Downgrade Risk[Latvia] = 500  <= 500
+10 <= Time to Downgrade Risk[Lithuania] = 500  <= 500
+10 <= Time to Downgrade Risk[Luxembourg] = 500  <= 500
+10 <= Time to Downgrade Risk[Madagascar] = 500  <= 500
+10 <= Time to Downgrade Risk[Malawi] = 192.64  <= 500
+10 <= Time to Downgrade Risk[Malaysia] = 500  <= 500
+10 <= Time to Downgrade Risk[Maldives] = 22.4346  <= 500
+10 <= Time to Downgrade Risk[Malta] = 51.633  <= 500
+10 <= Time to Downgrade Risk[Mexico] = 28.0827  <= 500
+10 <= Time to Downgrade Risk[Morocco] = 70.7943  <= 500
+10 <= Time to Downgrade Risk[Mozambique] = 109.909  <= 500
+10 <= Time to Downgrade Risk[Nepal] = 172.98  <= 500
+10 <= Time to Downgrade Risk[Netherlands] = 340.441  <= 500
+10 <= Time to Downgrade Risk[NewZealand] = 10.9281  <= 500
+10 <= Time to Downgrade Risk[Nigeria] = 158.689  <= 500
+10 <= Time to Downgrade Risk[NorthMacedonia] = 235.982  <= 500
+10 <= Time to Downgrade Risk[Norway] = 96.7502  <= 500
+10 <= Time to Downgrade Risk[Pakistan] = 433.481  <= 500
+10 <= Time to Downgrade Risk[Panama] = 70.2337  <= 500
+10 <= Time to Downgrade Risk[Paraguay] = 10  <= 500
+10 <= Time to Downgrade Risk[Peru] = 202.21  <= 500
+10 <= Time to Downgrade Risk[Philippines] = 44.4098  <= 500
+10 <= Time to Downgrade Risk[Poland] = 500  <= 500
+10 <= Time to Downgrade Risk[Portugal] = 500  <= 500
+10 <= Time to Downgrade Risk[Qatar] = 206.584  <= 500
+10 <= Time to Downgrade Risk[Romania] = 212.147  <= 500
+10 <= Time to Downgrade Risk[Russia] = 500  <= 500
+10 <= Time to Downgrade Risk[Rwanda] = 215.61  <= 500
+10 <= Time to Downgrade Risk[SaudiArabia] = 438.198  <= 500
+10 <= Time to Downgrade Risk[Senegal] = 121.392  <= 500
+10 <= Time to Downgrade Risk[Serbia] = 32.0801  <= 500
+10 <= Time to Downgrade Risk[Singapore] = 448.436  <= 500
+10 <= Time to Downgrade Risk[Slovakia] = 500  <= 500
+10 <= Time to Downgrade Risk[Slovenia] = 500  <= 500
+10 <= Time to Downgrade Risk[SouthAfrica] = 445.464  <= 500
+10 <= Time to Downgrade Risk[SouthKorea] = 76.4082  <= 500
+10 <= Time to Downgrade Risk[Spain] = 119.006  <= 500
+10 <= Time to Downgrade Risk[SriLanka] = 500  <= 500
+10 <= Time to Downgrade Risk[Sweden] = 78.1102  <= 500
+10 <= Time to Downgrade Risk[Switzerland] = 226.831  <= 500
+10 <= Time to Downgrade Risk[Thailand] = 469.167  <= 500
+10 <= Time to Downgrade Risk[Togo] = 105.127  <= 500
+10 <= Time to Downgrade Risk[Tunisia] = 500  <= 500
+10 <= Time to Downgrade Risk[Turkey] = 500  <= 500
+10 <= Time to Downgrade Risk[UAE] = 42.4535  <= 500
+10 <= Time to Downgrade Risk[UK] = 348.229  <= 500
+10 <= Time to Downgrade Risk[Ukraine] = 91.4678  <= 500
+10 <= Time to Downgrade Risk[Uruguay] = 170.323  <= 500
+10 <= Time to Downgrade Risk[USA] = 139.39  <= 500
+10 <= Time to Downgrade Risk[Zambia] = 140.889  <= 500
+1 <= Time to Upgrade Risk[Albania] = 32.4162  <= 200
+1 <= Time to Upgrade Risk[Argentina] = 3.27052  <= 200
+1 <= Time to Upgrade Risk[Australia] = 1.16371  <= 200
+1 <= Time to Upgrade Risk[Austria] = 29.6851  <= 200
+1 <= Time to Upgrade Risk[Bahrain] = 9.39794  <= 200
+1 <= Time to Upgrade Risk[Bangladesh] = 3.41124  <= 200
+1 <= Time to Upgrade Risk[Belarus] = 7.56679  <= 200
+1 <= Time to Upgrade Risk[Belgium] = 7.46994  <= 200
+1 <= Time to Upgrade Risk[Bolivia] = 48.5548  <= 200
+1 <= Time to Upgrade Risk[Bulgaria] = 3.39764  <= 200
+1 <= Time to Upgrade Risk[Canada] = 139.688  <= 200
+1 <= Time to Upgrade Risk[Chile] = 11.8914  <= 200
+1 <= Time to Upgrade Risk[Colombia] = 1.39628  <= 200
+1 <= Time to Upgrade Risk[CostaRica] = 4.34099  <= 200
+1 <= Time to Upgrade Risk[Croatia] = 62.5498  <= 200
+1 <= Time to Upgrade Risk[Cuba] = 15.11  <= 200
+1 <= Time to Upgrade Risk[Cyprus] = 7.00771  <= 200
+1 <= Time to Upgrade Risk[CzechRepublic] = 8.50782  <= 200
+1 <= Time to Upgrade Risk[Denmark] = 129.594  <= 200
+1 <= Time to Upgrade Risk[DominicanRepublic] = 3.32062  <= 200
+1 <= Time to Upgrade Risk[Ecuador] = 4.90327  <= 200
+1 <= Time to Upgrade Risk[ElSalvador] = 38.3585  <= 200
+1 <= Time to Upgrade Risk[Estonia] = 21.3298  <= 200
+1 <= Time to Upgrade Risk[Ethiopia] = 3.03512  <= 200
+1 <= Time to Upgrade Risk[Finland] = 56.549  <= 200
+1 <= Time to Upgrade Risk[France] = 44.4318  <= 200
+1 <= Time to Upgrade Risk[Germany] = 58.472  <= 200
+1 <= Time to Upgrade Risk[Ghana] = 21.7492  <= 200
+1 <= Time to Upgrade Risk[Greece] = 5.82998  <= 200
+1 <= Time to Upgrade Risk[Hungary] = 10.6534  <= 200
+1 <= Time to Upgrade Risk[Iceland] = 3.71189  <= 200
+1 <= Time to Upgrade Risk[India] = 8.58  <= 200
+1 <= Time to Upgrade Risk[Indonesia] = 1  <= 200
+1 <= Time to Upgrade Risk[Iran] = 6.92953  <= 200
+1 <= Time to Upgrade Risk[Iraq] = 16.313  <= 200
+1 <= Time to Upgrade Risk[Ireland] = 17.5817  <= 200
+1 <= Time to Upgrade Risk[Israel] = 15.1644  <= 200
+1 <= Time to Upgrade Risk[Italy] = 111.264  <= 200
+1 <= Time to Upgrade Risk[Jamaica] = 2.79076  <= 200
+1 <= Time to Upgrade Risk[Japan] = 17.6565  <= 200
+1 <= Time to Upgrade Risk[Kazakhstan] = 17.755  <= 200
+1 <= Time to Upgrade Risk[Kenya] = 2.45284  <= 200
+1 <= Time to Upgrade Risk[Kuwait] = 3.82593  <= 200
+1 <= Time to Upgrade Risk[Latvia] = 49.6412  <= 200
+1 <= Time to Upgrade Risk[Lithuania] = 200  <= 200
+1 <= Time to Upgrade Risk[Luxembourg] = 1.53374  <= 200
+1 <= Time to Upgrade Risk[Madagascar] = 25.228  <= 200
+1 <= Time to Upgrade Risk[Malawi] = 19.0768  <= 200
+1 <= Time to Upgrade Risk[Malaysia] = 12.4009  <= 200
+1 <= Time to Upgrade Risk[Maldives] = 17.5027  <= 200
+1 <= Time to Upgrade Risk[Malta] = 106.592  <= 200
+1 <= Time to Upgrade Risk[Mexico] = 3.0759  <= 200
+1 <= Time to Upgrade Risk[Morocco] = 1  <= 200
+1 <= Time to Upgrade Risk[Mozambique] = 2.01378  <= 200
+1 <= Time to Upgrade Risk[Nepal] = 141.496  <= 200
+1 <= Time to Upgrade Risk[Netherlands] = 192.581  <= 200
+1 <= Time to Upgrade Risk[NewZealand] = 133.75  <= 200
+1 <= Time to Upgrade Risk[Nigeria] = 12.3746  <= 200
+1 <= Time to Upgrade Risk[NorthMacedonia] = 14.0916  <= 200
+1 <= Time to Upgrade Risk[Norway] = 67.7436  <= 200
+1 <= Time to Upgrade Risk[Pakistan] = 200  <= 200
+1 <= Time to Upgrade Risk[Panama] = 1  <= 200
+1 <= Time to Upgrade Risk[Paraguay] = 54.0765  <= 200
+1 <= Time to Upgrade Risk[Peru] = 67.5322  <= 200
+1 <= Time to Upgrade Risk[Philippines] = 1.73871  <= 200
+1 <= Time to Upgrade Risk[Poland] = 27.7396  <= 200
+1 <= Time to Upgrade Risk[Portugal] = 3.6637  <= 200
+1 <= Time to Upgrade Risk[Qatar] = 3.55193  <= 200
+1 <= Time to Upgrade Risk[Romania] = 1  <= 200
+1 <= Time to Upgrade Risk[Russia] = 4.35573  <= 200
+1 <= Time to Upgrade Risk[Rwanda] = 1.38055  <= 200
+1 <= Time to Upgrade Risk[SaudiArabia] = 187.419  <= 200
+1 <= Time to Upgrade Risk[Senegal] = 2.26962  <= 200
+1 <= Time to Upgrade Risk[Serbia] = 4.82109  <= 200
+1 <= Time to Upgrade Risk[Singapore] = 84.3093  <= 200
+1 <= Time to Upgrade Risk[Slovakia] = 9.75397  <= 200
+1 <= Time to Upgrade Risk[Slovenia] = 18.6545  <= 200
+1 <= Time to Upgrade Risk[SouthAfrica] = 6.93217  <= 200
+1 <= Time to Upgrade Risk[SouthKorea] = 2.84708  <= 200
+1 <= Time to Upgrade Risk[Spain] = 200  <= 200
+1 <= Time to Upgrade Risk[SriLanka] = 12.8288  <= 200
+1 <= Time to Upgrade Risk[Sweden] = 4.25167  <= 200
+1 <= Time to Upgrade Risk[Switzerland] = 21.7865  <= 200
+1 <= Time to Upgrade Risk[Thailand] = 10.858  <= 200
+1 <= Time to Upgrade Risk[Togo] = 5.22397  <= 200
+1 <= Time to Upgrade Risk[Tunisia] = 12.5625  <= 200
+1 <= Time to Upgrade Risk[Turkey] = 11.4965  <= 200
+1 <= Time to Upgrade Risk[UAE] = 1.01085  <= 200
+1 <= Time to Upgrade Risk[UK] = 10.4809  <= 200
+1 <= Time to Upgrade Risk[Ukraine] = 1  <= 200
+1 <= Time to Upgrade Risk[Uruguay] = 2.19125  <= 200
+1 <= Time to Upgrade Risk[USA] = 73.9448  <= 200
+1 <= Time to Upgrade Risk[Zambia] = 20.6323  <= 200
+0.4 <= Total Asymptomatic Fraction[Albania] = 0.515156  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Argentina] = 0.505768  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Australia] = 0.509752  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Austria] = 0.55576  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Bahrain] = 0.487084  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Bangladesh] = 0.528117  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Belarus] = 0.539677  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Belgium] = 0.510759  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Bolivia] = 0.486329  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Bulgaria] = 0.50908  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Canada] = 0.51023  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Chile] = 0.503204  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Colombia] = 0.49298  <= 0.7
+0.4 <= Total Asymptomatic Fraction[CostaRica] = 0.53702  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Croatia] = 0.507952  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Cuba] = 0.517492  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Cyprus] = 0.515061  <= 0.7
+0.4 <= Total Asymptomatic Fraction[CzechRepublic] = 0.470502  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Denmark] = 0.4882  <= 0.7
+0.4 <= Total Asymptomatic Fraction[DominicanRepublic] = 0.498618  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ecuador] = 0.499791  <= 0.7
+0.4 <= Total Asymptomatic Fraction[ElSalvador] = 0.492122  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Estonia] = 0.493055  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ethiopia] = 0.508625  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Finland] = 0.492682  <= 0.7
+0.4 <= Total Asymptomatic Fraction[France] = 0.501025  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Germany] = 0.49577  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ghana] = 0.50191  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Greece] = 0.503895  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Hungary] = 0.489852  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Iceland] = 0.506061  <= 0.7
+0.4 <= Total Asymptomatic Fraction[India] = 0.514668  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Indonesia] = 0.511658  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Iran] = 0.505163  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Iraq] = 0.531807  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ireland] = 0.498763  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Israel] = 0.49328  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Italy] = 0.517306  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Jamaica] = 0.507209  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Japan] = 0.508835  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Kazakhstan] = 0.509508  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Kenya] = 0.492822  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Kuwait] = 0.505402  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Latvia] = 0.514602  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Lithuania] = 0.538617  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Luxembourg] = 0.50339  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Madagascar] = 0.504543  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Malawi] = 0.504405  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Malaysia] = 0.500417  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Maldives] = 0.490234  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Malta] = 0.523072  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Mexico] = 0.499393  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Morocco] = 0.503654  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Mozambique] = 0.507034  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Nepal] = 0.533372  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Netherlands] = 0.525513  <= 0.7
+0.4 <= Total Asymptomatic Fraction[NewZealand] = 0.497411  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Nigeria] = 0.504408  <= 0.7
+0.4 <= Total Asymptomatic Fraction[NorthMacedonia] = 0.503871  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Norway] = 0.506189  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Pakistan] = 0.510047  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Panama] = 0.508024  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Paraguay] = 0.500959  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Peru] = 0.475539  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Philippines] = 0.503881  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Poland] = 0.496753  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Portugal] = 0.521933  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Qatar] = 0.523285  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Romania] = 0.511248  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Russia] = 0.506619  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Rwanda] = 0.49415  <= 0.7
+0.4 <= Total Asymptomatic Fraction[SaudiArabia] = 0.49891  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Senegal] = 0.506311  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Serbia] = 0.513441  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Singapore] = 0.510583  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Slovakia] = 0.503568  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Slovenia] = 0.468115  <= 0.7
+0.4 <= Total Asymptomatic Fraction[SouthAfrica] = 0.508651  <= 0.7
+0.4 <= Total Asymptomatic Fraction[SouthKorea] = 0.482154  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Spain] = 0.514039  <= 0.7
+0.4 <= Total Asymptomatic Fraction[SriLanka] = 0.510815  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Sweden] = 0.4758  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Switzerland] = 0.7  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Thailand] = 0.492183  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Togo] = 0.516262  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Tunisia] = 0.455939  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Turkey] = 0.510397  <= 0.7
+0.4 <= Total Asymptomatic Fraction[UAE] = 0.507503  <= 0.7
+0.4 <= Total Asymptomatic Fraction[UK] = 0.505958  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ukraine] = 0.521752  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Uruguay] = 0.453926  <= 0.7
+0.4 <= Total Asymptomatic Fraction[USA] = 0.507178  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Zambia] = 0.506099  <= 0.7
+1e-06 <= Weight on Reported Probability of Infection[Albania] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Argentina] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Australia] = 0.311236  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Austria] = 0.428873  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Bahrain] = 0.875999  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Bangladesh] = 0.909644  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Belarus] = 0.116039  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Belgium] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Bolivia] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Bulgaria] = 0.21591  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Canada] = 0.726711  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Chile] = 0.193436  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Colombia] = 0.282289  <= 1
+1e-06 <= Weight on Reported Probability of Infection[CostaRica] = 0.36375  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Croatia] = 0.257374  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Cuba] = 0.845342  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Cyprus] = 0.640288  <= 1
+1e-06 <= Weight on Reported Probability of Infection[CzechRepublic] = 0.00372501  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Denmark] = 0.605414  <= 1
+1e-06 <= Weight on Reported Probability of Infection[DominicanRepublic] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ecuador] = 0.982723  <= 1
+1e-06 <= Weight on Reported Probability of Infection[ElSalvador] = 0.408936  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Estonia] = 0.718559  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ethiopia] = 0.031276  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Finland] = 0.674594  <= 1
+1e-06 <= Weight on Reported Probability of Infection[France] = 0.981326  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Germany] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ghana] = 0.547713  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Greece] = 0.00998943  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Hungary] = 0.351167  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Iceland] = 0.478847  <= 1
+1e-06 <= Weight on Reported Probability of Infection[India] = 0.362715  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Indonesia] = 0.230204  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Iran] = 0.0859246  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Iraq] = 0.340116  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ireland] = 0.999917  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Israel] = 0.413959  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Italy] = 0.354264  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Jamaica] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Japan] = 0.343816  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Kazakhstan] = 0.417262  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Kenya] = 0.607952  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Kuwait] = 0.973305  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Latvia] = 0.444801  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Lithuania] = 0.468675  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Luxembourg] = 0.987398  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Madagascar] = 0.406467  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Malawi] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Malaysia] = 0.763254  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Maldives] = 0.89192  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Malta] = 0.527005  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Mexico] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Morocco] = 1.14959e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Mozambique] = 0.999979  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Nepal] = 0.358963  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Netherlands] = 0.449629  <= 1
+1e-06 <= Weight on Reported Probability of Infection[NewZealand] = 0.315012  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Nigeria] = 0.332553  <= 1
+1e-06 <= Weight on Reported Probability of Infection[NorthMacedonia] = 0.342179  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Norway] = 0.773314  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Pakistan] = 0.563882  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Panama] = 0.844576  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Paraguay] = 0.368553  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Peru] = 0.53905  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Philippines] = 0.771752  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Poland] = 0.491902  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Portugal] = 0.0436858  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Qatar] = 0.435946  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Romania] = 0.999992  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Russia] = 0.438352  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Rwanda] = 0.451241  <= 1
+1e-06 <= Weight on Reported Probability of Infection[SaudiArabia] = 0.58987  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Senegal] = 0.00356648  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Serbia] = 0.476169  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Singapore] = 0.44728  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Slovakia] = 0.027269  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Slovenia] = 0.488434  <= 1
+1e-06 <= Weight on Reported Probability of Infection[SouthAfrica] = 0.402181  <= 1
+1e-06 <= Weight on Reported Probability of Infection[SouthKorea] = 0.675406  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Spain] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[SriLanka] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Sweden] = 0.50787  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Switzerland] = 0.0402506  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Thailand] = 0.416659  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Togo] = 0.785337  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Tunisia] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Turkey] = 0.853054  <= 1
+1e-06 <= Weight on Reported Probability of Infection[UAE] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[UK] = 0.997583  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ukraine] = 1  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Uruguay] = 1e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[USA] = 0.494775  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Zambia] = 0.555697  <= 1

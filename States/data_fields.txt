@@ -1,0 +1,20 @@
+Date:												Timestamp of entry
+Incidence:											
+State:												US State of data
+FIPS:												Federal Information Processing Standard State (FIPS) code
+tot_cases:											Cumulative cases reported
+New_case:											Cases reported that day
+new_death:											Deaths for that day
+seven_day_avg_new_cases:							7 day simple moving avg of cases
+seven_day_cum_new_cases_per_100k:					
+tot_deaths:											Cumulative deaths reported
+seven_day_avg_new_deaths:							7 day simple moving avg of deaths
+seven_day_cum_new_deaths_per_100k:					
+historical_new_total_cases:							
+historical_new_total_deaths:						
+total_test_results_reported_7_day_count_change:		
+Administered_7_Day_Rolling_Average:					
+Admin_Dose_1_Day_Rolling_Average:					
+Series_Complete_Day_Rolling_Average:				
+Administered_Cumulative:							Cumulative vaccine doess given
+Death_Case_Ratio:									How many cases resulted in death
