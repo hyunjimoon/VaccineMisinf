@@ -2,14 +2,18 @@ from numpy.core.numeric import NaN
 import pandas
 from pandas._libs.tslibs.timedeltas import ints_to_pytimedelta
 from pandas.io.pytables import performance_doc
-from os.path import exists
+import os
 
+VENSIM_PATH       = 'vendss64'
 VENSIM_START_DATE = '10/15/2019'
 VENSIM_TIME_PARAM = 'Time'
 
 VENSIM_DATA_LOC           =         'data\\'
+VENSIM_MODEL_VERSION      =         'V72\\'
+VENSIM_MODEL_LOC          =         '..\\..\\Models\\'+VENSIM_MODEL_VERSION
+VENSIM_DATA_EXTENSION     =         '.vdfx'
 
-VENSIM_DATA_INPUT_PREFIX  =         VENSIM_DATA_LOC+'CovidModelInputs - '
+VENSIM_DATA_INPUT_PREFIX  =         'CovidModelInputs - '
 
 VENSIM_CONSTANT_DATA_NAME =         'ConstantDataStates'
 VENSIM_FLOW_DATA_NAME     =         'FlowDataStates'
@@ -56,19 +60,20 @@ def relocate_columns(output_data):
         pass
     return output_data
 
-def send_to_constants_file(data_series):
+def send_to_constants_file(data_series, update_model_constants = True):
     CONSTANTS_FILENAME = VENSIM_DATA_INPUT_PREFIX+VENSIM_CONSTANT_DATA_NAME+'.csv'
     CONSTANT_STATES_NAME    = 'Unnamed: 1'
     CONSTANT_VAR_NAME       = 'DataConstants'
-    constants_dataframe = pandas.read_csv(CONSTANTS_FILENAME)
+    constants_dataframe = pandas.read_csv(VENSIM_DATA_LOC+CONSTANTS_FILENAME)
     constants_dataframe.set_index([CONSTANT_STATES_NAME], inplace=True)
     constants_dataframe[data_series.name] = data_series
     constants_dataframe.reset_index(inplace=True)
     constants_dataframe.set_index([VENSIM_TIME_PARAM, CONSTANT_STATES_NAME], inplace=True)
     for key in VENSIM_CONSTANTS_MEAN_DICT:
         constants_dataframe.loc[key, '1'] = constants_dataframe[VENSIM_CONSTANTS_MEAN_DICT[key]].mean()
-    constants_dataframe.to_csv(CONSTANTS_FILENAME)
-    
+    constants_dataframe.to_csv(VENSIM_DATA_LOC+CONSTANTS_FILENAME)
+    if update_model_constants:
+        os.replace(VENSIM_DATA_LOC+CONSTANTS_FILENAME, VENSIM_MODEL_LOC+CONSTANTS_FILENAME)
 
 
 def send_to_vensim_csv(dataframe, output_filename, vensim_vars, var_cols=[]):
@@ -84,8 +89,20 @@ def send_to_vensim_csv(dataframe, output_filename, vensim_vars, var_cols=[]):
     working_dataframe.set_index(VENSIM_TIME_PARAM, inplace=True)
     working_dataframe.sort_index(inplace=True)
     working_dataframe.rename(columns={key:'' for key in var_cols}, inplace=True)
-    working_dataframe.to_csv(output_filename, sep='\t')
+    working_dataframe.to_csv(output_filename)
     
+
+def create_vdf_from_csv(input_filename):
+    script_name = VENSIM_DATA_LOC+input_filename+'.cmd'
+    with open(script_name, 'w') as vensim_script:
+        vensim_script.write('MENU>CSV2VDF|'+input_filename+'.csv|'+input_filename+VENSIM_DATA_EXTENSION+'|1_var.frm\n')
+        vensim_script.write('MENU>EXIT')
+    os.system(VENSIM_PATH+' '+script_name)
+    os.replace(VENSIM_DATA_LOC+input_filename+VENSIM_DATA_EXTENSION, VENSIM_MODEL_LOC+input_filename+VENSIM_DATA_EXTENSION)
+
+def copy_csv_to_model(csv_name):
+    os.replace(VENSIM_DATA_LOC+csv_name+'.csv', VENSIM_MODEL_LOC+csv_name+'.csv')
+
 
 def unit_test_constants():
     test_ser = pandas.Series({'Alabama': 3.11, 'Alaska': 2.2 })

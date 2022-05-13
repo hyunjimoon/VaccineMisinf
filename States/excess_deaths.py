@@ -2,7 +2,7 @@ import pandas
 import names_lib
 import vensim_lib
 
-GITHUB_URL = 'https://raw.githubusercontent.com/TheEconomist/covid-19-excess-deaths-tracker/master/output-data/alternative-exports-by-non-iso-week/excess-deaths/united_states_excess_deaths.csv'
+GITHUB_URL = 'https://raw.githubusercontent.com/TheEconomist/covid-19-excess-deaths-tracker/master/output-data/excess-deaths/united_states_excess_deaths.csv'
 
 DATASET_EXCESS_DEATHS_NAME  = 'excess_deaths'
 DATASET_COVID_DEATHS_NAME   = 'covid_deaths'

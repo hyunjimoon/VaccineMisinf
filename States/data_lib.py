@@ -1,6 +1,6 @@
 from sodapy import Socrata
 import pandas
-from census import Census
+#from census import Census
 
 CENSUS_API_KEY = 'fddd2a794f5d2568070360906e0c1b297a4b7d91'
 

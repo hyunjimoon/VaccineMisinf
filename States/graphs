@@ -1,0 +1,510 @@
+:GRAPH GDP_AL
+:TITLE Alabama
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Alabama]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Alabama]|Actual GDP
+:Y-MIN 180000
+:Y-MAX 210000
+
+:GRAPH GDP_AK
+:TITLE Alaska
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Alaska]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Alaska]|Actual GDP
+:Y-MIN 47000
+:Y-MAX 54000
+
+:GRAPH GDP_AZ
+:TITLE Arizona
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Arizona]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Arizona]|Actual GDP
+:Y-MIN 300000
+:Y-MAX 350000
+
+:GRAPH GDP_AR
+:TITLE Arkansas
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Arkansas]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Arkansas]|Actual GDP
+:Y-MIN 100000
+:Y-MAX 130000
+
+:GRAPH GDP_CA
+:TITLE California
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[California]|Model GDP
+:VAR "Real World GDP Data (Gt)"[California]|Actual GDP
+:Y-MIN 2400000
+:Y-MAX 3000000
+
+:GRAPH GDP_CO
+:TITLE Colorado
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Colorado]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Colorado]|Actual GDP
+:Y-MIN 320000
+:Y-MAX 380000
+
+:GRAPH GDP_CT
+:TITLE Connecticut
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Connecticut]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Connecticut]|Actual GDP
+:Y-MIN 220000
+:Y-MAX 260000
+
+:GRAPH GDP_DE
+:TITLE Delaware
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Delaware]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Delaware]|Actual GDP
+:Y-MIN 58000
+:Y-MAX 66000
+
+:GRAPH GDP_FL
+:TITLE Florida
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Florida]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Florida]|Actual GDP
+:Y-MIN 880000
+:Y-MAX 1100000
+
+:GRAPH GDP_GA
+:TITLE Georgia
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Georgia]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Georgia]|Actual GDP
+:Y-MIN 500000
+:Y-MAX 590000
+
+:GRAPH GDP_HI
+:TITLE Hawaii
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Hawaii]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Hawaii]|Actual GDP
+:Y-MIN 66000
+:Y-MAX 80000
+
+:GRAPH GDP_ID
+:TITLE Idaho
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Idaho]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Idaho]|Actual GDP
+:Y-MIN 69000
+:Y-MAX 80000
+
+:GRAPH GDP_IL
+:TITLE Illinois
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Illinois]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Illinois]|Actual GDP
+:Y-MIN 690000
+:Y-MAX 790000
+
+:GRAPH GDP_IN
+:TITLE Indiana
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Indiana]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Indiana]|Actual GDP
+:Y-MIN 300000
+:Y-MAX 360000
+
+:GRAPH GDP_IA
+:TITLE Iowa
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Iowa]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Iowa]|Actual GDP
+:Y-MIN 160000
+:Y-MAX 190000
+
+:GRAPH GDP_KS
+:TITLE Kansas
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Kansas]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Kansas]|Actual GDP
+:Y-MIN 140000
+:Y-MAX 170000
+
+:GRAPH GDP_KY
+:TITLE Kentucky
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Kentucky]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Kentucky]|Actual GDP
+:Y-MIN 170000
+:Y-MAX 200000
+
+:GRAPH GDP_LA
+:TITLE Louisiana
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Louisiana]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Louisiana]|Actual GDP
+:Y-MIN 200000
+:Y-MAX 240000
+
+:GRAPH GDP_ME
+:TITLE Maine
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Maine]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Maine]|Actual GDP
+:Y-MIN 55000
+:Y-MAX 63000
+
+:GRAPH GDP_MD
+:TITLE Maryland
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Maryland]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Maryland]|Actual GDP
+:Y-MIN 330000
+:Y-MAX 380000
+
+:GRAPH GDP_MA
+:TITLE Massachusetts
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Massachusetts]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Massachusetts]|Actual GDP
+:Y-MIN 460000
+:Y-MAX 550000
+
+:GRAPH GDP_MI
+:TITLE Michigan
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Michigan]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Michigan]|Actual GDP
+:Y-MIN 400000
+:Y-MAX 490000
+
+:GRAPH GDP_MN
+:TITLE Minnesota
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Minnesota]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Minnesota]|Actual GDP
+:Y-MIN 300000
+:Y-MAX 360000
+
+:GRAPH GDP_MS
+:TITLE Mississippi
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Mississippi]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Mississippi]|Actual GDP
+:Y-MIN 92000
+:Y-MAX 110000
+
+:GRAPH GDP_MO
+:TITLE Missouri
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Missouri]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Missouri]|Actual GDP
+:Y-MIN 260000
+:Y-MAX 300000
+
+:GRAPH GDP_MT
+:TITLE Montana
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Montana]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Montana]|Actual GDP
+:Y-MIN 43000
+:Y-MAX 50000
+
+:GRAPH GDP_NE
+:TITLE Nebraska
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Nebraska]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Nebraska]|Actual GDP
+:Y-MIN 110000
+:Y-MAX 130000
+
+:GRAPH GDP_NV
+:TITLE Nevada
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Nevada]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Nevada]|Actual GDP
+:Y-MIN 120000
+:Y-MAX 160000
+
+:GRAPH GDP_NH
+:TITLE New Hampshire
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[New Hampshire]|Model GDP
+:VAR "Real World GDP Data (Gt)"[New Hampshire]|Actual GDP
+:Y-MIN 69000
+:Y-MAX 84000
+
+:GRAPH GDP_NJ
+:TITLE New Jersey
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[New Jersey]|Model GDP
+:VAR "Real World GDP Data (Gt)"[New Jersey]|Actual GDP
+:Y-MIN 490000
+:Y-MAX 580000
+
+:GRAPH GDP_NM
+:TITLE New Mexico
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[New Mexico]|Model GDP
+:VAR "Real World GDP Data (Gt)"[New Mexico]|Actual GDP
+:Y-MIN 88000
+:Y-MAX 97000
+
+:GRAPH GDP_NY
+:TITLE New York
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[New York]|Model GDP
+:VAR "Real World GDP Data (Gt)"[New York]|Actual GDP
+:Y-MIN 1300000
+:Y-MAX 1600000
+
+:GRAPH GDP_NC
+:TITLE North Carolina
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[North Carolina]|Model GDP
+:VAR "Real World GDP Data (Gt)"[North Carolina]|Actual GDP
+:Y-MIN 460000
+:Y-MAX 550000
+
+:GRAPH GDP_ND
+:TITLE North Dakota
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[North Dakota]|Model GDP
+:VAR "Real World GDP Data (Gt)"[North Dakota]|Actual GDP
+:Y-MIN 52000
+:Y-MAX 58000
+
+:GRAPH GDP_OH
+:TITLE Ohio
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Ohio]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Ohio]|Actual GDP
+:Y-MIN 540000
+:Y-MAX 630000
+
+:GRAPH GDP_OK
+:TITLE Oklahoma
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Oklahoma]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Oklahoma]|Actual GDP
+:Y-MIN 180000
+:Y-MAX 210000
+
+:GRAPH GDP_OR
+:TITLE Oregon
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Oregon]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Oregon]|Actual GDP
+:Y-MIN 200000
+:Y-MAX 230000
+
+:GRAPH GDP_PA
+:TITLE Pennsylvania
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Pennsylvania]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Pennsylvania]|Actual GDP
+:Y-MIN 630000
+:Y-MAX 730000
+
+:GRAPH GDP_RI
+:TITLE Rhode Island
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Rhode Island]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Rhode Island]|Actual GDP
+:Y-MIN 47000
+:Y-MAX 56000
+
+:GRAPH GDP_SC
+:TITLE South Carolina
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[South Carolina]|Model GDP
+:VAR "Real World GDP Data (Gt)"[South Carolina]|Actual GDP
+:Y-MIN 190000
+:Y-MAX 230000
+
+:GRAPH GDP_SD
+:TITLE South Dakota
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[South Dakota]|Model GDP
+:VAR "Real World GDP Data (Gt)"[South Dakota]|Actual GDP
+:Y-MIN 44000
+:Y-MAX 50000
+
+:GRAPH GDP_TN
+:TITLE Tennessee
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Tennessee]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Tennessee]|Actual GDP
+:Y-MIN 280000
+:Y-MAX 360000
+
+:GRAPH GDP_TX
+:TITLE Texas
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Texas]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Texas]|Actual GDP
+:Y-MIN 1600000
+:Y-MAX 1900000
+
+:GRAPH GDP_UT
+:TITLE Utah
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Utah]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Utah]|Actual GDP
+:Y-MIN 160000
+:Y-MAX 190000
+
+:GRAPH GDP_VT
+:TITLE Vermont
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Vermont]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Vermont]|Actual GDP
+:Y-MIN 26000
+:Y-MAX 31000
+
+:GRAPH GDP_VA
+:TITLE Virginia
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Virginia]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Virginia]|Actual GDP
+:Y-MIN 440000
+:Y-MAX 510000
+
+:GRAPH GDP_WA
+:TITLE Washington
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Washington]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Washington]|Actual GDP
+:Y-MIN 500000
+:Y-MAX 590000
+
+:GRAPH GDP_WV
+:TITLE West Virginia
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[West Virginia]|Model GDP
+:VAR "Real World GDP Data (Gt)"[West Virginia]|Actual GDP
+:Y-MIN 65000
+:Y-MAX 73000
+
+:GRAPH GDP_WI
+:TITLE Wisconsin
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Wisconsin]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Wisconsin]|Actual GDP
+:Y-MIN 270000
+:Y-MAX 310000
+
+:GRAPH GDP_WY
+:TITLE Wyoming
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[Wyoming]|Model GDP
+:VAR "Real World GDP Data (Gt)"[Wyoming]|Actual GDP
+:Y-MIN 34000
+:Y-MAX 40000
+
+:GRAPH GDP_DC
+:TITLE District of Columbia
+:X-AXIS Time
+:Y-DIV 5
+:SCALE
+:VAR Predicted GDP[District of Columbia]|Model GDP
+:VAR "Real World GDP Data (Gt)"[District of Columbia]|Actual GDP
+:Y-MIN 110000
+:Y-MAX 130000
+
