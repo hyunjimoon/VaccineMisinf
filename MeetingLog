@@ -1,0 +1,70 @@
+## 6/13/2022 
+
+### Paper: 
+
+novelty: combining the economic mortality costs accounting for behavioral response 
+      behavioral response is vaccinated people will perceive less risk
+      
+      lit review: table with paper and topic of choice: 
+
+treatment of behavioral response (do people endogenously change behavior) 
+
+treatment of externality (how does vaccination affect others) 
+
+costs (mortality/econ/long covid/comprehensiveness/etc) 
+
+Economic: lit review (partially done), contextualize econ piece 
+
+    basic story is that gen eq have a hard time replicating observed dynamics 
+
+focus on vaccination cost/benefit rather than econ 
+
+### Model: 
+
+Update model to newest version 
+
+Estimate for US until Now 
+
+2 (3) different estimation models  
+
+Transmission Model 
+
+Economic Model 
+
+Vaccination Trajectory Model for future projections 
+
+## 6/21/2022 
+
+Economist Covid Death Stdev should be 10% of Economist Covid Deaths 
+
+Economist Covid Deaths should be cumulative excess_Deaths from economist github data 
+
+economist data time before max time data used difference between last economist data point and whatever we have for Max Time Data Used 
+
+## 6/28/2022 
+
+Is the behavioral response endogenous in https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(22)00320-6/fulltext#seccestitle190 
+
+First order model doesn’t consider transmission reduction, thus overestimating the impact of vaccination 
+
+Critical to analyze economic and health costs simultaneously with an endogenous behavioral response, otherwise the transmission reduction mechanism over or underestimates impact 
+
+Lit review is necessary to build body of papers 
+
+## 7/5/2022 
+
+Don’t worry about cross comparison among population groups of vaccine efficacy 
+
+Look for “cost effectiveness/relative value of vaccine” specifically within abstract 
+
+8/5/2022 
+
+Build out a table that summarizes lit review and maybe slightly more details 
+
+How health and economic costs calculated (what goes into it, high level, qaly vs death vs healthcare system costs, econ costs unemployment vs gdp etc) 
+
+Transmission changes if any (biggest selling point) 
+
+Assumed vs estimated parameters for vaccine efficacy, variants, etc.\ 
+
+Go article by article 
