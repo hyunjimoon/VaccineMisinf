@@ -3,7 +3,7 @@
 	"simsettings": {
 		"model": "RBorders-V38-AllStoreReadMixPar.mdl", 
 		"data": [
-			"ValPois100.vdf", 
+			"Test2.vdfx", 
 			"StatsBordersData.vdf"
 			], 
 		"payoff": "Borders-V38-PolicyAll.VPD", 
