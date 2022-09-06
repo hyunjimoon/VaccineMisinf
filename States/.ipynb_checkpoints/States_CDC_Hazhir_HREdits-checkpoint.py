@@ -8,6 +8,10 @@ Created on Tue Aug 24 20:20:22 2021
 DATA_FLOW_INFECTION = 'DataFlowInfection'
 DATA_FLOW_DEATH = 'DataFlowDeath'
 DATA_FLOW_VAX = 'DataVaccineRate'
+DATA_FLOW_VAX2 = 'DataVaccineD1Rate'
+DATA_FLOW_VAX3 = 'DataVaccineCmpRate'
+DATA_FLOW_HSP = 'DataHospitalStock'
+DATA_FLOW_HSP2 = 'DataHospitalPedAndAdlt'
 DATA_FLOW_TEST = 'DataTestRate'
 DATA_FLOW_RECOVERY = 'DataFlowRecovery'
 DATA_CUM_INFECTION = 'DataCmltInfection'
@@ -114,6 +118,18 @@ def format_state_data_for_merge(state_dataframe, state_code):
         elif curr_col == 'Administered_7_Day_Rolling_Average':
             state_dataframe = state_dataframe.rename(columns={curr_col: DATA_FLOW_VAX})
             curr_col = DATA_FLOW_VAX
+        elif curr_col == 'Admin_Dose_1_Day_Rolling_Average':
+            state_dataframe = state_dataframe.rename(columns={curr_col: DATA_FLOW_VAX2})
+            curr_col = DATA_FLOW_VAX2
+        elif curr_col == 'Series_Complete_Day_Rolling_Average':
+            state_dataframe = state_dataframe.rename(columns={curr_col: DATA_FLOW_VAX3})
+            curr_col = DATA_FLOW_VAX3
+        elif curr_col == 'sum_inpatient_beds_used_covid_7DayAvg':
+            state_dataframe = state_dataframe.rename(columns={curr_col: DATA_FLOW_HSP})
+            curr_col = DATA_FLOW_HSP
+        elif curr_col == 'sum_previous_day_pediatric_and_adult_7DayAvg':
+            state_dataframe = state_dataframe.rename(columns={curr_col: DATA_FLOW_HSP2})
+            curr_col = DATA_FLOW_HSP2
         new_name = curr_col+"_"+state_code
         state_dataframe = state_dataframe.rename(columns={curr_col: new_name})
         lines_to_add[new_name] = [curr_col, state_name]
@@ -146,7 +162,11 @@ def main():
         full_data_frame = full_data_frame.join(curr_frame, how="outer")
         flow_col_list.extend([DATA_FLOW_INFECTION+'_'+state_code,
             DATA_FLOW_DEATH+'_'+state_code,
-            DATA_FLOW_VAX+'_'+state_code])
+            DATA_FLOW_VAX+'_'+state_code,
+            DATA_FLOW_VAX2+'_'+state_code,
+            DATA_FLOW_VAX3+'_'+state_code,
+            DATA_FLOW_HSP+'_'+state_code,
+            DATA_FLOW_HSP2+'_'+state_code])
         cum_col_list.extend([DATA_CUM_INFECTION+'_'+state_code,
             DATA_CUM_DEATH+'_'+state_code,
             DATA_CUM_VAX+'_'+state_code])

@@ -1,5 +1,6 @@
 from datetime import datetime
 from os import name, stat
+from tabnanny import verbose
 import pandas
 import names_lib
 import vensim_lib
@@ -9,7 +10,7 @@ TESTING_DATA_URL="https://jhucoronavirus.azureedge.net/api/v1/testing/daily.json
 DATA_WEBSITE = 'healthdata.gov'
 DATA_SOURCE='j8mb-icvb'
 
-OUTPUT_FILENAME = 'CovidModelInputs - TestDataStates.csv'
+OUTPUT_FILENAME = 'CovidModelInputs - TestDataStates'
 DATASET_STATE_NAME = 'state'
 DATASET_DATE_NAME = 'date'
 DATASET_TEST_RESULT_NAME = 'overall_outcome'
@@ -38,7 +39,7 @@ def fast_sum(dataset_to_sum):
     dataset_to_sum[DATASET_TEST_CUM_NAME+'2']=0
     for item in dataset_to_sum[DATASET_TEST_RESULT_NAME].drop_duplicates():
         curr_subset = dataset_to_sum.loc[dataset_to_sum[DATASET_TEST_RESULT_NAME] == item].copy(deep = True)
-        dataset_to_sum[DATASET_TEST_NAME+'2'] = dataset_to_sum[DATASET_TEST_NAME+'2'].add(curr_subset[DATASET_TEST_NAME], fill_value=0)
+        dataset_to_sum[DATASET_TEST_NAME+'2'] = dataset_to_sum[DATASET_TEST_NAME+'2'].add(curr_subset[DATASET_TEST_NAME].astype(int), fill_value=0)
         dataset_to_sum[DATASET_TEST_CUM_NAME+'2'] = dataset_to_sum[DATASET_TEST_CUM_NAME+'2'].add(curr_subset[DATASET_TEST_CUM_NAME], fill_value=0)
     dataset_to_sum.drop(columns = [DATASET_TEST_NAME, DATASET_TEST_CUM_NAME], inplace=True)
     dataset_to_sum.rename(columns = {DATASET_TEST_NAME+'2' : DATASET_TEST_NAME, DATASET_TEST_CUM_NAME+'2' : DATASET_TEST_CUM_NAME}, inplace=True)
@@ -88,10 +89,12 @@ def send_data_to_csv(test_dataframe, out_file_name):
     dataframe_to_print.to_csv(out_file_name, index=False, header=False)
 
 def main():
-    covid_test_data = data_lib.get_soda_data(website = DATA_WEBSITE, source = DATA_SOURCE)
+    covid_test_data = data_lib.get_soda_data(website = DATA_WEBSITE, source = DATA_SOURCE, update=False)
     covid_test_data = process_data(covid_test_data, debug_level=10)
-    send_data_to_csv(covid_test_data,OUTPUT_FILENAME)
+    send_data_to_csv(covid_test_data,vensim_lib.VENSIM_DATA_LOC+OUTPUT_FILENAME+'.csv')
+    vensim_lib.create_vdf_from_csv(OUTPUT_FILENAME)
+    vensim_lib.copy_csv_to_model(OUTPUT_FILENAME)
     
             
 if __name__ == "__main__":
-    main()  
+    main()

@@ -115,6 +115,7 @@ with open('graphs', 'w') as graph_file:
         graph_file.write(":X-AXIS Time\n")
         graph_file.write(":Y-DIV 5\n")
         graph_file.write(":SCALE\n")
+        graph_file.write(":VAR Predicted GDP\n")
         graph_file.write(":VAR Predicted GDP["+name+"]|Model GDP\n")
         graph_file.write(":VAR \"Real World GDP Data (Gt)\"["+name+"]|Actual GDP\n")
         graph_file.write(":Y-MIN "+str(min_list[counter])+"\n")
