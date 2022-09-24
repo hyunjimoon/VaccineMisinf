@@ -13,7 +13,7 @@ VENSIM_TIME_PARAM = 'Time'
 
 VENSIM_DATA_LOC             =       'data\\'
 VENSIM_MODEL_VERSION        =       'V78\\'
-VENSIM_MODEL_LOC            =       '..\\..\\'+VENSIM_MODEL_VERSION+'\\'
+VENSIM_MODEL_LOC            =       '..\\..\\models\\'+VENSIM_MODEL_VERSION+'\\'
 VENSIM_DATA_EXTENSION       =       '.vdf'
 
 VENSIM_DATA_INPUT_PREFIX    =       'CovidModelInputs - '
