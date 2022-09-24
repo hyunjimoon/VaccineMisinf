@@ -6,7 +6,7 @@ import os
 
 #You must add vengine or vendss to your environment path for this library to work
 VENDSS_PATH       = 'vendss64'
-VENGINE_PATH      = '..\\..\\\Vensim - vengine 20220920'
+VENGINE_PATH      = '\"Vensim - vengine\"'
 
 VENSIM_START_DATE = '10/15/2019'
 VENSIM_TIME_PARAM = 'Time'
