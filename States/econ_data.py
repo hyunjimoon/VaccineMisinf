@@ -159,7 +159,7 @@ def main(post_pandemic_analysis = True):
         filename = GDP_OUTPUT_FILENAME+'_2'
     vensim_lib.send_to_vensim_csv(
         dataframe       =   gdp_data,
-        output_filename =   vensim_lib.VENSIM_DATA_LOC+filename+'.csv',
+        output_filename =   vensim_lib.VENSIM_DATA_LOC+filename,
         vensim_vars     =   [VENSIM_GDP_VAR_NAME],
         var_cols        =   [GDP_STATE_NAME]
     )

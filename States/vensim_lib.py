@@ -6,14 +6,14 @@ import os
 
 #You must add vengine or vendss to your environment path for this library to work
 VENDSS_PATH       = 'vendss64'
-VENGINE_PATH      = '\"Vensim - vengine\"'
+VENGINE_PATH      = '..\\..\\\Vensim - vengine 20220920'
 
 VENSIM_START_DATE = '10/15/2019'
 VENSIM_TIME_PARAM = 'Time'
 
 VENSIM_DATA_LOC             =       'data\\'
-VENSIM_MODEL_VERSION        =       'V76\\'
-VENSIM_MODEL_LOC            =       '..\\..\\Models\\'+VENSIM_MODEL_VERSION+'USA\\'
+VENSIM_MODEL_VERSION        =       'V78\\'
+VENSIM_MODEL_LOC            =       '..\\..\\'+VENSIM_MODEL_VERSION+'\\'
 VENSIM_DATA_EXTENSION       =       '.vdf'
 
 VENSIM_DATA_INPUT_PREFIX    =       'CovidModelInputs - '

@@ -12,7 +12,8 @@ tests/htmlcov/
 .idea/*
 docs/_build/*
 docs/tables/*.csv                                                           
-states/data/*
-states/*.csv
-states/*.vdf
-states/*.cmd
+States/data/*
+States/*.csv
+States/*.vdf
+States/*.cmd
+States/data/*.cmd
