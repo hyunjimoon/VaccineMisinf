@@ -186,10 +186,8 @@ def main(update_data=False, short = False):
         else:
             full_data_frame = pd.concat([full_data_frame, curr_frame])
         print(f'Time to proc for {state_code}: {datetime.now()-state_start}')
-    vensim_flow_frame = full_data_frame[flow_col_list].unstack(level=1).T
-    vensim_flow_frame.to_csv(DATA_LOC+DATA_FLOW_NAME+'.csv', index_label=vensim_lib.VENSIM_TIME_PARAM)
-    vensim_cum_frame = full_data_frame[cum_col_list].unstack(level=1).T
-    vensim_cum_frame.to_csv(DATA_LOC+DATA_CUM_NAME+'.csv', index_label=vensim_lib.VENSIM_TIME_PARAM)
+    vensim_lib.send_to_vensim_csv2(dataframe=full_data_frame, output_filename=DATA_FLOW_NAME, vensim_vars=flow_col_list)
+    vensim_lib.send_to_vensim_csv2(dataframe=full_data_frame, output_filename=DATA_CUM_NAME, vensim_vars=cum_col_list)
     vensim_lib.create_vdf_from_csv(DATA_FLOW_NAME)
     vensim_lib.create_vdf_from_csv(DATA_CUM_NAME)
     #full_data_frame.to_csv("data\\test.csv", header=False, columns=test_col_list, index=False)
