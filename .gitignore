@@ -18,3 +18,8 @@ States/*.vdf
 States/*.cmd
 States/data/*.cmd
 V78/*
+States/bbg_data_getter/build/*
+States/bbg_data_getter/dist/*
+States/bbg_data_getter/*.spec
+__pycache__/*
+venv/*
