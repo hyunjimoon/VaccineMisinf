@@ -23,6 +23,8 @@ DATA_LOC =          'data\\'
 DATA_CUM_NAME =     'CovidModelInputs - FormattedDataStates'
 DATA_FLOW_NAME =    'CovidModelInputs - FlowDataStates'
 
+DATA_RGN_NAME = 'state'
+
 from numpy.core.numeric import full
 import pandas as pd
 import requests
@@ -140,50 +142,58 @@ def format_state_data_for_merge(state_dataframe, state_code):
     state_dataframe = state_dataframe.set_index("date")
     return state_dataframe
 
+
+
 #for pandas apply    
 def get_days(pandas_timedelta):
     try:
         return pandas_timedelta.days
     except(AttributeError): #if doesn't have a days attribute its not a timedelta, just return it
         return pandas_timedelta
-def main():
-    #update_indiv_state_data()
+
+def main(update_data=False, short = False):
+    if update_data:
+        update_indiv_state_data()
     full_data_frame = pd.DataFrame()
-    all_data_frames = create_full_dict(names_lib.states_abb)
-    #all_data_frames = create_full_dict(['AL','AK'])
-    flow_col_list = ['date']
-    cum_col_list = ['date']
-    test_col_list = ['date']
+    if short:
+        all_data_frames = create_full_dict(['AL','AK'])
+    else:
+        all_data_frames = create_full_dict(names_lib.states_abb)
+    flow_col_list = [DATA_FLOW_DEATH, DATA_FLOW_VAX, DATA_FLOW_VAX2, DATA_FLOW_VAX3, DATA_FLOW_HSP, DATA_FLOW_HSP2]
+    cum_col_list = [DATA_CUM_INFECTION, DATA_CUM_DEATH, DATA_CUM_VAX]
+    test_col_list = [DATA_FLOW_TEST]
     for state_code in all_data_frames.keys():
         state_start = datetime.now()
         curr_frame = all_data_frames[state_code].copy()
         curr_frame['date'] = vensim_lib.normalize_date(curr_frame['date'])
-        curr_frame = format_state_data_for_merge(curr_frame, state_code)
-        full_data_frame = full_data_frame.join(curr_frame, how="outer")
-        flow_col_list.extend([DATA_FLOW_INFECTION+'_'+state_code,
-            DATA_FLOW_DEATH+'_'+state_code,
-            DATA_FLOW_VAX+'_'+state_code,
-            DATA_FLOW_VAX2+'_'+state_code,
-            DATA_FLOW_VAX3+'_'+state_code,
-            DATA_FLOW_HSP+'_'+state_code,
-            DATA_FLOW_HSP2+'_'+state_code])
-        cum_col_list.extend([DATA_CUM_INFECTION+'_'+state_code,
-            DATA_CUM_DEATH+'_'+state_code,
-            DATA_CUM_VAX+'_'+state_code])
-        test_col_list.extend([DATA_CUM_TEST+'_'+state_code,
-            DATA_FLOW_TEST+'_'+state_code])
+        curr_frame.rename(columns={
+            'date' : vensim_lib.VENSIM_TIME_PARAM,
+            'tot_deaths' : DATA_CUM_DEATH,
+            'tot_cases' : DATA_CUM_INFECTION,
+            'Administered_Cumulative' : DATA_CUM_VAX,
+            'New_case' : DATA_FLOW_INFECTION,
+            'new_death' : DATA_FLOW_DEATH,
+            'Administered_7_Day_Rolling_Average': DATA_FLOW_VAX,
+            'Admin_Dose_1_Day_Rolling_Average' : DATA_FLOW_VAX2,
+            'Series_Complete_Day_Rolling_Average' : DATA_FLOW_VAX3,
+            'sum_inpatient_beds_used_covid_7DayAvg' : DATA_FLOW_HSP,
+            'sum_previous_day_pediatric_and_adult_7DayAvg' : DATA_FLOW_HSP2
+        }, inplace=True)
+        index_tuple = [vensim_lib.VENSIM_TIME_PARAM, DATA_RGN_NAME]
+        curr_frame.set_index(index_tuple, inplace=True)
+        if full_data_frame.empty:
+            full_data_frame = curr_frame
+        else:
+            full_data_frame = pd.concat([full_data_frame, curr_frame])
         print(f'Time to proc for {state_code}: {datetime.now()-state_start}')
-    full_data_frame = full_data_frame.reset_index()
-    full_data_frame.at[0,'date'] = 'Time'
-    full_data_frame['date']=full_data_frame['date'].apply(get_days) #turn timedelta into day offset
-    full_data_frame.to_csv(DATA_LOC+DATA_FLOW_NAME+'.csv', header=False, columns=flow_col_list, index=False)
-    full_data_frame.to_csv(DATA_LOC+DATA_CUM_NAME+'.csv', header=False, columns=cum_col_list, index=False)
-    #vensim_lib.send_to_vensim_csv(full_data_frame, DATA_FLOW_NAME, flow_col_list)
-    #vensim_lib.send_to_vensim_csv(full_data_frame, DATA_CUM_NAME, cum_col_list)
-    #vensim_lib.create_vdf_from_csv(DATA_FLOW_NAME)
-    #vensim_lib.create_vdf_from_csv(DATA_CUM_NAME)
+    vensim_flow_frame = full_data_frame[flow_col_list].unstack(level=1).T
+    vensim_flow_frame.to_csv(DATA_LOC+DATA_FLOW_NAME+'.csv', index_label=vensim_lib.VENSIM_TIME_PARAM)
+    vensim_cum_frame = full_data_frame[cum_col_list].unstack(level=1).T
+    vensim_cum_frame.to_csv(DATA_LOC+DATA_CUM_NAME+'.csv', index_label=vensim_lib.VENSIM_TIME_PARAM)
+    vensim_lib.create_vdf_from_csv(DATA_FLOW_NAME)
+    vensim_lib.create_vdf_from_csv(DATA_CUM_NAME)
     #full_data_frame.to_csv("data\\test.csv", header=False, columns=test_col_list, index=False)
 
 
 if __name__ == "__main__":
-    main()
+    main(short=True)

@@ -63,7 +63,7 @@ def main(update_data=False):
     mobility_df = scale_mobility_data(mobility_df, 100)
     vensim_lib.send_to_vensim_csv(
         dataframe       =   mobility_df,
-        output_filename =   vensim_lib.VENSIM_DATA_LOC+VENSIM_DATA_FILE+'.csv',
+        output_filename =   vensim_lib.VENSIM_DATA_LOC+VENSIM_DATA_FILE,
         vensim_vars     =   [VENSIM_WORK_VAR],
         var_cols        =   [DATA_RGN_1]
     )

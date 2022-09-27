@@ -97,6 +97,11 @@ def send_to_vensim_csv(dataframe, output_filename, vensim_vars, var_cols=[]):
     working_dataframe.sort_index(inplace=True)
     working_dataframe.rename(columns={key:'' for key in var_cols}, inplace=True)
     working_dataframe.to_csv(output_filename+'.csv')
+
+def send_to_vensim_csv2(dataframe, output_filename, vensim_vars, var_cols=[]):
+    working_dataframe = dataframe.copy()
+    
+    working_dataframe.to_csv(output_filename+'.csv')
     
 
 def create_vdf_from_csv(input_filename):

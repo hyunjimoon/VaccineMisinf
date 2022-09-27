@@ -117,4 +117,4 @@ def main():
     state_demo_impact.to_csv('demographics.csv')
 
 if __name__ == "__main__":
-    main()  
+    main()
