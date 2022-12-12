@@ -1,0 +1,944 @@
+"Learning Time (tl)"[Alabama]
+0 150
+"Learning Time (tl)"[Alaska]
+0 150
+"Learning Time (tl)"[Arizona]
+0 150
+"Learning Time (tl)"[Arkansas]
+0 150
+"Learning Time (tl)"[California]
+0 150
+"Learning Time (tl)"[Colorado]
+0 150
+"Learning Time (tl)"[Connecticut]
+0 150
+"Learning Time (tl)"[District of Columbia]
+0 150
+"Learning Time (tl)"[Delaware]
+0 150
+"Learning Time (tl)"[Florida]
+0 150
+"Learning Time (tl)"[Georgia]
+0 150
+"Learning Time (tl)"[Hawaii]
+0 150
+"Learning Time (tl)"[Idaho]
+0 150
+"Learning Time (tl)"[Illinois]
+0 150
+"Learning Time (tl)"[Indiana]
+0 150
+"Learning Time (tl)"[Iowa]
+0 150
+"Learning Time (tl)"[Kansas]
+0 150
+"Learning Time (tl)"[Kentucky]
+0 150
+"Learning Time (tl)"[Louisiana]
+0 150
+"Learning Time (tl)"[Maine]
+0 150
+"Learning Time (tl)"[Maryland]
+0 150
+"Learning Time (tl)"[Massachusetts]
+0 150
+"Learning Time (tl)"[Michigan]
+0 150
+"Learning Time (tl)"[Minnesota]
+0 150
+"Learning Time (tl)"[Mississippi]
+0 150
+"Learning Time (tl)"[Missouri]
+0 150
+"Learning Time (tl)"[Montana]
+0 150
+"Learning Time (tl)"[Nebraska]
+0 150
+"Learning Time (tl)"[Nevada]
+0 150
+"Learning Time (tl)"[New Hampshire]
+0 150
+"Learning Time (tl)"[New Jersey]
+0 150
+"Learning Time (tl)"[New Mexico]
+0 150
+"Learning Time (tl)"[New York]
+0 150
+"Learning Time (tl)"[North Carolina]
+0 150
+"Learning Time (tl)"[North Dakota]
+0 150
+"Learning Time (tl)"[Ohio]
+0 150
+"Learning Time (tl)"[Oklahoma]
+0 150
+"Learning Time (tl)"[Oregon]
+0 150
+"Learning Time (tl)"[Pennsylvania]
+0 150
+"Learning Time (tl)"[Rhode Island]
+0 150
+"Learning Time (tl)"[South Carolina]
+0 150
+"Learning Time (tl)"[South Dakota]
+0 150
+"Learning Time (tl)"[Tennessee]
+0 150
+"Learning Time (tl)"[Texas]
+0 150
+"Learning Time (tl)"[Utah]
+0 150
+"Learning Time (tl)"[Vermont]
+0 150
+"Learning Time (tl)"[Virginia]
+0 150
+"Learning Time (tl)"[Washington]
+0 150
+"Learning Time (tl)"[West Virginia]
+0 150
+"Learning Time (tl)"[Wisconsin]
+0 150
+"Learning Time (tl)"[Wyoming]
+0 150
+"Mitigation Learning Decay Time (dl)"[Alabama]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Alaska]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Arizona]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Arkansas]
+0 1000
+"Mitigation Learning Decay Time (dl)"[California]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Colorado]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Connecticut]
+0 1000
+"Mitigation Learning Decay Time (dl)"[District of Columbia]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Delaware]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Florida]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Georgia]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Hawaii]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Idaho]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Illinois]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Indiana]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Iowa]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Kansas]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Kentucky]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Louisiana]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Maine]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Maryland]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Massachusetts]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Michigan]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Minnesota]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Mississippi]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Missouri]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Montana]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Nebraska]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Nevada]
+0 1000
+"Mitigation Learning Decay Time (dl)"[New Hampshire]
+0 1000
+"Mitigation Learning Decay Time (dl)"[New Jersey]
+0 1000
+"Mitigation Learning Decay Time (dl)"[New Mexico]
+0 1000
+"Mitigation Learning Decay Time (dl)"[New York]
+0 1000
+"Mitigation Learning Decay Time (dl)"[North Carolina]
+0 1000
+"Mitigation Learning Decay Time (dl)"[North Dakota]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Ohio]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Oklahoma]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Oregon]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Pennsylvania]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Rhode Island]
+0 1000
+"Mitigation Learning Decay Time (dl)"[South Carolina]
+0 1000
+"Mitigation Learning Decay Time (dl)"[South Dakota]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Tennessee]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Texas]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Utah]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Vermont]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Virginia]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Washington]
+0 1000
+"Mitigation Learning Decay Time (dl)"[West Virginia]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Wisconsin]
+0 1000
+"Mitigation Learning Decay Time (dl)"[Wyoming]
+0 1000
+"Psychological Exponent (epsilon)"
+0 1
+"Psychological Scale (beta)"
+0 1
+"State CRN Proportion (alpha)"[Alabama]
+0 0.5
+"State CRN Proportion (alpha)"[Alaska]
+0 0.5
+"State CRN Proportion (alpha)"[Arizona]
+0 0.5
+"State CRN Proportion (alpha)"[Arkansas]
+0 0.5
+"State CRN Proportion (alpha)"[California]
+0 0.5
+"State CRN Proportion (alpha)"[Colorado]
+0 0.5
+"State CRN Proportion (alpha)"[Connecticut]
+0 0.5
+"State CRN Proportion (alpha)"[District of Columbia]
+0 0.5
+"State CRN Proportion (alpha)"[Delaware]
+0 0.5
+"State CRN Proportion (alpha)"[Florida]
+0 0.5
+"State CRN Proportion (alpha)"[Georgia]
+0 0.5
+"State CRN Proportion (alpha)"[Hawaii]
+0 0.5
+"State CRN Proportion (alpha)"[Idaho]
+0 0.5
+"State CRN Proportion (alpha)"[Illinois]
+0 0.5
+"State CRN Proportion (alpha)"[Indiana]
+0 0.5
+"State CRN Proportion (alpha)"[Iowa]
+0 0.5
+"State CRN Proportion (alpha)"[Kansas]
+0 0.5
+"State CRN Proportion (alpha)"[Kentucky]
+0 0.5
+"State CRN Proportion (alpha)"[Louisiana]
+0 0.5
+"State CRN Proportion (alpha)"[Maine]
+0 0.5
+"State CRN Proportion (alpha)"[Maryland]
+0 0.5
+"State CRN Proportion (alpha)"[Massachusetts]
+0 0.5
+"State CRN Proportion (alpha)"[Michigan]
+0 0.5
+"State CRN Proportion (alpha)"[Minnesota]
+0 0.5
+"State CRN Proportion (alpha)"[Mississippi]
+0 0.5
+"State CRN Proportion (alpha)"[Missouri]
+0 0.5
+"State CRN Proportion (alpha)"[Montana]
+0 0.5
+"State CRN Proportion (alpha)"[Nebraska]
+0 0.5
+"State CRN Proportion (alpha)"[Nevada]
+0 0.5
+"State CRN Proportion (alpha)"[New Hampshire]
+0 0.5
+"State CRN Proportion (alpha)"[New Jersey]
+0 0.5
+"State CRN Proportion (alpha)"[New Mexico]
+0 0.5
+"State CRN Proportion (alpha)"[New York]
+0 0.5
+"State CRN Proportion (alpha)"[North Carolina]
+0 0.5
+"State CRN Proportion (alpha)"[North Dakota]
+0 0.5
+"State CRN Proportion (alpha)"[Ohio]
+0 0.5
+"State CRN Proportion (alpha)"[Oklahoma]
+0 0.5
+"State CRN Proportion (alpha)"[Oregon]
+0 0.5
+"State CRN Proportion (alpha)"[Pennsylvania]
+0 0.5
+"State CRN Proportion (alpha)"[Rhode Island]
+0 0.5
+"State CRN Proportion (alpha)"[South Carolina]
+0 0.5
+"State CRN Proportion (alpha)"[South Dakota]
+0 0.5
+"State CRN Proportion (alpha)"[Tennessee]
+0 0.5
+"State CRN Proportion (alpha)"[Texas]
+0 0.5
+"State CRN Proportion (alpha)"[Utah]
+0 0.5
+"State CRN Proportion (alpha)"[Vermont]
+0 0.5
+"State CRN Proportion (alpha)"[Virginia]
+0 0.5
+"State CRN Proportion (alpha)"[Washington]
+0 0.5
+"State CRN Proportion (alpha)"[West Virginia]
+0 0.5
+"State CRN Proportion (alpha)"[Wisconsin]
+0 0.5
+"State CRN Proportion (alpha)"[Wyoming]
+0 0.5
+"Output Gap Decay Time (dy)"
+0 60
+Payoff
+0 -4.6116e+07
+Best_Payoff
+0 -4.6116e+07
+"Learning Time (tl)"[Alabama]
+1 282.906
+"Learning Time (tl)"[Alaska]
+1 284.405
+"Learning Time (tl)"[Arizona]
+1 54.1688
+"Learning Time (tl)"[Arkansas]
+1 349.394
+"Learning Time (tl)"[California]
+1 11.182
+"Learning Time (tl)"[Colorado]
+1 891.602
+"Learning Time (tl)"[Connecticut]
+1 800.109
+"Learning Time (tl)"[District of Columbia]
+1 663.59
+"Learning Time (tl)"[Delaware]
+1 257.953
+"Learning Time (tl)"[Florida]
+1 786.622
+"Learning Time (tl)"[Georgia]
+1 716.885
+"Learning Time (tl)"[Hawaii]
+1 616.132
+"Learning Time (tl)"[Idaho]
+1 13.7632
+"Learning Time (tl)"[Illinois]
+1 766.391
+"Learning Time (tl)"[Indiana]
+1 887.838
+"Learning Time (tl)"[Iowa]
+1 532.676
+"Learning Time (tl)"[Kansas]
+1 787.387
+"Learning Time (tl)"[Kentucky]
+1 114.042
+"Learning Time (tl)"[Louisiana]
+1 334.411
+"Learning Time (tl)"[Maine]
+1 860.055
+"Learning Time (tl)"[Maryland]
+1 646.036
+"Learning Time (tl)"[Massachusetts]
+1 877.725
+"Learning Time (tl)"[Michigan]
+1 691.251
+"Learning Time (tl)"[Minnesota]
+1 812.698
+"Learning Time (tl)"[Mississippi]
+1 211.356
+"Learning Time (tl)"[Missouri]
+1 776.677
+"Learning Time (tl)"[Montana]
+1 656.081
+"Learning Time (tl)"[Nebraska]
+1 876.906
+"Learning Time (tl)"[Nevada]
+1 943.635
+"Learning Time (tl)"[New Hampshire]
+1 255.42
+"Learning Time (tl)"[New Jersey]
+1 363.371
+"Learning Time (tl)"[New Mexico]
+1 532.945
+"Learning Time (tl)"[New York]
+1 852.363
+"Learning Time (tl)"[North Carolina]
+1 438.163
+"Learning Time (tl)"[North Dakota]
+1 54.9157
+"Learning Time (tl)"[Ohio]
+1 281.704
+"Learning Time (tl)"[Oklahoma]
+1 958.319
+"Learning Time (tl)"[Oregon]
+1 918.184
+"Learning Time (tl)"[Pennsylvania]
+1 277.476
+"Learning Time (tl)"[Rhode Island]
+1 18.2186
+"Learning Time (tl)"[South Carolina]
+1 205.28
+"Learning Time (tl)"[South Dakota]
+1 35.5828
+"Learning Time (tl)"[Tennessee]
+1 239.078
+"Learning Time (tl)"[Texas]
+1 768.249
+"Learning Time (tl)"[Utah]
+1 633.843
+"Learning Time (tl)"[Vermont]
+1 158.081
+"Learning Time (tl)"[Virginia]
+1 168.935
+"Learning Time (tl)"[Washington]
+1 650.008
+"Learning Time (tl)"[West Virginia]
+1 624.75
+"Learning Time (tl)"[Wisconsin]
+1 209.663
+"Learning Time (tl)"[Wyoming]
+1 751.328
+"Mitigation Learning Decay Time (dl)"[Alabama]
+1 655.117
+"Mitigation Learning Decay Time (dl)"[Alaska]
+1 759.648
+"Mitigation Learning Decay Time (dl)"[Arizona]
+1 27.8843
+"Mitigation Learning Decay Time (dl)"[Arkansas]
+1 623.275
+"Mitigation Learning Decay Time (dl)"[California]
+1 188.059
+"Mitigation Learning Decay Time (dl)"[Colorado]
+1 777.574
+"Mitigation Learning Decay Time (dl)"[Connecticut]
+1 60.5073
+"Mitigation Learning Decay Time (dl)"[District of Columbia]
+1 581.743
+"Mitigation Learning Decay Time (dl)"[Delaware]
+1 108.125
+"Mitigation Learning Decay Time (dl)"[Florida]
+1 484.16
+"Mitigation Learning Decay Time (dl)"[Georgia]
+1 375.213
+"Mitigation Learning Decay Time (dl)"[Hawaii]
+1 914
+"Mitigation Learning Decay Time (dl)"[Idaho]
+1 852.067
+"Mitigation Learning Decay Time (dl)"[Illinois]
+1 612.293
+"Mitigation Learning Decay Time (dl)"[Indiana]
+1 228.529
+"Mitigation Learning Decay Time (dl)"[Iowa]
+1 414.124
+"Mitigation Learning Decay Time (dl)"[Kansas]
+1 516.398
+"Mitigation Learning Decay Time (dl)"[Kentucky]
+1 487.476
+"Mitigation Learning Decay Time (dl)"[Louisiana]
+1 234.751
+"Mitigation Learning Decay Time (dl)"[Maine]
+1 449.793
+"Mitigation Learning Decay Time (dl)"[Maryland]
+1 94.3555
+"Mitigation Learning Decay Time (dl)"[Massachusetts]
+1 400.17
+"Mitigation Learning Decay Time (dl)"[Michigan]
+1 982.579
+"Mitigation Learning Decay Time (dl)"[Minnesota]
+1 909.306
+"Mitigation Learning Decay Time (dl)"[Mississippi]
+1 860.334
+"Mitigation Learning Decay Time (dl)"[Missouri]
+1 331.931
+"Mitigation Learning Decay Time (dl)"[Montana]
+1 129.426
+"Mitigation Learning Decay Time (dl)"[Nebraska]
+1 71.0384
+"Mitigation Learning Decay Time (dl)"[Nevada]
+1 542.064
+"Mitigation Learning Decay Time (dl)"[New Hampshire]
+1 542.69
+"Mitigation Learning Decay Time (dl)"[New Jersey]
+1 426.873
+"Mitigation Learning Decay Time (dl)"[New Mexico]
+1 380.112
+"Mitigation Learning Decay Time (dl)"[New York]
+1 538.568
+"Mitigation Learning Decay Time (dl)"[North Carolina]
+1 380.521
+"Mitigation Learning Decay Time (dl)"[North Dakota]
+1 491.462
+"Mitigation Learning Decay Time (dl)"[Ohio]
+1 455.293
+"Mitigation Learning Decay Time (dl)"[Oklahoma]
+1 982.377
+"Mitigation Learning Decay Time (dl)"[Oregon]
+1 133.136
+"Mitigation Learning Decay Time (dl)"[Pennsylvania]
+1 238.161
+"Mitigation Learning Decay Time (dl)"[Rhode Island]
+1 279.736
+"Mitigation Learning Decay Time (dl)"[South Carolina]
+1 156.031
+"Mitigation Learning Decay Time (dl)"[South Dakota]
+1 449.857
+"Mitigation Learning Decay Time (dl)"[Tennessee]
+1 491.83
+"Mitigation Learning Decay Time (dl)"[Texas]
+1 910.232
+"Mitigation Learning Decay Time (dl)"[Utah]
+1 420.43
+"Mitigation Learning Decay Time (dl)"[Vermont]
+1 961.727
+"Mitigation Learning Decay Time (dl)"[Virginia]
+1 916.66
+"Mitigation Learning Decay Time (dl)"[Washington]
+1 512.212
+"Mitigation Learning Decay Time (dl)"[West Virginia]
+1 485.878
+"Mitigation Learning Decay Time (dl)"[Wisconsin]
+1 154.006
+"Mitigation Learning Decay Time (dl)"[Wyoming]
+1 797.002
+"Psychological Exponent (epsilon)"
+1 0.471284
+"Psychological Scale (beta)"
+1 0.778511
+"State CRN Proportion (alpha)"[Alabama]
+1 0.963088
+"State CRN Proportion (alpha)"[Alaska]
+1 0.988376
+"State CRN Proportion (alpha)"[Arizona]
+1 0.436301
+"State CRN Proportion (alpha)"[Arkansas]
+1 0.802337
+"State CRN Proportion (alpha)"[California]
+1 0.940867
+"State CRN Proportion (alpha)"[Colorado]
+1 0.805711
+"State CRN Proportion (alpha)"[Connecticut]
+1 0.250369
+"State CRN Proportion (alpha)"[District of Columbia]
+1 0.433227
+"State CRN Proportion (alpha)"[Delaware]
+1 0.00532469
+"State CRN Proportion (alpha)"[Florida]
+1 0.0207917
+"State CRN Proportion (alpha)"[Georgia]
+1 0.996292
+"State CRN Proportion (alpha)"[Hawaii]
+1 0.504791
+"State CRN Proportion (alpha)"[Idaho]
+1 0.29568
+"State CRN Proportion (alpha)"[Illinois]
+1 0.374621
+"State CRN Proportion (alpha)"[Indiana]
+1 0.153673
+"State CRN Proportion (alpha)"[Iowa]
+1 0.166869
+"State CRN Proportion (alpha)"[Kansas]
+1 0.312504
+"State CRN Proportion (alpha)"[Kentucky]
+1 0.116446
+"State CRN Proportion (alpha)"[Louisiana]
+1 0.729827
+"State CRN Proportion (alpha)"[Maine]
+1 0.447864
+"State CRN Proportion (alpha)"[Maryland]
+1 0.213482
+"State CRN Proportion (alpha)"[Massachusetts]
+1 0.599217
+"State CRN Proportion (alpha)"[Michigan]
+1 0.75077
+"State CRN Proportion (alpha)"[Minnesota]
+1 0.781838
+"State CRN Proportion (alpha)"[Mississippi]
+1 0.600126
+"State CRN Proportion (alpha)"[Missouri]
+1 0.323213
+"State CRN Proportion (alpha)"[Montana]
+1 0.541103
+"State CRN Proportion (alpha)"[Nebraska]
+1 0.396188
+"State CRN Proportion (alpha)"[Nevada]
+1 0.281117
+"State CRN Proportion (alpha)"[New Hampshire]
+1 0.506353
+"State CRN Proportion (alpha)"[New Jersey]
+1 0.365274
+"State CRN Proportion (alpha)"[New Mexico]
+1 0.194751
+"State CRN Proportion (alpha)"[New York]
+1 0.409295
+"State CRN Proportion (alpha)"[North Carolina]
+1 0.677961
+"State CRN Proportion (alpha)"[North Dakota]
+1 0.743204
+"State CRN Proportion (alpha)"[Ohio]
+1 0.283082
+"State CRN Proportion (alpha)"[Oklahoma]
+1 0.731383
+"State CRN Proportion (alpha)"[Oregon]
+1 0.342695
+"State CRN Proportion (alpha)"[Pennsylvania]
+1 0.0646824
+"State CRN Proportion (alpha)"[Rhode Island]
+1 0.704258
+"State CRN Proportion (alpha)"[South Carolina]
+1 0.939153
+"State CRN Proportion (alpha)"[South Dakota]
+1 0.42028
+"State CRN Proportion (alpha)"[Tennessee]
+1 0.840586
+"State CRN Proportion (alpha)"[Texas]
+1 0.819931
+"State CRN Proportion (alpha)"[Utah]
+1 0.655108
+"State CRN Proportion (alpha)"[Vermont]
+1 0.908044
+"State CRN Proportion (alpha)"[Virginia]
+1 0.226334
+"State CRN Proportion (alpha)"[Washington]
+1 0.462872
+"State CRN Proportion (alpha)"[West Virginia]
+1 0.267122
+"State CRN Proportion (alpha)"[Wisconsin]
+1 0.68446
+"State CRN Proportion (alpha)"[Wyoming]
+1 0.837529
+"Output Gap Decay Time (dy)"
+1 35.6054
+Payoff
+1 -3.45394e+07
+"Learning Time (tl)"[Alabama]
+2 841.714
+"Learning Time (tl)"[Alaska]
+2 56.2735
+"Learning Time (tl)"[Arizona]
+2 473.408
+"Learning Time (tl)"[Arkansas]
+2 152.319
+"Learning Time (tl)"[California]
+2 404.421
+"Learning Time (tl)"[Colorado]
+2 177.31
+"Learning Time (tl)"[Connecticut]
+2 263.665
+"Learning Time (tl)"[District of Columbia]
+2 710.822
+"Learning Time (tl)"[Delaware]
+2 740.999
+"Learning Time (tl)"[Florida]
+2 420.742
+"Learning Time (tl)"[Georgia]
+2 997.403
+"Learning Time (tl)"[Hawaii]
+2 143.052
+"Learning Time (tl)"[Idaho]
+2 590.452
+"Learning Time (tl)"[Illinois]
+2 749.347
+"Learning Time (tl)"[Indiana]
+2 319.524
+"Learning Time (tl)"[Iowa]
+2 676.783
+"Learning Time (tl)"[Kansas]
+2 551.777
+"Learning Time (tl)"[Kentucky]
+2 739.738
+"Learning Time (tl)"[Louisiana]
+2 906.944
+"Learning Time (tl)"[Maine]
+2 703.48
+"Learning Time (tl)"[Maryland]
+2 671.558
+"Learning Time (tl)"[Massachusetts]
+2 796.306
+"Learning Time (tl)"[Michigan]
+2 520.708
+"Learning Time (tl)"[Minnesota]
+2 972.327
+"Learning Time (tl)"[Mississippi]
+2 546.672
+"Learning Time (tl)"[Missouri]
+2 840.833
+"Learning Time (tl)"[Montana]
+2 632.792
+"Learning Time (tl)"[Nebraska]
+2 315.191
+"Learning Time (tl)"[Nevada]
+2 289.703
+"Learning Time (tl)"[New Hampshire]
+2 246.638
+"Learning Time (tl)"[New Jersey]
+2 333.769
+"Learning Time (tl)"[New Mexico]
+2 2.73483
+"Learning Time (tl)"[New York]
+2 396.941
+"Learning Time (tl)"[North Carolina]
+2 671.742
+"Learning Time (tl)"[North Dakota]
+2 406.561
+"Learning Time (tl)"[Ohio]
+2 617.307
+"Learning Time (tl)"[Oklahoma]
+2 723.069
+"Learning Time (tl)"[Oregon]
+2 623.35
+"Learning Time (tl)"[Pennsylvania]
+2 353.521
+"Learning Time (tl)"[Rhode Island]
+2 63.78
+"Learning Time (tl)"[South Carolina]
+2 531.64
+"Learning Time (tl)"[South Dakota]
+2 310.17
+"Learning Time (tl)"[Tennessee]
+2 881.945
+"Learning Time (tl)"[Texas]
+2 818.161
+"Learning Time (tl)"[Utah]
+2 695.818
+"Learning Time (tl)"[Vermont]
+2 111.004
+"Learning Time (tl)"[Virginia]
+2 400.971
+"Learning Time (tl)"[Washington]
+2 47.5329
+"Learning Time (tl)"[West Virginia]
+2 84.7418
+"Learning Time (tl)"[Wisconsin]
+2 503.684
+"Learning Time (tl)"[Wyoming]
+2 800.687
+"Mitigation Learning Decay Time (dl)"[Alabama]
+2 135.671
+"Mitigation Learning Decay Time (dl)"[Alaska]
+2 790.714
+"Mitigation Learning Decay Time (dl)"[Arizona]
+2 129.302
+"Mitigation Learning Decay Time (dl)"[Arkansas]
+2 998.35
+"Mitigation Learning Decay Time (dl)"[California]
+2 368.755
+"Mitigation Learning Decay Time (dl)"[Colorado]
+2 53.2502
+"Mitigation Learning Decay Time (dl)"[Connecticut]
+2 632.875
+"Mitigation Learning Decay Time (dl)"[District of Columbia]
+2 652.948
+"Mitigation Learning Decay Time (dl)"[Delaware]
+2 284.059
+"Mitigation Learning Decay Time (dl)"[Florida]
+2 730.395
+"Mitigation Learning Decay Time (dl)"[Georgia]
+2 473.995
+"Mitigation Learning Decay Time (dl)"[Hawaii]
+2 641.904
+"Mitigation Learning Decay Time (dl)"[Idaho]
+2 718.993
+"Mitigation Learning Decay Time (dl)"[Illinois]
+2 455.708
+"Mitigation Learning Decay Time (dl)"[Indiana]
+2 15.4619
+"Mitigation Learning Decay Time (dl)"[Iowa]
+2 564.688
+"Mitigation Learning Decay Time (dl)"[Kansas]
+2 304.606
+"Mitigation Learning Decay Time (dl)"[Kentucky]
+2 403.575
+"Mitigation Learning Decay Time (dl)"[Louisiana]
+2 723.011
+"Mitigation Learning Decay Time (dl)"[Maine]
+2 997.791
+"Mitigation Learning Decay Time (dl)"[Maryland]
+2 738.1
+"Mitigation Learning Decay Time (dl)"[Massachusetts]
+2 430.227
+"Mitigation Learning Decay Time (dl)"[Michigan]
+2 483.526
+"Mitigation Learning Decay Time (dl)"[Minnesota]
+2 997.182
+"Mitigation Learning Decay Time (dl)"[Mississippi]
+2 615.052
+"Mitigation Learning Decay Time (dl)"[Missouri]
+2 657.873
+"Mitigation Learning Decay Time (dl)"[Montana]
+2 997.179
+"Mitigation Learning Decay Time (dl)"[Nebraska]
+2 920.417
+"Mitigation Learning Decay Time (dl)"[Nevada]
+2 173.778
+"Mitigation Learning Decay Time (dl)"[New Hampshire]
+2 430.549
+"Mitigation Learning Decay Time (dl)"[New Jersey]
+2 900.705
+"Mitigation Learning Decay Time (dl)"[New Mexico]
+2 902.644
+"Mitigation Learning Decay Time (dl)"[New York]
+2 310.208
+"Mitigation Learning Decay Time (dl)"[North Carolina]
+2 737.294
+"Mitigation Learning Decay Time (dl)"[North Dakota]
+2 676.996
+"Mitigation Learning Decay Time (dl)"[Ohio]
+2 826.404
+"Mitigation Learning Decay Time (dl)"[Oklahoma]
+2 352.165
+"Mitigation Learning Decay Time (dl)"[Oregon]
+2 294.021
+"Mitigation Learning Decay Time (dl)"[Pennsylvania]
+2 945.999
+"Mitigation Learning Decay Time (dl)"[Rhode Island]
+2 470.205
+"Mitigation Learning Decay Time (dl)"[South Carolina]
+2 247.266
+"Mitigation Learning Decay Time (dl)"[South Dakota]
+2 846.407
+"Mitigation Learning Decay Time (dl)"[Tennessee]
+2 640.4
+"Mitigation Learning Decay Time (dl)"[Texas]
+2 700.879
+"Mitigation Learning Decay Time (dl)"[Utah]
+2 807.319
+"Mitigation Learning Decay Time (dl)"[Vermont]
+2 606.836
+"Mitigation Learning Decay Time (dl)"[Virginia]
+2 915.92
+"Mitigation Learning Decay Time (dl)"[Washington]
+2 734.326
+"Mitigation Learning Decay Time (dl)"[West Virginia]
+2 373.425
+"Mitigation Learning Decay Time (dl)"[Wisconsin]
+2 809.78
+"Mitigation Learning Decay Time (dl)"[Wyoming]
+2 745.728
+"Psychological Exponent (epsilon)"
+2 0.152535
+"Psychological Scale (beta)"
+2 0.577407
+"State CRN Proportion (alpha)"[Alabama]
+2 0.0578216
+"State CRN Proportion (alpha)"[Alaska]
+2 0.10535
+"State CRN Proportion (alpha)"[Arizona]
+2 0.315033
+"State CRN Proportion (alpha)"[Arkansas]
+2 0.265292
+"State CRN Proportion (alpha)"[California]
+2 0.344107
+"State CRN Proportion (alpha)"[Colorado]
+2 0.013392
+"State CRN Proportion (alpha)"[Connecticut]
+2 0.562604
+"State CRN Proportion (alpha)"[District of Columbia]
+2 0.638075
+"State CRN Proportion (alpha)"[Delaware]
+2 0.425423
+"State CRN Proportion (alpha)"[Florida]
+2 0.812558
+"State CRN Proportion (alpha)"[Georgia]
+2 0.43984
+"State CRN Proportion (alpha)"[Hawaii]
+2 0.237977
+"State CRN Proportion (alpha)"[Idaho]
+2 0.174052
+"State CRN Proportion (alpha)"[Illinois]
+2 0.310987
+"State CRN Proportion (alpha)"[Indiana]
+2 0.169908
+"State CRN Proportion (alpha)"[Iowa]
+2 0.196714
+"State CRN Proportion (alpha)"[Kansas]
+2 0.0172342
+"State CRN Proportion (alpha)"[Kentucky]
+2 0.912655
+"State CRN Proportion (alpha)"[Louisiana]
+2 0.471488
+"State CRN Proportion (alpha)"[Maine]
+2 0.247871
+"State CRN Proportion (alpha)"[Maryland]
+2 0.729604
+"State CRN Proportion (alpha)"[Massachusetts]
+2 0.169694
+"State CRN Proportion (alpha)"[Michigan]
+2 0.979234
+"State CRN Proportion (alpha)"[Minnesota]
+2 0.309607
+"State CRN Proportion (alpha)"[Mississippi]
+2 0.178488
+"State CRN Proportion (alpha)"[Missouri]
+2 0.886432
+"State CRN Proportion (alpha)"[Montana]
+2 0.899985
+"State CRN Proportion (alpha)"[Nebraska]
+2 0.498448
+"State CRN Proportion (alpha)"[Nevada]
+2 0.836053
+"State CRN Proportion (alpha)"[New Hampshire]
+2 0.532737
+"State CRN Proportion (alpha)"[New Jersey]
+2 0.318938
+"State CRN Proportion (alpha)"[New Mexico]
+2 0.532679
+"State CRN Proportion (alpha)"[New York]
+2 0.854558
+"State CRN Proportion (alpha)"[North Carolina]
+2 0.156732
+"State CRN Proportion (alpha)"[North Dakota]
+2 0.655907
+"State CRN Proportion (alpha)"[Ohio]
+2 0.967798
+"State CRN Proportion (alpha)"[Oklahoma]
+2 0.879478
+"State CRN Proportion (alpha)"[Oregon]
+2 0.870845
+"State CRN Proportion (alpha)"[Pennsylvania]
+2 0.272817
+"State CRN Proportion (alpha)"[Rhode Island]
+2 0.539013
+"State CRN Proportion (alpha)"[South Carolina]
+2 0.2323
+"State CRN Proportion (alpha)"[South Dakota]
+2 0.382112
+"State CRN Proportion (alpha)"[Tennessee]
+2 0.346917
+"State CRN Proportion (alpha)"[Texas]
+2 0.621143
+"State CRN Proportion (alpha)"[Utah]
+2 0.553575
+"State CRN Proportion (alpha)"[Vermont]
+2 0.987106
+"State CRN Proportion (alpha)"[Virginia]
+2 0.299767
+"State CRN Proportion (alpha)"[Washington]
+2 0.165344
+"State CRN Proportion (alpha)"[West Virginia]
+2 0.144575
+"State CRN Proportion (alpha)"[Wisconsin]
+2 0.437642
+"State CRN Proportion (alpha)"[Wyoming]
+2 0.195465
+"Output Gap Decay Time (dy)"
+2 79.9748
+Payoff
+2 -6.09056e+07

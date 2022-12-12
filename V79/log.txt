@@ -1,0 +1,556 @@
+Initialising <VST.vst.vst.Script object at 0x000001A2981842B0>
+Initialising <VST.vst.vst.Script object at 0x000001A298186C50>
+Initialising <VST.vst.vst.Script object at 0x000001A29845CD60>
+Initialising <VST.vst.vst.Script object at 0x000001A2984633D0>
+Initialising <VST.vst.vst.Script object at 0x000001A298393100>
+Initialising <VST.vst.vst.Script object at 0x000001A298393400>
+Initialising <VST.vst.vst.Script object at 0x000001A298392B90>
+Initialising <VST.vst.vst.Script object at 0x000001A294ECA4D0>
+Initialising <VST.vst.vst.Script object at 0x000001A29845D0C0>
+Initialising <VST.vst.vst.Script object at 0x000001EC7D7AC130>
+Initialising <VST.vst.vst.Script object at 0x000001EC7D30DF30>
+Initialising <VST.vst.vst.Script object at 0x0000024B2AE44A60>
+Initialising <VST.vst.vst.Script object at 0x0000023ACDC14A60>
+Initialising <VST.vst.vst.Script object at 0x000002A7EF26F8E0>
+Initialising <VST.vst.vst.Script object at 0x0000016CB9AFF8E0>
+Initialising <VST.vst.vst.Script object at 0x000001C634BDF8E0>
+Initialising Covidparam_VAMA!
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x000002DDC43CBF40>
+Initialising Covidparam_VAMA!
+Return code is 3221226525
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x000002669068BF40>
+Initialising <VST.vst.vst.Script object at 0x000001F700EA4A60>
+Initialising <VST.vst.vst.Script object at 0x0000016A16A24A60>
+Initialising <VST.vst.vst.Script object at 0x000002BF119B4A60>
+Initialising Covidparam_VAMA!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000002AD721C4A60>
+Initialising Covidparam_VAMA!
+Return code is 3221226525
+Vensim! Trying again...
+Return code is 3221226525
+Vensim! Trying again...
+Return code is 3221226525
+Vensim! Trying again...
+Return code is 3221226525
+Vensim! Trying again...
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226525
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x0000027E18B5F5B0>
+Initialising Covidparam_VAMA!
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226356
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x0000020350FCA0B0>
+Initialising Covidparam_VAMA!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x00000268E023A0B0>
+Initialising <VST.vst.vst.Script object at 0x000001917294A0B0>
+Initialising <VST.vst.vst.Script object at 0x00000289BBF3A4D0>
+Initialising <VST.vst.vst.Script object at 0x000001720285A4D0>
+Initialising Covidparam_VAMA!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x00000230B0C9A4D0>
+Initialising Covidparam_VAMA!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x000001F039D5A4D0>
+Initialising <VST.vst.vst.Script object at 0x000001EA89D0B970>
+Overwriting default savecmd with Cost of Deaths Cumulative All!
+Initialising Covidparam_VAMA!
+Initialising <VST.vst.vst.Script object at 0x00000167A05DC4C0>
+Initialising <VST.vst.vst.Script object at 0x000002C86895A4D0>
+Overwriting default savecmd with VDF2CSV|!|!|"Cost of Deaths Cumulative All"||!
+Initialising Covidparam_VAMA!
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x00000287A7EFA4D0>
+Overwriting default savecmd with VDF2CSV|!|!|"Cost of Deaths Cumulative All[Rgn]"||!
+Initialising Covidparam_VAMA!
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Return code is 1
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x00000231F7FEB970>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_VAMA!
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x00000225DFB8EB60>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Sensitivity to !
+Initialising <VST.vst.vst.Script object at 0x0000020FB0D5EE60>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000002026FD10BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising CovidBase!
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000001DD8B15CB80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising CovidBase!
+Initialising <VST.vst.vst.Script object at 0x000001DCB5B20B80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising CovidBase!
+Return code is 3221226525
+Vensim! Trying again...
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3489660927
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x000001F8010BA4D0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221226356
+Vensim! Trying again...
+Initialising <VST.vst.vst.Script object at 0x000002521E87ABF0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000002C0C62EE3E0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000001CEA4D4D780>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 3221226356
+Vensim! Trying again...
+Return code is 3221225477
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Initialising <VST.vst.vst.Script object at 0x000001C351C0B100>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising Covidparam_Variant Accuity!
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Outfile not found! That's it, I'm dead.
+Return code is 1
+Initialising <VST.vst.vst.Script object at 0x000001E2B3CF1900>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000025A89D1ED70>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000227D14ADBA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000019E5DE07130>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001C696F37130>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000011329297130>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000025E71773130>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000018414033130>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000235100BAEC0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000276CC5F30D0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000276CC753970>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000276C87D9690>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000176CCCD3070>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000176C72A08E0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000263CD6BB970>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001EDE692CB80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001B74AEF8B80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002672DFDEC50>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020421D94BE0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000024264454C10>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001FFE49D8C40>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D502F115D0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020B51304C40>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002727E724BE0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001E726AB8BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001848CE48BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000295830A1540>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002093D180BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A8C6A70BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002BE976D4BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002136EED4BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000198775C5540>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000029251C1CBB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001DC58784BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000021F92E44BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001E874264BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000013F2BC54BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020FE663E6B0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002294B7CCBB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002294C846740>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000229488F1480>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002294B7CCBB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000022B86AE4BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000286DCEA1540>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000024E6DB40BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000021B289C0BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000015193D9CBB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000027C65742440>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000027C6591BDF0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001B73A952440>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001B73AB2BB50>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000202DE9D2470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000202DEBAFE50>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000024D33632470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A282BCE5C0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002968AEEE620>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001FC5BEBA590>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000182A37D2590>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000178D2B12560>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000246D339E560>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001287CB72560>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001F22E507610>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001F2320DAF80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000015DD946E560>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000015DD93F4D00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D2885DE560>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D288568D00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000022731E224A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002853A4F24A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002853A4F2470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000018C5B59B760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000248C94BB760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001EFEF23B760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001EFEF23B700>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001EFEF5AA2F0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001EFEF5A92A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001AA3323B760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020A8685B760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020A8685B700>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000020A86BCA170>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D3BCC3B760>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D3BCC3B700>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D3BCFAA140>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D3BCFA90C0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000016FAF0024A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000016FAF002470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000016FA96508E0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000016FAF1EF880>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002969098EAA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000029690DABCA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D889DA0D60>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001D885F68100>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001BC6B48B370>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001BC6B816680>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001F8B38DEAA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001FE2F7BEE00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000025A1CAE0280>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000025A18D03730>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000022C8F98EE00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000170D4062AA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000209F04A2E00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000209F0420D60>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000209F0883C70>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000209F08304C0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A985BA2470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A985BA2440>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A985D97FA0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000001A985D973A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000286D29B24A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000286D29B2470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000286D2BA3F40>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x00000286D2BA3340>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x0000019C67852470>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B31314A2C0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B31314A170>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313442440>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313440970>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313441AE0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313441F30>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313443550>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B3134414E0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313443B80>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B3134430A0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313442E00>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!
+Initialising <VST.vst.vst.Script object at 0x000002B313443BB0>
+Overwriting default savecmd with VDF2CSV|!|!|../SAVEFILE.txt|||!

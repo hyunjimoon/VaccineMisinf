@@ -1,0 +1,1355 @@
+:COMSYS After 24838 simulations
+:COMSYS Best payoff is -679615
+:COMSYS User terminated multiple search session
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=XParallel
+:RANDOM_NUMBER=Default
+:SEED=1
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=1
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=1e-07
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=0.1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCLIMIT=5000
+:MCJUMP=0.05
+:MCBURNIN=800
+:MCDELTA=0.0001
+:MCTEMP=1
+:MCNCHAINS=2
+:MCUPDATEPAIRS=2
+:MCSCHEDULE=0
+:MCOUTLIER=0.05
+:MCXOVER=0.2
+:MCCOOLING=1000
+:MCINITMETHOD=1
+:MCPAYOFFTYPE=0
+:MCGAMMA=0.2
+:MCRECORD=0
+:MCKNN=0
+:MCEPSILON=0.01
+:MCFTEMP=1
+0 <= Sympthoms Lost Per Death = 63.95  <= 100
+0.3 <= Variant Impact on Immunity Loss Time[Omicron] = 1  <= 1
+0.2 <= Variant Accuity Multiplier[Omicron] = 0.545796  <= 1
+0.2 <= Variant Accuity Multiplier[BA5] = 0.957523  <= 1
+1e-06 <= Weight on Aggregate Death Hazard[Naive] = 0.967163  <= 1
+1e-06 <= Weight on Aggregate Death Hazard[NVx] = 0.167819  <= 1
+1e-06 <= Weight on Aggregate Death Hazard[Vx] = 0.148367  <= 1
+50 <= Immunity Loss Time[NVx] = 168.23  <= 1000
+50 <= Immunity Loss Time[Vx] = 578.748  <= 1000
+0.3 <= Multiplier Vx Acuity[NVx] = 0.746513  <= 0.8
+1 <= Variant Transmission Multiplier[Delta] = 2.90821  <= 12
+1 <= Variant Transmission Multiplier[Omicron] = 11.9997  <= 12
+1e-06 <= Sensitivity to Weather = 2.84944  <= 3
+-0.999 <= Variant Vaccine Effectiveness Reduction[Omicron] = -0.0819555  <= 0
+1 <= TestCoverageTime = 1816.12  <= 10000
+0.4 <= TestCoverageSensitivity = 0.592191  <= 1
+0.001 <= dalp = 0.0499999  <= 0.05
+0.001 <= ialp = 0.453418  <= 1
+0.001 <= talp = 0.19146  <= 1
+0 <= Sensitivity Post Mortem Testing to Pressures = 0.0216278  <= 10
+1e-06 <= InputAve[UpAdj] = 0.712434  <= 500
+1e-06 <= InputAve[DwnAdj] = 1.91381  <= 500
+1e-06 <= InputAve[RFI] = 0.389926  <= 500
+1e-06 <= InputAve[RfSkTs] = 0.00371656  <= 500
+1e-06 <= InputAve[WRpPIn] = 0.469121  <= 500
+1e-06 <= InputAve[MInfTs] = 54.0668  <= 500
+1e-06 <= InputAve[MnCnFrc] = 0.111948  <= 500
+1e-06 <= InputAve[SnCnRdUt] = 2.18384  <= 500
+1e-06 <= InputAve[CfImCn] = 0.467853  <= 500
+1e-06 <= InputAve[ImPDnHs] = 0.255894  <= 500
+1e-06 <= InputAve[ImTrFt] = 0.655975  <= 500
+1e-06 <= InputAve[DrdFac] = 2.31525  <= 500
+1e-06 <= InputAve[MxHsFr] = 0.0827158  <= 500
+1e-06 <= InputAve[BsFtRt] = 0.000174723  <= 500
+1e-06 <= InputAve[SnsWth] = 2.8381  <= 500
+1e-06 <= InputAve[Acty] = 6.86719  <= 500
+1e-06 <= InputAve[SnFtAc] = 2.48706  <= 500
+1e-06 <= InputAve[TtAsyFr] = 0.449461  <= 500
+1e-06 <= InputAve[ObsImp] = 1.1637e-06  <= 500
+1e-06 <= InputAve[ChrImp] = 1.11072e-06  <= 500
+1e-06 <= InputAve[LivImp] = 0.000396953  <= 500
+1e-06 <= InputAve[MTrAsym] = 0.403813  <= 500
+1e-06 <= InputAve[HspLrng] = 0.305951  <= 500
+1e-06 <= InputAve[AdhrFtg] = 0.864857  <= 500
+590 <= Variant Intro Start Time[Alabama] = 604.247  <= 640
+590 <= Variant Intro Start Time[Alaska] = 590  <= 640
+590 <= Variant Intro Start Time[Arizona] = 591.395  <= 640
+590 <= Variant Intro Start Time[Arkansas] = 604.638  <= 640
+590 <= Variant Intro Start Time[California] = 609.085  <= 640
+590 <= Variant Intro Start Time[Colorado] = 640  <= 640
+590 <= Variant Intro Start Time[Connecticut] = 613.088  <= 640
+590 <= Variant Intro Start Time[District of Columbia] = 625.285  <= 640
+590 <= Variant Intro Start Time[Delaware] = 636.884  <= 640
+590 <= Variant Intro Start Time[Florida] = 595.61  <= 640
+590 <= Variant Intro Start Time[Georgia] = 625.862  <= 640
+590 <= Variant Intro Start Time[Hawaii] = 616.138  <= 640
+590 <= Variant Intro Start Time[Idaho] = 640  <= 640
+590 <= Variant Intro Start Time[Illinois] = 624.401  <= 640
+590 <= Variant Intro Start Time[Indiana] = 640  <= 640
+590 <= Variant Intro Start Time[Iowa] = 627.184  <= 640
+590 <= Variant Intro Start Time[Kansas] = 614.066  <= 640
+590 <= Variant Intro Start Time[Kentucky] = 638.583  <= 640
+590 <= Variant Intro Start Time[Louisiana] = 609.251  <= 640
+590 <= Variant Intro Start Time[Maine] = 639.68  <= 640
+590 <= Variant Intro Start Time[Maryland] = 620.414  <= 640
+590 <= Variant Intro Start Time[Massachusetts] = 612.955  <= 640
+590 <= Variant Intro Start Time[Michigan] = 640  <= 640
+590 <= Variant Intro Start Time[Minnesota] = 628.294  <= 640
+590 <= Variant Intro Start Time[Mississippi] = 625.699  <= 640
+590 <= Variant Intro Start Time[Missouri] = 631.92  <= 640
+590 <= Variant Intro Start Time[Montana] = 611.187  <= 640
+590 <= Variant Intro Start Time[Nebraska] = 614.973  <= 640
+590 <= Variant Intro Start Time[Nevada] = 622.229  <= 640
+590 <= Variant Intro Start Time[New Hampshire] = 626.15  <= 640
+590 <= Variant Intro Start Time[New Jersey] = 614.902  <= 640
+590 <= Variant Intro Start Time[New Mexico] = 629.452  <= 640
+590 <= Variant Intro Start Time[New York] = 618.178  <= 640
+590 <= Variant Intro Start Time[North Carolina] = 627.652  <= 640
+590 <= Variant Intro Start Time[North Dakota] = 638.726  <= 640
+590 <= Variant Intro Start Time[Ohio] = 640  <= 640
+590 <= Variant Intro Start Time[Oklahoma] = 626.787  <= 640
+590 <= Variant Intro Start Time[Oregon] = 631.03  <= 640
+590 <= Variant Intro Start Time[Pennsylvania] = 640  <= 640
+590 <= Variant Intro Start Time[Rhode Island] = 615.193  <= 640
+590 <= Variant Intro Start Time[South Carolina] = 625.69  <= 640
+590 <= Variant Intro Start Time[South Dakota] = 627.737  <= 640
+590 <= Variant Intro Start Time[Tennessee] = 632.054  <= 640
+590 <= Variant Intro Start Time[Texas] = 610.13  <= 640
+590 <= Variant Intro Start Time[Utah] = 640  <= 640
+590 <= Variant Intro Start Time[Vermont] = 627.355  <= 640
+590 <= Variant Intro Start Time[Virginia] = 607.715  <= 640
+590 <= Variant Intro Start Time[Washington] = 640  <= 640
+590 <= Variant Intro Start Time[West Virginia] = 640  <= 640
+590 <= Variant Intro Start Time[Wisconsin] = 640  <= 640
+590 <= Variant Intro Start Time[Wyoming] = 607.709  <= 640
+0.001 <= alpR[Alabama] = 1  <= 1
+0.001 <= alpR[Alaska] = 1  <= 1
+0.001 <= alpR[Arizona] = 1  <= 1
+0.001 <= alpR[Arkansas] = 1  <= 1
+0.001 <= alpR[California] = 1  <= 1
+0.001 <= alpR[Colorado] = 1  <= 1
+0.001 <= alpR[Connecticut] = 1  <= 1
+0.001 <= alpR[District of Columbia] = 0.920063  <= 1
+0.001 <= alpR[Delaware] = 0.737371  <= 1
+0.001 <= alpR[Florida] = 1  <= 1
+0.001 <= alpR[Georgia] = 1  <= 1
+0.001 <= alpR[Hawaii] = 1  <= 1
+0.001 <= alpR[Idaho] = 1  <= 1
+0.001 <= alpR[Illinois] = 1  <= 1
+0.001 <= alpR[Indiana] = 1  <= 1
+0.001 <= alpR[Iowa] = 1  <= 1
+0.001 <= alpR[Kansas] = 1  <= 1
+0.001 <= alpR[Kentucky] = 1  <= 1
+0.001 <= alpR[Louisiana] = 1  <= 1
+0.001 <= alpR[Maine] = 1  <= 1
+0.001 <= alpR[Maryland] = 0.998935  <= 1
+0.001 <= alpR[Massachusetts] = 1  <= 1
+0.001 <= alpR[Michigan] = 1  <= 1
+0.001 <= alpR[Minnesota] = 1  <= 1
+0.001 <= alpR[Mississippi] = 1  <= 1
+0.001 <= alpR[Missouri] = 1  <= 1
+0.001 <= alpR[Montana] = 1  <= 1
+0.001 <= alpR[Nebraska] = 1  <= 1
+0.001 <= alpR[Nevada] = 1  <= 1
+0.001 <= alpR[New Hampshire] = 0.956173  <= 1
+0.001 <= alpR[New Jersey] = 1  <= 1
+0.001 <= alpR[New Mexico] = 1  <= 1
+0.001 <= alpR[New York] = 1  <= 1
+0.001 <= alpR[North Carolina] = 0.745855  <= 1
+0.001 <= alpR[North Dakota] = 1  <= 1
+0.001 <= alpR[Ohio] = 1  <= 1
+0.001 <= alpR[Oklahoma] = 1  <= 1
+0.001 <= alpR[Oregon] = 1  <= 1
+0.001 <= alpR[Pennsylvania] = 1  <= 1
+0.001 <= alpR[Rhode Island] = 0.862154  <= 1
+0.001 <= alpR[South Carolina] = 1  <= 1
+0.001 <= alpR[South Dakota] = 1  <= 1
+0.001 <= alpR[Tennessee] = 1  <= 1
+0.001 <= alpR[Texas] = 1  <= 1
+0.001 <= alpR[Utah] = 0.950576  <= 1
+0.001 <= alpR[Vermont] = 0.999999  <= 1
+0.001 <= alpR[Virginia] = 1  <= 1
+0.001 <= alpR[Washington] = 1  <= 1
+0.001 <= alpR[West Virginia] = 1  <= 1
+0.001 <= alpR[Wisconsin] = 1  <= 1
+0.001 <= alpR[Wyoming] = 1  <= 1
+1e-06 <= Base Fatality Rate for Unit Acuity[Alabama] = 0.000504728  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Alaska] = 9.48174e-05  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Arizona] = 0.00014398  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Arkansas] = 0.000142005  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[California] = 0.000143678  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Colorado] = 0.000314289  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Connecticut] = 0.000477674  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[District of Columbia] = 0.000791684  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Delaware] = 0.000969949  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Florida] = 0.000999999  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Georgia] = 0.000449961  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Hawaii] = 0.000126613  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Idaho] = 0.000730185  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Illinois] = 9.54771e-05  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Indiana] = 0.000484667  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Iowa] = 9.63652e-05  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Kansas] = 0.000101354  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Kentucky] = 0.000227018  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Louisiana] = 0.000319881  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Maine] = 0.000999998  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Maryland] = 0.000159283  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Massachusetts] = 0.000135053  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Michigan] = 0.000169196  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Minnesota] = 0.000111626  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Mississippi] = 0.000343304  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Missouri] = 9.34328e-05  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Montana] = 0.000136476  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Nebraska] = 0.000884369  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Nevada] = 0.000109421  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[New Hampshire] = 0.000852601  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[New Jersey] = 0.000718531  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[New Mexico] = 0.000219643  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[New York] = 0.000927286  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[North Carolina] = 0.000278341  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[North Dakota] = 9.26084e-05  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Ohio] = 0.00014721  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Oklahoma] = 0.000189106  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Oregon] = 0.000999999  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Pennsylvania] = 0.000152801  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Rhode Island] = 0.000549404  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[South Carolina] = 0.000244533  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[South Dakota] = 0.000614329  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Tennessee] = 0.000125773  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Texas] = 0.000295093  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Utah] = 0.000659706  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Vermont] = 0.000999999  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Virginia] = 0.000115152  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Washington] = 0.000883635  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[West Virginia] = 0.000160707  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Wisconsin] = 0.000327506  <= 0.001
+1e-06 <= Base Fatality Rate for Unit Acuity[Wyoming] = 0.00014392  <= 0.001
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Alabama] = 0.00374846  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Alaska] = 0.00373315  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Arizona] = 0.00374411  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Arkansas] = 0.00373217  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[California] = 0.00373095  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Colorado] = 0.00373515  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Connecticut] = 0.00373269  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[District of Columbia] = 0.00373163  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Delaware] = 0.00374415  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Florida] = 0.00372505  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Georgia] = 0.00374234  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Hawaii] = 0.00373856  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Idaho] = 0.00373682  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Illinois] = 0.00373782  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Indiana] = 0.00373813  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Iowa] = 0.00370926  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Kansas] = 0.00373833  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Kentucky] = 0.00374452  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Louisiana] = 0.00373289  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Maine] = 0.00372796  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Maryland] = 0.00374157  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Massachusetts] = 0.00373092  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Michigan] = 0.00372573  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Minnesota] = 0.0037307  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Mississippi] = 0.00373438  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Missouri] = 0.00372707  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Montana] = 0.00374137  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Nebraska] = 0.0037273  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Nevada] = 0.00373731  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[New Hampshire] = 0.00373984  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[New Jersey] = 0.00373332  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[New Mexico] = 0.00373303  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[New York] = 0.00373942  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[North Carolina] = 0.00373482  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[North Dakota] = 0.00373353  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Ohio] = 0.00374929  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Oklahoma] = 0.00374762  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Oregon] = 0.00373199  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Pennsylvania] = 0.00375136  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Rhode Island] = 0.00372818  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[South Carolina] = 0.00374611  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[South Dakota] = 0.00373021  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Tennessee] = 0.00372556  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Texas] = 0.00373665  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Utah] = 0.00373594  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Vermont] = 0.00373745  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Virginia] = 0.00373109  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Washington] = 0.00374  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[West Virginia] = 0.00374114  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Wisconsin] = 0.00374836  <= 0.01
+0.0001 <= Baseline Daily Fraction Susceptible Seeking Tests[Wyoming] = 0.00373491  <= 0.01
+1e-06 <= Confirmation Impact on Contact[Alabama] = 0.435143  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Alaska] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Arizona] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Arkansas] = 0.49482  <= 0.5
+1e-06 <= Confirmation Impact on Contact[California] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Colorado] = 0.496301  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Connecticut] = 0.499692  <= 0.5
+1e-06 <= Confirmation Impact on Contact[District of Columbia] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Delaware] = 0.492395  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Florida] = 0.000927258  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Georgia] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Hawaii] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Idaho] = 0.499595  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Illinois] = 0.36327  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Indiana] = 0.499862  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Iowa] = 0.494642  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Kansas] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Kentucky] = 0.47625  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Louisiana] = 0.0509355  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Maine] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Maryland] = 0.47939  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Massachusetts] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Michigan] = 0.149575  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Minnesota] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Mississippi] = 0.498254  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Missouri] = 0.472428  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Montana] = 0.499998  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Nebraska] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Nevada] = 0.467291  <= 0.5
+1e-06 <= Confirmation Impact on Contact[New Hampshire] = 0.382596  <= 0.5
+1e-06 <= Confirmation Impact on Contact[New Jersey] = 0.498556  <= 0.5
+1e-06 <= Confirmation Impact on Contact[New Mexico] = 0.4984  <= 0.5
+1e-06 <= Confirmation Impact on Contact[New York] = 0.201325  <= 0.5
+1e-06 <= Confirmation Impact on Contact[North Carolina] = 0.405351  <= 0.5
+1e-06 <= Confirmation Impact on Contact[North Dakota] = 0.499996  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Ohio] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Oklahoma] = 0.499791  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Oregon] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Pennsylvania] = 0.49999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Rhode Island] = 0.499806  <= 0.5
+1e-06 <= Confirmation Impact on Contact[South Carolina] = 0.486438  <= 0.5
+1e-06 <= Confirmation Impact on Contact[South Dakota] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Tennessee] = 0.49925  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Texas] = 0.499999  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Utah] = 0.499978  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Vermont] = 0.274068  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Virginia] = 0.49819  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Washington] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[West Virginia] = 0.5  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Wisconsin] = 0.499192  <= 0.5
+1e-06 <= Confirmation Impact on Contact[Wyoming] = 0.499791  <= 0.5
+2 <= Covid Acuity Relative to Flu[Alabama] = 6.86354  <= 10
+2 <= Covid Acuity Relative to Flu[Alaska] = 6.87307  <= 10
+2 <= Covid Acuity Relative to Flu[Arizona] = 6.8588  <= 10
+2 <= Covid Acuity Relative to Flu[Arkansas] = 6.86694  <= 10
+2 <= Covid Acuity Relative to Flu[California] = 6.87535  <= 10
+2 <= Covid Acuity Relative to Flu[Colorado] = 6.84803  <= 10
+2 <= Covid Acuity Relative to Flu[Connecticut] = 6.85499  <= 10
+2 <= Covid Acuity Relative to Flu[District of Columbia] = 6.87898  <= 10
+2 <= Covid Acuity Relative to Flu[Delaware] = 6.87516  <= 10
+2 <= Covid Acuity Relative to Flu[Florida] = 6.90174  <= 10
+2 <= Covid Acuity Relative to Flu[Georgia] = 6.81861  <= 10
+2 <= Covid Acuity Relative to Flu[Hawaii] = 6.85885  <= 10
+2 <= Covid Acuity Relative to Flu[Idaho] = 6.87493  <= 10
+2 <= Covid Acuity Relative to Flu[Illinois] = 6.85975  <= 10
+2 <= Covid Acuity Relative to Flu[Indiana] = 6.84092  <= 10
+2 <= Covid Acuity Relative to Flu[Iowa] = 6.86712  <= 10
+2 <= Covid Acuity Relative to Flu[Kansas] = 6.86887  <= 10
+2 <= Covid Acuity Relative to Flu[Kentucky] = 6.86851  <= 10
+2 <= Covid Acuity Relative to Flu[Louisiana] = 6.87794  <= 10
+2 <= Covid Acuity Relative to Flu[Maine] = 6.88621  <= 10
+2 <= Covid Acuity Relative to Flu[Maryland] = 6.86167  <= 10
+2 <= Covid Acuity Relative to Flu[Massachusetts] = 6.86155  <= 10
+2 <= Covid Acuity Relative to Flu[Michigan] = 6.86823  <= 10
+2 <= Covid Acuity Relative to Flu[Minnesota] = 6.86105  <= 10
+2 <= Covid Acuity Relative to Flu[Mississippi] = 6.86334  <= 10
+2 <= Covid Acuity Relative to Flu[Missouri] = 6.867  <= 10
+2 <= Covid Acuity Relative to Flu[Montana] = 6.86821  <= 10
+2 <= Covid Acuity Relative to Flu[Nebraska] = 6.87103  <= 10
+2 <= Covid Acuity Relative to Flu[Nevada] = 6.86657  <= 10
+2 <= Covid Acuity Relative to Flu[New Hampshire] = 6.87275  <= 10
+2 <= Covid Acuity Relative to Flu[New Jersey] = 6.87271  <= 10
+2 <= Covid Acuity Relative to Flu[New Mexico] = 6.86977  <= 10
+2 <= Covid Acuity Relative to Flu[New York] = 6.872  <= 10
+2 <= Covid Acuity Relative to Flu[North Carolina] = 6.8671  <= 10
+2 <= Covid Acuity Relative to Flu[North Dakota] = 6.86594  <= 10
+2 <= Covid Acuity Relative to Flu[Ohio] = 6.86295  <= 10
+2 <= Covid Acuity Relative to Flu[Oklahoma] = 6.85155  <= 10
+2 <= Covid Acuity Relative to Flu[Oregon] = 6.88309  <= 10
+2 <= Covid Acuity Relative to Flu[Pennsylvania] = 6.85295  <= 10
+2 <= Covid Acuity Relative to Flu[Rhode Island] = 6.86473  <= 10
+2 <= Covid Acuity Relative to Flu[South Carolina] = 6.865  <= 10
+2 <= Covid Acuity Relative to Flu[South Dakota] = 6.86092  <= 10
+2 <= Covid Acuity Relative to Flu[Tennessee] = 6.85976  <= 10
+2 <= Covid Acuity Relative to Flu[Texas] = 6.8587  <= 10
+2 <= Covid Acuity Relative to Flu[Utah] = 6.86554  <= 10
+2 <= Covid Acuity Relative to Flu[Vermont] = 6.90204  <= 10
+2 <= Covid Acuity Relative to Flu[Virginia] = 6.8691  <= 10
+2 <= Covid Acuity Relative to Flu[Washington] = 6.87055  <= 10
+2 <= Covid Acuity Relative to Flu[West Virginia] = 6.86474  <= 10
+2 <= Covid Acuity Relative to Flu[Wisconsin] = 6.86108  <= 10
+2 <= Covid Acuity Relative to Flu[Wyoming] = 6.86027  <= 10
+1 <= DeathReportingDelay[Alabama] = 9.35232  <= 10
+1 <= DeathReportingDelay[Alaska] = 1.00012  <= 10
+1 <= DeathReportingDelay[Arizona] = 9.99999  <= 10
+1 <= DeathReportingDelay[Arkansas] = 8.1507  <= 10
+1 <= DeathReportingDelay[California] = 9.99999  <= 10
+1 <= DeathReportingDelay[Colorado] = 6.59953  <= 10
+1 <= DeathReportingDelay[Connecticut] = 4.35554  <= 10
+1 <= DeathReportingDelay[District of Columbia] = 9.42125  <= 10
+1 <= DeathReportingDelay[Delaware] = 7.888  <= 10
+1 <= DeathReportingDelay[Florida] = 7.83908  <= 10
+1 <= DeathReportingDelay[Georgia] = 2.78749  <= 10
+1 <= DeathReportingDelay[Hawaii] = 10  <= 10
+1 <= DeathReportingDelay[Idaho] = 1.01726  <= 10
+1 <= DeathReportingDelay[Illinois] = 6.77448  <= 10
+1 <= DeathReportingDelay[Indiana] = 3.44595  <= 10
+1 <= DeathReportingDelay[Iowa] = 4.87544  <= 10
+1 <= DeathReportingDelay[Kansas] = 1  <= 10
+1 <= DeathReportingDelay[Kentucky] = 9.99711  <= 10
+1 <= DeathReportingDelay[Louisiana] = 10  <= 10
+1 <= DeathReportingDelay[Maine] = 9.99998  <= 10
+1 <= DeathReportingDelay[Maryland] = 4.82841  <= 10
+1 <= DeathReportingDelay[Massachusetts] = 3.67164  <= 10
+1 <= DeathReportingDelay[Michigan] = 8.55425  <= 10
+1 <= DeathReportingDelay[Minnesota] = 4.88149  <= 10
+1 <= DeathReportingDelay[Mississippi] = 6.7329  <= 10
+1 <= DeathReportingDelay[Missouri] = 8.92278  <= 10
+1 <= DeathReportingDelay[Montana] = 2.26464  <= 10
+1 <= DeathReportingDelay[Nebraska] = 4.02025  <= 10
+1 <= DeathReportingDelay[Nevada] = 7.17339  <= 10
+1 <= DeathReportingDelay[New Hampshire] = 8.85629  <= 10
+1 <= DeathReportingDelay[New Jersey] = 1.00001  <= 10
+1 <= DeathReportingDelay[New Mexico] = 3.03335  <= 10
+1 <= DeathReportingDelay[New York] = 2.4129  <= 10
+1 <= DeathReportingDelay[North Carolina] = 9.99982  <= 10
+1 <= DeathReportingDelay[North Dakota] = 1  <= 10
+1 <= DeathReportingDelay[Ohio] = 10  <= 10
+1 <= DeathReportingDelay[Oklahoma] = 10  <= 10
+1 <= DeathReportingDelay[Oregon] = 9.99999  <= 10
+1 <= DeathReportingDelay[Pennsylvania] = 3.89425  <= 10
+1 <= DeathReportingDelay[Rhode Island] = 3.34132  <= 10
+1 <= DeathReportingDelay[South Carolina] = 10  <= 10
+1 <= DeathReportingDelay[South Dakota] = 2.57282  <= 10
+1 <= DeathReportingDelay[Tennessee] = 9.98735  <= 10
+1 <= DeathReportingDelay[Texas] = 1.00069  <= 10
+1 <= DeathReportingDelay[Utah] = 10  <= 10
+1 <= DeathReportingDelay[Vermont] = 2.65721  <= 10
+1 <= DeathReportingDelay[Virginia] = 10  <= 10
+1 <= DeathReportingDelay[Washington] = 10  <= 10
+1 <= DeathReportingDelay[West Virginia] = 10  <= 10
+1 <= DeathReportingDelay[Wisconsin] = 9.99999  <= 10
+1 <= DeathReportingDelay[Wyoming] = 1.40516  <= 10
+1 <= Dread Factor in Risk Perception[Alabama] = 16.9061  <= 100000
+1 <= Dread Factor in Risk Perception[Alaska] = 113.194  <= 100000
+1 <= Dread Factor in Risk Perception[Arizona] = 88.8645  <= 100000
+1 <= Dread Factor in Risk Perception[Arkansas] = 136.079  <= 100000
+1 <= Dread Factor in Risk Perception[California] = 8280.75  <= 100000
+1 <= Dread Factor in Risk Perception[Colorado] = 455.128  <= 100000
+1 <= Dread Factor in Risk Perception[Connecticut] = 794.564  <= 100000
+1 <= Dread Factor in Risk Perception[District of Columbia] = 1850.05  <= 100000
+1 <= Dread Factor in Risk Perception[Delaware] = 223.461  <= 100000
+1 <= Dread Factor in Risk Perception[Florida] = 254.429  <= 100000
+1 <= Dread Factor in Risk Perception[Georgia] = 805.732  <= 100000
+1 <= Dread Factor in Risk Perception[Hawaii] = 141.126  <= 100000
+1 <= Dread Factor in Risk Perception[Idaho] = 162.81  <= 100000
+1 <= Dread Factor in Risk Perception[Illinois] = 70.4659  <= 100000
+1 <= Dread Factor in Risk Perception[Indiana] = 514.66  <= 100000
+1 <= Dread Factor in Risk Perception[Iowa] = 174.38  <= 100000
+1 <= Dread Factor in Risk Perception[Kansas] = 309.272  <= 100000
+1 <= Dread Factor in Risk Perception[Kentucky] = 76.6713  <= 100000
+1 <= Dread Factor in Risk Perception[Louisiana] = 240.707  <= 100000
+1 <= Dread Factor in Risk Perception[Maine] = 478.161  <= 100000
+1 <= Dread Factor in Risk Perception[Maryland] = 420.849  <= 100000
+1 <= Dread Factor in Risk Perception[Massachusetts] = 177.668  <= 100000
+1 <= Dread Factor in Risk Perception[Michigan] = 103.017  <= 100000
+1 <= Dread Factor in Risk Perception[Minnesota] = 116.892  <= 100000
+1 <= Dread Factor in Risk Perception[Mississippi] = 84.5775  <= 100000
+1 <= Dread Factor in Risk Perception[Missouri] = 21.924  <= 100000
+1 <= Dread Factor in Risk Perception[Montana] = 1559.1  <= 100000
+1 <= Dread Factor in Risk Perception[Nebraska] = 222.082  <= 100000
+1 <= Dread Factor in Risk Perception[Nevada] = 61.2221  <= 100000
+1 <= Dread Factor in Risk Perception[New Hampshire] = 373.387  <= 100000
+1 <= Dread Factor in Risk Perception[New Jersey] = 785.327  <= 100000
+1 <= Dread Factor in Risk Perception[New Mexico] = 2667.27  <= 100000
+1 <= Dread Factor in Risk Perception[New York] = 508.982  <= 100000
+1 <= Dread Factor in Risk Perception[North Carolina] = 45.4143  <= 100000
+1 <= Dread Factor in Risk Perception[North Dakota] = 25.0364  <= 100000
+1 <= Dread Factor in Risk Perception[Ohio] = 109.158  <= 100000
+1 <= Dread Factor in Risk Perception[Oklahoma] = 28.5559  <= 100000
+1 <= Dread Factor in Risk Perception[Oregon] = 197.502  <= 100000
+1 <= Dread Factor in Risk Perception[Pennsylvania] = 331.911  <= 100000
+1 <= Dread Factor in Risk Perception[Rhode Island] = 319.859  <= 100000
+1 <= Dread Factor in Risk Perception[South Carolina] = 35.9846  <= 100000
+1 <= Dread Factor in Risk Perception[South Dakota] = 53.902  <= 100000
+1 <= Dread Factor in Risk Perception[Tennessee] = 51.549  <= 100000
+1 <= Dread Factor in Risk Perception[Texas] = 58.9541  <= 100000
+1 <= Dread Factor in Risk Perception[Utah] = 156.967  <= 100000
+1 <= Dread Factor in Risk Perception[Vermont] = 565.335  <= 100000
+1 <= Dread Factor in Risk Perception[Virginia] = 925.167  <= 100000
+1 <= Dread Factor in Risk Perception[Washington] = 350.575  <= 100000
+1 <= Dread Factor in Risk Perception[West Virginia] = 38.3439  <= 100000
+1 <= Dread Factor in Risk Perception[Wisconsin] = 649.208  <= 100000
+1 <= Dread Factor in Risk Perception[Wyoming] = 686.707  <= 100000
+1e-06 <= Impact of Population Density on Hospital Availability[Alabama] = 0.168922  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Alaska] = 0.239498  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Arizona] = 0.00117591  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Arkansas] = 0.288743  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[California] = 0.290797  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Colorado] = 0.0795398  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Connecticut] = 0.0013233  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[District of Columbia] = 6.47028e-06  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Delaware] = 0.000540237  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Florida] = 0.156282  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Georgia] = 0.29914  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Hawaii] = 0.428309  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Idaho] = 0.187104  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Illinois] = 0.397514  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Indiana] = 0.407474  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Iowa] = 0.436122  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Kansas] = 0.156931  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Kentucky] = 0.349291  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Louisiana] = 0.0589392  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Maine] = 0.230905  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Maryland] = 0.403881  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Massachusetts] = 0.12189  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Michigan] = 0.149048  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Minnesota] = 0.385693  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Mississippi] = 0.272249  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Missouri] = 0.265565  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Montana] = 0.171334  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Nebraska] = 0.143207  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Nevada] = 0.0598263  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[New Hampshire] = 0.24511  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[New Jersey] = 0.000265047  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[New Mexico] = 0.139173  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[New York] = 0.698877  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[North Carolina] = 0.27853  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[North Dakota] = 0.253796  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Ohio] = 0.157254  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Oklahoma] = 1.61899e-05  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Oregon] = 0.310197  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Pennsylvania] = 0.000105574  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Rhode Island] = 0.66857  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[South Carolina] = 0.000107692  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[South Dakota] = 0.217166  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Tennessee] = 0.142406  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Texas] = 0.196449  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Utah] = 0.111039  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Vermont] = 0.34515  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Virginia] = 0.0999782  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Washington] = 0.335762  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[West Virginia] = 0.302912  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Wisconsin] = 0.261122  <= 1
+1e-06 <= Impact of Population Density on Hospital Availability[Wyoming] = 0.257686  <= 1
+0.1 <= Impact of Treatment on Fatality Rate[Alabama] = 0.33462  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Alaska] = 0.731402  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Arizona] = 0.640075  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Arkansas] = 0.682716  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[California] = 0.737022  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Colorado] = 0.635177  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Connecticut] = 0.799962  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[District of Columbia] = 0.484171  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Delaware] = 0.786619  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Florida] = 0.79836  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Georgia] = 0.494948  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Hawaii] = 0.667715  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Idaho] = 0.744606  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Illinois] = 0.700881  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Indiana] = 0.100001  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Iowa] = 0.509476  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Kansas] = 0.618665  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Kentucky] = 0.343611  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Louisiana] = 0.567757  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Maine] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Maryland] = 0.778053  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Massachusetts] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Michigan] = 0.669191  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Minnesota] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Mississippi] = 0.589005  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Missouri] = 0.531156  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Montana] = 0.348684  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Nebraska] = 0.740442  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Nevada] = 0.763764  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[New Hampshire] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[New Jersey] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[New Mexico] = 0.799801  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[New York] = 0.402828  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[North Carolina] = 0.727119  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[North Dakota] = 0.754445  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Ohio] = 0.698917  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Oklahoma] = 0.650094  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Oregon] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Pennsylvania] = 0.163945  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Rhode Island] = 0.570269  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[South Carolina] = 0.769142  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[South Dakota] = 0.520179  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Tennessee] = 0.489008  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Texas] = 0.431284  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Utah] = 0.671154  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Vermont] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Virginia] = 0.8  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Washington] = 0.799999  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[West Virginia] = 0.788339  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Wisconsin] = 0.151655  <= 0.8
+0.1 <= Impact of Treatment on Fatality Rate[Wyoming] = 0.380148  <= 0.8
+1e-06 <= Learning and Death Reduction Rate[Alabama] = 0.351386  <= 4
+1e-06 <= Learning and Death Reduction Rate[Alaska] = 0.00544902  <= 4
+1e-06 <= Learning and Death Reduction Rate[Arizona] = 0.0689548  <= 4
+1e-06 <= Learning and Death Reduction Rate[Arkansas] = 0.0416736  <= 4
+1e-06 <= Learning and Death Reduction Rate[California] = 5.18738e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Colorado] = 0.272265  <= 4
+1e-06 <= Learning and Death Reduction Rate[Connecticut] = 0.358457  <= 4
+1e-06 <= Learning and Death Reduction Rate[District of Columbia] = 0.44088  <= 4
+1e-06 <= Learning and Death Reduction Rate[Delaware] = 0.556048  <= 4
+1e-06 <= Learning and Death Reduction Rate[Florida] = 1.19228  <= 4
+1e-06 <= Learning and Death Reduction Rate[Georgia] = 0.257736  <= 4
+1e-06 <= Learning and Death Reduction Rate[Hawaii] = 0.0539279  <= 4
+1e-06 <= Learning and Death Reduction Rate[Idaho] = 1.307  <= 4
+1e-06 <= Learning and Death Reduction Rate[Illinois] = 0.0064471  <= 4
+1e-06 <= Learning and Death Reduction Rate[Indiana] = 0.248562  <= 4
+1e-06 <= Learning and Death Reduction Rate[Iowa] = 0.0329301  <= 4
+1e-06 <= Learning and Death Reduction Rate[Kansas] = 0.00182458  <= 4
+1e-06 <= Learning and Death Reduction Rate[Kentucky] = 0.118272  <= 4
+1e-06 <= Learning and Death Reduction Rate[Louisiana] = 0.24536  <= 4
+1e-06 <= Learning and Death Reduction Rate[Maine] = 0.914852  <= 4
+1e-06 <= Learning and Death Reduction Rate[Maryland] = 0.099959  <= 4
+1e-06 <= Learning and Death Reduction Rate[Massachusetts] = 6.52699e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Michigan] = 0.153977  <= 4
+1e-06 <= Learning and Death Reduction Rate[Minnesota] = 0.116805  <= 4
+1e-06 <= Learning and Death Reduction Rate[Mississippi] = 0.264996  <= 4
+1e-06 <= Learning and Death Reduction Rate[Missouri] = 0.00303236  <= 4
+1e-06 <= Learning and Death Reduction Rate[Montana] = 0.043987  <= 4
+1e-06 <= Learning and Death Reduction Rate[Nebraska] = 1.54064  <= 4
+1e-06 <= Learning and Death Reduction Rate[Nevada] = 0.0211143  <= 4
+1e-06 <= Learning and Death Reduction Rate[New Hampshire] = 0.627738  <= 4
+1e-06 <= Learning and Death Reduction Rate[New Jersey] = 0.46305  <= 4
+1e-06 <= Learning and Death Reduction Rate[New Mexico] = 3.93405e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[New York] = 0.466338  <= 4
+1e-06 <= Learning and Death Reduction Rate[North Carolina] = 0.236007  <= 4
+1e-06 <= Learning and Death Reduction Rate[North Dakota] = 0.16187  <= 4
+1e-06 <= Learning and Death Reduction Rate[Ohio] = 0.0390682  <= 4
+1e-06 <= Learning and Death Reduction Rate[Oklahoma] = 0.18929  <= 4
+1e-06 <= Learning and Death Reduction Rate[Oregon] = 0.611135  <= 4
+1e-06 <= Learning and Death Reduction Rate[Pennsylvania] = 0.025149  <= 4
+1e-06 <= Learning and Death Reduction Rate[Rhode Island] = 0.444878  <= 4
+1e-06 <= Learning and Death Reduction Rate[South Carolina] = 0.200073  <= 4
+1e-06 <= Learning and Death Reduction Rate[South Dakota] = 0.767367  <= 4
+1e-06 <= Learning and Death Reduction Rate[Tennessee] = 0.0277859  <= 4
+1e-06 <= Learning and Death Reduction Rate[Texas] = 0.232061  <= 4
+1e-06 <= Learning and Death Reduction Rate[Utah] = 0.801096  <= 4
+1e-06 <= Learning and Death Reduction Rate[Vermont] = 0.5232  <= 4
+1e-06 <= Learning and Death Reduction Rate[Virginia] = 8.29245e-06  <= 4
+1e-06 <= Learning and Death Reduction Rate[Washington] = 0.711601  <= 4
+1e-06 <= Learning and Death Reduction Rate[West Virginia] = 1.02021e-05  <= 4
+1e-06 <= Learning and Death Reduction Rate[Wisconsin] = 0.251284  <= 4
+1e-06 <= Learning and Death Reduction Rate[Wyoming] = 0.129466  <= 4
+1e-06 <= Min Contact Fraction[Alabama] = 0.0570843  <= 0.4
+1e-06 <= Min Contact Fraction[Alaska] = 0.0163313  <= 0.4
+1e-06 <= Min Contact Fraction[Arizona] = 0.129523  <= 0.4
+1e-06 <= Min Contact Fraction[Arkansas] = 0.120064  <= 0.4
+1e-06 <= Min Contact Fraction[California] = 1.6805e-06  <= 0.4
+1e-06 <= Min Contact Fraction[Colorado] = 0.168338  <= 0.4
+1e-06 <= Min Contact Fraction[Connecticut] = 0.0295328  <= 0.4
+1e-06 <= Min Contact Fraction[District of Columbia] = 0.0742757  <= 0.4
+1e-06 <= Min Contact Fraction[Delaware] = 0.253219  <= 0.4
+1e-06 <= Min Contact Fraction[Florida] = 0.0751322  <= 0.4
+1e-06 <= Min Contact Fraction[Georgia] = 0.105435  <= 0.4
+1e-06 <= Min Contact Fraction[Hawaii] = 0.0837761  <= 0.4
+1e-06 <= Min Contact Fraction[Idaho] = 0.0247593  <= 0.4
+1e-06 <= Min Contact Fraction[Illinois] = 0.199662  <= 0.4
+1e-06 <= Min Contact Fraction[Indiana] = 0.177606  <= 0.4
+1e-06 <= Min Contact Fraction[Iowa] = 0.177537  <= 0.4
+1e-06 <= Min Contact Fraction[Kansas] = 0.271119  <= 0.4
+1e-06 <= Min Contact Fraction[Kentucky] = 0.107839  <= 0.4
+1e-06 <= Min Contact Fraction[Louisiana] = 0.121138  <= 0.4
+1e-06 <= Min Contact Fraction[Maine] = 0.0917476  <= 0.4
+1e-06 <= Min Contact Fraction[Maryland] = 0.0911558  <= 0.4
+1e-06 <= Min Contact Fraction[Massachusetts] = 0.268551  <= 0.4
+1e-06 <= Min Contact Fraction[Michigan] = 0.185675  <= 0.4
+1e-06 <= Min Contact Fraction[Minnesota] = 0.230622  <= 0.4
+1e-06 <= Min Contact Fraction[Mississippi] = 0.13173  <= 0.4
+1e-06 <= Min Contact Fraction[Missouri] = 0.0413419  <= 0.4
+1e-06 <= Min Contact Fraction[Montana] = 0.0258368  <= 0.4
+1e-06 <= Min Contact Fraction[Nebraska] = 0.0857175  <= 0.4
+1e-06 <= Min Contact Fraction[Nevada] = 0.144725  <= 0.4
+1e-06 <= Min Contact Fraction[New Hampshire] = 0.213619  <= 0.4
+1e-06 <= Min Contact Fraction[New Jersey] = 0.101706  <= 0.4
+1e-06 <= Min Contact Fraction[New Mexico] = 0.081924  <= 0.4
+1e-06 <= Min Contact Fraction[New York] = 1.6002e-06  <= 0.4
+1e-06 <= Min Contact Fraction[North Carolina] = 0.104229  <= 0.4
+1e-06 <= Min Contact Fraction[North Dakota] = 0.00440277  <= 0.4
+1e-06 <= Min Contact Fraction[Ohio] = 0.186713  <= 0.4
+1e-06 <= Min Contact Fraction[Oklahoma] = 0.00844701  <= 0.4
+1e-06 <= Min Contact Fraction[Oregon] = 0.0796453  <= 0.4
+1e-06 <= Min Contact Fraction[Pennsylvania] = 0.221851  <= 0.4
+1e-06 <= Min Contact Fraction[Rhode Island] = 0.253371  <= 0.4
+1e-06 <= Min Contact Fraction[South Carolina] = 0.0667421  <= 0.4
+1e-06 <= Min Contact Fraction[South Dakota] = 0.209064  <= 0.4
+1e-06 <= Min Contact Fraction[Tennessee] = 0.11228  <= 0.4
+1e-06 <= Min Contact Fraction[Texas] = 0.0563939  <= 0.4
+1e-06 <= Min Contact Fraction[Utah] = 0.160793  <= 0.4
+1e-06 <= Min Contact Fraction[Vermont] = 0.145165  <= 0.4
+1e-06 <= Min Contact Fraction[Virginia] = 0.0137254  <= 0.4
+1e-06 <= Min Contact Fraction[Washington] = 0.135955  <= 0.4
+1e-06 <= Min Contact Fraction[West Virginia] = 0.0782483  <= 0.4
+1e-06 <= Min Contact Fraction[Wisconsin] = 0.150579  <= 0.4
+1e-06 <= Min Contact Fraction[Wyoming] = 0.0180211  <= 0.4
+1e-06 <= Multiplier Recent Infections to Test[Alabama] = 48.7767  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Alaska] = 59.2499  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Arizona] = 57.7869  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Arkansas] = 49.5067  <= 300
+1e-06 <= Multiplier Recent Infections to Test[California] = 58.4556  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Colorado] = 64.4604  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Connecticut] = 56.3704  <= 300
+1e-06 <= Multiplier Recent Infections to Test[District of Columbia] = 62.6426  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Delaware] = 63.9168  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Florida] = 54.2373  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Georgia] = 41.62  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Hawaii] = 60.2571  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Idaho] = 57.187  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Illinois] = 61.0153  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Indiana] = 59.4056  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Iowa] = 51.0434  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Kansas] = 52.8177  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Kentucky] = 60.395  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Louisiana] = 54.362  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Maine] = 55.275  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Maryland] = 63.9751  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Massachusetts] = 59.8517  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Michigan] = 55.2384  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Minnesota] = 65.5857  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Mississippi] = 47.6907  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Missouri] = 59.1231  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Montana] = 51.26  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Nebraska] = 44.2132  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Nevada] = 53.9821  <= 300
+1e-06 <= Multiplier Recent Infections to Test[New Hampshire] = 59.7144  <= 300
+1e-06 <= Multiplier Recent Infections to Test[New Jersey] = 55.7042  <= 300
+1e-06 <= Multiplier Recent Infections to Test[New Mexico] = 56.2562  <= 300
+1e-06 <= Multiplier Recent Infections to Test[New York] = 69.74  <= 300
+1e-06 <= Multiplier Recent Infections to Test[North Carolina] = 46.1853  <= 300
+1e-06 <= Multiplier Recent Infections to Test[North Dakota] = 58.8196  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Ohio] = 57.7764  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Oklahoma] = 49.9123  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Oregon] = 61.429  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Pennsylvania] = 65.6326  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Rhode Island] = 55.8275  <= 300
+1e-06 <= Multiplier Recent Infections to Test[South Carolina] = 57.2168  <= 300
+1e-06 <= Multiplier Recent Infections to Test[South Dakota] = 46.3521  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Tennessee] = 49.1291  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Texas] = 36.2212  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Utah] = 53.5634  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Vermont] = 60.6225  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Virginia] = 50.3697  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Washington] = 62.5839  <= 300
+1e-06 <= Multiplier Recent Infections to Test[West Virginia] = 61.8101  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Wisconsin] = 65.4271  <= 300
+1e-06 <= Multiplier Recent Infections to Test[Wyoming] = 58.0449  <= 300
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Alabama] = 0.409323  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Alaska] = 0.38473  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Arizona] = 0.404085  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Arkansas] = 0.382374  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[California] = 0.420484  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Colorado] = 0.38434  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Connecticut] = 0.2478  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[District of Columbia] = 0.409547  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Delaware] = 0.407665  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Florida] = 0.39526  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Georgia] = 0.401395  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Hawaii] = 0.407188  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Idaho] = 0.414947  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Illinois] = 0.410084  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Indiana] = 0.384096  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Iowa] = 0.397947  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Kansas] = 0.403791  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Kentucky] = 0.40081  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Louisiana] = 0.395582  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Maine] = 0.414753  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Maryland] = 0.403992  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Massachusetts] = 0.395409  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Michigan] = 0.395237  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Minnesota] = 0.40824  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Mississippi] = 0.410384  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Missouri] = 0.429868  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Montana] = 0.4143  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Nebraska] = 0.405911  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Nevada] = 0.403501  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[New Hampshire] = 0.399583  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[New Jersey] = 0.460233  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[New Mexico] = 0.408633  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[New York] = 0.424818  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[North Carolina] = 0.397963  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[North Dakota] = 0.416513  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Ohio] = 0.416518  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Oklahoma] = 0.41126  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Oregon] = 0.414123  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Pennsylvania] = 0.408678  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Rhode Island] = 0.412357  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[South Carolina] = 0.41928  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[South Dakota] = 0.345636  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Tennessee] = 0.412012  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Texas] = 0.405028  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Utah] = 0.405692  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Vermont] = 0.397417  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Virginia] = 0.416572  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Washington] = 0.411403  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[West Virginia] = 0.418876  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Wisconsin] = 0.402104  <= 1
+1e-06 <= Multiplier Transmission Risk for Asymptomatic[Wyoming] = 0.431039  <= 1
+50 <= Patient Zero Arrival Time[Alabama] = 59.8155  <= 160
+50 <= Patient Zero Arrival Time[Alaska] = 57.4956  <= 160
+50 <= Patient Zero Arrival Time[Arizona] = 57.2584  <= 160
+50 <= Patient Zero Arrival Time[Arkansas] = 57.0001  <= 160
+50 <= Patient Zero Arrival Time[California] = 59.8494  <= 160
+50 <= Patient Zero Arrival Time[Colorado] = 58.2285  <= 160
+50 <= Patient Zero Arrival Time[Connecticut] = 63.3548  <= 160
+50 <= Patient Zero Arrival Time[District of Columbia] = 56.8037  <= 160
+50 <= Patient Zero Arrival Time[Delaware] = 57.0995  <= 160
+50 <= Patient Zero Arrival Time[Florida] = 56.7355  <= 160
+50 <= Patient Zero Arrival Time[Georgia] = 56.7424  <= 160
+50 <= Patient Zero Arrival Time[Hawaii] = 57.0443  <= 160
+50 <= Patient Zero Arrival Time[Idaho] = 73.3521  <= 160
+50 <= Patient Zero Arrival Time[Illinois] = 64.0489  <= 160
+50 <= Patient Zero Arrival Time[Indiana] = 69.362  <= 160
+50 <= Patient Zero Arrival Time[Iowa] = 57.4902  <= 160
+50 <= Patient Zero Arrival Time[Kansas] = 103.024  <= 160
+50 <= Patient Zero Arrival Time[Kentucky] = 71.1164  <= 160
+50 <= Patient Zero Arrival Time[Louisiana] = 56.7493  <= 160
+50 <= Patient Zero Arrival Time[Maine] = 57.0934  <= 160
+50 <= Patient Zero Arrival Time[Maryland] = 56.7993  <= 160
+50 <= Patient Zero Arrival Time[Massachusetts] = 60.0295  <= 160
+50 <= Patient Zero Arrival Time[Michigan] = 57.026  <= 160
+50 <= Patient Zero Arrival Time[Minnesota] = 57.5161  <= 160
+50 <= Patient Zero Arrival Time[Mississippi] = 56.7504  <= 160
+50 <= Patient Zero Arrival Time[Missouri] = 56.7256  <= 160
+50 <= Patient Zero Arrival Time[Montana] = 85.6945  <= 160
+50 <= Patient Zero Arrival Time[Nebraska] = 57.2134  <= 160
+50 <= Patient Zero Arrival Time[Nevada] = 56.9037  <= 160
+50 <= Patient Zero Arrival Time[New Hampshire] = 61.8153  <= 160
+50 <= Patient Zero Arrival Time[New Jersey] = 55.5398  <= 160
+50 <= Patient Zero Arrival Time[New Mexico] = 57.2176  <= 160
+50 <= Patient Zero Arrival Time[New York] = 63.3775  <= 160
+50 <= Patient Zero Arrival Time[North Carolina] = 56.7338  <= 160
+50 <= Patient Zero Arrival Time[North Dakota] = 55.2754  <= 160
+50 <= Patient Zero Arrival Time[Ohio] = 57.2497  <= 160
+50 <= Patient Zero Arrival Time[Oklahoma] = 56.7406  <= 160
+50 <= Patient Zero Arrival Time[Oregon] = 57.852  <= 160
+50 <= Patient Zero Arrival Time[Pennsylvania] = 57.5692  <= 160
+50 <= Patient Zero Arrival Time[Rhode Island] = 61.782  <= 160
+50 <= Patient Zero Arrival Time[South Carolina] = 62.7072  <= 160
+50 <= Patient Zero Arrival Time[South Dakota] = 57.5898  <= 160
+50 <= Patient Zero Arrival Time[Tennessee] = 58.1466  <= 160
+50 <= Patient Zero Arrival Time[Texas] = 56.9994  <= 160
+50 <= Patient Zero Arrival Time[Utah] = 57.2383  <= 160
+50 <= Patient Zero Arrival Time[Vermont] = 64.5765  <= 160
+50 <= Patient Zero Arrival Time[Virginia] = 60.0687  <= 160
+50 <= Patient Zero Arrival Time[Washington] = 74.6828  <= 160
+50 <= Patient Zero Arrival Time[West Virginia] = 63.6832  <= 160
+50 <= Patient Zero Arrival Time[Wisconsin] = 56.802  <= 160
+50 <= Patient Zero Arrival Time[Wyoming] = 57.0408  <= 160
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Alabama] = 0.0957922  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Alaska] = 0.0500032  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Arizona] = 0.0689293  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Arkansas] = 0.126454  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[California] = 0.0567041  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Colorado] = 0.0603613  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Connecticut] = 0.0758718  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[District of Columbia] = 0.0904371  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Delaware] = 0.0577059  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Florida] = 0.0784156  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Georgia] = 0.155989  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Hawaii] = 0.0995644  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Idaho] = 0.0596587  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Illinois] = 0.0540392  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Indiana] = 0.121401  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Iowa] = 0.146767  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Kansas] = 0.0724285  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Kentucky] = 0.217357  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Louisiana] = 0.0691606  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Maine] = 0.0521008  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Maryland] = 0.0716635  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Massachusetts] = 0.062033  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Michigan] = 0.05502  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Minnesota] = 0.0562738  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Mississippi] = 0.108542  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Missouri] = 0.0803789  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Montana] = 0.120251  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Nebraska] = 0.0895092  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Nevada] = 0.0763033  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[New Hampshire] = 0.0619128  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[New Jersey] = 0.0595767  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[New Mexico] = 0.0845093  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[New York] = 0.122343  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[North Carolina] = 0.0714149  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[North Dakota] = 0.0660255  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Ohio] = 0.0886777  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Oklahoma] = 0.110699  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Oregon] = 0.065694  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Pennsylvania] = 0.070351  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Rhode Island] = 0.0500013  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[South Carolina] = 0.0543639  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[South Dakota] = 0.103643  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Tennessee] = 0.0733758  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Texas] = 0.0787302  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Utah] = 0.0532468  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Vermont] = 0.0520314  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Virginia] = 0.0705848  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Washington] = 0.0500009  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[West Virginia] = 0.0868162  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Wisconsin] = 0.114253  <= 0.8
+0.05 <= Reference COVID Hospitalization Fraction Confirmed[Wyoming] = 0.0854347  <= 0.8
+0.05 <= Reference Force of Infection[Alabama] = 0.370714  <= 1.5
+0.05 <= Reference Force of Infection[Alaska] = 0.404487  <= 1.5
+0.05 <= Reference Force of Infection[Arizona] = 0.630093  <= 1.5
+0.05 <= Reference Force of Infection[Arkansas] = 0.318006  <= 1.5
+0.05 <= Reference Force of Infection[California] = 0.341095  <= 1.5
+0.05 <= Reference Force of Infection[Colorado] = 0.418963  <= 1.5
+0.05 <= Reference Force of Infection[Connecticut] = 0.34007  <= 1.5
+0.05 <= Reference Force of Infection[District of Columbia] = 0.40679  <= 1.5
+0.05 <= Reference Force of Infection[Delaware] = 0.287031  <= 1.5
+0.05 <= Reference Force of Infection[Florida] = 0.346773  <= 1.5
+0.05 <= Reference Force of Infection[Georgia] = 0.42875  <= 1.5
+0.05 <= Reference Force of Infection[Hawaii] = 0.245023  <= 1.5
+0.05 <= Reference Force of Infection[Idaho] = 0.378088  <= 1.5
+0.05 <= Reference Force of Infection[Illinois] = 0.264576  <= 1.5
+0.05 <= Reference Force of Infection[Indiana] = 0.421839  <= 1.5
+0.05 <= Reference Force of Infection[Iowa] = 0.225394  <= 1.5
+0.05 <= Reference Force of Infection[Kansas] = 0.34452  <= 1.5
+0.05 <= Reference Force of Infection[Kentucky] = 0.504406  <= 1.5
+0.05 <= Reference Force of Infection[Louisiana] = 0.396067  <= 1.5
+0.05 <= Reference Force of Infection[Maine] = 0.611424  <= 1.5
+0.05 <= Reference Force of Infection[Maryland] = 0.32473  <= 1.5
+0.05 <= Reference Force of Infection[Massachusetts] = 0.246351  <= 1.5
+0.05 <= Reference Force of Infection[Michigan] = 0.247501  <= 1.5
+0.05 <= Reference Force of Infection[Minnesota] = 0.198078  <= 1.5
+0.05 <= Reference Force of Infection[Mississippi] = 0.398513  <= 1.5
+0.05 <= Reference Force of Infection[Missouri] = 0.306405  <= 1.5
+0.05 <= Reference Force of Infection[Montana] = 0.807812  <= 1.5
+0.05 <= Reference Force of Infection[Nebraska] = 0.622585  <= 1.5
+0.05 <= Reference Force of Infection[Nevada] = 0.401632  <= 1.5
+0.05 <= Reference Force of Infection[New Hampshire] = 0.302369  <= 1.5
+0.05 <= Reference Force of Infection[New Jersey] = 0.272896  <= 1.5
+0.05 <= Reference Force of Infection[New Mexico] = 0.971489  <= 1.5
+0.05 <= Reference Force of Infection[New York] = 0.29786  <= 1.5
+0.05 <= Reference Force of Infection[North Carolina] = 0.368089  <= 1.5
+0.05 <= Reference Force of Infection[North Dakota] = 0.222129  <= 1.5
+0.05 <= Reference Force of Infection[Ohio] = 0.313412  <= 1.5
+0.05 <= Reference Force of Infection[Oklahoma] = 0.354744  <= 1.5
+0.05 <= Reference Force of Infection[Oregon] = 0.447104  <= 1.5
+0.05 <= Reference Force of Infection[Pennsylvania] = 0.331546  <= 1.5
+0.05 <= Reference Force of Infection[Rhode Island] = 0.2704  <= 1.5
+0.05 <= Reference Force of Infection[South Carolina] = 0.507446  <= 1.5
+0.05 <= Reference Force of Infection[South Dakota] = 0.221082  <= 1.5
+0.05 <= Reference Force of Infection[Tennessee] = 0.405021  <= 1.5
+0.05 <= Reference Force of Infection[Texas] = 0.522675  <= 1.5
+0.05 <= Reference Force of Infection[Utah] = 0.418953  <= 1.5
+0.05 <= Reference Force of Infection[Vermont] = 0.372976  <= 1.5
+0.05 <= Reference Force of Infection[Virginia] = 0.380811  <= 1.5
+0.05 <= Reference Force of Infection[Washington] = 0.380916  <= 1.5
+0.05 <= Reference Force of Infection[West Virginia] = 0.349796  <= 1.5
+0.05 <= Reference Force of Infection[Wisconsin] = 0.39841  <= 1.5
+0.05 <= Reference Force of Infection[Wyoming] = 0.561465  <= 1.5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Alabama] = 2.48294  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Alaska] = 2.48998  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Arizona] = 2.47867  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Arkansas] = 2.48458  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[California] = 2.49224  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Colorado] = 2.46587  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Connecticut] = 2.48301  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[District of Columbia] = 2.5124  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Delaware] = 2.50285  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Florida] = 2.53185  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Georgia] = 2.48434  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Hawaii] = 2.48587  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Idaho] = 2.48687  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Illinois] = 2.48006  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Indiana] = 2.47519  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Iowa] = 2.48421  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Kansas] = 2.4792  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Kentucky] = 2.48092  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Louisiana] = 2.48581  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Maine] = 2.51829  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Maryland] = 2.48859  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Massachusetts] = 2.48524  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Michigan] = 2.48134  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Minnesota] = 2.48316  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Mississippi] = 2.48483  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Missouri] = 2.48115  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Montana] = 2.49108  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Nebraska] = 2.48873  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Nevada] = 2.48399  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[New Hampshire] = 2.49549  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[New Jersey] = 2.47593  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[New Mexico] = 2.49322  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[New York] = 2.52225  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[North Carolina] = 2.48497  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[North Dakota] = 2.49027  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Ohio] = 2.48787  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Oklahoma] = 2.47942  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Oregon] = 2.50082  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Pennsylvania] = 2.48697  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Rhode Island] = 2.47871  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[South Carolina] = 2.48491  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[South Dakota] = 2.47758  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Tennessee] = 2.47591  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Texas] = 2.48069  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Utah] = 2.48454  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Vermont] = 2.54435  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Virginia] = 2.49387  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Washington] = 2.49243  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[West Virginia] = 2.49356  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Wisconsin] = 2.48237  <= 5
+1e-06 <= Sensitivity of Fatality Rate to Acuity[Wyoming] = 2.47779  <= 5
+0.01 <= Sensitivity of Contact Reduction to Utility[Alabama] = 0.208271  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Alaska] = 1.37708  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Arizona] = 0.0100685  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Arkansas] = 2.03838  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[California] = 7.25031  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Colorado] = 3.00178  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Connecticut] = 0.305111  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[District of Columbia] = 0.483303  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Delaware] = 2.01981  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Florida] = 12.3826  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Georgia] = 6.26768  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Hawaii] = 1.12225  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Idaho] = 3.7161  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Illinois] = 0.352576  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Indiana] = 11.1545  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Iowa] = 1.74159  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Kansas] = 1.96689  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Kentucky] = 2.59148  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Louisiana] = 3.09913  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Maine] = 2.26114  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Maryland] = 0.160501  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Massachusetts] = 0.211569  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Michigan] = 2.57696  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Minnesota] = 1.65741  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Mississippi] = 2.2934  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Missouri] = 0.0118464  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Montana] = 0.019867  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Nebraska] = 0.0497598  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Nevada] = 3.04312  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[New Hampshire] = 1.03928  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[New Jersey] = 1.18399  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[New Mexico] = 0.026477  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[New York] = 0.141669  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[North Carolina] = 0.0100973  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[North Dakota] = 0.398185  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Ohio] = 1.57204  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Oklahoma] = 0.0100414  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Oregon] = 2.86971  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Pennsylvania] = 7.17489  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Rhode Island] = 0.25187  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[South Carolina] = 0.0100791  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[South Dakota] = 0.873432  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Tennessee] = 0.725077  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Texas] = 2.53395  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Utah] = 0.824288  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Vermont] = 1.55649  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Virginia] = 1.15802  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Washington] = 4.76109  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[West Virginia] = 2.21181  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Wisconsin] = 8.07586  <= 50
+0.01 <= Sensitivity of Contact Reduction to Utility[Wyoming] = 0.108485  <= 50
+1e-06 <= Strength of Adherence Fatigue[Alabama] = 0.506272  <= 5
+1e-06 <= Strength of Adherence Fatigue[Alaska] = 0.345498  <= 5
+1e-06 <= Strength of Adherence Fatigue[Arizona] = 1.66336  <= 5
+1e-06 <= Strength of Adherence Fatigue[Arkansas] = 0.82323  <= 5
+1e-06 <= Strength of Adherence Fatigue[California] = 2.7137  <= 5
+1e-06 <= Strength of Adherence Fatigue[Colorado] = 0.313183  <= 5
+1e-06 <= Strength of Adherence Fatigue[Connecticut] = 2.18343  <= 5
+1e-06 <= Strength of Adherence Fatigue[District of Columbia] = 1.88789  <= 5
+1e-06 <= Strength of Adherence Fatigue[Delaware] = 0.40669  <= 5
+1e-06 <= Strength of Adherence Fatigue[Florida] = 0.539717  <= 5
+1e-06 <= Strength of Adherence Fatigue[Georgia] = 0.796429  <= 5
+1e-06 <= Strength of Adherence Fatigue[Hawaii] = 0.372474  <= 5
+1e-06 <= Strength of Adherence Fatigue[Idaho] = 0.503841  <= 5
+1e-06 <= Strength of Adherence Fatigue[Illinois] = 0.999571  <= 5
+1e-06 <= Strength of Adherence Fatigue[Indiana] = 7.03117e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Iowa] = 1.35119  <= 5
+1e-06 <= Strength of Adherence Fatigue[Kansas] = 1.24307  <= 5
+1e-06 <= Strength of Adherence Fatigue[Kentucky] = 0.0198939  <= 5
+1e-06 <= Strength of Adherence Fatigue[Louisiana] = 1.25161  <= 5
+1e-06 <= Strength of Adherence Fatigue[Maine] = 0.335295  <= 5
+1e-06 <= Strength of Adherence Fatigue[Maryland] = 2.06669  <= 5
+1e-06 <= Strength of Adherence Fatigue[Massachusetts] = 1.7113  <= 5
+1e-06 <= Strength of Adherence Fatigue[Michigan] = 0.423291  <= 5
+1e-06 <= Strength of Adherence Fatigue[Minnesota] = 0.605211  <= 5
+1e-06 <= Strength of Adherence Fatigue[Mississippi] = 0.515419  <= 5
+1e-06 <= Strength of Adherence Fatigue[Missouri] = 0.0847431  <= 5
+1e-06 <= Strength of Adherence Fatigue[Montana] = 2.26928  <= 5
+1e-06 <= Strength of Adherence Fatigue[Nebraska] = 0.955729  <= 5
+1e-06 <= Strength of Adherence Fatigue[Nevada] = 0.159094  <= 5
+1e-06 <= Strength of Adherence Fatigue[New Hampshire] = 0.973746  <= 5
+1e-06 <= Strength of Adherence Fatigue[New Jersey] = 1.90918  <= 5
+1e-06 <= Strength of Adherence Fatigue[New Mexico] = 2.20421  <= 5
+1e-06 <= Strength of Adherence Fatigue[New York] = 2.41231  <= 5
+1e-06 <= Strength of Adherence Fatigue[North Carolina] = 0.558333  <= 5
+1e-06 <= Strength of Adherence Fatigue[North Dakota] = 0.0851638  <= 5
+1e-06 <= Strength of Adherence Fatigue[Ohio] = 7.58898e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Oklahoma] = 0.784587  <= 5
+1e-06 <= Strength of Adherence Fatigue[Oregon] = 0.0902206  <= 5
+1e-06 <= Strength of Adherence Fatigue[Pennsylvania] = 0.0185569  <= 5
+1e-06 <= Strength of Adherence Fatigue[Rhode Island] = 2.03664  <= 5
+1e-06 <= Strength of Adherence Fatigue[South Carolina] = 0.659742  <= 5
+1e-06 <= Strength of Adherence Fatigue[South Dakota] = 0.694276  <= 5
+1e-06 <= Strength of Adherence Fatigue[Tennessee] = 0.469212  <= 5
+1e-06 <= Strength of Adherence Fatigue[Texas] = 0.0193496  <= 5
+1e-06 <= Strength of Adherence Fatigue[Utah] = 0.352777  <= 5
+1e-06 <= Strength of Adherence Fatigue[Vermont] = 0.992982  <= 5
+1e-06 <= Strength of Adherence Fatigue[Virginia] = 1.51089  <= 5
+1e-06 <= Strength of Adherence Fatigue[Washington] = 9.5019e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[West Virginia] = 7.80507e-06  <= 5
+1e-06 <= Strength of Adherence Fatigue[Wisconsin] = 0.132828  <= 5
+1e-06 <= Strength of Adherence Fatigue[Wyoming] = 1.57305  <= 5
+10 <= Time to Downgrade Risk[Alabama] = 500  <= 500
+10 <= Time to Downgrade Risk[Alaska] = 225.855  <= 500
+10 <= Time to Downgrade Risk[Arizona] = 260.749  <= 500
+10 <= Time to Downgrade Risk[Arkansas] = 500  <= 500
+10 <= Time to Downgrade Risk[California] = 80.8461  <= 500
+10 <= Time to Downgrade Risk[Colorado] = 49.5088  <= 500
+10 <= Time to Downgrade Risk[Connecticut] = 39.0831  <= 500
+10 <= Time to Downgrade Risk[District of Columbia] = 10.0007  <= 500
+10 <= Time to Downgrade Risk[Delaware] = 10.044  <= 500
+10 <= Time to Downgrade Risk[Florida] = 401.831  <= 500
+10 <= Time to Downgrade Risk[Georgia] = 499.999  <= 500
+10 <= Time to Downgrade Risk[Hawaii] = 86.526  <= 500
+10 <= Time to Downgrade Risk[Idaho] = 500  <= 500
+10 <= Time to Downgrade Risk[Illinois] = 33.7128  <= 500
+10 <= Time to Downgrade Risk[Indiana] = 37.4468  <= 500
+10 <= Time to Downgrade Risk[Iowa] = 103.894  <= 500
+10 <= Time to Downgrade Risk[Kansas] = 111.238  <= 500
+10 <= Time to Downgrade Risk[Kentucky] = 189.026  <= 500
+10 <= Time to Downgrade Risk[Louisiana] = 500  <= 500
+10 <= Time to Downgrade Risk[Maine] = 29.7508  <= 500
+10 <= Time to Downgrade Risk[Maryland] = 45.0505  <= 500
+10 <= Time to Downgrade Risk[Massachusetts] = 24.9477  <= 500
+10 <= Time to Downgrade Risk[Michigan] = 54.4698  <= 500
+10 <= Time to Downgrade Risk[Minnesota] = 72.9136  <= 500
+10 <= Time to Downgrade Risk[Mississippi] = 472.329  <= 500
+10 <= Time to Downgrade Risk[Missouri] = 48.4464  <= 500
+10 <= Time to Downgrade Risk[Montana] = 122.416  <= 500
+10 <= Time to Downgrade Risk[Nebraska] = 116.597  <= 500
+10 <= Time to Downgrade Risk[Nevada] = 120.273  <= 500
+10 <= Time to Downgrade Risk[New Hampshire] = 42.5766  <= 500
+10 <= Time to Downgrade Risk[New Jersey] = 70.0121  <= 500
+10 <= Time to Downgrade Risk[New Mexico] = 117.411  <= 500
+10 <= Time to Downgrade Risk[New York] = 59.1656  <= 500
+10 <= Time to Downgrade Risk[North Carolina] = 55.8352  <= 500
+10 <= Time to Downgrade Risk[North Dakota] = 81.2984  <= 500
+10 <= Time to Downgrade Risk[Ohio] = 14.6315  <= 500
+10 <= Time to Downgrade Risk[Oklahoma] = 76.8551  <= 500
+10 <= Time to Downgrade Risk[Oregon] = 83.3304  <= 500
+10 <= Time to Downgrade Risk[Pennsylvania] = 10.0006  <= 500
+10 <= Time to Downgrade Risk[Rhode Island] = 49.8587  <= 500
+10 <= Time to Downgrade Risk[South Carolina] = 163.376  <= 500
+10 <= Time to Downgrade Risk[South Dakota] = 103.147  <= 500
+10 <= Time to Downgrade Risk[Tennessee] = 242.841  <= 500
+10 <= Time to Downgrade Risk[Texas] = 101.118  <= 500
+10 <= Time to Downgrade Risk[Utah] = 67.0489  <= 500
+10 <= Time to Downgrade Risk[Vermont] = 47.064  <= 500
+10 <= Time to Downgrade Risk[Virginia] = 153.543  <= 500
+10 <= Time to Downgrade Risk[Washington] = 24.1725  <= 500
+10 <= Time to Downgrade Risk[West Virginia] = 90.6647  <= 500
+10 <= Time to Downgrade Risk[Wisconsin] = 47.2419  <= 500
+10 <= Time to Downgrade Risk[Wyoming] = 64.1102  <= 500
+1 <= Time to Upgrade Risk[Alabama] = 1.99861  <= 200
+1 <= Time to Upgrade Risk[Alaska] = 1.00037  <= 200
+1 <= Time to Upgrade Risk[Arizona] = 1.00031  <= 200
+1 <= Time to Upgrade Risk[Arkansas] = 13.3045  <= 200
+1 <= Time to Upgrade Risk[California] = 5.45426  <= 200
+1 <= Time to Upgrade Risk[Colorado] = 1.63344  <= 200
+1 <= Time to Upgrade Risk[Connecticut] = 58.2769  <= 200
+1 <= Time to Upgrade Risk[District of Columbia] = 46.8462  <= 200
+1 <= Time to Upgrade Risk[Delaware] = 27.0053  <= 200
+1 <= Time to Upgrade Risk[Florida] = 12.0438  <= 200
+1 <= Time to Upgrade Risk[Georgia] = 5.71746  <= 200
+1 <= Time to Upgrade Risk[Hawaii] = 2.34645  <= 200
+1 <= Time to Upgrade Risk[Idaho] = 11.6695  <= 200
+1 <= Time to Upgrade Risk[Illinois] = 48.2129  <= 200
+1 <= Time to Upgrade Risk[Indiana] = 1.6088  <= 200
+1 <= Time to Upgrade Risk[Iowa] = 1.02309  <= 200
+1 <= Time to Upgrade Risk[Kansas] = 1.0345  <= 200
+1 <= Time to Upgrade Risk[Kentucky] = 1.23753  <= 200
+1 <= Time to Upgrade Risk[Louisiana] = 4.58234  <= 200
+1 <= Time to Upgrade Risk[Maine] = 1.07452  <= 200
+1 <= Time to Upgrade Risk[Maryland] = 60.6943  <= 200
+1 <= Time to Upgrade Risk[Massachusetts] = 8.19066  <= 200
+1 <= Time to Upgrade Risk[Michigan] = 1.01094  <= 200
+1 <= Time to Upgrade Risk[Minnesota] = 1.00011  <= 200
+1 <= Time to Upgrade Risk[Mississippi] = 7.37354  <= 200
+1 <= Time to Upgrade Risk[Missouri] = 6.78279  <= 200
+1 <= Time to Upgrade Risk[Montana] = 1.30548  <= 200
+1 <= Time to Upgrade Risk[Nebraska] = 1.0684  <= 200
+1 <= Time to Upgrade Risk[Nevada] = 1.23522  <= 200
+1 <= Time to Upgrade Risk[New Hampshire] = 7.58477  <= 200
+1 <= Time to Upgrade Risk[New Jersey] = 42.5694  <= 200
+1 <= Time to Upgrade Risk[New Mexico] = 1.4394  <= 200
+1 <= Time to Upgrade Risk[New York] = 40.1924  <= 200
+1 <= Time to Upgrade Risk[North Carolina] = 18.8142  <= 200
+1 <= Time to Upgrade Risk[North Dakota] = 1.43225  <= 200
+1 <= Time to Upgrade Risk[Ohio] = 13.8819  <= 200
+1 <= Time to Upgrade Risk[Oklahoma] = 28.5742  <= 200
+1 <= Time to Upgrade Risk[Oregon] = 11.3723  <= 200
+1 <= Time to Upgrade Risk[Pennsylvania] = 4.56763  <= 200
+1 <= Time to Upgrade Risk[Rhode Island] = 38.5384  <= 200
+1 <= Time to Upgrade Risk[South Carolina] = 2.23956  <= 200
+1 <= Time to Upgrade Risk[South Dakota] = 40.023  <= 200
+1 <= Time to Upgrade Risk[Tennessee] = 1.27733  <= 200
+1 <= Time to Upgrade Risk[Texas] = 1  <= 200
+1 <= Time to Upgrade Risk[Utah] = 3.38244  <= 200
+1 <= Time to Upgrade Risk[Vermont] = 16.8779  <= 200
+1 <= Time to Upgrade Risk[Virginia] = 29.391  <= 200
+1 <= Time to Upgrade Risk[Washington] = 10.9983  <= 200
+1 <= Time to Upgrade Risk[West Virginia] = 3.06255  <= 200
+1 <= Time to Upgrade Risk[Wisconsin] = 1.00028  <= 200
+1 <= Time to Upgrade Risk[Wyoming] = 1.02376  <= 200
+0.4 <= Total Asymptomatic Fraction[Alabama] = 0.438471  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Alaska] = 0.455688  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Arizona] = 0.448707  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Arkansas] = 0.410984  <= 0.7
+0.4 <= Total Asymptomatic Fraction[California] = 0.508548  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Colorado] = 0.521046  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Connecticut] = 0.496422  <= 0.7
+0.4 <= Total Asymptomatic Fraction[District of Columbia] = 0.508922  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Delaware] = 0.459943  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Florida] = 0.440469  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Georgia] = 0.42468  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Hawaii] = 0.453727  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Idaho] = 0.421875  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Illinois] = 0.495243  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Indiana] = 0.478941  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Iowa] = 0.427132  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Kansas] = 0.460402  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Kentucky] = 0.453558  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Louisiana] = 0.422453  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Maine] = 0.411855  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Maryland] = 0.484407  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Massachusetts] = 0.489026  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Michigan] = 0.44441  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Minnesota] = 0.437644  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Mississippi] = 0.415215  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Missouri] = 0.418501  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Montana] = 0.446107  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Nebraska] = 0.430407  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Nevada] = 0.486989  <= 0.7
+0.4 <= Total Asymptomatic Fraction[New Hampshire] = 0.437272  <= 0.7
+0.4 <= Total Asymptomatic Fraction[New Jersey] = 0.512201  <= 0.7
+0.4 <= Total Asymptomatic Fraction[New Mexico] = 0.469978  <= 0.7
+0.4 <= Total Asymptomatic Fraction[New York] = 0.525054  <= 0.7
+0.4 <= Total Asymptomatic Fraction[North Carolina] = 0.425576  <= 0.7
+0.4 <= Total Asymptomatic Fraction[North Dakota] = 0.416194  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Ohio] = 0.440836  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Oklahoma] = 0.424103  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Oregon] = 0.4  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Pennsylvania] = 0.453977  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Rhode Island] = 0.48827  <= 0.7
+0.4 <= Total Asymptomatic Fraction[South Carolina] = 0.449851  <= 0.7
+0.4 <= Total Asymptomatic Fraction[South Dakota] = 0.416912  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Tennessee] = 0.407365  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Texas] = 0.510169  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Utah] = 0.408646  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Vermont] = 0.449599  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Virginia] = 0.423918  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Washington] = 0.43696  <= 0.7
+0.4 <= Total Asymptomatic Fraction[West Virginia] = 0.403845  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Wisconsin] = 0.492706  <= 0.7
+0.4 <= Total Asymptomatic Fraction[Wyoming] = 0.448191  <= 0.7
+1e-06 <= Weight on Reported Probability of Infection[Alabama] = 0.31336  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Alaska] = 0.38907  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Arizona] = 0.329937  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Arkansas] = 0.676374  <= 1
+1e-06 <= Weight on Reported Probability of Infection[California] = 0.949082  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Colorado] = 0.902574  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Connecticut] = 0.909981  <= 1
+1e-06 <= Weight on Reported Probability of Infection[District of Columbia] = 0.80066  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Delaware] = 0.51973  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Florida] = 1.16313e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Georgia] = 0.842261  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Hawaii] = 1.1575e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Idaho] = 0.00211623  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Illinois] = 2.91878e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Indiana] = 0.432386  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Iowa] = 0.807423  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Kansas] = 2.87262e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Kentucky] = 0.0748322  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Louisiana] = 0.887828  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Maine] = 0.240717  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Maryland] = 2.633e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Massachusetts] = 0.875418  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Michigan] = 0.877036  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Minnesota] = 0.800894  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Mississippi] = 0.735534  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Missouri] = 0.752015  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Montana] = 0.906921  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Nebraska] = 0.575382  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Nevada] = 0.189934  <= 1
+1e-06 <= Weight on Reported Probability of Infection[New Hampshire] = 0.865167  <= 1
+1e-06 <= Weight on Reported Probability of Infection[New Jersey] = 0.904023  <= 1
+1e-06 <= Weight on Reported Probability of Infection[New Mexico] = 0.517869  <= 1
+1e-06 <= Weight on Reported Probability of Infection[New York] = 0.989934  <= 1
+1e-06 <= Weight on Reported Probability of Infection[North Carolina] = 0.391844  <= 1
+1e-06 <= Weight on Reported Probability of Infection[North Dakota] = 0.268887  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Ohio] = 0.121017  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Oklahoma] = 0.534203  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Oregon] = 2.4538e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Pennsylvania] = 1.59375e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Rhode Island] = 0.600791  <= 1
+1e-06 <= Weight on Reported Probability of Infection[South Carolina] = 0.610063  <= 1
+1e-06 <= Weight on Reported Probability of Infection[South Dakota] = 0.181169  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Tennessee] = 0.436182  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Texas] = 0.645524  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Utah] = 0.0977831  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Vermont] = 0.44678  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Virginia] = 0.00196115  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Washington] = 2.34506e-06  <= 1
+1e-06 <= Weight on Reported Probability of Infection[West Virginia] = 5.4624e-05  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Wisconsin] = 0.492827  <= 1
+1e-06 <= Weight on Reported Probability of Infection[Wyoming] = 0.890368  <= 1
+780 <= Variant Intro Start Time2[Alabama] = 780.249  <= 820
+780 <= Variant Intro Start Time2[Alaska] = 803.807  <= 820
+780 <= Variant Intro Start Time2[Arizona] = 794.322  <= 820
+780 <= Variant Intro Start Time2[Arkansas] = 814.586  <= 820
+780 <= Variant Intro Start Time2[California] = 793.233  <= 820
+780 <= Variant Intro Start Time2[Colorado] = 782.522  <= 820
+780 <= Variant Intro Start Time2[Connecticut] = 780.003  <= 820
+780 <= Variant Intro Start Time2[District of Columbia] = 780  <= 820
+780 <= Variant Intro Start Time2[Delaware] = 780.005  <= 820
+780 <= Variant Intro Start Time2[Florida] = 780.183  <= 820
+780 <= Variant Intro Start Time2[Georgia] = 808.904  <= 820
+780 <= Variant Intro Start Time2[Hawaii] = 780  <= 820
+780 <= Variant Intro Start Time2[Idaho] = 808.855  <= 820
+780 <= Variant Intro Start Time2[Illinois] = 783.257  <= 820
+780 <= Variant Intro Start Time2[Indiana] = 789.669  <= 820
+780 <= Variant Intro Start Time2[Iowa] = 785.431  <= 820
+780 <= Variant Intro Start Time2[Kansas] = 792.943  <= 820
+780 <= Variant Intro Start Time2[Kentucky] = 793.443  <= 820
+780 <= Variant Intro Start Time2[Louisiana] = 795.64  <= 820
+780 <= Variant Intro Start Time2[Maine] = 789.31  <= 820
+780 <= Variant Intro Start Time2[Maryland] = 780  <= 820
+780 <= Variant Intro Start Time2[Massachusetts] = 780.641  <= 820
+780 <= Variant Intro Start Time2[Michigan] = 791.323  <= 820
+780 <= Variant Intro Start Time2[Minnesota] = 791.807  <= 820
+780 <= Variant Intro Start Time2[Mississippi] = 798.921  <= 820
+780 <= Variant Intro Start Time2[Missouri] = 810.413  <= 820
+780 <= Variant Intro Start Time2[Montana] = 800.901  <= 820
+780 <= Variant Intro Start Time2[Nebraska] = 788.753  <= 820
+780 <= Variant Intro Start Time2[Nevada] = 794.013  <= 820
+780 <= Variant Intro Start Time2[New Hampshire] = 781.607  <= 820
+780 <= Variant Intro Start Time2[New Jersey] = 780.144  <= 820
+780 <= Variant Intro Start Time2[New Mexico] = 780  <= 820
+780 <= Variant Intro Start Time2[New York] = 780  <= 820
+780 <= Variant Intro Start Time2[North Carolina] = 783.787  <= 820
+780 <= Variant Intro Start Time2[North Dakota] = 797.599  <= 820
+780 <= Variant Intro Start Time2[Ohio] = 783.506  <= 820
+780 <= Variant Intro Start Time2[Oklahoma] = 799.063  <= 820
+780 <= Variant Intro Start Time2[Oregon] = 820  <= 820
+780 <= Variant Intro Start Time2[Pennsylvania] = 780.019  <= 820
+780 <= Variant Intro Start Time2[Rhode Island] = 780  <= 820
+780 <= Variant Intro Start Time2[South Carolina] = 793.091  <= 820
+780 <= Variant Intro Start Time2[South Dakota] = 785.352  <= 820
+780 <= Variant Intro Start Time2[Tennessee] = 816.006  <= 820
+780 <= Variant Intro Start Time2[Texas] = 803.677  <= 820
+780 <= Variant Intro Start Time2[Utah] = 806.875  <= 820
+780 <= Variant Intro Start Time2[Vermont] = 787.65  <= 820
+780 <= Variant Intro Start Time2[Virginia] = 793.839  <= 820
+780 <= Variant Intro Start Time2[Washington] = 796.652  <= 820
+780 <= Variant Intro Start Time2[West Virginia] = 803.921  <= 820
+780 <= Variant Intro Start Time2[Wisconsin] = 818.862  <= 820
+780 <= Variant Intro Start Time2[Wyoming] = 799.756  <= 820

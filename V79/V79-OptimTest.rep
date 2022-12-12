@@ -1,0 +1,2607 @@
+The payoff is -679615
+The following are the components of the payoff:
+Type	Component	Contribution	Percent	Values	Params&Data	Used	Skipped
+*P	NBLLFlow[Texas,Infection]/1	-8764.97	1.2897	-8764.97	0	4281	0
+*P	NBLLFlow[Florida,Infection]/1	-8763.41	1.28947	-8763.41	0	4281	0
+*P	NBLLFlow[New Jersey,Infection]/1	-7912.36	1.16424	-7912.36	0	4281	0
+*P	NBLLFlow[New York,Infection]/1	-7890.56	1.16103	-7890.56	0	4281	0
+*P	NBLLFlow[North Carolina,Infection]/1	-7721.57	1.13617	-7721.57	0	4281	0
+*P	NBLLFlow[Tennessee,Infection]/1	-7659.05	1.12697	-7659.05	0	4281	0
+*P	NBLLFlow[Texas,Death]/1	-7415.79	1.09117	-7415.79	0	4281	0
+*P	NBLLFlow[Washington,Infection]/1	-7384.39	1.08656	-7384.39	0	4281	0
+*P	NBLLFlow[Pennsylvania,Infection]/1	-7357.8	1.08264	-7357.8	0	4281	0
+*P	NBLLFlow[Colorado,Infection]/1	-7344.97	1.08075	-7344.97	0	4281	0
+*P	NBLLFlow[Illinois,Infection]/1	-7310.03	1.07561	-7310.03	0	4281	0
+*P	NBLLFlow[California,Infection]/1	-7272.87	1.07015	-7272.87	0	4281	0
+*P	NBLLFlow[Alabama,Infection]/1	-7267.07	1.06929	-7267.07	0	4281	0
+*P	NBLLFlow[South Carolina,Infection]/1	-7252	1.06708	-7252	0	4281	0
+*P	NBLLFlow[Kentucky,Infection]/1	-7132.34	1.04947	-7132.34	0	4281	0
+*P	NBLLFlow[Wisconsin,Infection]/1	-6972.77	1.02599	-6972.77	0	4281	0
+*P	NBLLFlow[Arkansas,Infection]/1	-6801.05	1.00072	-6801.05	0	4281	0
+*P	NBLLFlow[Maryland,Infection]/1	-6710.88	0.987452	-6710.88	0	4281	0
+*P	NBLLFlow[Virginia,Infection]/1	-6700.09	0.985866	-6700.09	0	4281	0
+*P	NBLLFlow[Michigan,Infection]/1	-6669.98	0.981435	-6669.98	0	4281	0
+*P	NBLLFlow[Georgia,Infection]/1	-6656.72	0.979484	-6656.72	0	4281	0
+*P	NBLLFlow[California,Death]/1	-6377.92	0.938461	-6377.92	0	4281	0
+*P	NBLLFlow[Ohio,Infection]/1	-6376.17	0.938203	-6376.17	0	4281	0
+*P	NBLLFlow[Indiana,Infection]/1	-6330	0.93141	-6330	0	4281	0
+*P	NBLLFlow[Missouri,Infection]/1	-6267.53	0.922217	-6267.53	0	4281	0
+*P	NBLLFlow[Massachusetts,Infection]/1	-6240.53	0.918245	-6240.53	0	4281	0
+*P	NBLLFlow[Arizona,Infection]/1	-6231.69	0.916944	-6231.69	0	4281	0
+*P	NBLLFlow[Louisiana,Infection]/1	-6142.33	0.903796	-6142.33	0	4281	0
+*P	NBLLFlow[Pennsylvania,Death]/1	-6091.17	0.896268	-6091.17	0	4281	0
+*P	NBLLFlow[Mississippi,Infection]/1	-5991.03	0.881533	-5991.03	0	4281	0
+*P	NBLLFlow[Nevada,Infection]/1	-5987.23	0.880973	-5987.23	0	4281	0
+*P	NBLLFlow[Minnesota,Infection]/1	-5969.54	0.878371	-5969.54	0	4281	0
+*P	NBLLFlow[Oregon,Infection]/1	-5946.29	0.874949	-5946.29	0	4281	0
+*P	NBLLFlow[Iowa,Infection]/1	-5847.72	0.860446	-5847.72	0	4281	0
+*P	NBLLFlow[Oklahoma,Infection]/1	-5824.77	0.857069	-5824.77	0	4281	0
+*P	NBLLFlow[Florida,Death]/1	-5824.14	0.856976	-5824.14	0	4281	0
+*P	NBLLFlow[Tennessee,Death]/1	-5738.33	0.84435	-5738.33	0	4281	0
+*P	NBLLFlow[West Virginia,Infection]/1	-5728.58	0.842915	-5728.58	0	4281	0
+*P	NBLLFlow[Rhode Island,Infection]/1	-5722.74	0.842056	-5722.74	0	4281	0
+*P	NBLLFlow[New Mexico,Infection]/1	-5649.81	0.831325	-5649.81	0	4281	0
+*P	NBLLFlow[Delaware,Infection]/1	-5597.08	0.823566	-5597.08	0	4281	0
+*P	NBLLFlow[Texas,Test]/1	-5547	0.816197	-5547	0	4281	0
+*P	NBLLFlow[California,Test]/1	-5544.58	0.815841	-5544.58	0	4281	0
+*P	NBLLFlow[Connecticut,Infection]/1	-5531.44	0.813907	-5531.44	0	4281	0
+*P	NBLLFlow[Utah,Infection]/1	-5463.73	0.803945	-5463.73	0	4281	0
+*P	NBLLFlow[Florida,Test]/1	-5371.66	0.790398	-5371.66	0	4281	0
+*P	NBLLFlow[Nebraska,Infection]/1	-5354.6	0.787887	-5354.6	0	4281	0
+*P	NBLLFlow[Georgia,Death]/1	-5345.48	0.786545	-5345.48	0	4281	0
+*P	NBLLFlow[Maine,Infection]/1	-5276.73	0.77643	-5276.73	0	4281	0
+*P	NBLLFlow[Idaho,Infection]/1	-5248.96	0.772343	-5248.96	0	4281	0
+*P	NBLLFlow[Georgia,Test]/1	-5247.17	0.77208	-5247.17	0	4281	0
+*P	NBLLFlow[Arizona,Death]/1	-5102.68	0.75082	-5102.68	0	4281	0
+*P	NBLLFlow[North Dakota,Infection]/1	-5060.66	0.744636	-5060.66	0	4281	0
+*P	NBLLFlow[New Hampshire,Infection]/1	-4969.71	0.731254	-4969.71	0	4281	0
+*P	NBLLFlow[New York,Test]/1	-4928.76	0.725228	-4928.76	0	4281	0
+*P	NBLLFlow[Missouri,Death]/1	-4871.38	0.716786	-4871.38	0	4281	0
+*P	NBLLFlow[Colorado,Death]/1	-4838.11	0.71189	-4838.11	0	4281	0
+*P	NBLLFlow[South Carolina,Death]/1	-4741.94	0.697739	-4741.94	0	4281	0
+*P	NBLLFlow[Kentucky,Test]/1	-4740.67	0.697552	-4740.67	0	4281	0
+*P	NBLLFlow[New Jersey,Death]/1	-4724.51	0.695175	-4724.51	0	4281	0
+*P	NBLLFlow[Ohio,Test]/1	-4669.97	0.687149	-4669.97	0	4281	0
+*P	NBLLFlow[Illinois,Test]/1	-4611.76	0.678584	-4611.76	0	4281	0
+*P	NBLLFlow[Wisconsin,Death]/1	-4591.91	0.675663	-4591.91	0	4281	0
+*P	NBLLFlow[Pennsylvania,Test]/1	-4591.71	0.675633	-4591.71	0	4281	0
+*P	NBLLFlow[Wisconsin,Test]/1	-4588.93	0.675225	-4588.93	0	4281	0
+*P	NBLLFlow[Montana,Infection]/1	-4557.82	0.670647	-4557.82	0	4281	0
+*P	NBLLFlow[Michigan,Test]/1	-4543.73	0.668574	-4543.73	0	4281	0
+*P	NBLLFlow[New York,Death]/1	-4463.69	0.656796	-4463.69	0	4281	0
+*P	NBLLFlow[Hawaii,Infection]/1	-4459.79	0.656223	-4459.79	0	4281	0
+*P	NBLLFlow[South Dakota,Infection]/1	-4454.08	0.655383	-4454.08	0	4281	0
+*P	NBLLFlow[District of Columbia,Infection]/1	-4443.94	0.653891	-4443.94	0	4281	0
+*P	NBLLFlow[Vermont,Infection]/1	-4409.55	0.64883	-4409.55	0	4281	0
+*P	NBLLFlow[Massachusetts,Death]/1	-4296.32	0.632169	-4296.32	0	4281	0
+*P	NBLLFlow[New Jersey,Test]/1	-4282.75	0.630174	-4282.75	0	4281	0
+*P	NBLLFlow[Indiana,Test]/1	-4275.99	0.629179	-4275.99	0	4281	0
+*P	NBLLFlow[Virginia,Death]/1	-4275.92	0.629168	-4275.92	0	4281	0
+*P	NBLLFlow[North Carolina,Test]/1	-4273.25	0.628775	-4273.25	0	4281	0
+*P	NBLLFlow[Michigan,Death]/1	-4187.63	0.616177	-4187.63	0	4281	0
+*P	NBLLFlow[Alabama,Test]/1	-4172.7	0.613979	-4172.7	0	4281	0
+*P	NBLLFlow[Tennessee,Test]/1	-4157.12	0.611688	-4157.12	0	4281	0
+*P	NBLLFlow[Missouri,Test]/1	-4129.6	0.607638	-4129.6	0	4281	0
+*P	NBLLFlow[Indiana,Death]/1	-4125.31	0.607007	-4125.31	0	4281	0
+*P	NBLLFlow[Alaska,Infection]/1	-4116.63	0.60573	-4116.63	0	4281	0
+*P	NBLLFlow[Arizona,Test]/1	-4111.15	0.604924	-4111.15	0	4281	0
+*P	NBLLFlow[Louisiana,Test]/1	-4109.66	0.604704	-4109.66	0	4281	0
+*P	NBLLFlow[Illinois,Death]/1	-4089.65	0.601759	-4089.65	0	4281	0
+*P	NBLLFlow[Wyoming,Infection]/1	-4066.11	0.598296	-4066.11	0	4281	0
+*P	NBLLFlow[Oklahoma,Test]/1	-4020.87	0.591639	-4020.87	0	4281	0
+*P	NBLLFlow[Colorado,Test]/1	-3984.45	0.586281	-3984.45	0	4281	0
+*P	NBLLFlow[Maryland,Test]/1	-3961.22	0.582863	-3961.22	0	4281	0
+*P	NBLLFlow[Virginia,Test]/1	-3931.25	0.578452	-3931.25	0	4281	0
+*P	NBLLFlow[South Carolina,Test]/1	-3872	0.569734	-3872	0	4281	0
+*P	NBLLFlow[Massachusetts,Test]/1	-3720.6	0.547457	-3720.6	0	4281	0
+*P	NBLLFlow[Minnesota,Test]/1	-3703.7	0.54497	-3703.7	0	4281	0
+*P	NBLLFlow[Minnesota,Death]/1	-3662.17	0.538859	-3662.17	0	4281	0
+*P	NBLLFlow[Mississippi,Test]/1	-3656.46	0.538019	-3656.46	0	4281	0
+*P	NBLLFlow[Kansas,Infection]/1	-3651.42	0.537277	-3651.42	0	4281	0
+*P	NBLLFlow[Nevada,Test]/1	-3639.85	0.535575	-3639.85	0	4281	0
+*P	NBLLFlow[Washington,Test]/1	-3614.48	0.531842	-3614.48	0	4281	0
+*P	NBLLFlow[Arkansas,Test]/1	-3608.54	0.530968	-3608.54	0	4281	0
+*P	NBLLFlow[Louisiana,Death]/1	-3601.32	0.529906	-3601.32	0	4281	0
+*P	NBLLFlow[Oregon,Death]/1	-3585.67	0.527603	-3585.67	0	4281	0
+*P	NBLLFlow[Nevada,Death]/1	-3524.51	0.518603	-3524.51	0	4281	0
+*P	NBLLFlow[Kansas,Test]/1	-3513.14	0.51693	-3513.14	0	4281	0
+*P	NBLLFlow[Washington,Death]/1	-3511.36	0.51667	-3511.36	0	4281	0
+*P	NBLLFlow[New Mexico,Test]/1	-3467.91	0.510276	-3467.91	0	4281	0
+*P	NBLLFlow[Iowa,Test]/1	-3452.36	0.507988	-3452.36	0	4281	0
+*P	NBLLFlow[Connecticut,Test]/1	-3332.18	0.490304	-3332.18	0	4281	0
+*P	NBLLFlow[Alabama,Death]/1	-3325.29	0.48929	-3325.29	0	4281	0
+*P	NBLLFlow[Mississippi,Death]/1	-3270.08	0.481166	-3270.08	0	4281	0
+*P	NBLLFlow[Arkansas,Death]/1	-3269.62	0.481098	-3269.62	0	4281	0
+*P	NBLLFlow[Ohio,Death]/1	-3267.03	0.480718	-3267.03	0	4281	0
+*P	NBLLFlow[North Carolina,Death]/1	-3259.52	0.479613	-3259.52	0	4281	0
+*P	NBLLFlow[Oregon,Test]/1	-3233.12	0.475728	-3233.12	0	4281	0
+*P	NBLLFlow[Utah,Test]/1	-3215.31	0.473108	-3215.31	0	4281	0
+*P	NBLLFlow[West Virginia,Test]/1	-3211.07	0.472483	-3211.07	0	4281	0
+*P	NBLLFlow[West Virginia,Death]/1	-3206.59	0.471824	-3206.59	0	4281	0
+*P	NBLLFlow[Montana,Test]/1	-3142.55	0.462401	-3142.55	0	4281	0
+*P	NBLLFlow[Kentucky,Death]/1	-3027.1	0.445415	-3027.1	0	4281	0
+*P	NBLLFlow[Nebraska,Test]/1	-2970.77	0.437125	-2970.77	0	4281	0
+*P	NBLLFlow[New Mexico,Death]/1	-2953.48	0.434581	-2953.48	0	4281	0
+*P	NBLLFlow[Hawaii,Test]/1	-2950.04	0.434074	-2950.04	0	4281	0
+*P	NBLLFlow[Idaho,Test]/1	-2942.95	0.433032	-2942.95	0	4281	0
+*P	NBLLFlow[Connecticut,Death]/1	-2918.8	0.429478	-2918.8	0	4281	0
+*P	NBLLFlow[Kansas,Death]/1	-2669.75	0.392833	-2669.75	0	4281	0
+*P	NBLLFlow[Maryland,Death]/1	-2661.73	0.391653	-2661.73	0	4281	0
+*P	NBLLFlow[Delaware,Test]/1	-2616.85	0.385049	-2616.85	0	4281	0
+*P	NBLLFlow[South Dakota,Test]/1	-2597.92	0.382263	-2597.92	0	4281	0
+*P	NBLLFlow[District of Columbia,Test]/1	-2593.87	0.381668	-2593.87	0	4281	0
+*P	NBLLFlow[New Hampshire,Test]/1	-2574.17	0.378769	-2574.17	0	4281	0
+*P	NBLLFlow[Wyoming,Test]/1	-2512.78	0.369736	-2512.78	0	4281	0
+*P	NBLLFlow[Iowa,Death]/1	-2431.9	0.357835	-2431.9	0	4281	0
+*P	NBLLFlow[Idaho,Death]/1	-2413.38	0.355109	-2413.38	0	4281	0
+*P	NBLLFlow[North Dakota,Test]/1	-2404.9	0.353862	-2404.9	0	4281	0
+*P	NBLLFlow[Oklahoma,Death]/1	-2397.11	0.352716	-2397.11	0	4281	0
+*P	NBLLFlow[Nebraska,Death]/1	-2376.38	0.349665	-2376.38	0	4281	0
+*P	NBLLFlow[Maine,Test]/1	-2350.84	0.345907	-2350.84	0	4281	0
+*P	NBLLFlow[Alaska,Test]/1	-2294.32	0.337592	-2294.32	0	4281	0
+*P	NBLLFlow[Utah,Death]/1	-2238.56	0.329386	-2238.56	0	4281	0
+*P	NBLLFlow[Rhode Island,Test]/1	-2230.54	0.328207	-2230.54	0	4281	0
+*P	NBLLFlow[Montana,Death]/1	-2130.02	0.313415	-2130.02	0	4281	0
+*P	NBLLFlow[Rhode Island,Death]/1	-2078.4	0.30582	-2078.4	0	4281	0
+*P	NBLLFlow[Maine,Death]/1	-2024.33	0.297865	-2024.33	0	4281	0
+*P	NBLLFlow[South Dakota,Death]/1	-1760.93	0.259106	-1760.93	0	4281	0
+*P	NBLLFlow[Vermont,Test]/1	-1747.45	0.257123	-1747.45	0	4281	0
+*P	NBLLFlow[North Dakota,Death]/1	-1715.98	0.252493	-1715.98	0	4281	0
+*P	NBLLFlow[New Hampshire,Death]/1	-1699.55	0.250075	-1699.55	0	4281	0
+*P	NBLLFlow[Delaware,Death]/1	-1631.09	0.240001	-1631.09	0	4281	0
+*P	NBLLFlow[Hawaii,Death]/1	-1277.51	0.187975	-1277.51	0	4281	0
+*P	NBLLFlow[Alaska,Death]/1	-1064.67	0.156657	-1064.67	0	4281	0
+*P	NBLLFlow[District of Columbia,Death]/1	-1033.98	0.152142	-1033.98	0	4281	0
+*P	NBLLFlow[Vermont,Death]/1	-971.676	0.142975	-971.676	0	4281	0
+*P	NBLLFlow[Wyoming,Death]/1	-626.956	0.0922517	-626.956	0	4281	0
+*PF	InpAveErr/-1	-397.148	0.0584372	-397.148	0	1	0
+*PF	PriorErrs[Connecticut,MTrAsym]/-1	-121.221	0.0178367	-121.221	0	1	0
+*PF	PriorErrs[Vermont,SnFtAc]/-1	-61.3503	0.00902721	-61.3503	0	1	0
+*P	Economist Exess Death Err[Massachusetts]/-1	-53.9961	0.0079451	-53.9961	0	4281	0
+*PF	PriorErrs[Texas,MInfTs]/-1	-50.0741	0.00736801	-50.0741	0	1	0
+*P	Economist Exess Death Err[Georgia]/-1	-48.3378	0.00711253	-48.3378	0	4281	0
+*P	Economist Exess Death Err[New York]/-1	-41.1428	0.00605385	-41.1428	0	4281	0
+*PF	PriorErrs[Florida,SnFtAc]/-1	-36.7867	0.00541287	-36.7867	0	1	0
+*P	Economist Exess Death Err[California]/-1	-35.149	0.0051719	-35.149	0	4281	0
+*P	Economist Exess Death Err[Florida]/-1	-33.1682	0.00488044	-33.1682	0	4281	0
+*P	Economist Exess Death Err[Colorado]/-1	-32.329	0.00475696	-32.329	0	4281	0
+*PF	PriorErrs[New York,TtAsyFr]/-1	-26.9518	0.00396575	-26.9518	0	1	0
+*PF	PriorErrs[Georgia,MInfTs]/-1	-26.7037	0.00392924	-26.7037	0	1	0
+*PF	PriorErrs[Colorado,TtAsyFr]/-1	-24.089	0.00354451	-24.089	0	1	0
+*PF	PriorErrs[New York,MInfTs]/-1	-22.7946	0.00335405	-22.7946	0	1	0
+*PF	PriorErrs[New York,SnFtAc]/-1	-22.1606	0.00326076	-22.1606	0	1	0
+*PF	PriorErrs[Vermont,BsFtRt]/-1	-18.4089	0.00270872	-18.4089	0	1	0
+*PF	PriorErrs[Oregon,BsFtRt]/-1	-18.4089	0.00270872	-18.4089	0	1	0
+*PF	PriorErrs[Florida,BsFtRt]/-1	-18.4089	0.00270872	-18.4089	0	1	0
+*PF	PriorErrs[Maine,BsFtRt]/-1	-18.4088	0.00270871	-18.4088	0	1	0
+*PF	PriorErrs[New Jersey,TtAsyFr]/-1	-18.3413	0.00269878	-18.3413	0	1	0
+*PF	PriorErrs[Nebraska,MInfTs]/-1	-18.0687	0.00265867	-18.0687	0	1	0
+*PF	PriorErrs[Maine,SnFtAc]/-1	-17.1975	0.00253047	-17.1975	0	1	0
+*PF	PriorErrs[Texas,TtAsyFr]/-1	-17.1312	0.00252072	-17.1312	0	1	0
+*PF	PriorErrs[New Mexico,RFI]/-1	-16.8845	0.00248442	-16.8845	0	1	0
+*PF	PriorErrs[South Dakota,MTrAsym]/-1	-16.7442	0.00246377	-16.7442	0	1	0
+*PF	PriorErrs[Delaware,BsFtRt]/-1	-16.6306	0.00244707	-16.6306	0	1	0
+*PF	PriorErrs[District of Columbia,TtAsyFr]/-1	-16.4089	0.00241444	-16.4089	0	1	0
+*PF	PriorErrs[California,TtAsyFr]/-1	-16.1952	0.002383	-16.1952	0	1	0
+*PF	PriorErrs[New Jersey,MTrAsym]/-1	-16.0901	0.00236753	-16.0901	0	1	0
+*P	Economist Exess Death Err[Wisconsin]/-1	-15.5032	0.00228118	-15.5032	0	4281	0
+*P	Economist Exess Death Err[Minnesota]/-1	-14.9763	0.00220365	-14.9763	0	4281	0
+*PF	PriorErrs[Maryland,UpAdj]/-1	-14.3605	0.00211304	-14.3605	0	1	0
+*PF	PriorErrs[New York,BsFtRt]/-1	-14.2612	0.00209842	-14.2612	0	1	0
+*PF	PriorErrs[Connecticut,UpAdj]/-1	-13.8914	0.00204402	-13.8914	0	1	0
+*PF	PriorErrs[Indiana,ImTrFt]/-1	-13.8754	0.00204166	-13.8754	0	1	0
+*PF	PriorErrs[Kansas,MnCnFrc]/-1	-13.4477	0.00197872	-13.4477	0	1	0
+*PF	PriorErrs[Oregon,TtAsyFr]/-1	-13.331	0.00196154	-13.331	0	1	0
+*P	Economist Exess Death Err[Connecticut]/-1	-13.0717	0.0019234	-13.0717	0	4281	0
+*PF	PriorErrs[Massachusetts,MnCnFrc]/-1	-13.0075	0.00191395	-13.0075	0	1	0
+*PF	PriorErrs[North Carolina,MInfTs]/-1	-12.6274	0.00185802	-12.6274	0	1	0
+*P	Economist Exess Death Err[New Jersey]/-1	-12.3189	0.00181263	-12.3189	0	4281	0
+*PF	PriorErrs[South Dakota,MInfTs]/-1	-12.2116	0.00179684	-12.2116	0	1	0
+*PF	PriorErrs[Nebraska,BsFtRt]/-1	-12.0612	0.00177471	-12.0612	0	1	0
+*PF	PriorErrs[Washington,BsFtRt]/-1	-12.0252	0.00176941	-12.0252	0	1	0
+*PF	PriorErrs[Wyoming,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Hawaii,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[West Virginia,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Vermont,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Montana,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Alabama,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Kansas,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Connecticut,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Georgia,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Washington,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Colorado,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Nevada,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Pennsylvania,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[California,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[New York,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Alaska,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Virginia,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[New Jersey,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Texas,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Wisconsin,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Nebraska,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Louisiana,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Arizona,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Illinois,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Idaho,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Iowa,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Ohio,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[New Mexico,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[North Carolina,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Oklahoma,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Michigan,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Tennessee,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Indiana,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Missouri,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Minnesota,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[District of Columbia,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Mississippi,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Florida,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Massachusetts,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Oregon,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Utah,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Maryland,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Arkansas,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Rhode Island,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Kentucky,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[New Hampshire,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[North Dakota,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Delaware,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[South Carolina,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[South Dakota,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Maine,PMT]/-1	-11.9652	0.00176058	-11.9652	0	1	0
+*PF	PriorErrs[Illinois,UpAdj]/-1	-11.8063	0.0017372	-11.8063	0	1	0
+*PF	PriorErrs[New York,ImPDnHs]/-1	-11.5104	0.00169366	-11.5104	0	1	0
+*PF	PriorErrs[District of Columbia,UpAdj]/-1	-11.5048	0.00169284	-11.5048	0	1	0
+*PF	PriorErrs[West Virginia,TtAsyFr]/-1	-11.4193	0.00168026	-11.4193	0	1	0
+*PF	PriorErrs[Georgia,Acty]/-1	-11.3612	0.00167172	-11.3612	0	1	0
+*PF	PriorErrs[Wisconsin,ImTrFt]/-1	-11.2878	0.0016609	-11.2878	0	1	0
+*PF	PriorErrs[Pennsylvania,MInfTs]/-1	-11.0369	0.00162399	-11.0369	0	1	0
+*PF	PriorErrs[District of Columbia,SnFtAc]/-1	-10.9845	0.00161628	-10.9845	0	1	0
+*PF	PriorErrs[Minnesota,MInfTs]/-1	-10.9269	0.0016078	-10.9269	0	1	0
+*PF	PriorErrs[Pennsylvania,ImTrFt]/-1	-10.7114	0.0015761	-10.7114	0	1	0
+*PF	PriorErrs[Colorado,SnFtAc]/-1	-10.6658	0.00156939	-10.6658	0	1	0
+*PF	PriorErrs[Wisconsin,MInfTs]/-1	-10.5593	0.00155372	-10.5593	0	1	0
+*PF	PriorErrs[Rhode Island,MnCnFrc]/-1	-10.5546	0.00155303	-10.5546	0	1	0
+*PF	PriorErrs[New Hampshire,BsFtRt]/-1	-10.5514	0.00155256	-10.5514	0	1	0
+*PF	PriorErrs[Delaware,MnCnFrc]/-1	-10.5314	0.00154961	-10.5314	0	1	0
+*PF	PriorErrs[New Jersey,UpAdj]/-1	-10.5292	0.0015493	-10.5292	0	1	0
+*PF	PriorErrs[Florida,CfImCn]/-1	-10.2278	0.00150494	-10.2278	0	1	0
+*PF	PriorErrs[Rhode Island,ImPDnHs]/-1	-10.1022	0.00148646	-10.1022	0	1	0
+*PF	PriorErrs[Connecticut,TtAsyFr]/-1	-10.0293	0.00147573	-10.0293	0	1	0
+*PF	PriorErrs[New York,UpAdj]/-1	-9.96447	0.00146619	-9.96447	0	1	0
+*PF	PriorErrs[South Dakota,UpAdj]/-1	-9.92358	0.00146018	-9.92358	0	1	0
+*PF	PriorErrs[Tennessee,TtAsyFr]/-1	-9.7991	0.00144186	-9.7991	0	1	0
+*PF	PriorErrs[Rhode Island,UpAdj]/-1	-9.56127	0.00140687	-9.56127	0	1	0
+*PF	PriorErrs[Illinois,TtAsyFr]/-1	-9.50805	0.00139903	-9.50805	0	1	0
+*PF	PriorErrs[Utah,TtAsyFr]/-1	-9.24021	0.00135962	-9.24021	0	1	0
+*PF	PriorErrs[Mississippi,MInfTs]/-1	-9.12797	0.00134311	-9.12797	0	1	0
+*PF	PriorErrs[Montana,RFI]/-1	-8.71254	0.00128198	-8.71254	0	1	0
+*PF	PriorErrs[Colorado,MInfTs]/-1	-8.45492	0.00124408	-8.45492	0	1	0
+*PF	PriorErrs[Wisconsin,TtAsyFr]/-1	-8.43394	0.00124099	-8.43394	0	1	0
+*PF	PriorErrs[Arkansas,TtAsyFr]/-1	-8.26248	0.00121576	-8.26248	0	1	0
+*PF	PriorErrs[Louisiana,CfImCn]/-1	-8.09106	0.00119054	-8.09106	0	1	0
+*P	Economist Exess Death Err[Tennessee]/-1	-7.94313	0.00116877	-7.94313	0	4281	0
+*PF	PriorErrs[District of Columbia,BsFtRt]/-1	-7.93858	0.0011681	-7.93858	0	1	0
+*PF	PriorErrs[Maine,TtAsyFr]/-1	-7.91239	0.00116425	-7.91239	0	1	0
+*PF	PriorErrs[Maryland,MInfTs]/-1	-7.48649	0.00110158	-7.48649	0	1	0
+*PF	PriorErrs[New York,MnCnFrc]/-1	-7.41571	0.00109116	-7.41571	0	1	0
+*PF	PriorErrs[California,MnCnFrc]/-1	-7.4157	0.00109116	-7.4157	0	1	0
+*PF	PriorErrs[Delaware,MInfTs]/-1	-7.37425	0.00108506	-7.37425	0	1	0
+*PF	PriorErrs[Minnesota,MnCnFrc]/-1	-7.35818	0.0010827	-7.35818	0	1	0
+*P	Economist Exess Death Err[Rhode Island]/-1	-7.22549	0.00106317	-7.22549	0	4281	0
+*PF	PriorErrs[Virginia,UpAdj]/-1	-7.16137	0.00105374	-7.16137	0	1	0
+*PF	PriorErrs[Massachusetts,TtAsyFr]/-1	-6.99018	0.00102855	-6.99018	0	1	0
+*PF	PriorErrs[Alabama,MInfTs]/-1	-6.95536	0.00102343	-6.95536	0	1	0
+*PF	PriorErrs[Oklahoma,UpAdj]/-1	-6.93162	0.00101993	-6.93162	0	1	0
+*PF	PriorErrs[North Dakota,MnCnFrc]/-1	-6.86148	0.00100961	-6.86148	0	1	0
+*PF	PriorErrs[California,AdhrFtg]/-1	-6.77607	0.000997045	-6.77607	0	1	0
+*PF	PriorErrs[Rhode Island,TtAsyFr]/-1	-6.71045	0.000987389	-6.71045	0	1	0
+*PF	PriorErrs[Mississippi,TtAsyFr]/-1	-6.63203	0.000975851	-6.63203	0	1	0
+*P	Economist Exess Death Err[Alabama]/-1	-6.58959	0.000969606	-6.58959	0	4281	0
+*PF	PriorErrs[Delaware,UpAdj]/-1	-6.48256	0.000953858	-6.48256	0	1	0
+*PF	PriorErrs[Vermont,Acty]/-1	-6.39561	0.000941063	-6.39561	0	1	0
+*PF	PriorErrs[Oklahoma,MnCnFrc]/-1	-6.37118	0.000937469	-6.37118	0	1	0
+*PF	PriorErrs[Texas,UpAdj]/-1	-6.32447	0.000930595	-6.32447	0	1	0
+*PF	PriorErrs[Minnesota,UpAdj]/-1	-6.32362	0.00093047	-6.32362	0	1	0
+*PF	PriorErrs[Wisconsin,UpAdj]/-1	-6.32231	0.000930278	-6.32231	0	1	0
+*PF	PriorErrs[Arizona,UpAdj]/-1	-6.32207	0.000930243	-6.32207	0	1	0
+*PF	PriorErrs[Alaska,UpAdj]/-1	-6.32161	0.000930175	-6.32161	0	1	0
+*PF	PriorErrs[Tennessee,MInfTs]/-1	-6.31356	0.00092899	-6.31356	0	1	0
+*PF	PriorErrs[Florida,Acty]/-1	-6.28696	0.000925076	-6.28696	0	1	0
+*PF	PriorErrs[North Dakota,TtAsyFr]/-1	-6.28044	0.000924117	-6.28044	0	1	0
+*PF	PriorErrs[Pennsylvania,MnCnFrc]/-1	-6.27936	0.000923959	-6.27936	0	1	0
+*PF	PriorErrs[Nevada,TtAsyFr]/-1	-6.24958	0.000919577	-6.24958	0	1	0
+*PF	PriorErrs[Michigan,UpAdj]/-1	-6.24073	0.000918275	-6.24073	0	1	0
+*PF	PriorErrs[Iowa,UpAdj]/-1	-6.14938	0.000904832	-6.14938	0	1	0
+*PF	PriorErrs[Wyoming,UpAdj]/-1	-6.14439	0.000904099	-6.14439	0	1	0
+*PF	PriorErrs[Kansas,UpAdj]/-1	-6.06523	0.00089245	-6.06523	0	1	0
+*PF	PriorErrs[South Dakota,TtAsyFr]/-1	-6.02849	0.000887045	-6.02849	0	1	0
+*PF	PriorErrs[Nebraska,UpAdj]/-1	-5.82386	0.000856934	-5.82386	0	1	0
+*PF	PriorErrs[Maine,UpAdj]/-1	-5.78155	0.00085071	-5.78155	0	1	0
+*PF	PriorErrs[Virginia,MnCnFrc]/-1	-5.75859	0.000847331	-5.75859	0	1	0
+*PF	PriorErrs[Idaho,BsFtRt]/-1	-5.67719	0.000835354	-5.67719	0	1	0
+*PF	PriorErrs[Arkansas,MInfTs]/-1	-5.66052	0.000832901	-5.66052	0	1	0
+*PF	PriorErrs[Missouri,TtAsyFr]/-1	-5.4894	0.000807722	-5.4894	0	1	0
+*PF	PriorErrs[Alaska,MnCnFrc]/-1	-5.46757	0.00080451	-5.46757	0	1	0
+*PF	PriorErrs[Maryland,TtAsyFr]/-1	-5.36988	0.000790136	-5.36988	0	1	0
+*PF	PriorErrs[New Hampshire,MnCnFrc]/-1	-5.34457	0.000786411	-5.34457	0	1	0
+*PF	PriorErrs[New Jersey,BsFtRt]/-1	-5.29126	0.000778568	-5.29126	0	1	0
+*PF	PriorErrs[Wyoming,MnCnFrc]/-1	-5.2829	0.000777337	-5.2829	0	1	0
+*P	Economist Exess Death Err[Vermont]/-1	-5.27284	0.000775856	-5.27284	0	4281	0
+*PF	PriorErrs[District of Columbia,MInfTs]/-1	-5.13044	0.000754904	-5.13044	0	1	0
+*PF	PriorErrs[Washington,MInfTs]/-1	-5.03682	0.000741128	-5.03682	0	1	0
+*PF	PriorErrs[Oklahoma,MInfTs]/-1	-4.9987	0.000735519	-4.9987	0	1	0
+*PF	PriorErrs[South Dakota,MnCnFrc]/-1	-4.85972	0.000715069	-4.85972	0	1	0
+*PF	PriorErrs[Nevada,UpAdj]/-1	-4.79821	0.000706019	-4.79821	0	1	0
+*PF	PriorErrs[Kentucky,UpAdj]/-1	-4.78563	0.000704168	-4.78563	0	1	0
+*PF	PriorErrs[New York,AdhrFtg]/-1	-4.73867	0.000697258	-4.73867	0	1	0
+*PF	PriorErrs[Pennsylvania,DwnAdj]/-1	-4.70338	0.000692065	-4.70338	0	1	0
+*PF	PriorErrs[District of Columbia,DwnAdj]/-1	-4.70333	0.000692058	-4.70333	0	1	0
+*PF	PriorErrs[Delaware,DwnAdj]/-1	-4.68418	0.00068924	-4.68418	0	1	0
+*PF	PriorErrs[Michigan,CfImCn]/-1	-4.60957	0.000678261	-4.60957	0	1	0
+*PF	PriorErrs[Idaho,MnCnFrc]/-1	-4.57804	0.000673623	-4.57804	0	1	0
+*PF	PriorErrs[Tennessee,UpAdj]/-1	-4.57538	0.000673231	-4.57538	0	1	0
+*PF	PriorErrs[North Dakota,BsFtRt]/-1	-4.51845	0.000664855	-4.51845	0	1	0
+*PF	PriorErrs[Missouri,BsFtRt]/-1	-4.4937	0.000661213	-4.4937	0	1	0
+*PF	PriorErrs[Montana,MnCnFrc]/-1	-4.47001	0.000657727	-4.47001	0	1	0
+*PF	PriorErrs[Alaska,BsFtRt]/-1	-4.45229	0.000655119	-4.45229	0	1	0
+*PF	PriorErrs[Montana,UpAdj]/-1	-4.43331	0.000652327	-4.43331	0	1	0
+*PF	PriorErrs[Illinois,BsFtRt]/-1	-4.43263	0.000652226	-4.43263	0	1	0
+*PF	PriorErrs[Idaho,TtAsyFr]/-1	-4.42841	0.000651605	-4.42841	0	1	0
+*PF	PriorErrs[Iowa,BsFtRt]/-1	-4.40622	0.000648341	-4.40622	0	1	0
+*PF	PriorErrs[Virginia,MInfTs]/-1	-4.30186	0.000632984	-4.30186	0	1	0
+*PF	PriorErrs[Alabama,ImTrFt]/-1	-4.26822	0.000628035	-4.26822	0	1	0
+*PF	PriorErrs[Kansas,BsFtRt]/-1	-4.25938	0.000626734	-4.25938	0	1	0
+*PF	PriorErrs[Louisiana,TtAsyFr]/-1	-4.25798	0.000626529	-4.25798	0	1	0
+*PF	PriorErrs[Connecticut,MnCnFrc]/-1	-4.10922	0.00060464	-4.10922	0	1	0
+*PF	PriorErrs[Nevada,BsFtRt]/-1	-4.02716	0.000592565	-4.02716	0	1	0
+*PF	PriorErrs[Kentucky,ImTrFt]/-1	-4.00956	0.000589976	-4.00956	0	1	0
+*PF	PriorErrs[Minnesota,BsFtRt]/-1	-3.96484	0.000583396	-3.96484	0	1	0
+*PF	PriorErrs[North Carolina,UpAdj]/-1	-3.96463	0.000583364	-3.96463	0	1	0
+*PF	PriorErrs[Illinois,MnCnFrc]/-1	-3.93171	0.00057852	-3.93171	0	1	0
+*PF	PriorErrs[Montana,AdhrFtg]/-1	-3.89896	0.000573701	-3.89896	0	1	0
+*PF	PriorErrs[West Virginia,MInfTs]/-1	-3.88372	0.000571459	-3.88372	0	1	0
+*PF	PriorErrs[Montana,ImTrFt]/-1	-3.8672	0.000569029	-3.8672	0	1	0
+*PF	PriorErrs[Virginia,BsFtRt]/-1	-3.86617	0.000568876	-3.86617	0	1	0
+*PF	PriorErrs[North Dakota,UpAdj]/-1	-3.85429	0.000567128	-3.85429	0	1	0
+*PF	PriorErrs[Delaware,SnFtAc]/-1	-3.85416	0.000567109	-3.85416	0	1	0
+*PF	PriorErrs[Virginia,TtAsyFr]/-1	-3.84132	0.00056522	-3.84132	0	1	0
+*PF	PriorErrs[New Mexico,UpAdj]/-1	-3.82436	0.000562724	-3.82436	0	1	0
+*PF	PriorErrs[Indiana,SnFtAc]/-1	-3.79611	0.000558567	-3.79611	0	1	0
+*PF	PriorErrs[Wyoming,MTrAsym]/-1	-3.79051	0.000557744	-3.79051	0	1	0
+*PF	PriorErrs[Oklahoma,TtAsyFr]/-1	-3.79012	0.000557686	-3.79012	0	1	0
+*PF	PriorErrs[Indiana,TtAsyFr]/-1	-3.72796	0.00054854	-3.72796	0	1	0
+*PF	PriorErrs[Georgia,TtAsyFr]/-1	-3.6329	0.000534553	-3.6329	0	1	0
+*P	Economist Exess Death Err[North Carolina]/-1	-3.62985	0.000534104	-3.62985	0	4281	0
+*PF	PriorErrs[Tennessee,BsFtRt]/-1	-3.57647	0.00052625	-3.57647	0	1	0
+*PF	PriorErrs[Hawaii,BsFtRt]/-1	-3.55403	0.000522948	-3.55403	0	1	0
+*PF	PriorErrs[Utah,BsFtRt]/-1	-3.55067	0.000522454	-3.55067	0	1	0
+*PF	PriorErrs[New Mexico,AdhrFtg]/-1	-3.54401	0.000521473	-3.54401	0	1	0
+*PF	PriorErrs[Missouri,MTrAsym]/-1	-3.47488	0.000511301	-3.47488	0	1	0
+*PF	PriorErrs[Connecticut,AdhrFtg]/-1	-3.4342	0.000505316	-3.4342	0	1	0
+*PF	PriorErrs[New York,WRpPIn]/-1	-3.42571	0.000504066	-3.42571	0	1	0
+*PF	PriorErrs[Tennessee,SnFtAc]/-1	-3.40808	0.000501472	-3.40808	0	1	0
+*PF	PriorErrs[New Jersey,SnFtAc]/-1	-3.39768	0.000499942	-3.39768	0	1	0
+*PF	PriorErrs[North Carolina,TtAsyFr]/-1	-3.39549	0.000499619	-3.39549	0	1	0
+*PF	PriorErrs[Oregon,MInfTs]/-1	-3.37078	0.000495984	-3.37078	0	1	0
+*PF	PriorErrs[Iowa,MInfTs]/-1	-3.3705	0.000495942	-3.3705	0	1	0
+*PF	PriorErrs[Arkansas,DwnAdj]/-1	-3.36988	0.000495851	-3.36988	0	1	0
+*PF	PriorErrs[Idaho,DwnAdj]/-1	-3.36988	0.000495851	-3.36988	0	1	0
+*PF	PriorErrs[Louisiana,DwnAdj]/-1	-3.36988	0.000495851	-3.36988	0	1	0
+*PF	PriorErrs[Alabama,DwnAdj]/-1	-3.36988	0.000495851	-3.36988	0	1	0
+*PF	PriorErrs[Georgia,DwnAdj]/-1	-3.36987	0.00049585	-3.36987	0	1	0
+*PF	PriorErrs[Massachusetts,BsFtRt]/-1	-3.33259	0.000490364	-3.33259	0	1	0
+*PF	PriorErrs[Vermont,UpAdj]/-1	-3.32834	0.000489739	-3.32834	0	1	0
+*PF	PriorErrs[Montana,BsFtRt]/-1	-3.29594	0.000484971	-3.29594	0	1	0
+*P	Economist Exess Death Err[South Carolina]/-1	-3.2494	0.000478124	-3.2494	0	4281	0
+*PF	PriorErrs[Indiana,Acty]/-1	-3.21589	0.000473193	-3.21589	0	1	0
+*PF	PriorErrs[Indiana,UpAdj]/-1	-3.18534	0.000468697	-3.18534	0	1	0
+*PF	PriorErrs[New York,CfImCn]/-1	-3.17218	0.000466762	-3.17218	0	1	0
+*PF	PriorErrs[Ohio,DwnAdj]/-1	-3.16555	0.000465785	-3.16555	0	1	0
+*PF	PriorErrs[Mississippi,DwnAdj]/-1	-3.15931	0.000464867	-3.15931	0	1	0
+*PF	PriorErrs[Arkansas,BsFtRt]/-1	-3.15552	0.00046431	-3.15552	0	1	0
+*PF	PriorErrs[California,BsFtRt]/-1	-3.11363	0.000458147	-3.11363	0	1	0
+*PF	PriorErrs[Wyoming,BsFtRt]/-1	-3.1076	0.000457259	-3.1076	0	1	0
+*PF	PriorErrs[Arizona,BsFtRt]/-1	-3.10611	0.00045704	-3.10611	0	1	0
+*PF	PriorErrs[Colorado,UpAdj]/-1	-3.10257	0.000456519	-3.10257	0	1	0
+*PF	PriorErrs[Montana,MInfTs]/-1	-3.0952	0.000455434	-3.0952	0	1	0
+*PF	PriorErrs[Missouri,MnCnFrc]/-1	-3.05823	0.000449995	-3.05823	0	1	0
+*PF	PriorErrs[Nebraska,HspLrng]/-1	-3.04662	0.000448287	-3.04662	0	1	0
+*PF	PriorErrs[Wyoming,ImTrFt]/-1	-3.04168	0.000447559	-3.04168	0	1	0
+*PF	PriorErrs[Ohio,BsFtRt]/-1	-3.02612	0.000445269	-3.02612	0	1	0
+*PF	PriorErrs[Iowa,TtAsyFr]/-1	-3.00198	0.000441718	-3.00198	0	1	0
+*PF	PriorErrs[California,WRpPIn]/-1	-2.91191	0.000428464	-2.91191	0	1	0
+*PF	PriorErrs[Pennsylvania,BsFtRt]/-1	-2.89014	0.000425262	-2.89014	0	1	0
+*PF	PriorErrs[Arizona,RFI]/-1	-2.87314	0.00042276	-2.87314	0	1	0
+*PF	PriorErrs[Illinois,MInfTs]/-1	-2.85515	0.000420114	-2.85515	0	1	0
+*PF	PriorErrs[Maryland,AdhrFtg]/-1	-2.84959	0.000419295	-2.84959	0	1	0
+*PF	PriorErrs[Ohio,MnCnFrc]/-1	-2.81452	0.000414134	-2.81452	0	1	0
+*PF	PriorErrs[Oregon,SnFtAc]/-1	-2.81068	0.00041357	-2.81068	0	1	0
+*P	Economist Exess Death Err[Indiana]/-1	-2.77336	0.000408079	-2.77336	0	4281	0
+*PF	PriorErrs[Maryland,BsFtRt]/-1	-2.73639	0.000402639	-2.73639	0	1	0
+*PF	PriorErrs[Michigan,MnCnFrc]/-1	-2.73305	0.000402147	-2.73305	0	1	0
+*PF	PriorErrs[Hawaii,WRpPIn]/-1	-2.71945	0.000400145	-2.71945	0	1	0
+*PF	PriorErrs[Florida,WRpPIn]/-1	-2.71945	0.000400145	-2.71945	0	1	0
+*PF	PriorErrs[Pennsylvania,WRpPIn]/-1	-2.71944	0.000400145	-2.71944	0	1	0
+*PF	PriorErrs[Washington,WRpPIn]/-1	-2.71943	0.000400143	-2.71943	0	1	0
+*PF	PriorErrs[Oregon,WRpPIn]/-1	-2.71943	0.000400143	-2.71943	0	1	0
+*PF	PriorErrs[Maryland,WRpPIn]/-1	-2.71943	0.000400143	-2.71943	0	1	0
+*PF	PriorErrs[Kansas,WRpPIn]/-1	-2.71943	0.000400142	-2.71943	0	1	0
+*PF	PriorErrs[Illinois,WRpPIn]/-1	-2.71943	0.000400142	-2.71943	0	1	0
+*PF	PriorErrs[West Virginia,WRpPIn]/-1	-2.71883	0.000400054	-2.71883	0	1	0
+*PF	PriorErrs[Rhode Island,AdhrFtg]/-1	-2.70792	0.000398449	-2.70792	0	1	0
+*PF	PriorErrs[West Virginia,BsFtRt]/-1	-2.70319	0.000397753	-2.70319	0	1	0
+*PF	PriorErrs[Virginia,WRpPIn]/-1	-2.69664	0.00039679	-2.69664	0	1	0
+*PF	PriorErrs[Nebraska,RFI]/-1	-2.69599	0.000396694	-2.69599	0	1	0
+*PF	PriorErrs[Idaho,WRpPIn]/-1	-2.69484	0.000396525	-2.69484	0	1	0
+*PF	PriorErrs[Florida,DwnAdj]/-1	-2.59847	0.000382345	-2.59847	0	1	0
+*PF	PriorErrs[South Dakota,SnFtAc]/-1	-2.59434	0.000381736	-2.59434	0	1	0
+*PF	PriorErrs[Michigan,BsFtRt]/-1	-2.5094	0.000369238	-2.5094	0	1	0
+*PF	PriorErrs[New York,ImTrFt]/-1	-2.50799	0.00036903	-2.50799	0	1	0
+*PF	PriorErrs[Wyoming,SnFtAc]/-1	-2.49588	0.000367249	-2.49588	0	1	0
+*PF	PriorErrs[Connecticut,WRpPIn]/-1	-2.45922	0.000361855	-2.45922	0	1	0
+*PF	PriorErrs[South Dakota,BsFtRt]/-1	-2.4444	0.000359675	-2.4444	0	1	0
+*PF	PriorErrs[Maine,RFI]/-1	-2.44305	0.000359476	-2.44305	0	1	0
+*PF	PriorErrs[Montana,WRpPIn]/-1	-2.42541	0.000356879	-2.42541	0	1	0
+*PF	PriorErrs[Vermont,MInfTs]/-1	-2.40504	0.000353883	-2.40504	0	1	0
+*PF	PriorErrs[District of Columbia,ImPDnHs]/-1	-2.39959	0.000353081	-2.39959	0	1	0
+*PF	PriorErrs[Oklahoma,ImPDnHs]/-1	-2.39938	0.00035305	-2.39938	0	1	0
+*PF	PriorErrs[Pennsylvania,ImPDnHs]/-1	-2.39742	0.000352762	-2.39742	0	1	0
+*PF	PriorErrs[South Carolina,ImPDnHs]/-1	-2.39738	0.000352755	-2.39738	0	1	0
+*PF	PriorErrs[New Jersey,ImPDnHs]/-1	-2.39393	0.000352248	-2.39393	0	1	0
+*PF	PriorErrs[New Jersey,WRpPIn]/-1	-2.39359	0.000352198	-2.39359	0	1	0
+*PF	PriorErrs[Delaware,ImPDnHs]/-1	-2.38791	0.000351363	-2.38791	0	1	0
+*PF	PriorErrs[Colorado,WRpPIn]/-1	-2.37777	0.000349871	-2.37777	0	1	0
+*PF	PriorErrs[Arizona,ImPDnHs]/-1	-2.37404	0.000349322	-2.37404	0	1	0
+*PF	PriorErrs[Connecticut,ImPDnHs]/-1	-2.37083	0.000348849	-2.37083	0	1	0
+*P	Economist Exess Death Err[Iowa]/-1	-2.36844	0.000348497	-2.36844	0	4281	0
+*PF	PriorErrs[Iowa,ImPDnHs]/-1	-2.35543	0.000346583	-2.35543	0	1	0
+*PF	PriorErrs[Ohio,UpAdj]/-1	-2.32353	0.000341889	-2.32353	0	1	0
+*PF	PriorErrs[New York,MTrAsym]/-1	-2.27103	0.000334165	-2.27103	0	1	0
+*PF	PriorErrs[Nebraska,TtAsyFr]/-1	-2.25317	0.000331537	-2.25317	0	1	0
+*PF	PriorErrs[Wyoming,WRpPIn]/-1	-2.24654	0.000330561	-2.24654	0	1	0
+*PF	PriorErrs[Arkansas,MTrAsym]/-1	-2.23268	0.000328521	-2.23268	0	1	0
+*P	Economist Exess Death Err[New Mexico]/-1	-2.2223	0.000326994	-2.2223	0	4281	0
+*PF	PriorErrs[Louisiana,WRpPIn]/-1	-2.2197	0.000326612	-2.2197	0	1	0
+*PF	PriorErrs[Hawaii,ImPDnHs]/-1	-2.18891	0.000322081	-2.18891	0	1	0
+*PF	PriorErrs[Kentucky,MInfTs]/-1	-2.16212	0.00031814	-2.16212	0	1	0
+*PF	PriorErrs[New Jersey,AdhrFtg]/-1	-2.14718	0.00031594	-2.14718	0	1	0
+*PF	PriorErrs[Indiana,MnCnFrc]/-1	-2.14036	0.000314937	-2.14036	0	1	0
+*PF	PriorErrs[Iowa,MnCnFrc]/-1	-2.13563	0.000314242	-2.13563	0	1	0
+*PF	PriorErrs[Arkansas,UpAdj]/-1	-2.12893	0.000313255	-2.12893	0	1	0
+*PF	PriorErrs[Arizona,SnFtAc]/-1	-2.11753	0.000311578	-2.11753	0	1	0
+*PF	PriorErrs[Michigan,WRpPIn]/-1	-2.10747	0.000310098	-2.10747	0	1	0
+*PF	PriorErrs[Alabama,UpAdj]/-1	-2.10719	0.000310056	-2.10719	0	1	0
+*PF	PriorErrs[Rhode Island,SnFtAc]/-1	-2.10187	0.000309274	-2.10187	0	1	0
+*PF	PriorErrs[Massachusetts,WRpPIn]/-1	-2.09089	0.000307658	-2.09089	0	1	0
+*PF	PriorErrs[Oklahoma,BsFtRt]/-1	-2.08319	0.000306525	-2.08319	0	1	0
+*PF	PriorErrs[District of Columbia,AdhrFtg]/-1	-2.05985	0.00030309	-2.05985	0	1	0
+*PF	PriorErrs[Hawaii,MInfTs]/-1	-2.02112	0.000297392	-2.02112	0	1	0
+*PF	PriorErrs[California,DrdFac]/-1	-2.01828	0.000296974	-2.01828	0	1	0
+*PF	PriorErrs[Idaho,HspLrng]/-1	-2.00235	0.000294629	-2.00235	0	1	0
+*PF	PriorErrs[New Hampshire,WRpPIn]/-1	-1.98739	0.000292429	-1.98739	0	1	0
+*PF	PriorErrs[Maine,Acty]/-1	-1.9871	0.000292385	-1.9871	0	1	0
+*PF	PriorErrs[Texas,MnCnFrc]/-1	-1.94324	0.000285932	-1.94324	0	1	0
+*PF	PriorErrs[Kentucky,WRpPIn]/-1	-1.91686	0.000282051	-1.91686	0	1	0
+*PF	PriorErrs[Texas,ImTrFt]/-1	-1.91118	0.000281215	-1.91118	0	1	0
+*PF	PriorErrs[Kansas,SnFtAc]/-1	-1.90549	0.000280377	-1.90549	0	1	0
+*PF	PriorErrs[Alabama,MnCnFrc]/-1	-1.89813	0.000279295	-1.89813	0	1	0
+*PF	PriorErrs[Indiana,MTrAsym]/-1	-1.88363	0.000277162	-1.88363	0	1	0
+*PF	PriorErrs[Minnesota,RFI]/-1	-1.84897	0.000272061	-1.84897	0	1	0
+*PF	PriorErrs[Colorado,MTrAsym]/-1	-1.83654	0.000270232	-1.83654	0	1	0
+*PF	PriorErrs[Oklahoma,SnFtAc]/-1	-1.82227	0.000268133	-1.82227	0	1	0
+*P	Economist Exess Death Err[Utah]/-1	-1.79193	0.000263668	-1.79193	0	4281	0
+*PF	PriorErrs[Indiana,ImPDnHs]/-1	-1.77468	0.00026113	-1.77468	0	1	0
+*PF	PriorErrs[Georgia,WRpPIn]/-1	-1.76561	0.000259795	-1.76561	0	1	0
+*PF	PriorErrs[Alaska,MTrAsym]/-1	-1.76264	0.000259359	-1.76264	0	1	0
+*PF	PriorErrs[Maryland,ImPDnHs]/-1	-1.70762	0.000251263	-1.70762	0	1	0
+*PF	PriorErrs[Florida,UpAdj]/-1	-1.70624	0.00025106	-1.70624	0	1	0
+*PF	PriorErrs[Utah,WRpPIn]/-1	-1.69876	0.000249959	-1.69876	0	1	0
+*PF	PriorErrs[New Mexico,TtAsyFr]/-1	-1.68222	0.000247526	-1.68222	0	1	0
+*PF	PriorErrs[Colorado,Acty]/-1	-1.66497	0.000244988	-1.66497	0	1	0
+*P	Economist Exess Death Err[South Dakota]/-1	-1.63491	0.000240564	-1.63491	0	4281	0
+*PF	PriorErrs[Massachusetts,MInfTs]/-1	-1.63412	0.000240447	-1.63412	0	1	0
+*PF	PriorErrs[South Carolina,UpAdj]/-1	-1.63031	0.000239887	-1.63031	0	1	0
+*PF	PriorErrs[Vermont,CfImCn]/-1	-1.60452	0.000236093	-1.60452	0	1	0
+*PF	PriorErrs[Washington,DwnAdj]/-1	-1.60096	0.000235569	-1.60096	0	1	0
+*PF	PriorErrs[Illinois,ImPDnHs]/-1	-1.59199	0.000234248	-1.59199	0	1	0
+*PF	PriorErrs[Illinois,SnFtAc]/-1	-1.58723	0.000233548	-1.58723	0	1	0
+*PF	PriorErrs[Idaho,UpAdj]/-1	-1.58193	0.000232768	-1.58193	0	1	0
+*P	Economist Exess Death Err[North Dakota]/-1	-1.57532	0.000231797	-1.57532	0	4281	0
+*PF	PriorErrs[Florida,HspLrng]/-1	-1.56949	0.000230939	-1.56949	0	1	0
+*PF	PriorErrs[Colorado,MnCnFrc]/-1	-1.5489	0.000227909	-1.5489	0	1	0
+*P	Economist Exess Death Err[Ohio]/-1	-1.54292	0.000227028	-1.54292	0	4281	0
+*P	Economist Exess Death Err[Arizona]/-1	-1.52586	0.000224518	-1.52586	0	4281	0
+*PF	PriorErrs[Indiana,AdhrFtg]/-1	-1.52438	0.000224301	-1.52438	0	1	0
+*PF	PriorErrs[Ohio,AdhrFtg]/-1	-1.52438	0.000224301	-1.52438	0	1	0
+*PF	PriorErrs[West Virginia,AdhrFtg]/-1	-1.52438	0.000224301	-1.52438	0	1	0
+*PF	PriorErrs[Washington,AdhrFtg]/-1	-1.52438	0.0002243	-1.52438	0	1	0
+*PF	PriorErrs[Massachusetts,DwnAdj]/-1	-1.52023	0.00022369	-1.52023	0	1	0
+*PF	PriorErrs[New Hampshire,MInfTs]/-1	-1.51233	0.000222528	-1.51233	0	1	0
+*PF	PriorErrs[New Mexico,BsFtRt]/-1	-1.50649	0.000221669	-1.50649	0	1	0
+*PF	PriorErrs[Oregon,ImTrFt]/-1	-1.50005	0.00022072	-1.50005	0	1	0
+*PF	PriorErrs[Virginia,ImTrFt]/-1	-1.50005	0.00022072	-1.50005	0	1	0
+*PF	PriorErrs[New Jersey,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Maine,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Massachusetts,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Minnesota,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[New Hampshire,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Vermont,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Washington,ImTrFt]/-1	-1.50003	0.000220718	-1.50003	0	1	0
+*PF	PriorErrs[Connecticut,ImTrFt]/-1	-1.4994	0.000220625	-1.4994	0	1	0
+*PF	PriorErrs[New Mexico,ImTrFt]/-1	-1.4966	0.000220213	-1.4966	0	1	0
+*PF	PriorErrs[Ohio,WRpPIn]/-1	-1.49138	0.000219444	-1.49138	0	1	0
+*PF	PriorErrs[Oregon,UpAdj]/-1	-1.48387	0.000218339	-1.48387	0	1	0
+*PF	PriorErrs[Florida,ImTrFt]/-1	-1.47178	0.00021656	-1.47178	0	1	0
+*PF	PriorErrs[Wyoming,RFI]/-1	-1.46353	0.000215346	-1.46353	0	1	0
+*PF	PriorErrs[Kansas,MInfTs]/-1	-1.46062	0.000214918	-1.46062	0	1	0
+*PF	PriorErrs[Pennsylvania,AdhrFtg]/-1	-1.46029	0.000214871	-1.46029	0	1	0
+*PF	PriorErrs[Texas,AdhrFtg]/-1	-1.45759	0.000214472	-1.45759	0	1	0
+*PF	PriorErrs[Kentucky,AdhrFtg]/-1	-1.45573	0.000214199	-1.45573	0	1	0
+*PF	PriorErrs[Iowa,WRpPIn]/-1	-1.45345	0.000213864	-1.45345	0	1	0
+*PF	PriorErrs[Hawaii,UpAdj]/-1	-1.45262	0.000213742	-1.45262	0	1	0
+*PF	PriorErrs[Florida,SnCnRdUt]/-1	-1.44735	0.000212966	-1.44735	0	1	0
+*PF	PriorErrs[California,MTrAsym]/-1	-1.44134	0.000212082	-1.44134	0	1	0
+*PF	PriorErrs[South Dakota,RFI]/-1	-1.43306	0.000210864	-1.43306	0	1	0
+*PF	PriorErrs[North Dakota,RFI]/-1	-1.4154	0.000208264	-1.4154	0	1	0
+*PF	PriorErrs[Oregon,Acty]/-1	-1.41258	0.00020785	-1.41258	0	1	0
+*PF	PriorErrs[Massachusetts,AdhrFtg]/-1	-1.40536	0.000206787	-1.40536	0	1	0
+*PF	PriorErrs[Minnesota,WRpPIn]/-1	-1.39833	0.000205753	-1.39833	0	1	0
+*PF	PriorErrs[District of Columbia,WRpPIn]/-1	-1.39637	0.000205465	-1.39637	0	1	0
+*PF	PriorErrs[Minnesota,ImPDnHs]/-1	-1.38805	0.000204241	-1.38805	0	1	0
+*PF	PriorErrs[Kentucky,BsFtRt]/-1	-1.38121	0.000203234	-1.38121	0	1	0
+*PF	PriorErrs[Texas,SnFtAc]/-1	-1.36795	0.000201283	-1.36795	0	1	0
+*PF	PriorErrs[Arizona,DwnAdj]/-1	-1.36722	0.000201175	-1.36722	0	1	0
+*PF	PriorErrs[Washington,UpAdj]/-1	-1.36139	0.000200318	-1.36139	0	1	0
+*PF	PriorErrs[Iowa,RFI]/-1	-1.36099	0.000200259	-1.36099	0	1	0
+*PF	PriorErrs[South Carolina,MnCnFrc]/-1	-1.32271	0.000194626	-1.32271	0	1	0
+*PF	PriorErrs[West Virginia,ImTrFt]/-1	-1.30487	0.000192001	-1.30487	0	1	0
+*P	Economist Exess Death Err[Montana]/-1	-1.29817	0.000191016	-1.29817	0	4281	0
+*PF	PriorErrs[Kentucky,SnFtAc]/-1	-1.29432	0.000190449	-1.29432	0	1	0
+*PF	PriorErrs[Louisiana,ImPDnHs]/-1	-1.2822	0.000188666	-1.2822	0	1	0
+*PF	PriorErrs[Delaware,ImTrFt]/-1	-1.27723	0.000187934	-1.27723	0	1	0
+*PF	PriorErrs[Nevada,ImPDnHs]/-1	-1.26804	0.000186582	-1.26804	0	1	0
+*PF	PriorErrs[Indiana,MInfTs]/-1	-1.25573	0.000184771	-1.25573	0	1	0
+*PF	PriorErrs[Arizona,AdhrFtg]/-1	-1.24921	0.000183812	-1.24921	0	1	0
+*PF	PriorErrs[South Carolina,MTrAsym]/-1	-1.24424	0.000183079	-1.24424	0	1	0
+*PF	PriorErrs[Missouri,AdhrFtg]/-1	-1.24283	0.000182873	-1.24283	0	1	0
+*PF	PriorErrs[North Dakota,AdhrFtg]/-1	-1.24151	0.000182678	-1.24151	0	1	0
+*PF	PriorErrs[Oregon,AdhrFtg]/-1	-1.22562	0.000180341	-1.22562	0	1	0
+*PF	PriorErrs[Missouri,SnFtAc]/-1	-1.2223	0.000179852	-1.2223	0	1	0
+*PF	PriorErrs[Rhode Island,BsFtRt]/-1	-1.21963	0.000179459	-1.21963	0	1	0
+*PF	PriorErrs[Tennessee,DwnAdj]/-1	-1.20219	0.000176893	-1.20219	0	1	0
+*PF	PriorErrs[West Virginia,MTrAsym]/-1	-1.18123	0.000173808	-1.18123	0	1	0
+*PF	PriorErrs[Michigan,SnFtAc]/-1	-1.16253	0.000171058	-1.16253	0	1	0
+*PF	PriorErrs[Maryland,ImTrFt]/-1	-1.14399	0.000168329	-1.14399	0	1	0
+*PF	PriorErrs[Utah,MnCnFrc]/-1	-1.13788	0.00016743	-1.13788	0	1	0
+*PF	PriorErrs[Alaska,MInfTs]/-1	-1.13539	0.000167064	-1.13539	0	1	0
+*PF	PriorErrs[Indiana,SnCnRdUt]/-1	-1.12005	0.000164807	-1.12005	0	1	0
+*PF	PriorErrs[Maine,DwnAdj]/-1	-1.10826	0.000163072	-1.10826	0	1	0
+*PF	PriorErrs[South Carolina,BsFtRt]/-1	-1.10543	0.000162655	-1.10543	0	1	0
+*PF	PriorErrs[Wisconsin,AdhrFtg]/-1	-1.09584	0.000161244	-1.09584	0	1	0
+*PF	PriorErrs[Oklahoma,Acty]/-1	-1.08467	0.000159601	-1.08467	0	1	0
+*PF	PriorErrs[Washington,TtAsyFr]/-1	-1.07676	0.000158436	-1.07676	0	1	0
+*PF	PriorErrs[Hawaii,RFI]/-1	-1.05641	0.000155442	-1.05641	0	1	0
+*PF	PriorErrs[Alaska,DwnAdj]/-1	-1.04493	0.000153753	-1.04493	0	1	0
+*PF	PriorErrs[Missouri,MInfTs]/-1	-1.04189	0.000153306	-1.04189	0	1	0
+*PF	PriorErrs[Massachusetts,RFI]/-1	-1.03719	0.000152614	-1.03719	0	1	0
+*PF	PriorErrs[New Hampshire,TtAsyFr]/-1	-1.03148	0.000151774	-1.03148	0	1	0
+*PF	PriorErrs[Michigan,RFI]/-1	-1.0207	0.000150189	-1.0207	0	1	0
+*PF	PriorErrs[Missouri,WRpPIn]/-1	-1.01949	0.000150009	-1.01949	0	1	0
+*PF	PriorErrs[Nevada,AdhrFtg]/-1	-1.01945	0.000150004	-1.01945	0	1	0
+*PF	PriorErrs[South Dakota,WRpPIn]/-1	-1.01717	0.000149669	-1.01717	0	1	0
+*PF	PriorErrs[District of Columbia,ImTrFt]/-1	-1.01704	0.000149649	-1.01704	0	1	0
+*PF	PriorErrs[South Carolina,ImTrFt]/-1	-1.01317	0.00014908	-1.01317	0	1	0
+*PF	PriorErrs[Wyoming,AdhrFtg]/-1	-0.980006	0.0001442	-0.980006	0	1	0
+*PF	PriorErrs[Minnesota,TtAsyFr]/-1	-0.978749	0.000144015	-0.978749	0	1	0
+*PF	PriorErrs[Colorado,ImPDnHs]/-1	-0.97353	0.000143247	-0.97353	0	1	0
+*PF	PriorErrs[New Mexico,DrdFac]/-1	-0.971778	0.000142989	-0.971778	0	1	0
+*PF	PriorErrs[Nevada,WRpPIn]/-1	-0.955623	0.000140612	-0.955623	0	1	0
+*PF	PriorErrs[Tennessee,ImTrFt]/-1	-0.949224	0.000139671	-0.949224	0	1	0
+*PF	PriorErrs[District of Columbia,MnCnFrc]/-1	-0.945802	0.000139167	-0.945802	0	1	0
+*PF	PriorErrs[Nevada,ImTrFt]/-1	-0.938066	0.000138029	-0.938066	0	1	0
+*PF	PriorErrs[Alabama,DrdFac]/-1	-0.915866	0.000134762	-0.915866	0	1	0
+*PF	PriorErrs[Kentucky,MxHsFr]/-1	-0.910562	0.000133982	-0.910562	0	1	0
+*PF	PriorErrs[Florida,MnCnFrc]/-1	-0.906944	0.00013345	-0.906944	0	1	0
+*PF	PriorErrs[Mississippi,WRpPIn]/-1	-0.905214	0.000133195	-0.905214	0	1	0
+*PF	PriorErrs[Utah,MInfTs]/-1	-0.89291	0.000131385	-0.89291	0	1	0
+*PF	PriorErrs[Pennsylvania,Acty]/-1	-0.888667	0.00013076	-0.888667	0	1	0
+*P	Economist Exess Death Err[Delaware]/-1	-0.887575	0.0001306	-0.887575	0	4281	0
+*PF	PriorErrs[Iowa,RfSkTs]/-1	-0.886057	0.000130376	-0.886057	0	1	0
+*PF	PriorErrs[Texas,RFI]/-1	-0.875112	0.000128766	-0.875112	0	1	0
+*PF	PriorErrs[Georgia,ImTrFt]/-1	-0.869144	0.000127888	-0.869144	0	1	0
+*PF	PriorErrs[Wisconsin,SnFtAc]/-1	-0.868653	0.000127815	-0.868653	0	1	0
+*PF	PriorErrs[Alabama,TtAsyFr]/-1	-0.866462	0.000127493	-0.866462	0	1	0
+*PF	PriorErrs[Illinois,DwnAdj]/-1	-0.855188	0.000125834	-0.855188	0	1	0
+*PF	PriorErrs[Virginia,MTrAsym]/-1	-0.853706	0.000125616	-0.853706	0	1	0
+*PF	PriorErrs[New Hampshire,SnFtAc]/-1	-0.850378	0.000125126	-0.850378	0	1	0
+*PF	PriorErrs[Kentucky,ImPDnHs]/-1	-0.847789	0.000124745	-0.847789	0	1	0
+*PF	PriorErrs[Ohio,MTrAsym]/-1	-0.846567	0.000124566	-0.846567	0	1	0
+*PF	PriorErrs[North Dakota,MTrAsym]/-1	-0.84595	0.000124475	-0.84595	0	1	0
+*P	Economist Exess Death Err[Virginia]/-1	-0.841295	0.00012379	-0.841295	0	4281	0
+*P	Economist Exess Death Err[Kentucky]/-1	-0.839961	0.000123594	-0.839961	0	4281	0
+*P	Economist Exess Death Err[Nevada]/-1	-0.839637	0.000123546	-0.839637	0	4281	0
+*PF	PriorErrs[North Dakota,MInfTs]/-1	-0.834311	0.000122762	-0.834311	0	1	0
+*PF	PriorErrs[North Dakota,ImTrFt]/-1	-0.814763	0.000119886	-0.814763	0	1	0
+*PF	PriorErrs[Virginia,AdhrFtg]/-1	-0.8137	0.00011973	-0.8137	0	1	0
+*PF	PriorErrs[District of Columbia,Acty]/-1	-0.806693	0.000118699	-0.806693	0	1	0
+*PF	PriorErrs[Vermont,ImPDnHs]/-1	-0.794724	0.000116937	-0.794724	0	1	0
+*PF	PriorErrs[Illinois,RFI]/-1	-0.791313	0.000116436	-0.791313	0	1	0
+*PF	PriorErrs[West Virginia,MnCnFrc]/-1	-0.772442	0.000113659	-0.772442	0	1	0
+*PF	PriorErrs[Maine,HspLrng]/-1	-0.740385	0.000108942	-0.740385	0	1	0
+*PF	PriorErrs[Missouri,DrdFac]/-1	-0.73486	0.000108129	-0.73486	0	1	0
+*P	Economist Exess Death Err[Michigan]/-1	-0.730171	0.000107439	-0.730171	0	4281	0
+*PF	PriorErrs[Alabama,SnFtAc]/-1	-0.726739	0.000106934	-0.726739	0	1	0
+*PF	PriorErrs[Rhode Island,RFI]/-1	-0.719742	0.000105904	-0.719742	0	1	0
+*PF	PriorErrs[Oregon,MnCnFrc]/-1	-0.715648	0.000105302	-0.715648	0	1	0
+*PF	PriorErrs[District of Columbia,DrdFac]/-1	-0.714622	0.000105151	-0.714622	0	1	0
+*PF	PriorErrs[Connecticut,SnFtAc]/-1	-0.710168	0.000104496	-0.710168	0	1	0
+*PF	PriorErrs[Virginia,ImPDnHs]/-1	-0.709225	0.000104357	-0.709225	0	1	0
+*PF	PriorErrs[Kentucky,DwnAdj]/-1	-0.705601	0.000103824	-0.705601	0	1	0
+*PF	PriorErrs[Idaho,ImTrFt]/-1	-0.69401	0.000102118	-0.69401	0	1	0
+*PF	PriorErrs[New Jersey,RFI]/-1	-0.690106	0.000101544	-0.690106	0	1	0
+*PF	PriorErrs[Iowa,ImTrFt]/-1	-0.688149	0.000101256	-0.688149	0	1	0
+*PF	PriorErrs[South Carolina,RFI]/-1	-0.685239	0.000100828	-0.685239	0	1	0
+*PF	PriorErrs[Wisconsin,MnCnFrc]/-1	-0.682222	0.000100384	-0.682222	0	1	0
+*PF	PriorErrs[Washington,ImPDnHs]/-1	-0.680772	0.00010017	-0.680772	0	1	0
+*PF	PriorErrs[Louisiana,Acty]/-1	-0.680033	0.000100061	-0.680033	0	1	0
+*PF	PriorErrs[Minnesota,SnFtAc]/-1	-0.674798	9.92913e-05	-0.674798	0	1	0
+*PF	PriorErrs[Indiana,DwnAdj]/-1	-0.667875	9.82726e-05	-0.667875	0	1	0
+*PF	PriorErrs[North Carolina,BsFtRt]/-1	-0.659889	9.70975e-05	-0.659889	0	1	0
+*PF	PriorErrs[Idaho,MTrAsym]/-1	-0.654578	9.63159e-05	-0.654578	0	1	0
+*PF	PriorErrs[Kentucky,RFI]/-1	-0.650108	9.56583e-05	-0.650108	0	1	0
+*PF	PriorErrs[North Dakota,DrdFac]/-1	-0.65009	9.56557e-05	-0.65009	0	1	0
+*PF	PriorErrs[Nebraska,ImTrFt]/-1	-0.645812	9.50262e-05	-0.645812	0	1	0
+*PF	PriorErrs[Maine,WRpPIn]/-1	-0.636827	9.37041e-05	-0.636827	0	1	0
+*PF	PriorErrs[Connecticut,Acty]/-1	-0.636782	9.36974e-05	-0.636782	0	1	0
+*PF	PriorErrs[Nevada,MInfTs]/-1	-0.635058	9.34437e-05	-0.635058	0	1	0
+*PF	PriorErrs[West Virginia,UpAdj]/-1	-0.634071	9.32985e-05	-0.634071	0	1	0
+*PF	PriorErrs[Maine,MTrAsym]/-1	-0.632526	9.30712e-05	-0.632526	0	1	0
+*P	Economist Exess Death Err[District of Columbia]/-1	-0.627774	9.2372e-05	-0.627774	0	4281	0
+*PF	PriorErrs[New Mexico,MnCnFrc]/-1	-0.627662	9.23556e-05	-0.627662	0	1	0
+*PF	PriorErrs[Colorado,AdhrFtg]/-1	-0.626887	9.22415e-05	-0.626887	0	1	0
+*PF	PriorErrs[Florida,TtAsyFr]/-1	-0.623462	9.17375e-05	-0.623462	0	1	0
+*PF	PriorErrs[Alabama,BsFtRt]/-1	-0.621667	9.14734e-05	-0.621667	0	1	0
+*PF	PriorErrs[California,MInfTs]/-1	-0.61577	9.06058e-05	-0.61577	0	1	0
+*PF	PriorErrs[Montana,DrdFac]/-1	-0.60789	8.94462e-05	-0.60789	0	1	0
+*PF	PriorErrs[California,ImTrFt]/-1	-0.607534	8.93938e-05	-0.607534	0	1	0
+*PF	PriorErrs[Connecticut,DwnAdj]/-1	-0.598235	8.80256e-05	-0.598235	0	1	0
+*PF	PriorErrs[Utah,ImPDnHs]/-1	-0.583604	8.58728e-05	-0.583604	0	1	0
+*PF	PriorErrs[Ohio,TtAsyFr]/-1	-0.583069	8.5794e-05	-0.583069	0	1	0
+*PF	PriorErrs[Montana,MTrAsym]/-1	-0.582598	8.57247e-05	-0.582598	0	1	0
+*PF	PriorErrs[Maine,AdhrFtg]/-1	-0.578347	8.50991e-05	-0.578347	0	1	0
+*P	Economist Exess Death Err[Maine]/-1	-0.572415	8.42263e-05	-0.572415	0	4281	0
+*PF	PriorErrs[Oklahoma,DrdFac]/-1	-0.57122	8.40505e-05	-0.57122	0	1	0
+*P	Economist Exess Death Err[Oregon]/-1	-0.570083	8.38832e-05	-0.570083	0	4281	0
+*PF	PriorErrs[South Dakota,ImTrFt]/-1	-0.568322	8.36241e-05	-0.568322	0	1	0
+*PF	PriorErrs[Oregon,MTrAsym]/-1	-0.563644	8.29358e-05	-0.563644	0	1	0
+*PF	PriorErrs[Hawaii,MnCnFrc]/-1	-0.560398	8.24581e-05	-0.560398	0	1	0
+*PF	PriorErrs[Alaska,AdhrFtg]/-1	-0.556608	8.19005e-05	-0.556608	0	1	0
+*PF	PriorErrs[Arkansas,WRpPIn]/-1	-0.550957	8.1069e-05	-0.550957	0	1	0
+*PF	PriorErrs[Alaska,ImTrFt]/-1	-0.547161	8.05104e-05	-0.547161	0	1	0
+*PF	PriorErrs[Utah,AdhrFtg]/-1	-0.541354	7.96559e-05	-0.541354	0	1	0
+*PF	PriorErrs[Delaware,RFI]/-1	-0.534034	7.85789e-05	-0.534034	0	1	0
+*P	Economist Exess Death Err[Alaska]/-1	-0.530956	7.81259e-05	-0.530956	0	4281	0
+*PF	PriorErrs[Massachusetts,UpAdj]/-1	-0.510111	7.50588e-05	-0.510111	0	1	0
+*PF	PriorErrs[North Carolina,ImTrFt]/-1	-0.503275	7.40529e-05	-0.503275	0	1	0
+*PF	PriorErrs[Hawaii,AdhrFtg]/-1	-0.501139	7.37386e-05	-0.501139	0	1	0
+*PF	PriorErrs[Florida,MInfTs]/-1	-0.499395	7.34821e-05	-0.499395	0	1	0
+*PF	PriorErrs[Nevada,SnFtAc]/-1	-0.494075	7.26993e-05	-0.494075	0	1	0
+*PF	PriorErrs[Nebraska,MnCnFrc]/-1	-0.493981	7.26854e-05	-0.493981	0	1	0
+*PF	PriorErrs[Utah,HspLrng]/-1	-0.489412	7.20132e-05	-0.489412	0	1	0
+*PF	PriorErrs[North Dakota,WRpPIn]/-1	-0.487791	7.17746e-05	-0.487791	0	1	0
+*PF	PriorErrs[Vermont,MnCnFrc]/-1	-0.487703	7.17617e-05	-0.487703	0	1	0
+*PF	PriorErrs[Wisconsin,SnCnRdUt]/-1	-0.483722	7.11758e-05	-0.483722	0	1	0
+*PF	PriorErrs[Virginia,SnFtAc]/-1	-0.482203	7.09524e-05	-0.482203	0	1	0
+*PF	PriorErrs[Texas,BsFtRt]/-1	-0.481472	7.08448e-05	-0.481472	0	1	0
+*PF	PriorErrs[South Carolina,DwnAdj]/-1	-0.477099	7.02014e-05	-0.477099	0	1	0
+*PF	PriorErrs[Nevada,MnCnFrc]/-1	-0.473332	6.9647e-05	-0.473332	0	1	0
+*PF	PriorErrs[Massachusetts,ImPDnHs]/-1	-0.472265	6.949e-05	-0.472265	0	1	0
+*PF	PriorErrs[New Hampshire,DwnAdj]/-1	-0.470348	6.9208e-05	-0.470348	0	1	0
+*PF	PriorErrs[Missouri,ImTrFt]/-1	-0.457316	6.72905e-05	-0.457316	0	1	0
+*PF	PriorErrs[Iowa,AdhrFtg]/-1	-0.457249	6.72806e-05	-0.457249	0	1	0
+*PF	PriorErrs[Iowa,SnFtAc]/-1	-0.451521	6.64377e-05	-0.451521	0	1	0
+*PF	PriorErrs[South Carolina,DrdFac]/-1	-0.44493	6.54679e-05	-0.44493	0	1	0
+*PF	PriorErrs[Louisiana,MInfTs]/-1	-0.439018	6.4598e-05	-0.439018	0	1	0
+*PF	PriorErrs[Delaware,AdhrFtg]/-1	-0.434971	6.40025e-05	-0.434971	0	1	0
+*PF	PriorErrs[New York,RFI]/-1	-0.427985	6.29746e-05	-0.427985	0	1	0
+*PF	PriorErrs[Georgia,SnFtAc]/-1	-0.427207	6.28601e-05	-0.427207	0	1	0
+*PF	PriorErrs[South Dakota,HspLrng]/-1	-0.424948	6.25278e-05	-0.424948	0	1	0
+*PF	PriorErrs[West Virginia,SnFtAc]/-1	-0.423207	6.22716e-05	-0.423207	0	1	0
+*PF	PriorErrs[Indiana,BsFtRt]/-1	-0.418102	6.15204e-05	-0.418102	0	1	0
+*PF	PriorErrs[Oregon,ImPDnHs]/-1	-0.415145	6.10854e-05	-0.415145	0	1	0
+*PF	PriorErrs[Utah,UpAdj]/-1	-0.4144	6.09757e-05	-0.4144	0	1	0
+*PF	PriorErrs[West Virginia,DrdFac]/-1	-0.413003	6.07701e-05	-0.413003	0	1	0
+*PF	PriorErrs[California,Acty]/-1	-0.4113	6.05196e-05	-0.4113	0	1	0
+*PF	PriorErrs[Wyoming,MInfTs]/-1	-0.408994	6.01802e-05	-0.408994	0	1	0
+*PF	PriorErrs[Michigan,AdhrFtg]/-1	-0.404554	5.95269e-05	-0.404554	0	1	0
+*PF	PriorErrs[Illinois,CfImCn]/-1	-0.404419	5.9507e-05	-0.404419	0	1	0
+*PF	PriorErrs[Texas,WRpPIn]/-1	-0.400932	5.8994e-05	-0.400932	0	1	0
+*PF	PriorErrs[Delaware,Acty]/-1	-0.394702	5.80773e-05	-0.394702	0	1	0
+*PF	PriorErrs[Maryland,DwnAdj]/-1	-0.39439	5.80313e-05	-0.39439	0	1	0
+*PF	PriorErrs[Virginia,DwnAdj]/-1	-0.393355	5.78792e-05	-0.393355	0	1	0
+*PF	PriorErrs[Rhode Island,MTrAsym]/-1	-0.391773	5.76463e-05	-0.391773	0	1	0
+*PF	PriorErrs[Utah,SnFtAc]/-1	-0.390746	5.74951e-05	-0.390746	0	1	0
+*PF	PriorErrs[New Hampshire,RFI]/-1	-0.387284	5.69859e-05	-0.387284	0	1	0
+*PF	PriorErrs[Arkansas,SnFtAc]/-1	-0.38446	5.65702e-05	-0.38446	0	1	0
+*PF	PriorErrs[Kansas,TtAsyFr]/-1	-0.384289	5.65451e-05	-0.384289	0	1	0
+*PF	PriorErrs[Idaho,Acty]/-1	-0.373897	5.5016e-05	-0.373897	0	1	0
+*PF	PriorErrs[New Mexico,SnFtAc]/-1	-0.362748	5.33755e-05	-0.362748	0	1	0
+*PF	PriorErrs[Tennessee,MTrAsym]/-1	-0.361798	5.32357e-05	-0.361798	0	1	0
+*PF	PriorErrs[California,SnCnRdUt]/-1	-0.357853	5.26553e-05	-0.357853	0	1	0
+*P	Economist Exess Death Err[Hawaii]/-1	-0.356998	5.25294e-05	-0.356998	0	4281	0
+*PF	PriorErrs[Connecticut,BsFtRt]/-1	-0.356599	5.24707e-05	-0.356599	0	1	0
+*PF	PriorErrs[New Hampshire,UpAdj]/-1	-0.355475	5.23053e-05	-0.355475	0	1	0
+*PF	PriorErrs[Missouri,RFI]/-1	-0.352575	5.18786e-05	-0.352575	0	1	0
+*P	Economist Exess Death Err[Maryland]/-1	-0.352293	5.18371e-05	-0.352293	0	4281	0
+*PF	PriorErrs[West Virginia,ImPDnHs]/-1	-0.351418	5.17084e-05	-0.351418	0	1	0
+*PF	PriorErrs[Pennsylvania,SnCnRdUt]/-1	-0.347298	5.11022e-05	-0.347298	0	1	0
+*PF	PriorErrs[Delaware,TtAsyFr]/-1	-0.345093	5.07776e-05	-0.345093	0	1	0
+*PF	PriorErrs[Mississippi,SnFtAc]/-1	-0.34233	5.03712e-05	-0.34233	0	1	0
+*PF	PriorErrs[Michigan,MTrAsym]/-1	-0.341845	5.02999e-05	-0.341845	0	1	0
+*PF	PriorErrs[Vermont,DwnAdj]/-1	-0.340176	5.00542e-05	-0.340176	0	1	0
+*PF	PriorErrs[Florida,MTrAsym]/-1	-0.339934	5.00186e-05	-0.339934	0	1	0
+*PF	PriorErrs[Wisconsin,DwnAdj]/-1	-0.335684	4.93933e-05	-0.335684	0	1	0
+*PF	PriorErrs[Virginia,DrdFac]/-1	-0.335631	4.93854e-05	-0.335631	0	1	0
+*PF	PriorErrs[North Carolina,DrdFac]/-1	-0.333727	4.91053e-05	-0.333727	0	1	0
+*PF	PriorErrs[Maryland,MnCnFrc]/-1	-0.330227	4.85903e-05	-0.330227	0	1	0
+*PF	PriorErrs[South Carolina,SnFtAc]/-1	-0.329262	4.84483e-05	-0.329262	0	1	0
+*PF	PriorErrs[Washington,HspLrng]/-1	-0.328347	4.83136e-05	-0.328347	0	1	0
+*PF	PriorErrs[Massachusetts,MTrAsym]/-1	-0.327742	4.82246e-05	-0.327742	0	1	0
+*PF	PriorErrs[Tennessee,AdhrFtg]/-1	-0.326159	4.79917e-05	-0.326159	0	1	0
+*P	Economist Exess Death Err[Mississippi]/-1	-0.321467	4.73013e-05	-0.321467	0	4281	0
+*PF	PriorErrs[Georgia,ImPDnHs]/-1	-0.320504	4.71597e-05	-0.320504	0	1	0
+*P	Economist Exess Death Err[Wyoming]/-1	-0.319641	4.70326e-05	-0.319641	0	4281	0
+*PF	PriorErrs[New Mexico,ImPDnHs]/-1	-0.319232	4.69724e-05	-0.319232	0	1	0
+*PF	PriorErrs[North Carolina,SnFtAc]/-1	-0.319117	4.69556e-05	-0.319117	0	1	0
+*PF	PriorErrs[Maine,MnCnFrc]/-1	-0.314391	4.62602e-05	-0.314391	0	1	0
+*PF	PriorErrs[Louisiana,MTrAsym]/-1	-0.313899	4.61878e-05	-0.313899	0	1	0
+*PF	PriorErrs[Washington,MTrAsym]/-1	-0.31188	4.58906e-05	-0.31188	0	1	0
+*PF	PriorErrs[Colorado,BsFtRt]/-1	-0.311531	4.58394e-05	-0.311531	0	1	0
+*PF	PriorErrs[Missouri,DwnAdj]/-1	-0.306485	4.50969e-05	-0.306485	0	1	0
+*PF	PriorErrs[Mississippi,UpAdj]/-1	-0.305643	4.49729e-05	-0.305643	0	1	0
+*PF	PriorErrs[Oklahoma,MTrAsym]/-1	-0.300654	4.42388e-05	-0.300654	0	1	0
+*PF	PriorErrs[Arizona,MInfTs]/-1	-0.300633	4.42358e-05	-0.300633	0	1	0
+*PF	PriorErrs[Pennsylvania,RfSkTs]/-1	-0.29911	4.40117e-05	-0.29911	0	1	0
+*PF	PriorErrs[Ohio,MInfTs]/-1	-0.296594	4.36415e-05	-0.296594	0	1	0
+*PF	PriorErrs[Ohio,RFI]/-1	-0.296192	4.35824e-05	-0.296192	0	1	0
+*PF	PriorErrs[Tennessee,ImPDnHs]/-1	-0.293921	4.32482e-05	-0.293921	0	1	0
+*PF	PriorErrs[Alabama,WRpPIn]/-1	-0.292881	4.30951e-05	-0.292881	0	1	0
+*PF	PriorErrs[Nebraska,ImPDnHs]/-1	-0.287813	4.23494e-05	-0.287813	0	1	0
+*PF	PriorErrs[Texas,Acty]/-1	-0.287073	4.22405e-05	-0.287073	0	1	0
+*PF	PriorErrs[Louisiana,AdhrFtg]/-1	-0.286632	4.21757e-05	-0.286632	0	1	0
+*PF	PriorErrs[Colorado,DwnAdj]/-1	-0.282394	4.1552e-05	-0.282394	0	1	0
+*PF	PriorErrs[Tennessee,DrdFac]/-1	-0.279897	4.11847e-05	-0.279897	0	1	0
+*PF	PriorErrs[Arizona,Acty]/-1	-0.279503	4.11267e-05	-0.279503	0	1	0
+*PF	PriorErrs[Massachusetts,SnFtAc]/-1	-0.277734	4.08664e-05	-0.277734	0	1	0
+*PF	PriorErrs[Georgia,DrdFac]/-1	-0.276968	4.07537e-05	-0.276968	0	1	0
+*PF	PriorErrs[Hawaii,Acty]/-1	-0.275972	4.06071e-05	-0.275972	0	1	0
+*PF	PriorErrs[Rhode Island,DwnAdj]/-1	-0.274784	4.04322e-05	-0.274784	0	1	0
+*PF	PriorErrs[Illinois,ImTrFt]/-1	-0.274461	4.03848e-05	-0.274461	0	1	0
+*PF	PriorErrs[Kansas,AdhrFtg]/-1	-0.273839	4.02932e-05	-0.273839	0	1	0
+*PF	PriorErrs[Idaho,AdhrFtg]/-1	-0.272621	4.0114e-05	-0.272621	0	1	0
+*PF	PriorErrs[Connecticut,DrdFac]/-1	-0.271357	3.99281e-05	-0.271357	0	1	0
+*P	Economist Exess Death Err[West Virginia]/-1	-0.271038	3.98811e-05	-0.271038	0	4281	0
+*PF	PriorErrs[Georgia,MxHsFr]/-1	-0.270709	3.98327e-05	-0.270709	0	1	0
+*PF	PriorErrs[Alabama,AdhrFtg]/-1	-0.269042	3.95874e-05	-0.269042	0	1	0
+*PF	PriorErrs[Louisiana,BsFtRt]/-1	-0.268954	3.95744e-05	-0.268954	0	1	0
+*PF	PriorErrs[New Jersey,DrdFac]/-1	-0.266701	3.92429e-05	-0.266701	0	1	0
+*PF	PriorErrs[South Dakota,DrdFac]/-1	-0.262062	3.85603e-05	-0.262062	0	1	0
+*PF	PriorErrs[Arkansas,RFI]/-1	-0.261889	3.85349e-05	-0.261889	0	1	0
+*PF	PriorErrs[Michigan,TtAsyFr]/-1	-0.261042	3.84103e-05	-0.261042	0	1	0
+*PF	PriorErrs[Ohio,ImTrFt]/-1	-0.260098	3.82714e-05	-0.260098	0	1	0
+*PF	PriorErrs[South Carolina,WRpPIn]/-1	-0.257881	3.79452e-05	-0.257881	0	1	0
+*PF	PriorErrs[California,ImPDnHs]/-1	-0.257192	3.78438e-05	-0.257192	0	1	0
+*PF	PriorErrs[Mississippi,AdhrFtg]/-1	-0.25579	3.76375e-05	-0.25579	0	1	0
+*P	Economist Exess Death Err[Louisiana]/-1	-0.253175	3.72527e-05	-0.253175	0	4281	0
+*PF	PriorErrs[New Hampshire,CfImCn]/-1	-0.249285	3.66804e-05	-0.249285	0	1	0
+*PF	PriorErrs[Michigan,ImPDnHs]/-1	-0.245204	3.60799e-05	-0.245204	0	1	0
+*PF	PriorErrs[Arkansas,ImPDnHs]/-1	-0.242666	3.57064e-05	-0.242666	0	1	0
+*PF	PriorErrs[Washington,SnFtAc]/-1	-0.23988	3.52964e-05	-0.23988	0	1	0
+*PF	PriorErrs[Mississippi,MTrAsym]/-1	-0.23658	3.48109e-05	-0.23658	0	1	0
+*PF	PriorErrs[Arizona,WRpPIn]/-1	-0.23288	3.42665e-05	-0.23288	0	1	0
+*PF	PriorErrs[Georgia,SnCnRdUt]/-1	-0.232714	3.4242e-05	-0.232714	0	1	0
+*PF	PriorErrs[Washington,MnCnFrc]/-1	-0.231627	3.40821e-05	-0.231627	0	1	0
+*PF	PriorErrs[Alaska,Acty]/-1	-0.23094	3.3981e-05	-0.23094	0	1	0
+*PF	PriorErrs[Texas,DrdFac]/-1	-0.228033	3.35533e-05	-0.228033	0	1	0
+*PF	PriorErrs[Rhode Island,WRpPIn]/-1	-0.225661	3.32043e-05	-0.225661	0	1	0
+*PF	PriorErrs[Ohio,RfSkTs]/-1	-0.224601	3.30482e-05	-0.224601	0	1	0
+*PF	PriorErrs[Florida,AdhrFtg]/-1	-0.222213	3.26968e-05	-0.222213	0	1	0
+*PF	PriorErrs[Illinois,MTrAsym]/-1	-0.216365	3.18365e-05	-0.216365	0	1	0
+*PF	PriorErrs[Wyoming,DrdFac]/-1	-0.21615	3.18048e-05	-0.21615	0	1	0
+*PF	PriorErrs[Wisconsin,BsFtRt]/-1	-0.215938	3.17736e-05	-0.215938	0	1	0
+*PF	PriorErrs[Maryland,RFI]/-1	-0.215486	3.1707e-05	-0.215486	0	1	0
+*PF	PriorErrs[California,SnFtAc]/-1	-0.214605	3.15775e-05	-0.214605	0	1	0
+*PF	PriorErrs[Nevada,DrdFac]/-1	-0.214404	3.15478e-05	-0.214404	0	1	0
+*PF	PriorErrs[Illinois,Acty]/-1	-0.213019	3.13441e-05	-0.213019	0	1	0
+*PF	PriorErrs[Tennessee,Acty]/-1	-0.212395	3.12523e-05	-0.212395	0	1	0
+*PF	PriorErrs[New Hampshire,Acty]/-1	-0.209262	3.07913e-05	-0.209262	0	1	0
+*PF	PriorErrs[Iowa,MxHsFr]/-1	-0.207106	3.0474e-05	-0.207106	0	1	0
+*PF	PriorErrs[New Jersey,Acty]/-1	-0.206691	3.0413e-05	-0.206691	0	1	0
+*PF	PriorErrs[New Hampshire,HspLrng]/-1	-0.206493	3.03838e-05	-0.206493	0	1	0
+*P	Economist Exess Death Err[Texas]/-1	-0.199952	2.94214e-05	-0.199952	0	4281	0
+*PF	PriorErrs[Louisiana,SnFtAc]/-1	-0.198748	2.92441e-05	-0.198748	0	1	0
+*PF	PriorErrs[North Carolina,AdhrFtg]/-1	-0.198085	2.91466e-05	-0.198085	0	1	0
+*PF	PriorErrs[Alabama,RfSkTs]/-1	-0.197652	2.90829e-05	-0.197652	0	1	0
+*PF	PriorErrs[Florida,ImPDnHs]/-1	-0.197163	2.9011e-05	-0.197163	0	1	0
+*PF	PriorErrs[Wisconsin,DrdFac]/-1	-0.196571	2.89239e-05	-0.196571	0	1	0
+*PF	PriorErrs[Wisconsin,RfSkTs]/-1	-0.194442	2.86106e-05	-0.194442	0	1	0
+*PF	PriorErrs[Kansas,ImPDnHs]/-1	-0.193106	2.84141e-05	-0.193106	0	1	0
+*P	Economist Exess Death Err[Nebraska]/-1	-0.192852	2.83767e-05	-0.192852	0	4281	0
+*PF	PriorErrs[Hawaii,SnFtAc]/-1	-0.19118	2.81306e-05	-0.19118	0	1	0
+*PF	PriorErrs[Ohio,ImPDnHs]/-1	-0.191101	2.81191e-05	-0.191101	0	1	0
+*PF	PriorErrs[Michigan,DwnAdj]/-1	-0.188054	2.76707e-05	-0.188054	0	1	0
+*PF	PriorErrs[New Mexico,HspLrng]/-1	-0.187779	2.76302e-05	-0.187779	0	1	0
+*PF	PriorErrs[California,HspLrng]/-1	-0.187777	2.763e-05	-0.187777	0	1	0
+*PF	PriorErrs[Massachusetts,HspLrng]/-1	-0.187776	2.76297e-05	-0.187776	0	1	0
+*PF	PriorErrs[Virginia,HspLrng]/-1	-0.187774	2.76294e-05	-0.187774	0	1	0
+*PF	PriorErrs[West Virginia,HspLrng]/-1	-0.187771	2.76291e-05	-0.187771	0	1	0
+*PF	PriorErrs[Oregon,HspLrng]/-1	-0.185705	2.7325e-05	-0.185705	0	1	0
+*PF	PriorErrs[Kansas,HspLrng]/-1	-0.185554	2.73028e-05	-0.185554	0	1	0
+*PF	PriorErrs[Vermont,MTrAsym]/-1	-0.185375	2.72765e-05	-0.185375	0	1	0
+*PF	PriorErrs[Missouri,HspLrng]/-1	-0.184086	2.70867e-05	-0.184086	0	1	0
+*PF	PriorErrs[District of Columbia,MTrAsym]/-1	-0.182519	2.68563e-05	-0.182519	0	1	0
+*PF	PriorErrs[Alaska,HspLrng]/-1	-0.181165	2.66569e-05	-0.181165	0	1	0
+*PF	PriorErrs[Missouri,UpAdj]/-1	-0.180306	2.65305e-05	-0.180306	0	1	0
+*PF	PriorErrs[Wyoming,Acty]/-1	-0.180194	2.65141e-05	-0.180194	0	1	0
+*PF	PriorErrs[Illinois,HspLrng]/-1	-0.179965	2.64804e-05	-0.179965	0	1	0
+*P	Economist Exess Death Err[Pennsylvania]/-1	-0.178779	2.63059e-05	-0.178779	0	4281	0
+*PF	PriorErrs[North Carolina,ImPDnHs]/-1	-0.176734	2.6005e-05	-0.176734	0	1	0
+*PF	PriorErrs[Louisiana,ImTrFt]/-1	-0.174256	2.56404e-05	-0.174256	0	1	0
+*PF	PriorErrs[Pennsylvania,RFI]/-1	-0.173066	2.54653e-05	-0.173066	0	1	0
+*PF	PriorErrs[Oklahoma,RfSkTs]/-1	-0.172175	2.53343e-05	-0.172175	0	1	0
+*PF	PriorErrs[Alabama,MTrAsym]/-1	-0.169193	2.48954e-05	-0.169193	0	1	0
+*PF	PriorErrs[Illinois,DrdFac]/-1	-0.167329	2.46211e-05	-0.167329	0	1	0
+*PF	PriorErrs[North Carolina,DwnAdj]/-1	-0.166717	2.45311e-05	-0.166717	0	1	0
+*PF	PriorErrs[New York,Acty]/-1	-0.163757	2.40955e-05	-0.163757	0	1	0
+*PF	PriorErrs[Nevada,HspLrng]/-1	-0.162796	2.39542e-05	-0.162796	0	1	0
+*PF	PriorErrs[Georgia,BsFtRt]/-1	-0.160962	2.36842e-05	-0.160962	0	1	0
+*PF	PriorErrs[Oregon,RFI]/-1	-0.160891	2.36739e-05	-0.160891	0	1	0
+*PF	PriorErrs[Rhode Island,ImTrFt]/-1	-0.159744	2.3505e-05	-0.159744	0	1	0
+*P	Economist Exess Death Err[Illinois]/-1	-0.158751	2.3359e-05	-0.158751	0	4281	0
+*PF	PriorErrs[Pennsylvania,HspLrng]/-1	-0.158224	2.32815e-05	-0.158224	0	1	0
+*PF	PriorErrs[Arkansas,ImTrFt]/-1	-0.156374	2.30092e-05	-0.156374	0	1	0
+*PF	PriorErrs[Montana,DwnAdj]/-1	-0.156237	2.2989e-05	-0.156237	0	1	0
+*PF	PriorErrs[Tennessee,HspLrng]/-1	-0.155272	2.2847e-05	-0.155272	0	1	0
+*PF	PriorErrs[Iowa,MTrAsym]/-1	-0.1545	2.27335e-05	-0.1545	0	1	0
+*PF	PriorErrs[North Carolina,MTrAsym]/-1	-0.153625	2.26047e-05	-0.153625	0	1	0
+*PF	PriorErrs[Montana,TtAsyFr]/-1	-0.1528	2.24833e-05	-0.1528	0	1	0
+*PF	PriorErrs[Vermont,DrdFac]/-1	-0.152304	2.24104e-05	-0.152304	0	1	0
+*P	Economist Exess Death Err[Kansas]/-1	-0.151201	2.22481e-05	-0.151201	0	4281	0
+*PF	PriorErrs[Iowa,HspLrng]/-1	-0.149591	2.20112e-05	-0.149591	0	1	0
+*PF	PriorErrs[Nebraska,WRpPIn]/-1	-0.14838	2.1833e-05	-0.14838	0	1	0
+*PF	PriorErrs[Florida,RfSkTs]/-1	-0.14679	2.1599e-05	-0.14679	0	1	0
+*PF	PriorErrs[Mississippi,MnCnFrc]/-1	-0.145691	2.14372e-05	-0.145691	0	1	0
+*PF	PriorErrs[South Dakota,Acty]/-1	-0.143539	2.11207e-05	-0.143539	0	1	0
+*PF	PriorErrs[Minnesota,AdhrFtg]/-1	-0.143468	2.11102e-05	-0.143468	0	1	0
+*PF	PriorErrs[Ohio,HspLrng]/-1	-0.142952	2.10342e-05	-0.142952	0	1	0
+*PF	PriorErrs[Nevada,DwnAdj]/-1	-0.142276	2.09348e-05	-0.142276	0	1	0
+*PF	PriorErrs[Kentucky,DrdFac]/-1	-0.141873	2.08755e-05	-0.141873	0	1	0
+*PF	PriorErrs[Mississippi,ImPDnHs]/-1	-0.141365	2.08008e-05	-0.141365	0	1	0
+*PF	PriorErrs[Arkansas,HspLrng]/-1	-0.140179	2.06262e-05	-0.140179	0	1	0
+*PF	PriorErrs[Montana,HspLrng]/-1	-0.13774	2.02674e-05	-0.13774	0	1	0
+*PF	PriorErrs[Minnesota,Acty]/-1	-0.136864	2.01385e-05	-0.136864	0	1	0
+*PF	PriorErrs[Wisconsin,Acty]/-1	-0.135331	1.99129e-05	-0.135331	0	1	0
+*PF	PriorErrs[Pennsylvania,MTrAsym]/-1	-0.133794	1.96867e-05	-0.133794	0	1	0
+*PF	PriorErrs[Tennessee,RfSkTs]/-1	-0.133432	1.96335e-05	-0.133432	0	1	0
+*PF	PriorErrs[New Mexico,MTrAsym]/-1	-0.131427	1.93385e-05	-0.131427	0	1	0
+*PF	PriorErrs[South Carolina,RfSkTs]/-1	-0.130685	1.92293e-05	-0.130685	0	1	0
+*PF	PriorErrs[Michigan,RfSkTs]/-1	-0.12898	1.89784e-05	-0.12898	0	1	0
+*PF	PriorErrs[Hawaii,HspLrng]/-1	-0.127502	1.8761e-05	-0.127502	0	1	0
+*PF	PriorErrs[Connecticut,RFI]/-1	-0.126547	1.86203e-05	-0.126547	0	1	0
+*PF	PriorErrs[Alabama,ImPDnHs]/-1	-0.125773	1.85066e-05	-0.125773	0	1	0
+*PF	PriorErrs[Indiana,DrdFac]/-1	-0.125466	1.84614e-05	-0.125466	0	1	0
+*PF	PriorErrs[Delaware,HspLrng]/-1	-0.12463	1.83383e-05	-0.12463	0	1	0
+*PF	PriorErrs[Mississippi,BsFtRt]/-1	-0.124596	1.83332e-05	-0.124596	0	1	0
+*PF	PriorErrs[Michigan,MInfTs]/-1	-0.124419	1.83073e-05	-0.124419	0	1	0
+*PF	PriorErrs[New Mexico,DwnAdj]/-1	-0.124284	1.82874e-05	-0.124284	0	1	0
+*PF	PriorErrs[New York,DrdFac]/-1	-0.122467	1.80201e-05	-0.122467	0	1	0
+*PF	PriorErrs[New York,DwnAdj]/-1	-0.121804	1.79225e-05	-0.121804	0	1	0
+*PF	PriorErrs[California,RFI]/-1	-0.121444	1.78696e-05	-0.121444	0	1	0
+*PF	PriorErrs[South Carolina,MInfTs]/-1	-0.12022	1.76894e-05	-0.12022	0	1	0
+*PF	PriorErrs[Nebraska,DwnAdj]/-1	-0.119312	1.75558e-05	-0.119312	0	1	0
+*PF	PriorErrs[Maine,MInfTs]/-1	-0.115455	1.69882e-05	-0.115455	0	1	0
+*PF	PriorErrs[Mississippi,DrdFac]/-1	-0.114913	1.69085e-05	-0.114913	0	1	0
+*PF	PriorErrs[North Carolina,CfImCn]/-1	-0.114501	1.6848e-05	-0.114501	0	1	0
+*PF	PriorErrs[Montana,ImPDnHs]/-1	-0.113971	1.67699e-05	-0.113971	0	1	0
+*PF	PriorErrs[Idaho,MInfTs]/-1	-0.113037	1.66325e-05	-0.113037	0	1	0
+*PF	PriorErrs[Nebraska,Acty]/-1	-0.112919	1.66151e-05	-0.112919	0	1	0
+*PF	PriorErrs[Arizona,HspLrng]/-1	-0.112777	1.65943e-05	-0.112777	0	1	0
+*PF	PriorErrs[Minnesota,MTrAsym]/-1	-0.112066	1.64896e-05	-0.112066	0	1	0
+*PF	PriorErrs[Massachusetts,Acty]/-1	-0.11162	1.6424e-05	-0.11162	0	1	0
+*PF	PriorErrs[California,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Hawaii,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[South Dakota,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[District of Columbia,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Washington,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Arizona,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Oregon,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Alaska,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[West Virginia,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Georgia,CfImCn]/-1	-0.109486	1.611e-05	-0.109486	0	1	0
+*PF	PriorErrs[Kansas,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Nebraska,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Texas,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Minnesota,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Massachusetts,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Ohio,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Maine,CfImCn]/-1	-0.109481	1.61093e-05	-0.109481	0	1	0
+*PF	PriorErrs[Montana,CfImCn]/-1	-0.109478	1.61088e-05	-0.109478	0	1	0
+*PF	PriorErrs[North Dakota,CfImCn]/-1	-0.109469	1.61075e-05	-0.109469	0	1	0
+*PF	PriorErrs[Pennsylvania,CfImCn]/-1	-0.109441	1.61034e-05	-0.109441	0	1	0
+*PF	PriorErrs[Utah,CfImCn]/-1	-0.109385	1.60951e-05	-0.109385	0	1	0
+*PF	PriorErrs[Indiana,CfImCn]/-1	-0.10884	1.6015e-05	-0.10884	0	1	0
+*PF	PriorErrs[Arizona,MnCnFrc]/-1	-0.108688	1.59925e-05	-0.108688	0	1	0
+*PF	PriorErrs[Rhode Island,CfImCn]/-1	-0.108581	1.59768e-05	-0.108581	0	1	0
+*PF	PriorErrs[Oklahoma,CfImCn]/-1	-0.108512	1.59667e-05	-0.108512	0	1	0
+*PF	PriorErrs[Wyoming,CfImCn]/-1	-0.108509	1.59663e-05	-0.108509	0	1	0
+*PF	PriorErrs[Missouri,ImPDnHs]/-1	-0.108055	1.58995e-05	-0.108055	0	1	0
+*PF	PriorErrs[Connecticut,CfImCn]/-1	-0.10805	1.58987e-05	-0.10805	0	1	0
+*PF	PriorErrs[Idaho,CfImCn]/-1	-0.107599	1.58324e-05	-0.107599	0	1	0
+*PF	PriorErrs[Maryland,Acty]/-1	-0.106378	1.56527e-05	-0.106378	0	1	0
+*PF	PriorErrs[New Jersey,MnCnFrc]/-1	-0.106264	1.56358e-05	-0.106264	0	1	0
+*PF	PriorErrs[Maine,DrdFac]/-1	-0.106259	1.56352e-05	-0.106259	0	1	0
+*PF	PriorErrs[Tennessee,CfImCn]/-1	-0.106004	1.55977e-05	-0.106004	0	1	0
+*PF	PriorErrs[Wisconsin,CfImCn]/-1	-0.105738	1.55586e-05	-0.105738	0	1	0
+*PF	PriorErrs[Kansas,RFI]/-1	-0.105149	1.54718e-05	-0.105149	0	1	0
+*PF	PriorErrs[New Jersey,CfImCn]/-1	-0.102834	1.51312e-05	-0.102834	0	1	0
+*PF	PriorErrs[Arizona,DrdFac]/-1	-0.102405	1.5068e-05	-0.102405	0	1	0
+*PF	PriorErrs[New Mexico,CfImCn]/-1	-0.102125	1.50268e-05	-0.102125	0	1	0
+*PF	PriorErrs[Mississippi,CfImCn]/-1	-0.10147	1.49305e-05	-0.10147	0	1	0
+*PF	PriorErrs[Virginia,CfImCn]/-1	-0.101181	1.4888e-05	-0.101181	0	1	0
+*PF	PriorErrs[Utah,ImTrFt]/-1	-0.0983975	1.44784e-05	-0.0983975	0	1	0
+*PF	PriorErrs[Missouri,RfSkTs]/-1	-0.0971036	1.4288e-05	-0.0971036	0	1	0
+*PF	PriorErrs[Arkansas,MxHsFr]/-1	-0.0970018	1.42731e-05	-0.0970018	0	1	0
+*PF	PriorErrs[Florida,RFI]/-1	-0.0950727	1.39892e-05	-0.0950727	0	1	0
+*PF	PriorErrs[Colorado,DrdFac]/-1	-0.0942636	1.38701e-05	-0.0942636	0	1	0
+*PF	PriorErrs[Vermont,HspLrng]/-1	-0.0939892	1.38298e-05	-0.0939892	0	1	0
+*P	Economist Exess Death Err[Oklahoma]/-1	-0.0934685	1.37532e-05	-0.0934685	0	4281	0
+*PF	PriorErrs[Kentucky,RfSkTs]/-1	-0.0930506	1.36917e-05	-0.0930506	0	1	0
+*PF	PriorErrs[Washington,SnCnRdUt]/-1	-0.0929342	1.36745e-05	-0.0929342	0	1	0
+*PF	PriorErrs[Colorado,CfImCn]/-1	-0.092861	1.36638e-05	-0.092861	0	1	0
+*PF	PriorErrs[Nebraska,RfSkTs]/-1	-0.0921919	1.35653e-05	-0.0921919	0	1	0
+*PF	PriorErrs[Washington,Acty]/-1	-0.091243	1.34257e-05	-0.091243	0	1	0
+*PF	PriorErrs[South Carolina,AdhrFtg]/-1	-0.0909947	1.33892e-05	-0.0909947	0	1	0
+*PF	PriorErrs[Michigan,ImTrFt]/-1	-0.0898822	1.32255e-05	-0.0898822	0	1	0
+*PF	PriorErrs[Montana,SnFtAc]/-1	-0.0891338	1.31153e-05	-0.0891338	0	1	0
+*PF	PriorErrs[Wisconsin,ImPDnHs]/-1	-0.0883891	1.30058e-05	-0.0883891	0	1	0
+*PF	PriorErrs[Kansas,DwnAdj]/-1	-0.0883589	1.30013e-05	-0.0883589	0	1	0
+*PF	PriorErrs[Idaho,SnFtAc]/-1	-0.0877746	1.29153e-05	-0.0877746	0	1	0
+*PF	PriorErrs[Arkansas,CfImCn]/-1	-0.0865895	1.2741e-05	-0.0865895	0	1	0
+*PF	PriorErrs[Delaware,MTrAsym]/-1	-0.0865036	1.27283e-05	-0.0865036	0	1	0
+*PF	PriorErrs[Iowa,CfImCn]/-1	-0.0858495	1.26321e-05	-0.0858495	0	1	0
+*PF	PriorErrs[Delaware,RfSkTs]/-1	-0.0852695	1.25467e-05	-0.0852695	0	1	0
+*PF	PriorErrs[Maryland,HspLrng]/-1	-0.0852506	1.25439e-05	-0.0852506	0	1	0
+*P	Economist Exess Death Err[Idaho]/-1	-0.0845694	1.24437e-05	-0.0845694	0	4281	0
+*PF	PriorErrs[Arizona,RfSkTs]/-1	-0.0844812	1.24307e-05	-0.0844812	0	1	0
+*PF	PriorErrs[Hawaii,ImTrFt]/-1	-0.0837324	1.23206e-05	-0.0837324	0	1	0
+*PF	PriorErrs[West Virginia,RFI]/-1	-0.082346	1.21166e-05	-0.082346	0	1	0
+*PF	PriorErrs[Alaska,TtAsyFr]/-1	-0.082118	1.2083e-05	-0.082118	0	1	0
+*PF	PriorErrs[Pennsylvania,SnFtAc]/-1	-0.0799572	1.17651e-05	-0.0799572	0	1	0
+*PF	PriorErrs[New York,MxHsFr]/-1	-0.079739	1.1733e-05	-0.079739	0	1	0
+*PF	PriorErrs[Maine,RfSkTs]/-1	-0.0785888	1.15637e-05	-0.0785888	0	1	0
+*PF	PriorErrs[New Hampshire,MTrAsym]/-1	-0.0769216	1.13184e-05	-0.0769216	0	1	0
+*PF	PriorErrs[Delaware,CfImCn]/-1	-0.0767905	1.12991e-05	-0.0767905	0	1	0
+*PF	PriorErrs[Maryland,DrdFac]/-1	-0.0767097	1.12872e-05	-0.0767097	0	1	0
+*PF	PriorErrs[Indiana,MxHsFr]/-1	-0.0760223	1.11861e-05	-0.0760223	0	1	0
+*PF	PriorErrs[Alaska,WRpPIn]/-1	-0.0748064	1.10072e-05	-0.0748064	0	1	0
+*PF	PriorErrs[Wyoming,ImPDnHs]/-1	-0.0745321	1.09668e-05	-0.0745321	0	1	0
+*PF	PriorErrs[Rhode Island,RfSkTs]/-1	-0.0742871	1.09308e-05	-0.0742871	0	1	0
+*PF	PriorErrs[Georgia,RFI]/-1	-0.0736178	1.08323e-05	-0.0736178	0	1	0
+*PF	PriorErrs[Minnesota,HspLrng]/-1	-0.0719058	1.05804e-05	-0.0719058	0	1	0
+*PF	PriorErrs[Montana,MxHsFr]/-1	-0.0716064	1.05363e-05	-0.0716064	0	1	0
+*PF	PriorErrs[Mississippi,ImTrFt]/-1	-0.0713939	1.0505e-05	-0.0713939	0	1	0
+*PF	PriorErrs[Wyoming,DwnAdj]/-1	-0.0712053	1.04773e-05	-0.0712053	0	1	0
+*PF	PriorErrs[North Carolina,MnCnFrc]/-1	-0.0710355	1.04523e-05	-0.0710355	0	1	0
+*PF	PriorErrs[Kentucky,HspLrng]/-1	-0.0707981	1.04174e-05	-0.0707981	0	1	0
+*PF	PriorErrs[North Carolina,WRpPIn]/-1	-0.0695375	1.02319e-05	-0.0695375	0	1	0
+*PF	PriorErrs[Michigan,DrdFac]/-1	-0.0693168	1.01994e-05	-0.0693168	0	1	0
+*PF	PriorErrs[Hawaii,MTrAsym]/-1	-0.0678075	9.97733e-06	-0.0678075	0	1	0
+*PF	PriorErrs[Oklahoma,SnCnRdUt]/-1	-0.0650582	9.5728e-06	-0.0650582	0	1	0
+*PF	PriorErrs[Arizona,SnCnRdUt]/-1	-0.0650565	9.57256e-06	-0.0650565	0	1	0
+*PF	PriorErrs[South Carolina,SnCnRdUt]/-1	-0.0650559	9.57246e-06	-0.0650559	0	1	0
+*PF	PriorErrs[North Carolina,SnCnRdUt]/-1	-0.0650548	9.5723e-06	-0.0650548	0	1	0
+*PF	PriorErrs[Missouri,SnCnRdUt]/-1	-0.0649497	9.55684e-06	-0.0649497	0	1	0
+*PF	PriorErrs[Montana,SnCnRdUt]/-1	-0.0644688	9.48608e-06	-0.0644688	0	1	0
+*PF	PriorErrs[New Mexico,SnCnRdUt]/-1	-0.0640738	9.42796e-06	-0.0640738	0	1	0
+*PF	PriorErrs[South Dakota,AdhrFtg]/-1	-0.0639152	9.40462e-06	-0.0639152	0	1	0
+*PF	PriorErrs[Oklahoma,RFI]/-1	-0.0634916	9.34229e-06	-0.0634916	0	1	0
+*PF	PriorErrs[Nebraska,SnCnRdUt]/-1	-0.0626922	9.22467e-06	-0.0626922	0	1	0
+*PF	PriorErrs[Wyoming,HspLrng]/-1	-0.0626242	9.21465e-06	-0.0626242	0	1	0
+*PF	PriorErrs[New Mexico,Acty]/-1	-0.0609829	8.97316e-06	-0.0609829	0	1	0
+*PF	PriorErrs[North Dakota,ImPDnHs]/-1	-0.0602698	8.86823e-06	-0.0602698	0	1	0
+*P	Economist Exess Death Err[Washington]/-1	-0.060015	8.83073e-06	-0.060015	0	4281	0
+*PF	PriorErrs[Wyoming,TtAsyFr]/-1	-0.0593038	8.72609e-06	-0.0593038	0	1	0
+*PF	PriorErrs[Wyoming,SnCnRdUt]/-1	-0.0592744	8.72176e-06	-0.0592744	0	1	0
+*PF	PriorErrs[Ohio,DrdFac]/-1	-0.0581056	8.54979e-06	-0.0581056	0	1	0
+*PF	PriorErrs[Oklahoma,WRpPIn]/-1	-0.0574144	8.44807e-06	-0.0574144	0	1	0
+*PF	PriorErrs[New York,SnCnRdUt]/-1	-0.0573854	8.44381e-06	-0.0573854	0	1	0
+*PF	PriorErrs[Georgia,MnCnFrc]/-1	-0.0566919	8.34176e-06	-0.0566919	0	1	0
+*PF	PriorErrs[Maryland,SnCnRdUt]/-1	-0.0563271	8.28808e-06	-0.0563271	0	1	0
+*PF	PriorErrs[Ohio,Acty]/-1	-0.0555234	8.16983e-06	-0.0555234	0	1	0
+*PF	PriorErrs[South Carolina,CfImCn]/-1	-0.0552204	8.12525e-06	-0.0552204	0	1	0
+*PF	PriorErrs[Alabama,SnCnRdUt]/-1	-0.0536865	7.89954e-06	-0.0536865	0	1	0
+*PF	PriorErrs[Massachusetts,SnCnRdUt]/-1	-0.0535065	7.87307e-06	-0.0535065	0	1	0
+*PF	PriorErrs[New Hampshire,DrdFac]/-1	-0.053376	7.85385e-06	-0.053376	0	1	0
+*PF	PriorErrs[Washington,MxHsFr]/-1	-0.0525106	7.72652e-06	-0.0525106	0	1	0
+*PF	PriorErrs[Rhode Island,MxHsFr]/-1	-0.0525093	7.72632e-06	-0.0525093	0	1	0
+*PF	PriorErrs[Alaska,MxHsFr]/-1	-0.0525031	7.72542e-06	-0.0525031	0	1	0
+*PF	PriorErrs[Georgia,RfSkTs]/-1	-0.0520499	7.65873e-06	-0.0520499	0	1	0
+*PF	PriorErrs[Iowa,DwnAdj]/-1	-0.0516837	7.60485e-06	-0.0516837	0	1	0
+*PF	PriorErrs[Alaska,DrdFac]/-1	-0.0515821	7.5899e-06	-0.0515821	0	1	0
+*PF	PriorErrs[Rhode Island,SnCnRdUt]/-1	-0.0513318	7.55307e-06	-0.0513318	0	1	0
+*PF	PriorErrs[New York,HspLrng]/-1	-0.0511486	7.52612e-06	-0.0511486	0	1	0
+*PF	PriorErrs[Idaho,ImPDnHs]/-1	-0.0511127	7.52083e-06	-0.0511127	0	1	0
+*PF	PriorErrs[Wisconsin,MxHsFr]/-1	-0.0507069	7.46112e-06	-0.0507069	0	1	0
+*PF	PriorErrs[Indiana,RFI]/-1	-0.0494881	7.28178e-06	-0.0494881	0	1	0
+*PF	PriorErrs[New Jersey,HspLrng]/-1	-0.0490675	7.21989e-06	-0.0490675	0	1	0
+*PF	PriorErrs[Utah,DwnAdj]/-1	-0.0488251	7.18423e-06	-0.0488251	0	1	0
+*PF	PriorErrs[Connecticut,SnCnRdUt]/-1	-0.048528	7.14051e-06	-0.048528	0	1	0
+*PF	PriorErrs[South Dakota,DwnAdj]/-1	-0.0483769	7.11827e-06	-0.0483769	0	1	0
+*PF	PriorErrs[Michigan,HspLrng]/-1	-0.0464765	6.83865e-06	-0.0464765	0	1	0
+*PF	PriorErrs[Vermont,MxHsFr]/-1	-0.0461365	6.78862e-06	-0.0461365	0	1	0
+*PF	PriorErrs[Minnesota,DrdFac]/-1	-0.0461285	6.78745e-06	-0.0461285	0	1	0
+*PF	PriorErrs[Illinois,SnCnRdUt]/-1	-0.0460948	6.78248e-06	-0.0460948	0	1	0
+*PF	PriorErrs[Maine,MxHsFr]/-1	-0.045926	6.75765e-06	-0.045926	0	1	0
+*PF	PriorErrs[North Dakota,SnCnRdUt]/-1	-0.0438157	6.44713e-06	-0.0438157	0	1	0
+*PF	PriorErrs[Mississippi,Acty]/-1	-0.0430829	6.33931e-06	-0.0430829	0	1	0
+*PF	PriorErrs[Arizona,TtAsyFr]/-1	-0.0428723	6.30832e-06	-0.0428723	0	1	0
+*PF	PriorErrs[Washington,DrdFac]/-1	-0.0427803	6.29478e-06	-0.0427803	0	1	0
+*PF	PriorErrs[Utah,MxHsFr]/-1	-0.0425185	6.25626e-06	-0.0425185	0	1	0
+*PF	PriorErrs[North Dakota,HspLrng]/-1	-0.0417879	6.14876e-06	-0.0417879	0	1	0
+*PF	PriorErrs[Colorado,RFI]/-1	-0.0408548	6.01146e-06	-0.0408548	0	1	0
+*PF	PriorErrs[Utah,RFI]/-1	-0.0408243	6.00698e-06	-0.0408243	0	1	0
+*PF	PriorErrs[Maryland,RfSkTs]/-1	-0.0403867	5.94259e-06	-0.0403867	0	1	0
+*PF	PriorErrs[South Dakota,RfSkTs]/-1	-0.0403729	5.94056e-06	-0.0403729	0	1	0
+*PF	PriorErrs[Illinois,MxHsFr]/-1	-0.0402391	5.92087e-06	-0.0402391	0	1	0
+*PF	PriorErrs[Oklahoma,MxHsFr]/-1	-0.0400188	5.88845e-06	-0.0400188	0	1	0
+*PF	PriorErrs[Texas,DwnAdj]/-1	-0.039848	5.86333e-06	-0.039848	0	1	0
+*PF	PriorErrs[Virginia,Acty]/-1	-0.0397816	5.85355e-06	-0.0397816	0	1	0
+*PF	PriorErrs[District of Columbia,SnCnRdUt]/-1	-0.0397167	5.84401e-06	-0.0397167	0	1	0
+*PF	PriorErrs[South Carolina,MxHsFr]/-1	-0.0393232	5.7861e-06	-0.0393232	0	1	0
+*PF	PriorErrs[Rhode Island,HspLrng]/-1	-0.0383424	5.64179e-06	-0.0383424	0	1	0
+*PF	PriorErrs[Montana,RfSkTs]/-1	-0.0375081	5.51902e-06	-0.0375081	0	1	0
+*PF	PriorErrs[Michigan,MxHsFr]/-1	-0.0375048	5.51853e-06	-0.0375048	0	1	0
+*PF	PriorErrs[Alabama,Acty]/-1	-0.0374331	5.50799e-06	-0.0374331	0	1	0
+*PF	PriorErrs[Kentucky,MTrAsym]/-1	-0.0363288	5.3455e-06	-0.0363288	0	1	0
+*PF	PriorErrs[District of Columbia,HspLrng]/-1	-0.0361601	5.32067e-06	-0.0361601	0	1	0
+*PF	PriorErrs[Delaware,WRpPIn]/-1	-0.0355106	5.2251e-06	-0.0355106	0	1	0
+*PF	PriorErrs[New Jersey,MInfTs]/-1	-0.0353555	5.20228e-06	-0.0353555	0	1	0
+*PF	PriorErrs[Pennsylvania,DrdFac]/-1	-0.034534	5.08141e-06	-0.034534	0	1	0
+*PF	PriorErrs[West Virginia,RfSkTs]/-1	-0.0345048	5.07712e-06	-0.0345048	0	1	0
+*PF	PriorErrs[North Dakota,SnFtAc]/-1	-0.0342986	5.04676e-06	-0.0342986	0	1	0
+*PF	PriorErrs[Maryland,CfImCn]/-1	-0.0342823	5.04436e-06	-0.0342823	0	1	0
+*PF	PriorErrs[Mississippi,MxHsFr]/-1	-0.0341508	5.02502e-06	-0.0341508	0	1	0
+*PF	PriorErrs[Minnesota,MxHsFr]/-1	-0.0341493	5.02481e-06	-0.0341493	0	1	0
+*PF	PriorErrs[New Hampshire,ImPDnHs]/-1	-0.0338849	4.9859e-06	-0.0338849	0	1	0
+*PF	PriorErrs[Minnesota,RfSkTs]/-1	-0.033653	4.95178e-06	-0.033653	0	1	0
+*PF	PriorErrs[Kansas,Acty]/-1	-0.0334739	4.92543e-06	-0.0334739	0	1	0
+*PF	PriorErrs[Pennsylvania,UpAdj]/-1	-0.0333019	4.90011e-06	-0.0333019	0	1	0
+*PF	PriorErrs[New Mexico,WRpPIn]/-1	-0.0330742	4.86661e-06	-0.0330742	0	1	0
+*PF	PriorErrs[California,MxHsFr]/-1	-0.0330342	4.86072e-06	-0.0330342	0	1	0
+*PF	PriorErrs[Idaho,SnCnRdUt]/-1	-0.0330141	4.85777e-06	-0.0330141	0	1	0
+*PF	PriorErrs[Kentucky,MnCnFrc]/-1	-0.0329201	4.84393e-06	-0.0329201	0	1	0
+*PF	PriorErrs[Illinois,AdhrFtg]/-1	-0.0320183	4.71125e-06	-0.0320183	0	1	0
+*PF	PriorErrs[Louisiana,UpAdj]/-1	-0.0315249	4.63864e-06	-0.0315249	0	1	0
+*PF	PriorErrs[New Jersey,DwnAdj]/-1	-0.0312216	4.59402e-06	-0.0312216	0	1	0
+*PF	PriorErrs[Massachusetts,RfSkTs]/-1	-0.0309054	4.54749e-06	-0.0309054	0	1	0
+*PF	PriorErrs[California,RfSkTs]/-1	-0.0305225	4.49114e-06	-0.0305225	0	1	0
+*PF	PriorErrs[Delaware,MxHsFr]/-1	-0.0305092	4.48919e-06	-0.0305092	0	1	0
+*PF	PriorErrs[Rhode Island,DrdFac]/-1	-0.0294587	4.33461e-06	-0.0294587	0	1	0
+*PF	PriorErrs[Tennessee,SnCnRdUt]/-1	-0.0291717	4.29239e-06	-0.0291717	0	1	0
+*PF	PriorErrs[Nebraska,MTrAsym]/-1	-0.0289405	4.25836e-06	-0.0289405	0	1	0
+*PF	PriorErrs[Vermont,AdhrFtg]/-1	-0.0287708	4.2334e-06	-0.0287708	0	1	0
+*PF	PriorErrs[Virginia,RfSkTs]/-1	-0.0287263	4.22685e-06	-0.0287263	0	1	0
+*PF	PriorErrs[Oklahoma,HspLrng]/-1	-0.0274377	4.03724e-06	-0.0274377	0	1	0
+*PF	PriorErrs[Pennsylvania,TtAsyFr]/-1	-0.0274182	4.03437e-06	-0.0274182	0	1	0
+*PF	PriorErrs[Oklahoma,ImTrFt]/-1	-0.0271499	3.99489e-06	-0.0271499	0	1	0
+*PF	PriorErrs[Kentucky,CfImCn]/-1	-0.0265531	3.90708e-06	-0.0265531	0	1	0
+*PF	PriorErrs[Georgia,UpAdj]/-1	-0.0263312	3.87443e-06	-0.0263312	0	1	0
+*PF	PriorErrs[New Jersey,MxHsFr]/-1	-0.0260632	3.83499e-06	-0.0260632	0	1	0
+*PF	PriorErrs[Idaho,MxHsFr]/-1	-0.0258763	3.80749e-06	-0.0258763	0	1	0
+*PF	PriorErrs[Texas,ImPDnHs]/-1	-0.0256021	3.76715e-06	-0.0256021	0	1	0
+*PF	PriorErrs[Utah,SnCnRdUt]/-1	-0.0253144	3.72482e-06	-0.0253144	0	1	0
+*PF	PriorErrs[Kansas,DrdFac]/-1	-0.0251905	3.70658e-06	-0.0251905	0	1	0
+*PF	PriorErrs[Kentucky,Acty]/-1	-0.0249535	3.6717e-06	-0.0249535	0	1	0
+*PF	PriorErrs[North Carolina,RFI]/-1	-0.0248401	3.65503e-06	-0.0248401	0	1	0
+*PF	PriorErrs[Arkansas,DrdFac]/-1	-0.0244712	3.60074e-06	-0.0244712	0	1	0
+*PF	PriorErrs[Colorado,MxHsFr]/-1	-0.0243026	3.57593e-06	-0.0243026	0	1	0
+*PF	PriorErrs[Utah,MTrAsym]/-1	-0.0239003	3.51675e-06	-0.0239003	0	1	0
+*PF	PriorErrs[Ohio,SnFtAc]/-1	-0.0237792	3.49892e-06	-0.0237792	0	1	0
+*PF	PriorErrs[South Dakota,SnCnRdUt]/-1	-0.023505	3.45858e-06	-0.023505	0	1	0
+*PF	PriorErrs[District of Columbia,RfSkTs]/-1	-0.0227133	3.34208e-06	-0.0227133	0	1	0
+*PF	PriorErrs[South Carolina,HspLrng]/-1	-0.0226185	3.32814e-06	-0.0226185	0	1	0
+*PF	PriorErrs[South Dakota,MxHsFr]/-1	-0.0225461	3.31748e-06	-0.0225461	0	1	0
+*PF	PriorErrs[Georgia,MTrAsym]/-1	-0.0222658	3.27624e-06	-0.0222658	0	1	0
+*PF	PriorErrs[Hawaii,TtAsyFr]/-1	-0.0218874	3.22055e-06	-0.0218874	0	1	0
+*PF	PriorErrs[Washington,RfSkTs]/-1	-0.0210853	3.10254e-06	-0.0210853	0	1	0
+*PF	PriorErrs[New Hampshire,MxHsFr]/-1	-0.0210024	3.09033e-06	-0.0210024	0	1	0
+*PF	PriorErrs[Rhode Island,MInfTs]/-1	-0.0208676	3.0705e-06	-0.0208676	0	1	0
+*PF	PriorErrs[Alaska,ImPDnHs]/-1	-0.0208514	3.06812e-06	-0.0208514	0	1	0
+*PF	PriorErrs[Massachusetts,MxHsFr]/-1	-0.0207568	3.0542e-06	-0.0207568	0	1	0
+*PF	PriorErrs[Vermont,TtAsyFr]/-1	-0.0207397	3.05168e-06	-0.0207397	0	1	0
+*PF	PriorErrs[Alaska,SnFtAc]/-1	-0.0205506	3.02385e-06	-0.0205506	0	1	0
+*PF	PriorErrs[Hawaii,DrdFac]/-1	-0.0202932	2.98598e-06	-0.0202932	0	1	0
+*PF	PriorErrs[New Hampshire,AdhrFtg]/-1	-0.0202821	2.98435e-06	-0.0202821	0	1	0
+*PF	PriorErrs[New Hampshire,RfSkTs]/-1	-0.0195296	2.87362e-06	-0.0195296	0	1	0
+*PF	PriorErrs[Alabama,RFI]/-1	-0.0193345	2.84492e-06	-0.0193345	0	1	0
+*PF	PriorErrs[Michigan,Acty]/-1	-0.0190949	2.80967e-06	-0.0190949	0	1	0
+*PF	PriorErrs[Oregon,RfSkTs]/-1	-0.0190151	2.79792e-06	-0.0190151	0	1	0
+*PF	PriorErrs[Montana,Acty]/-1	-0.0186118	2.73858e-06	-0.0186118	0	1	0
+*PF	PriorErrs[Kentucky,TtAsyFr]/-1	-0.0184888	2.72048e-06	-0.0184888	0	1	0
+*PF	PriorErrs[Missouri,CfImCn]/-1	-0.0184749	2.71843e-06	-0.0184749	0	1	0
+*PF	PriorErrs[Minnesota,DwnAdj]/-1	-0.0182597	2.68677e-06	-0.0182597	0	1	0
+*PF	PriorErrs[New Hampshire,SnCnRdUt]/-1	-0.0178938	2.63293e-06	-0.0178938	0	1	0
+*PF	PriorErrs[Louisiana,MnCnFrc]/-1	-0.0174321	2.56499e-06	-0.0174321	0	1	0
+*PF	PriorErrs[Arkansas,RfSkTs]/-1	-0.0172403	2.53677e-06	-0.0172403	0	1	0
+*PF	PriorErrs[Alabama,CfImCn]/-1	-0.0163124	2.40024e-06	-0.0163124	0	1	0
+*PF	PriorErrs[South Carolina,TtAsyFr]/-1	-0.0159205	2.34257e-06	-0.0159205	0	1	0
+*PF	PriorErrs[Oklahoma,AdhrFtg]/-1	-0.0156489	2.30262e-06	-0.0156489	0	1	0
+*PF	PriorErrs[New York,RfSkTs]/-1	-0.0156095	2.29682e-06	-0.0156095	0	1	0
+*PF	PriorErrs[Hawaii,SnCnRdUt]/-1	-0.0153735	2.26209e-06	-0.0153735	0	1	0
+*PF	PriorErrs[Vermont,RFI]/-1	-0.0151424	2.22808e-06	-0.0151424	0	1	0
+*PF	PriorErrs[Hawaii,MxHsFr]/-1	-0.0147174	2.16554e-06	-0.0147174	0	1	0
+*PF	PriorErrs[Indiana,WRpPIn]/-1	-0.0144875	2.13171e-06	-0.0144875	0	1	0
+*PF	PriorErrs[Virginia,SnCnRdUt]/-1	-0.0143458	2.11088e-06	-0.0143458	0	1	0
+*PF	PriorErrs[Oregon,MxHsFr]/-1	-0.0139677	2.05523e-06	-0.0139677	0	1	0
+*PF	PriorErrs[Nebraska,AdhrFtg]/-1	-0.0136739	2.01201e-06	-0.0136739	0	1	0
+*PF	PriorErrs[New Jersey,SnCnRdUt]/-1	-0.0136222	2.0044e-06	-0.0136222	0	1	0
+*PF	PriorErrs[District of Columbia,RFI]/-1	-0.0134668	1.98153e-06	-0.0134668	0	1	0
+*PF	PriorErrs[North Dakota,MxHsFr]/-1	-0.0134192	1.97452e-06	-0.0134192	0	1	0
+*P	Economist Exess Death Err[Missouri]/-1	-0.0131045	1.92823e-06	-0.0131045	0	4281	0
+*PF	PriorErrs[Connecticut,RfSkTs]/-1	-0.0128243	1.88699e-06	-0.0128243	0	1	0
+*PF	PriorErrs[Rhode Island,Acty]/-1	-0.0120343	1.77076e-06	-0.0120343	0	1	0
+*PF	PriorErrs[Louisiana,SnCnRdUt]/-1	-0.0118782	1.74778e-06	-0.0118782	0	1	0
+*PF	PriorErrs[West Virginia,Acty]/-1	-0.0118743	1.74721e-06	-0.0118743	0	1	0
+*PF	PriorErrs[Georgia,AdhrFtg]/-1	-0.0117395	1.72737e-06	-0.0117395	0	1	0
+*PF	PriorErrs[Texas,MTrAsym]/-1	-0.0115877	1.70504e-06	-0.0115877	0	1	0
+*PF	PriorErrs[Tennessee,WRpPIn]/-1	-0.0114371	1.68287e-06	-0.0114371	0	1	0
+*PF	PriorErrs[Arkansas,MnCnFrc]/-1	-0.0113868	1.67548e-06	-0.0113868	0	1	0
+*PF	PriorErrs[Louisiana,RfSkTs]/-1	-0.0112701	1.6583e-06	-0.0112701	0	1	0
+*P	Economist Exess Death Err[New Hampshire]/-1	-0.0110595	1.62732e-06	-0.0110595	0	4281	0
+*PF	PriorErrs[Texas,HspLrng]/-1	-0.0110578	1.62707e-06	-0.0110578	0	1	0
+*PF	PriorErrs[Tennessee,RFI]/-1	-0.0107197	1.57731e-06	-0.0107197	0	1	0
+*PF	PriorErrs[Nevada,SnCnRdUt]/-1	-0.010483	1.54249e-06	-0.010483	0	1	0
+*PF	PriorErrs[Utah,DrdFac]/-1	-0.0103263	1.51944e-06	-0.0103263	0	1	0
+*P	Economist Exess Death Err[Arkansas]/-1	-0.0102489	1.50804e-06	-0.0102489	0	4281	0
+*PF	PriorErrs[New Mexico,RfSkTs]/-1	-0.0102087	1.50213e-06	-0.0102087	0	1	0
+*PF	PriorErrs[Alaska,RFI]/-1	-0.00995211	1.46437e-06	-0.00995211	0	1	0
+*PF	PriorErrs[Nevada,CfImCn]/-1	-0.0099206	1.45974e-06	-0.0099206	0	1	0
+*PF	PriorErrs[North Carolina,HspLrng]/-1	-0.0099153	1.45896e-06	-0.0099153	0	1	0
+*PF	PriorErrs[Wisconsin,MTrAsym]/-1	-0.00982845	1.44618e-06	-0.00982845	0	1	0
+*PF	PriorErrs[Colorado,SnCnRdUt]/-1	-0.00950903	1.39918e-06	-0.00950903	0	1	0
+*PF	PriorErrs[Alaska,RfSkTs]/-1	-0.00935998	1.37725e-06	-0.00935998	0	1	0
+*PF	PriorErrs[Arizona,MxHsFr]/-1	-0.00908359	1.33658e-06	-0.00908359	0	1	0
+*PF	PriorErrs[Alabama,MxHsFr]/-1	-0.00895707	1.31796e-06	-0.00895707	0	1	0
+*PF	PriorErrs[Hawaii,RfSkTs]/-1	-0.00893629	1.3149e-06	-0.00893629	0	1	0
+*PF	PriorErrs[Alaska,SnCnRdUt]/-1	-0.00882817	1.299e-06	-0.00882817	0	1	0
+*PF	PriorErrs[Arizona,ImTrFt]/-1	-0.0088215	1.29801e-06	-0.0088215	0	1	0
+*PF	PriorErrs[Louisiana,MxHsFr]/-1	-0.00877447	1.29109e-06	-0.00877447	0	1	0
+*PF	PriorErrs[Wisconsin,WRpPIn]/-1	-0.00871023	1.28164e-06	-0.00871023	0	1	0
+*PF	PriorErrs[New Jersey,RfSkTs]/-1	-0.00826909	1.21673e-06	-0.00826909	0	1	0
+*PF	PriorErrs[South Carolina,Acty]/-1	-0.00811373	1.19387e-06	-0.00811373	0	1	0
+*PF	PriorErrs[California,UpAdj]/-1	-0.00808278	1.18932e-06	-0.00808278	0	1	0
+*PF	PriorErrs[West Virginia,DwnAdj]/-1	-0.00772918	1.13729e-06	-0.00772918	0	1	0
+*PF	PriorErrs[Idaho,DrdFac]/-1	-0.00767158	1.12881e-06	-0.00767158	0	1	0
+*PF	PriorErrs[Idaho,RFI]/-1	-0.00755281	1.11134e-06	-0.00755281	0	1	0
+*PF	PriorErrs[Louisiana,HspLrng]/-1	-0.00745608	1.0971e-06	-0.00745608	0	1	0
+*PF	PriorErrs[Kansas,RfSkTs]/-1	-0.00744324	1.09521e-06	-0.00744324	0	1	0
+*PF	PriorErrs[Pennsylvania,MxHsFr]/-1	-0.00726842	1.06949e-06	-0.00726842	0	1	0
+*PF	PriorErrs[Florida,DrdFac]/-1	-0.00701981	1.03291e-06	-0.00701981	0	1	0
+*PF	PriorErrs[Maine,ImPDnHs]/-1	-0.00699523	1.02929e-06	-0.00699523	0	1	0
+*PF	PriorErrs[Virginia,MxHsFr]/-1	-0.00698919	1.0284e-06	-0.00698919	0	1	0
+*PF	PriorErrs[North Dakota,RfSkTs]/-1	-0.00692837	1.01945e-06	-0.00692837	0	1	0
+*PF	PriorErrs[Oregon,SnCnRdUt]/-1	-0.00671577	9.88172e-07	-0.00671577	0	1	0
+*PF	PriorErrs[Indiana,HspLrng]/-1	-0.00669472	9.85076e-07	-0.00669472	0	1	0
+*PF	PriorErrs[Oklahoma,DwnAdj]/-1	-0.00659954	9.7107e-07	-0.00659954	0	1	0
+*PF	PriorErrs[Nevada,RFI]/-1	-0.0063316	9.31644e-07	-0.0063316	0	1	0
+*PF	PriorErrs[Indiana,RfSkTs]/-1	-0.006254	9.20226e-07	-0.006254	0	1	0
+*PF	PriorErrs[Wisconsin,HspLrng]/-1	-0.00607941	8.94538e-07	-0.00607941	0	1	0
+*PF	PriorErrs[North Carolina,MxHsFr]/-1	-0.00604229	8.89076e-07	-0.00604229	0	1	0
+*PF	PriorErrs[Tennessee,MnCnFrc]/-1	-0.0058915	8.66888e-07	-0.0058915	0	1	0
+*PF	PriorErrs[Maryland,MxHsFr]/-1	-0.00577205	8.49312e-07	-0.00577205	0	1	0
+*PF	PriorErrs[Connecticut,HspLrng]/-1	-0.00541623	7.96956e-07	-0.00541623	0	1	0
+*PF	PriorErrs[Vermont,SnCnRdUt]/-1	-0.00530189	7.80131e-07	-0.00530189	0	1	0
+*PF	PriorErrs[Ohio,SnCnRdUt]/-1	-0.00503834	7.41352e-07	-0.00503834	0	1	0
+*PF	PriorErrs[Kansas,MxHsFr]/-1	-0.00497942	7.32683e-07	-0.00497942	0	1	0
+*PF	PriorErrs[Arkansas,AdhrFtg]/-1	-0.00496275	7.30229e-07	-0.00496275	0	1	0
+*PF	PriorErrs[Vermont,WRpPIn]/-1	-0.00482649	7.1018e-07	-0.00482649	0	1	0
+*PF	PriorErrs[Georgia,HspLrng]/-1	-0.00473991	6.97441e-07	-0.00473991	0	1	0
+*PF	PriorErrs[Illinois,RfSkTs]/-1	-0.00464507	6.83485e-07	-0.00464507	0	1	0
+*PF	PriorErrs[Virginia,RFI]/-1	-0.0045767	6.73425e-07	-0.0045767	0	1	0
+*PF	PriorErrs[Washington,RFI]/-1	-0.00447727	6.58795e-07	-0.00447727	0	1	0
+*PF	PriorErrs[Tennessee,MxHsFr]/-1	-0.0040789	6.00179e-07	-0.0040789	0	1	0
+*PF	PriorErrs[Alabama,HspLrng]/-1	-0.00404424	5.95078e-07	-0.00404424	0	1	0
+*PF	PriorErrs[Louisiana,DrdFac]/-1	-0.00390644	5.74803e-07	-0.00390644	0	1	0
+*PF	PriorErrs[Iowa,DrdFac]/-1	-0.00374961	5.51725e-07	-0.00374961	0	1	0
+*PF	PriorErrs[Minnesota,SnCnRdUt]/-1	-0.00371128	5.46085e-07	-0.00371128	0	1	0
+*PF	PriorErrs[Iowa,Acty]/-1	-0.00352742	5.19032e-07	-0.00352742	0	1	0
+*PF	PriorErrs[Colorado,ImTrFt]/-1	-0.00351538	5.1726e-07	-0.00351538	0	1	0
+*PF	PriorErrs[Mississippi,HspLrng]/-1	-0.00343155	5.04925e-07	-0.00343155	0	1	0
+*PF	PriorErrs[North Carolina,Acty]/-1	-0.00336656	4.95363e-07	-0.00336656	0	1	0
+*PF	PriorErrs[Mississippi,RFI]/-1	-0.00330837	4.86801e-07	-0.00330837	0	1	0
+*PF	PriorErrs[Kansas,ImTrFt]/-1	-0.00330282	4.85984e-07	-0.00330282	0	1	0
+*PF	PriorErrs[Wisconsin,RFI]/-1	-0.00322496	4.74528e-07	-0.00322496	0	1	0
+*PF	PriorErrs[District of Columbia,MxHsFr]/-1	-0.00322344	4.74304e-07	-0.00322344	0	1	0
+*PF	PriorErrs[Vermont,RfSkTs]/-1	-0.00305629	4.4971e-07	-0.00305629	0	1	0
+*PF	PriorErrs[Massachusetts,DrdFac]/-1	-0.00292281	4.30068e-07	-0.00292281	0	1	0
+*PF	PriorErrs[Maryland,SnFtAc]/-1	-0.0028811	4.23931e-07	-0.0028811	0	1	0
+*PF	PriorErrs[Mississippi,RfSkTs]/-1	-0.00284216	4.18201e-07	-0.00284216	0	1	0
+*PF	PriorErrs[Utah,Acty]/-1	-0.00272531	4.01008e-07	-0.00272531	0	1	0
+*PF	PriorErrs[Missouri,Acty]/-1	-0.00261832	3.85265e-07	-0.00261832	0	1	0
+*PF	PriorErrs[Iowa,SnCnRdUt]/-1	-0.00260101	3.82718e-07	-0.00260101	0	1	0
+*PF	PriorErrs[Nevada,RfSkTs]/-1	-0.00253011	3.72286e-07	-0.00253011	0	1	0
+*PF	PriorErrs[Nebraska,MxHsFr]/-1	-0.00252146	3.71013e-07	-0.00252146	0	1	0
+*PF	PriorErrs[Kentucky,SnCnRdUt]/-1	-0.0024167	3.55598e-07	-0.0024167	0	1	0
+*PF	PriorErrs[Colorado,HspLrng]/-1	-0.0023328	3.43253e-07	-0.0023328	0	1	0
+*PF	PriorErrs[Connecticut,MInfTs]/-1	-0.00225567	3.31905e-07	-0.00225567	0	1	0
+*PF	PriorErrs[Michigan,SnCnRdUt]/-1	-0.00225148	3.31288e-07	-0.00225148	0	1	0
+*PF	PriorErrs[Arkansas,Acty]/-1	-0.00216734	3.18907e-07	-0.00216734	0	1	0
+*PF	PriorErrs[Connecticut,MxHsFr]/-1	-0.00213599	3.14295e-07	-0.00213599	0	1	0
+*PF	PriorErrs[Ohio,MxHsFr]/-1	-0.00196554	2.89214e-07	-0.00196554	0	1	0
+*PF	PriorErrs[Nevada,MxHsFr]/-1	-0.0018633	2.7417e-07	-0.0018633	0	1	0
+*PF	PriorErrs[Texas,SnCnRdUt]/-1	-0.00179608	2.64279e-07	-0.00179608	0	1	0
+*PF	PriorErrs[Arizona,MTrAsym]/-1	-0.00167628	2.46651e-07	-0.00167628	0	1	0
+*PF	PriorErrs[Louisiana,RFI]/-1	-0.00161814	2.38096e-07	-0.00161814	0	1	0
+*PF	PriorErrs[Hawaii,DwnAdj]/-1	-0.00160698	2.36454e-07	-0.00160698	0	1	0
+*PF	PriorErrs[North Carolina,RfSkTs]/-1	-0.00141683	2.08475e-07	-0.00141683	0	1	0
+*PF	PriorErrs[Wyoming,RfSkTs]/-1	-0.00118745	1.74724e-07	-0.00118745	0	1	0
+*PF	PriorErrs[Maryland,MTrAsym]/-1	-0.00118407	1.74226e-07	-0.00118407	0	1	0
+*PF	PriorErrs[Delaware,DrdFac]/-1	-0.0011536	1.69744e-07	-0.0011536	0	1	0
+*PF	PriorErrs[Idaho,RfSkTs]/-1	-0.00109239	1.60737e-07	-0.00109239	0	1	0
+*PF	PriorErrs[Nebraska,SnFtAc]/-1	-0.00105525	1.55272e-07	-0.00105525	0	1	0
+*PF	PriorErrs[Nebraska,DrdFac]/-1	-0.000997767	1.46814e-07	-0.000997767	0	1	0
+*PF	PriorErrs[West Virginia,MxHsFr]/-1	-0.000971688	1.42976e-07	-0.000971688	0	1	0
+*PF	PriorErrs[California,DwnAdj]/-1	-0.000865226	1.27311e-07	-0.000865226	0	1	0
+*PF	PriorErrs[Florida,MxHsFr]/-1	-0.000796917	1.1726e-07	-0.000796917	0	1	0
+*PF	PriorErrs[Texas,RfSkTs]/-1	-0.000717073	1.05512e-07	-0.000717073	0	1	0
+*PF	PriorErrs[Colorado,RfSkTs]/-1	-0.000686185	1.00967e-07	-0.000686185	0	1	0
+*PF	PriorErrs[Texas,MxHsFr]/-1	-0.000676259	9.95062e-08	-0.000676259	0	1	0
+*PF	PriorErrs[Kansas,SnCnRdUt]/-1	-0.000597743	8.79532e-08	-0.000597743	0	1	0
+*PF	PriorErrs[North Dakota,Acty]/-1	-0.000564405	8.30478e-08	-0.000564405	0	1	0
+*PF	PriorErrs[North Dakota,DwnAdj]/-1	-0.000561889	8.26776e-08	-0.000561889	0	1	0
+*PF	PriorErrs[Wyoming,MxHsFr]/-1	-0.000458073	6.74018e-08	-0.000458073	0	1	0
+*PF	PriorErrs[Nevada,Acty]/-1	-0.000424853	6.25138e-08	-0.000424853	0	1	0
+*PF	PriorErrs[Kansas,MTrAsym]/-1	-0.000407946	6.00261e-08	-0.000407946	0	1	0
+*PF	PriorErrs[Delaware,SnCnRdUt]/-1	-0.000331658	4.88008e-08	-0.000331658	0	1	0
+*PF	PriorErrs[Arkansas,SnCnRdUt]/-1	-0.000256738	3.77769e-08	-0.000256738	0	1	0
+*PF	PriorErrs[New Mexico,MxHsFr]/-1	-0.0002208	3.2489e-08	-0.0002208	0	1	0
+*PF	PriorErrs[Missouri,MxHsFr]/-1	-0.000205834	3.02869e-08	-0.000205834	0	1	0
+*PF	PriorErrs[Mississippi,SnCnRdUt]/-1	-0.000196875	2.89686e-08	-0.000196875	0	1	0
+*PF	PriorErrs[South Dakota,ImPDnHs]/-1	-0.000182554	2.68614e-08	-0.000182554	0	1	0
+*PF	PriorErrs[Oregon,DrdFac]/-1	-0.000180595	2.65732e-08	-0.000180595	0	1	0
+*PF	PriorErrs[Maine,SnCnRdUt]/-1	-0.000104635	1.53963e-08	-0.000104635	0	1	0
+*PF	PriorErrs[New Mexico,MInfTs]/-1	-5.04743e-05	7.4269e-09	-5.04743e-05	0	1	0
+*PF	PriorErrs[West Virginia,SnCnRdUt]/-1	-1.94964e-05	2.86874e-09	-1.94964e-05	0	1	0
+*PF	PriorErrs[Utah,RfSkTs]/-1	-3.39387e-06	4.99381e-10	-3.39387e-06	0	1	0
+*PF	PriorErrs[Oregon,DwnAdj]/-1	-2.45343e-06	3.61003e-10	-2.45343e-06	0	1	0
+*PF	PriorErrs[Nevada,MTrAsym]/-1	-8.40529e-08	1.23677e-11	-8.40529e-08	0	1	0
+*PF	PriorErrs[Virginia,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Florida,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Alaska,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[West Virginia,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Washington,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Nevada,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Connecticut,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Arizona,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Colorado,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[California,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[New Hampshire,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Missouri,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Vermont,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Montana,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Nebraska,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Delaware,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[New Mexico,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Oklahoma,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Indiana,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[South Carolina,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Georgia,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Minnesota,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Ohio,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[District of Columbia,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Maine,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[New Jersey,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Texas,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[New York,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Oregon,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Hawaii,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Wyoming,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Iowa,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Louisiana,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Kentucky,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Utah,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Alabama,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Pennsylvania,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Wisconsin,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[South Dakota,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[North Carolina,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Kansas,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Massachusetts,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Michigan,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Tennessee,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Rhode Island,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Illinois,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[North Dakota,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Maryland,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Arkansas,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Mississippi,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*PF	PriorErrs[Idaho,SnsWth]/-1	-2.46519e-32	3.62733e-36	-2.46519e-32	0	1	0
+*P	InitialOutbreakPenalty[North Dakota]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Indiana]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Wisconsin]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Wyoming]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Utah,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Texas,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Massachusetts,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[District of Columbia]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Rhode Island]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Missouri,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Arizona,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Nevada]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Massachusetts,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Texas,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Mississippi,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Hawaii]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Utah,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Florida]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[South Carolina]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Missouri]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Idaho]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[New Mexico]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Florida,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[New York]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Alabama,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Alabama,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Oklahoma]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[South Dakota,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Kansas,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Indiana,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Georgia,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Kansas,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Georgia,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Alaska,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Mississippi,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Vermont]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Idaho,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Maryland,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Hampshire,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[West Virginia,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Vermont,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Delaware,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Michigan,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Utah]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Minnesota]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Massachusetts]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Oregon]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Tennessee,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[South Carolina,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[New Hampshire]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[West Virginia]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Maryland]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Massachusetts,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Maryland,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Washington,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Arizona,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Washington,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Wyoming,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Georgia]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[South Dakota]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Alaska]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[North Carolina]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[North Carolina,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Ohio]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Iowa]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Illinois,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Oregon,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New York,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Tennessee]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Maine]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Nevada,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Texas,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Alabama,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New York,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Montana]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Illinois,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Kansas]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Maryland,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Florida,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[New Jersey]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Kentucky,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Mexico,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Missouri,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Delaware,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Connecticut,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[West Virginia,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[South Carolina,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Utah,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Maine,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Rhode Island,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[District of Columbia,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Jersey,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Illinois,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Vermont,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Kansas,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Indiana,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Connecticut]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Hawaii,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[South Dakota,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Texas]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Connecticut,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Alaska,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Montana,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Virginia]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Kentucky,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Nebraska,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Wisconsin,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Illinois]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Florida,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[District of Columbia,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Louisiana,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Michigan]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[California]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Washington]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Wyoming,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Kentucky]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[New Hampshire,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Vermont,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Minnesota,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Tennessee,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Kentucky,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Mississippi]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Pennsylvania,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Virginia,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Louisiana]/-1	0	-0	0	0	4281	0
+*P	InitialOutbreakPenalty[Colorado]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Maine,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Alabama]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Arizona,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[North Carolina,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Jersey,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Montana,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Nevada,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Ohio,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Louisiana,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Iowa,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Louisiana,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Colorado,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Oklahoma,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Mexico,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Wyoming,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Oklahoma,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Wisconsin,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Colorado,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[South Carolina,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Nebraska,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Hampshire,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Iowa,ObsImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Pennsylvania]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Virginia,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Maine,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Nebraska,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Rhode Island,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Connecticut,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Delaware,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Nevada,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Tennessee,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Arizona]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Oklahoma,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[North Carolina,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Mexico,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Wisconsin,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Pennsylvania,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Iowa,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Michigan,ChrImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Delaware]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Arkansas,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[California,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Nebraska]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Virginia,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New York,LivImp]/-1	0	-0	0	0	1	0
+*P	InitialOutbreakPenalty[Arkansas]/-1	0	-0	0	0	4281	0
+*PF	PriorErrs[Colorado,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Indiana,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Alaska,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[New Jersey,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Idaho,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Montana,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Missouri,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[South Dakota,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Arkansas,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Rhode Island,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Pennsylvania,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[District of Columbia,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Hawaii,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[North Dakota,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Mississippi,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Oregon,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Minnesota,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Michigan,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[North Dakota,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[West Virginia,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Ohio,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Oregon,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Hawaii,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Georgia,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[North Dakota,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Arkansas,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[California,ObsImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Minnesota,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[California,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Idaho,LivImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Ohio,ChrImp]/-1	0	-0	0	0	1	0
+*PF	PriorErrs[Washington,ObsImp]/-1	0	-0	0	0	1	0
+
+Sources for exogenous variables
+Actual Total Vaccinations[Alabama]	(null)
+Actual Total Vaccinations[Alaska]	(null)
+Actual Total Vaccinations[Arizona]	(null)
+Actual Total Vaccinations[Arkansas]	(null)
+Actual Total Vaccinations[California]	(null)
+Actual Total Vaccinations[Colorado]	(null)
+Actual Total Vaccinations[Connecticut]	(null)
+Actual Total Vaccinations[District of Columbia]	(null)
+Actual Total Vaccinations[Delaware]	(null)
+Actual Total Vaccinations[Florida]	(null)
+Actual Total Vaccinations[Georgia]	(null)
+Actual Total Vaccinations[Hawaii]	(null)
+Actual Total Vaccinations[Idaho]	(null)
+Actual Total Vaccinations[Illinois]	(null)
+Actual Total Vaccinations[Indiana]	(null)
+Actual Total Vaccinations[Iowa]	(null)
+Actual Total Vaccinations[Kansas]	(null)
+Actual Total Vaccinations[Kentucky]	(null)
+Actual Total Vaccinations[Louisiana]	(null)
+Actual Total Vaccinations[Maine]	(null)
+Actual Total Vaccinations[Maryland]	(null)
+Actual Total Vaccinations[Massachusetts]	(null)
+Actual Total Vaccinations[Michigan]	(null)
+Actual Total Vaccinations[Minnesota]	(null)
+Actual Total Vaccinations[Mississippi]	(null)
+Actual Total Vaccinations[Missouri]	(null)
+Actual Total Vaccinations[Montana]	(null)
+Actual Total Vaccinations[Nebraska]	(null)
+Actual Total Vaccinations[Nevada]	(null)
+Actual Total Vaccinations[New Hampshire]	(null)
+Actual Total Vaccinations[New Jersey]	(null)
+Actual Total Vaccinations[New Mexico]	(null)
+Actual Total Vaccinations[New York]	(null)
+Actual Total Vaccinations[North Carolina]	(null)
+Actual Total Vaccinations[North Dakota]	(null)
+Actual Total Vaccinations[Ohio]	(null)
+Actual Total Vaccinations[Oklahoma]	(null)
+Actual Total Vaccinations[Oregon]	(null)
+Actual Total Vaccinations[Pennsylvania]	(null)
+Actual Total Vaccinations[Rhode Island]	(null)
+Actual Total Vaccinations[South Carolina]	(null)
+Actual Total Vaccinations[South Dakota]	(null)
+Actual Total Vaccinations[Tennessee]	(null)
+Actual Total Vaccinations[Texas]	(null)
+Actual Total Vaccinations[Utah]	(null)
+Actual Total Vaccinations[Vermont]	(null)
+Actual Total Vaccinations[Virginia]	(null)
+Actual Total Vaccinations[Washington]	(null)
+Actual Total Vaccinations[West Virginia]	(null)
+Actual Total Vaccinations[Wisconsin]	(null)
+Actual Total Vaccinations[Wyoming]	(null)
+CRW[Alabama]	CovidModelInputs - CRWStates.vdf
+CRW[Alaska]	CovidModelInputs - CRWStates.vdf
+CRW[Arizona]	CovidModelInputs - CRWStates.vdf
+CRW[Arkansas]	CovidModelInputs - CRWStates.vdf
+CRW[California]	CovidModelInputs - CRWStates.vdf
+CRW[Colorado]	CovidModelInputs - CRWStates.vdf
+CRW[Connecticut]	CovidModelInputs - CRWStates.vdf
+CRW[District of Columbia]	CovidModelInputs - CRWStates.vdf
+CRW[Delaware]	CovidModelInputs - CRWStates.vdf
+CRW[Florida]	CovidModelInputs - CRWStates.vdf
+CRW[Georgia]	CovidModelInputs - CRWStates.vdf
+CRW[Hawaii]	CovidModelInputs - CRWStates.vdf
+CRW[Idaho]	CovidModelInputs - CRWStates.vdf
+CRW[Illinois]	CovidModelInputs - CRWStates.vdf
+CRW[Indiana]	CovidModelInputs - CRWStates.vdf
+CRW[Iowa]	CovidModelInputs - CRWStates.vdf
+CRW[Kansas]	CovidModelInputs - CRWStates.vdf
+CRW[Kentucky]	CovidModelInputs - CRWStates.vdf
+CRW[Louisiana]	CovidModelInputs - CRWStates.vdf
+CRW[Maine]	CovidModelInputs - CRWStates.vdf
+CRW[Maryland]	CovidModelInputs - CRWStates.vdf
+CRW[Massachusetts]	CovidModelInputs - CRWStates.vdf
+CRW[Michigan]	CovidModelInputs - CRWStates.vdf
+CRW[Minnesota]	CovidModelInputs - CRWStates.vdf
+CRW[Mississippi]	CovidModelInputs - CRWStates.vdf
+CRW[Missouri]	CovidModelInputs - CRWStates.vdf
+CRW[Montana]	CovidModelInputs - CRWStates.vdf
+CRW[Nebraska]	CovidModelInputs - CRWStates.vdf
+CRW[Nevada]	CovidModelInputs - CRWStates.vdf
+CRW[New Hampshire]	CovidModelInputs - CRWStates.vdf
+CRW[New Jersey]	CovidModelInputs - CRWStates.vdf
+CRW[New Mexico]	CovidModelInputs - CRWStates.vdf
+CRW[New York]	CovidModelInputs - CRWStates.vdf
+CRW[North Carolina]	CovidModelInputs - CRWStates.vdf
+CRW[North Dakota]	CovidModelInputs - CRWStates.vdf
+CRW[Ohio]	CovidModelInputs - CRWStates.vdf
+CRW[Oklahoma]	CovidModelInputs - CRWStates.vdf
+CRW[Oregon]	CovidModelInputs - CRWStates.vdf
+CRW[Pennsylvania]	CovidModelInputs - CRWStates.vdf
+CRW[Rhode Island]	CovidModelInputs - CRWStates.vdf
+CRW[South Carolina]	CovidModelInputs - CRWStates.vdf
+CRW[South Dakota]	CovidModelInputs - CRWStates.vdf
+CRW[Tennessee]	CovidModelInputs - CRWStates.vdf
+CRW[Texas]	CovidModelInputs - CRWStates.vdf
+CRW[Utah]	CovidModelInputs - CRWStates.vdf
+CRW[Vermont]	CovidModelInputs - CRWStates.vdf
+CRW[Virginia]	CovidModelInputs - CRWStates.vdf
+CRW[Washington]	CovidModelInputs - CRWStates.vdf
+CRW[West Virginia]	CovidModelInputs - CRWStates.vdf
+CRW[Wisconsin]	CovidModelInputs - CRWStates.vdf
+CRW[Wyoming]	CovidModelInputs - CRWStates.vdf
+Data Cumulative Deaths of Confirmed[Alabama]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Alaska]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Arizona]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Arkansas]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[California]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Colorado]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Connecticut]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[District of Columbia]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Delaware]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Florida]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Georgia]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Hawaii]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Idaho]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Illinois]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Indiana]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Iowa]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Kansas]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Kentucky]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Louisiana]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Maine]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Maryland]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Massachusetts]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Michigan]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Minnesota]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Mississippi]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Missouri]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Montana]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Nebraska]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Nevada]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[New Hampshire]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[New Jersey]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[New Mexico]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[New York]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[North Carolina]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[North Dakota]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Ohio]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Oklahoma]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Oregon]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Pennsylvania]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Rhode Island]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[South Carolina]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[South Dakota]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Tennessee]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Texas]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Utah]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Vermont]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Virginia]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Washington]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[West Virginia]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Wisconsin]	CovidModelInputs - DeathDataStates.vdf
+Data Cumulative Deaths of Confirmed[Wyoming]	CovidModelInputs - DeathDataStates.vdf
+DataCmltDeath[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[California]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltDeath[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[California]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltInfection[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataCmltTest[Alabama]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Alaska]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Arizona]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Arkansas]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[California]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Colorado]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Connecticut]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[District of Columbia]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Delaware]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Florida]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Georgia]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Hawaii]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Idaho]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Illinois]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Indiana]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Iowa]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Kansas]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Kentucky]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Louisiana]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Maine]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Maryland]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Massachusetts]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Michigan]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Minnesota]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Mississippi]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Missouri]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Montana]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Nebraska]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Nevada]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[New Hampshire]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[New Jersey]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[New Mexico]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[New York]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[North Carolina]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[North Dakota]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Ohio]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Oklahoma]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Oregon]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Pennsylvania]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Rhode Island]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[South Carolina]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[South Dakota]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Tennessee]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Texas]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Utah]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Vermont]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Virginia]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Washington]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[West Virginia]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Wisconsin]	CovidModelInputs - TestDataStates.vdf
+DataCmltTest[Wyoming]	CovidModelInputs - TestDataStates.vdf
+DataFlowDeath[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[California]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowDeath[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[California]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowInfection[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alabama,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alabama,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alabama,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alaska,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alaska,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Alaska,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arizona,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arizona,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arizona,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arkansas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arkansas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Arkansas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[California,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[California,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[California,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Colorado,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Colorado,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Colorado,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Connecticut,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Connecticut,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Connecticut,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[District of Columbia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[District of Columbia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[District of Columbia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Delaware,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Delaware,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Delaware,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Florida,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Florida,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Florida,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Georgia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Georgia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Georgia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Hawaii,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Hawaii,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Hawaii,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Idaho,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Idaho,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Idaho,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Illinois,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Illinois,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Illinois,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Indiana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Indiana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Indiana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Iowa,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Iowa,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Iowa,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kansas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kansas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kansas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kentucky,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kentucky,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Kentucky,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Louisiana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Louisiana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Louisiana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maine,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maine,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maine,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maryland,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maryland,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Maryland,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Massachusetts,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Massachusetts,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Massachusetts,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Michigan,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Michigan,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Michigan,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Minnesota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Minnesota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Minnesota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Mississippi,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Mississippi,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Mississippi,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Missouri,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Missouri,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Missouri,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Montana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Montana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Montana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nebraska,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nebraska,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nebraska,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nevada,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nevada,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Nevada,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Hampshire,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Hampshire,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Hampshire,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Jersey,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Jersey,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Jersey,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Mexico,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Mexico,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New Mexico,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New York,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New York,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[New York,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Carolina,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Carolina,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Carolina,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Dakota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Dakota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[North Dakota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Ohio,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Ohio,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Ohio,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oklahoma,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oklahoma,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oklahoma,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oregon,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oregon,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Oregon,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Pennsylvania,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Pennsylvania,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Pennsylvania,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Rhode Island,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Rhode Island,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Rhode Island,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Carolina,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Carolina,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Carolina,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Dakota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Dakota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[South Dakota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Tennessee,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Tennessee,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Tennessee,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Texas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Texas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Texas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Utah,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Utah,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Utah,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Vermont,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Vermont,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Vermont,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Virginia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Virginia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Virginia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Washington,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Washington,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Washington,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[West Virginia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[West Virginia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[West Virginia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wisconsin,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wisconsin,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wisconsin,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wyoming,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wyoming,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTime[Wyoming,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alabama,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alabama,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alabama,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alaska,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alaska,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Alaska,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arizona,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arizona,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arizona,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arkansas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arkansas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Arkansas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[California,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[California,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[California,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Colorado,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Colorado,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Colorado,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Connecticut,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Connecticut,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Connecticut,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[District of Columbia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[District of Columbia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[District of Columbia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Delaware,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Delaware,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Delaware,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Florida,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Florida,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Florida,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Georgia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Georgia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Georgia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Hawaii,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Hawaii,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Hawaii,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Idaho,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Idaho,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Idaho,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Illinois,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Illinois,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Illinois,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Indiana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Indiana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Indiana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Iowa,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Iowa,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Iowa,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kansas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kansas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kansas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kentucky,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kentucky,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Kentucky,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Louisiana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Louisiana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Louisiana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maine,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maine,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maine,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maryland,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maryland,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Maryland,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Massachusetts,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Massachusetts,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Massachusetts,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Michigan,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Michigan,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Michigan,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Minnesota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Minnesota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Minnesota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Mississippi,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Mississippi,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Mississippi,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Missouri,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Missouri,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Missouri,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Montana,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Montana,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Montana,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nebraska,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nebraska,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nebraska,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nevada,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nevada,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Nevada,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Hampshire,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Hampshire,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Hampshire,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Jersey,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Jersey,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Jersey,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Mexico,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Mexico,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New Mexico,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New York,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New York,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[New York,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Carolina,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Carolina,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Carolina,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Dakota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Dakota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[North Dakota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Ohio,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Ohio,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Ohio,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oklahoma,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oklahoma,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oklahoma,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oregon,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oregon,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Oregon,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Pennsylvania,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Pennsylvania,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Pennsylvania,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Rhode Island,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Rhode Island,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Rhode Island,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Carolina,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Carolina,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Carolina,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Dakota,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Dakota,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[South Dakota,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Tennessee,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Tennessee,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Tennessee,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Texas,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Texas,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Texas,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Utah,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Utah,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Utah,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Vermont,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Vermont,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Vermont,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Virginia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Virginia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Virginia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Washington,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Washington,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Washington,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[West Virginia,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[West Virginia,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[West Virginia,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wisconsin,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wisconsin,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wisconsin,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wyoming,Infection]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wyoming,Death]	CovidModelInputs - FormattedDataStates.vdf
+DataFlowOverTimeDT[Wyoming,Test]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[California]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalPedAndAdlt[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[California]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataHospitalStock[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataTestRate[Alabama]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Alaska]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Arizona]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Arkansas]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[California]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Colorado]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Connecticut]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[District of Columbia]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Delaware]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Florida]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Georgia]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Hawaii]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Idaho]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Illinois]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Indiana]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Iowa]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Kansas]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Kentucky]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Louisiana]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Maine]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Maryland]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Massachusetts]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Michigan]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Minnesota]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Mississippi]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Missouri]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Montana]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Nebraska]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Nevada]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[New Hampshire]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[New Jersey]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[New Mexico]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[New York]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[North Carolina]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[North Dakota]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Ohio]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Oklahoma]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Oregon]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Pennsylvania]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Rhode Island]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[South Carolina]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[South Dakota]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Tennessee]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Texas]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Utah]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Vermont]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Virginia]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Washington]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[West Virginia]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Wisconsin]	CovidModelInputs - TestDataStates.vdf
+DataTestRate[Wyoming]	CovidModelInputs - TestDataStates.vdf
+DataVaccineCmpRate[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[California]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineCmpRate[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[California]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineD1Rate[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Alabama]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Alaska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Arizona]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Arkansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[California]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Colorado]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Connecticut]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[District of Columbia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Delaware]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Florida]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Georgia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Hawaii]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Idaho]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Illinois]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Indiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Iowa]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Kansas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Kentucky]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Louisiana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Maine]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Maryland]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Massachusetts]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Michigan]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Minnesota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Mississippi]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Missouri]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Montana]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Nebraska]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Nevada]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[New Hampshire]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[New Jersey]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[New Mexico]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[New York]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[North Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[North Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Ohio]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Oklahoma]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Oregon]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Pennsylvania]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Rhode Island]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[South Carolina]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[South Dakota]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Tennessee]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Texas]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Utah]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Vermont]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Washington]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[West Virginia]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Wisconsin]	CovidModelInputs - FormattedDataStates.vdf
+DataVaccineRate[Wyoming]	CovidModelInputs - FormattedDataStates.vdf
+"Real World GDP Data (Gt)"[Alabama]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Alaska]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Arizona]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Arkansas]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[California]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Colorado]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Connecticut]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[District of Columbia]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Delaware]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Florida]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Georgia]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Hawaii]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Idaho]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Illinois]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Indiana]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Iowa]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Kansas]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Kentucky]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Louisiana]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Maine]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Maryland]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Massachusetts]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Michigan]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Minnesota]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Mississippi]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Missouri]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Montana]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Nebraska]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Nevada]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[New Hampshire]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[New Jersey]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[New Mexico]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[New York]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[North Carolina]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[North Dakota]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Ohio]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Oklahoma]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Oregon]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Pennsylvania]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Rhode Island]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[South Carolina]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[South Dakota]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Tennessee]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Texas]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Utah]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Vermont]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Virginia]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Washington]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[West Virginia]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Wisconsin]	GDP_Vensim.vdf
+"Real World GDP Data (Gt)"[Wyoming]	GDP_Vensim.vdf
