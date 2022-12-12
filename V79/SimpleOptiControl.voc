@@ -32,7 +32,6 @@
 :MCFTEMP=1
 1.000000<="Learning Time (tl)"[Rgn]=150<=1000.000000
 1.000000<="Mitigation Learning Decay Time (dl)"[Rgn]=1000<=1000.000000
-0.000000<="Psychological Exponent (epsilon)"=1<=1.000000
 0<="Psychological Scale (beta)"=1<=1
 0.000000<="State CRN Proportion (alpha)"[Rgn]=0.5<=1.000000
 1.000000<="Output Gap Decay Time (dy)"=60<=100.000000
