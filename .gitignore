@@ -1,4 +1,5 @@
 **/*.pyc
+**/*.vdfx
 .ipynb_checkpoints/
 build/
 *.vdf
