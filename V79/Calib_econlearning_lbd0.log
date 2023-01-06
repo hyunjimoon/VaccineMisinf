@@ -1,0 +1,443 @@
+INFO:        Initial point of search.
+INFO:          "State CRN Proportion (alpha)"[Alabama] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Alaska] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Arizona] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Arkansas] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[California] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Colorado] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Connecticut] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[District of Columbia] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Delaware] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Florida] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Georgia] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Hawaii] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Idaho] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Illinois] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Indiana] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Iowa] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Kansas] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Kentucky] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Louisiana] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Maine] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Maryland] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Massachusetts] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Michigan] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Minnesota] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Mississippi] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Missouri] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Montana] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Nebraska] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Nevada] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[New Hampshire] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[New Jersey] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[New Mexico] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[New York] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[North Carolina] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[North Dakota] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Ohio] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Oklahoma] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Oregon] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Pennsylvania] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Rhode Island] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[South Carolina] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[South Dakota] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Tennessee] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Texas] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Utah] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Vermont] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Virginia] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Washington] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[West Virginia] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Wisconsin] = 0.5.
+INFO:          "State CRN Proportion (alpha)"[Wyoming] = 0.5.
+INFO:          "Output Gap Decay Time (dy)" = 5.
+INFO:          "Mitigation Learning Decay Time (dl)" = 1.
+INFO:          "Learning Time (tl)" = 50.
+INFO:          "Psychological Scale (beta)" = 1.
+INFO:        Simulations = 1.
+INFO:        Optimizations = 1.
+INFO:        Pass = 0.
+INFO:        Payoff = -8.08915e+06.
+INFO:        ---------------------------------.
+INFO:        .
+INFO:        ERROR: Floating point error computing : RMSE[Alabama].
+INFO:        ERROR: Check causes and uses of RMSE[Alabama] for division by zero or overflow.
+INFO:        .
+INFO:        Floating point error during optimization with.
+INFO:        ------------------.
+INFO:         *"State CRN Proportion (alpha)"[Alabama] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Alaska] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Arizona] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Arkansas] = 1.
+INFO:         *"State CRN Proportion (alpha)"[California] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Colorado] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Connecticut] = 0.
+INFO:         *"State CRN Proportion (alpha)"[District of Columbia] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Delaware] = 0.998664.
+INFO:         *"State CRN Proportion (alpha)"[Florida] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Georgia] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Hawaii] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Idaho] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Illinois] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Indiana] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Iowa] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Kansas] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Kentucky] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Louisiana] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Maine] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Maryland] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Massachusetts] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Michigan] = 0.453556.
+INFO:         *"State CRN Proportion (alpha)"[Minnesota] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Mississippi] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Missouri] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Montana] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Nebraska] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Nevada] = 1.
+INFO:         *"State CRN Proportion (alpha)"[New Hampshire] = 0.
+INFO:         *"State CRN Proportion (alpha)"[New Jersey] = 0.
+INFO:         *"State CRN Proportion (alpha)"[New Mexico] = 0.233512.
+INFO:         *"State CRN Proportion (alpha)"[New York] = 0.
+INFO:         *"State CRN Proportion (alpha)"[North Carolina] = 0.
+INFO:         *"State CRN Proportion (alpha)"[North Dakota] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Ohio] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Oklahoma] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Oregon] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Pennsylvania] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Rhode Island] = 1.
+INFO:         *"State CRN Proportion (alpha)"[South Carolina] = 0.
+INFO:         *"State CRN Proportion (alpha)"[South Dakota] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Tennessee] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Texas] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Utah] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Vermont] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Virginia] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Washington] = 1.
+INFO:         *"State CRN Proportion (alpha)"[West Virginia] = 1.
+INFO:         *"State CRN Proportion (alpha)"[Wisconsin] = 0.
+INFO:         *"State CRN Proportion (alpha)"[Wyoming] = 0.
+INFO:         *"Output Gap Decay Time (dy)" = 1.53005.
+INFO:         *"Mitigation Learning Decay Time (dl)" = 0.309107.
+INFO:         *"Learning Time (tl)" = 50.
+INFO:         *"Psychological Scale (beta)" = 1.
+INFO:        ------------------.
+INFO:        .
+INFO:        ERROR: Floating point error computing : RMSE[Alaska].
+INFO:        ERROR: Check causes and uses of RMSE[Alaska] for division by zero or overflow.
+INFO:        .
+INFO:        Maximum payoff found at:.
+INFO:          "State CRN Proportion (alpha)"[Alabama] = 1.
+INFO:          "State CRN Proportion (alpha)"[Alaska] = 0.
+INFO:          "State CRN Proportion (alpha)"[Arizona] = 1.
+INFO:          "State CRN Proportion (alpha)"[Arkansas] = 1.
+INFO:          "State CRN Proportion (alpha)"[California] = 1.
+INFO:          "State CRN Proportion (alpha)"[Colorado] = 1.
+INFO:          "State CRN Proportion (alpha)"[Connecticut] = 0.
+INFO:          "State CRN Proportion (alpha)"[District of Columbia] = 0.
+INFO:          "State CRN Proportion (alpha)"[Delaware] = 0.
+INFO:          "State CRN Proportion (alpha)"[Florida] = 0.999372.
+INFO:          "State CRN Proportion (alpha)"[Georgia] = 1.
+INFO:          "State CRN Proportion (alpha)"[Hawaii] = 0.
+INFO:          "State CRN Proportion (alpha)"[Idaho] = 0.
+INFO:          "State CRN Proportion (alpha)"[Illinois] = 0.
+INFO:          "State CRN Proportion (alpha)"[Indiana] = 1.
+INFO:          "State CRN Proportion (alpha)"[Iowa] = 1.
+INFO:          "State CRN Proportion (alpha)"[Kansas] = 1.
+INFO:          "State CRN Proportion (alpha)"[Kentucky] = 0.
+INFO:          "State CRN Proportion (alpha)"[Louisiana] = 0.
+INFO:          "State CRN Proportion (alpha)"[Maine] = 0.
+INFO:          "State CRN Proportion (alpha)"[Maryland] = 1.
+INFO:          "State CRN Proportion (alpha)"[Massachusetts] = 0.
+INFO:          "State CRN Proportion (alpha)"[Michigan] = 0.
+INFO:          "State CRN Proportion (alpha)"[Minnesota] = 0.
+INFO:          "State CRN Proportion (alpha)"[Mississippi] = 0.
+INFO:          "State CRN Proportion (alpha)"[Missouri] = 0.
+INFO:          "State CRN Proportion (alpha)"[Montana] = 0.
+INFO:          "State CRN Proportion (alpha)"[Nebraska] = 0.
+INFO:          "State CRN Proportion (alpha)"[Nevada] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Hampshire] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Jersey] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Mexico] = 1.
+INFO:          "State CRN Proportion (alpha)"[New York] = 1.
+INFO:          "State CRN Proportion (alpha)"[North Carolina] = 0.
+INFO:          "State CRN Proportion (alpha)"[North Dakota] = 0.
+INFO:          "State CRN Proportion (alpha)"[Ohio] = 1.
+INFO:          "State CRN Proportion (alpha)"[Oklahoma] = 0.
+INFO:          "State CRN Proportion (alpha)"[Oregon] = 0.
+INFO:          "State CRN Proportion (alpha)"[Pennsylvania] = 0.
+INFO:          "State CRN Proportion (alpha)"[Rhode Island] = 1.
+INFO:          "State CRN Proportion (alpha)"[South Carolina] = 0.
+INFO:          "State CRN Proportion (alpha)"[South Dakota] = 1.
+INFO:          "State CRN Proportion (alpha)"[Tennessee] = 0.
+INFO:          "State CRN Proportion (alpha)"[Texas] = 1.
+INFO:          "State CRN Proportion (alpha)"[Utah] = 1.
+INFO:          "State CRN Proportion (alpha)"[Vermont] = 0.
+INFO:          "State CRN Proportion (alpha)"[Virginia] = 1.
+INFO:          "State CRN Proportion (alpha)"[Washington] = 0.
+INFO:          "State CRN Proportion (alpha)"[West Virginia] = 0.
+INFO:          "State CRN Proportion (alpha)"[Wisconsin] = 0.
+INFO:          "State CRN Proportion (alpha)"[Wyoming] = 0.809302.
+INFO:          "Output Gap Decay Time (dy)" = 1.30779.
+INFO:          "Mitigation Learning Decay Time (dl)" = 0.502352.
+INFO:          "Learning Time (tl)" = 300.
+INFO:         *"Psychological Scale (beta)" = 2.
+INFO:        Simulations = 1921.
+INFO:        NOTE 2 of the simulations caused floating point errors (first was reported).
+INFO:        Optimizations = 1.
+INFO:        Pass = 3.
+INFO:        Payoff = -6.27527e+06.
+INFO:        ---------------------------------.
+INFO:        This Search                   	Pass 1      	Final       .
+INFO:        Simulations                   	1569        	1921        .
+INFO:        Iterations                    	8           	10          .
+INFO:         "State CRN Proportion (alpha)"[Alabama]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Alaska]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Arizona]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Arkansas]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[California]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Colorado]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Connecticut]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[District of Columbia]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Delaware]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Florida]	0.99937188  	0.99937188  .
+INFO:         "State CRN Proportion (alpha)"[Georgia]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Hawaii]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Idaho]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Illinois]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Indiana]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Iowa]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Kansas]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Kentucky]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Louisiana]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Maine]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Maryland]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Massachusetts]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Michigan]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Minnesota]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Mississippi]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Missouri]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Montana]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Nebraska]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Nevada]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[New Hampshire]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[New Jersey]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[New Mexico]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[New York]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[North Carolina]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[North Dakota]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Ohio]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Oklahoma]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Oregon]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Pennsylvania]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Rhode Island]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[South Carolina]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[South Dakota]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Tennessee]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Texas]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Utah]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Vermont]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Virginia]	1           	1           .
+INFO:         "State CRN Proportion (alpha)"[Washington]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[West Virginia]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Wisconsin]	0           	0           .
+INFO:         "State CRN Proportion (alpha)"[Wyoming]	0.80930198  	0.80930198  .
+INFO:         "Output Gap Decay Time (dy)" 	1.307794    	1.307794    .
+INFO:         "Mitigation Learning Decay Time (dl)"	0.50235195  	0.50235195  .
+INFO:         "Learning Time (tl)"         	300         	300         .
+INFO:         "Psychological Scale (beta)" 	2           	2           .
+INFO:        Payoff                        	-6275271.2  	-6275271.2  .
+INFO:        ==============================.
+INFO:        .
+INFO:        ERROR: Floating point error computing : RMSE[Alabama].
+INFO:        ERROR: Check causes and uses of RMSE[Alabama] for division by zero or overflow.
+INFO:        .
+INFO:        Floating point error - skipping optimization.
+INFO:          "State CRN Proportion (alpha)"[Alabama] = 0.738763.
+INFO:          "State CRN Proportion (alpha)"[Alaska] = 0.584743.
+INFO:          "State CRN Proportion (alpha)"[Arizona] = 0.341528.
+INFO:          "State CRN Proportion (alpha)"[Arkansas] = 0.910145.
+INFO:          "State CRN Proportion (alpha)"[California] = 0.162722.
+INFO:          "State CRN Proportion (alpha)"[Colorado] = 0.344342.
+INFO:          "State CRN Proportion (alpha)"[Connecticut] = 0.398042.
+INFO:          "State CRN Proportion (alpha)"[District of Columbia] = 0.242517.
+INFO:          "State CRN Proportion (alpha)"[Delaware] = 0.104838.
+INFO:          "State CRN Proportion (alpha)"[Florida] = 0.824422.
+INFO:          "State CRN Proportion (alpha)"[Georgia] = 0.0503242.
+INFO:          "State CRN Proportion (alpha)"[Hawaii] = 0.245019.
+INFO:          "State CRN Proportion (alpha)"[Idaho] = 0.280745.
+INFO:          "State CRN Proportion (alpha)"[Illinois] = 0.827615.
+INFO:          "State CRN Proportion (alpha)"[Indiana] = 0.349832.
+INFO:          "State CRN Proportion (alpha)"[Iowa] = 0.264949.
+INFO:          "State CRN Proportion (alpha)"[Kansas] = 0.622786.
+INFO:          "State CRN Proportion (alpha)"[Kentucky] = 0.666077.
+INFO:          "State CRN Proportion (alpha)"[Louisiana] = 0.660087.
+INFO:          "State CRN Proportion (alpha)"[Maine] = 0.962698.
+INFO:          "State CRN Proportion (alpha)"[Maryland] = 0.551873.
+INFO:          "State CRN Proportion (alpha)"[Massachusetts] = 0.801019.
+INFO:          "State CRN Proportion (alpha)"[Michigan] = 0.641007.
+INFO:          "State CRN Proportion (alpha)"[Minnesota] = 0.720059.
+INFO:          "State CRN Proportion (alpha)"[Mississippi] = 0.83814.
+INFO:          "State CRN Proportion (alpha)"[Missouri] = 0.816469.
+INFO:          "State CRN Proportion (alpha)"[Montana] = 0.88221.
+INFO:          "State CRN Proportion (alpha)"[Nebraska] = 0.678997.
+INFO:          "State CRN Proportion (alpha)"[Nevada] = 0.743633.
+INFO:          "State CRN Proportion (alpha)"[New Hampshire] = 0.061116.
+INFO:          "State CRN Proportion (alpha)"[New Jersey] = 0.29948.
+INFO:          "State CRN Proportion (alpha)"[New Mexico] = 0.549658.
+INFO:          "State CRN Proportion (alpha)"[New York] = 0.612034.
+INFO:          "State CRN Proportion (alpha)"[North Carolina] = 0.0443538.
+INFO:          "State CRN Proportion (alpha)"[North Dakota] = 0.511561.
+INFO:          "State CRN Proportion (alpha)"[Ohio] = 0.789454.
+INFO:          "State CRN Proportion (alpha)"[Oklahoma] = 0.317236.
+INFO:          "State CRN Proportion (alpha)"[Oregon] = 0.909551.
+INFO:          "State CRN Proportion (alpha)"[Pennsylvania] = 0.900047.
+INFO:          "State CRN Proportion (alpha)"[Rhode Island] = 0.537472.
+INFO:          "State CRN Proportion (alpha)"[South Carolina] = 0.627604.
+INFO:          "State CRN Proportion (alpha)"[South Dakota] = 0.816951.
+INFO:          "State CRN Proportion (alpha)"[Tennessee] = 0.0591419.
+INFO:          "State CRN Proportion (alpha)"[Texas] = 0.841668.
+INFO:          "State CRN Proportion (alpha)"[Utah] = 0.227359.
+INFO:          "State CRN Proportion (alpha)"[Vermont] = 0.158486.
+INFO:          "State CRN Proportion (alpha)"[Virginia] = 0.275882.
+INFO:          "State CRN Proportion (alpha)"[Washington] = 0.373832.
+INFO:          "State CRN Proportion (alpha)"[West Virginia] = 0.283043.
+INFO:          "State CRN Proportion (alpha)"[Wisconsin] = 0.64108.
+INFO:          "State CRN Proportion (alpha)"[Wyoming] = 0.510292.
+INFO:          "Output Gap Decay Time (dy)" = 8.60497.
+INFO:          "Mitigation Learning Decay Time (dl)" = 0.0781257.
+INFO:          "Learning Time (tl)" = 24.9598.
+INFO:         *"Psychological Scale (beta)" = 1.2198.
+INFO:        Simulations = 1922.
+INFO:        NOTE 3 of the simulations caused floating point errors (first was reported).
+INFO:        Optimizations = 2.
+INFO:        Pass = 3.
+INFO:        Payoff = -1.29807e+33.
+INFO:        ---------------------------------.
+INFO:        .
+INFO:        ERROR: Floating point error computing : RMSE[Alabama].
+INFO:        ERROR: Check causes and uses of RMSE[Alabama] for division by zero or overflow.
+INFO:        .
+INFO:        Floating point error - skipping optimization.
+INFO:          "State CRN Proportion (alpha)"[Alabama] = 0.786408.
+INFO:          "State CRN Proportion (alpha)"[Alaska] = 0.716602.
+INFO:          "State CRN Proportion (alpha)"[Arizona] = 0.615748.
+INFO:          "State CRN Proportion (alpha)"[Arkansas] = 0.012776.
+INFO:          "State CRN Proportion (alpha)"[California] = 0.766157.
+INFO:          "State CRN Proportion (alpha)"[Colorado] = 0.887726.
+INFO:          "State CRN Proportion (alpha)"[Connecticut] = 0.532208.
+INFO:          "State CRN Proportion (alpha)"[District of Columbia] = 0.787174.
+INFO:          "State CRN Proportion (alpha)"[Delaware] = 0.113155.
+INFO:          "State CRN Proportion (alpha)"[Florida] = 0.333745.
+INFO:          "State CRN Proportion (alpha)"[Georgia] = 0.859915.
+INFO:          "State CRN Proportion (alpha)"[Hawaii] = 0.645681.
+INFO:          "State CRN Proportion (alpha)"[Idaho] = 0.877602.
+INFO:          "State CRN Proportion (alpha)"[Illinois] = 0.690942.
+INFO:          "State CRN Proportion (alpha)"[Indiana] = 0.812511.
+INFO:          "State CRN Proportion (alpha)"[Iowa] = 0.210566.
+INFO:          "State CRN Proportion (alpha)"[Kansas] = 0.776454.
+INFO:          "State CRN Proportion (alpha)"[Kentucky] = 0.655737.
+INFO:          "State CRN Proportion (alpha)"[Louisiana] = 0.876782.
+INFO:          "State CRN Proportion (alpha)"[Maine] = 0.943579.
+INFO:          "State CRN Proportion (alpha)"[Maryland] = 0.254675.
+INFO:          "State CRN Proportion (alpha)"[Massachusetts] = 0.362734.
+INFO:          "State CRN Proportion (alpha)"[Michigan] = 0.532477.
+INFO:          "State CRN Proportion (alpha)"[Minnesota] = 0.852215.
+INFO:          "State CRN Proportion (alpha)"[Mississippi] = 0.437601.
+INFO:          "State CRN Proportion (alpha)"[Missouri] = 0.0539697.
+INFO:          "State CRN Proportion (alpha)"[Montana] = 0.280985.
+INFO:          "State CRN Proportion (alpha)"[Nebraska] = 0.958277.
+INFO:          "State CRN Proportion (alpha)"[Nevada] = 0.918102.
+INFO:          "State CRN Proportion (alpha)"[New Hampshire] = 0.276753.
+INFO:          "State CRN Proportion (alpha)"[New Jersey] = 0.0172358.
+INFO:          "State CRN Proportion (alpha)"[New Mexico] = 0.204485.
+INFO:          "State CRN Proportion (alpha)"[New York] = 0.0346175.
+INFO:          "State CRN Proportion (alpha)"[North Carolina] = 0.238316.
+INFO:          "State CRN Proportion (alpha)"[North Dakota] = 0.768017.
+INFO:          "State CRN Proportion (alpha)"[Ohio] = 0.633477.
+INFO:          "State CRN Proportion (alpha)"[Oklahoma] = 0.157238.
+INFO:          "State CRN Proportion (alpha)"[Oregon] = 0.168104.
+INFO:          "State CRN Proportion (alpha)"[Pennsylvania] = 0.649657.
+INFO:          "State CRN Proportion (alpha)"[Rhode Island] = 0.624375.
+INFO:          "State CRN Proportion (alpha)"[South Carolina] = 0.208871.
+INFO:          "State CRN Proportion (alpha)"[South Dakota] = 0.751079.
+INFO:          "State CRN Proportion (alpha)"[Tennessee] = 0.654772.
+INFO:          "State CRN Proportion (alpha)"[Texas] = 0.759407.
+INFO:          "State CRN Proportion (alpha)"[Utah] = 0.0269113.
+INFO:          "State CRN Proportion (alpha)"[Vermont] = 0.622898.
+INFO:          "State CRN Proportion (alpha)"[Virginia] = 0.187247.
+INFO:          "State CRN Proportion (alpha)"[Washington] = 0.777351.
+INFO:          "State CRN Proportion (alpha)"[West Virginia] = 0.0595669.
+INFO:          "State CRN Proportion (alpha)"[Wisconsin] = 0.581324.
+INFO:          "State CRN Proportion (alpha)"[Wyoming] = 0.107232.
+INFO:          "Output Gap Decay Time (dy)" = 5.35279.
+INFO:          "Mitigation Learning Decay Time (dl)" = 0.374588.
+INFO:          "Learning Time (tl)" = 274.26.
+INFO:         *"Psychological Scale (beta)" = 1.70384.
+INFO:        Simulations = 1923.
+INFO:        NOTE 4 of the simulations caused floating point errors (first was reported).
+INFO:        Optimizations = 3.
+INFO:        Pass = 3.
+INFO:        Payoff = -1.29807e+33.
+INFO:        ---------------------------------.
+INFO:        Maximum of simulations/optimizations found at:.
+INFO:          "State CRN Proportion (alpha)"[Alabama] = 1.
+INFO:          "State CRN Proportion (alpha)"[Alaska] = 0.
+INFO:          "State CRN Proportion (alpha)"[Arizona] = 1.
+INFO:          "State CRN Proportion (alpha)"[Arkansas] = 1.
+INFO:          "State CRN Proportion (alpha)"[California] = 1.
+INFO:          "State CRN Proportion (alpha)"[Colorado] = 1.
+INFO:          "State CRN Proportion (alpha)"[Connecticut] = 0.
+INFO:          "State CRN Proportion (alpha)"[District of Columbia] = 0.
+INFO:          "State CRN Proportion (alpha)"[Delaware] = 0.
+INFO:          "State CRN Proportion (alpha)"[Florida] = 0.999372.
+INFO:          "State CRN Proportion (alpha)"[Georgia] = 1.
+INFO:          "State CRN Proportion (alpha)"[Hawaii] = 0.
+INFO:          "State CRN Proportion (alpha)"[Idaho] = 0.
+INFO:          "State CRN Proportion (alpha)"[Illinois] = 0.
+INFO:          "State CRN Proportion (alpha)"[Indiana] = 1.
+INFO:          "State CRN Proportion (alpha)"[Iowa] = 1.
+INFO:          "State CRN Proportion (alpha)"[Kansas] = 1.
+INFO:          "State CRN Proportion (alpha)"[Kentucky] = 0.
+INFO:          "State CRN Proportion (alpha)"[Louisiana] = 0.
+INFO:          "State CRN Proportion (alpha)"[Maine] = 0.
+INFO:          "State CRN Proportion (alpha)"[Maryland] = 1.
+INFO:          "State CRN Proportion (alpha)"[Massachusetts] = 0.
+INFO:          "State CRN Proportion (alpha)"[Michigan] = 0.
+INFO:          "State CRN Proportion (alpha)"[Minnesota] = 0.
+INFO:          "State CRN Proportion (alpha)"[Mississippi] = 0.
+INFO:          "State CRN Proportion (alpha)"[Missouri] = 0.
+INFO:          "State CRN Proportion (alpha)"[Montana] = 0.
+INFO:          "State CRN Proportion (alpha)"[Nebraska] = 0.
+INFO:          "State CRN Proportion (alpha)"[Nevada] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Hampshire] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Jersey] = 0.
+INFO:          "State CRN Proportion (alpha)"[New Mexico] = 1.
+INFO:          "State CRN Proportion (alpha)"[New York] = 1.
+INFO:          "State CRN Proportion (alpha)"[North Carolina] = 0.
+INFO:          "State CRN Proportion (alpha)"[North Dakota] = 0.
+INFO:          "State CRN Proportion (alpha)"[Ohio] = 1.
+INFO:          "State CRN Proportion (alpha)"[Oklahoma] = 0.
+INFO:          "State CRN Proportion (alpha)"[Oregon] = 0.
+INFO:          "State CRN Proportion (alpha)"[Pennsylvania] = 0.
+INFO:          "State CRN Proportion (alpha)"[Rhode Island] = 1.
+INFO:          "State CRN Proportion (alpha)"[South Carolina] = 0.
+INFO:          "State CRN Proportion (alpha)"[South Dakota] = 1.
+INFO:          "State CRN Proportion (alpha)"[Tennessee] = 0.
+INFO:          "State CRN Proportion (alpha)"[Texas] = 1.
+INFO:          "State CRN Proportion (alpha)"[Utah] = 1.
+INFO:          "State CRN Proportion (alpha)"[Vermont] = 0.
+INFO:          "State CRN Proportion (alpha)"[Virginia] = 1.
+INFO:          "State CRN Proportion (alpha)"[Washington] = 0.
+INFO:          "State CRN Proportion (alpha)"[West Virginia] = 0.
+INFO:          "State CRN Proportion (alpha)"[Wisconsin] = 0.
+INFO:          "State CRN Proportion (alpha)"[Wyoming] = 0.809302.
+INFO:          "Output Gap Decay Time (dy)" = 1.30779.
+INFO:          "Mitigation Learning Decay Time (dl)" = 0.502352.
+INFO:          "Learning Time (tl)" = 300.
+INFO:         *"Psychological Scale (beta)" = 2.
+INFO:        Simulations = 1923.
+INFO:        NOTE 4 of the simulations caused floating point errors (first was reported).
+INFO:        Optimizations = 3.
+INFO:        Pass = 3.
+INFO:        Payoff = -6.27527e+06.
+INFO:        ---------------------------------.

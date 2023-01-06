@@ -1,0 +1,116 @@
+"State CRN Proportion (alpha)"[Alabama]
+0 1
+"State CRN Proportion (alpha)"[Alaska]
+0 0
+"State CRN Proportion (alpha)"[Arizona]
+0 1
+"State CRN Proportion (alpha)"[Arkansas]
+0 1
+"State CRN Proportion (alpha)"[California]
+0 1
+"State CRN Proportion (alpha)"[Colorado]
+0 1
+"State CRN Proportion (alpha)"[Connecticut]
+0 0
+"State CRN Proportion (alpha)"[District of Columbia]
+0 0
+"State CRN Proportion (alpha)"[Delaware]
+0 0
+"State CRN Proportion (alpha)"[Florida]
+0 0.999372
+"State CRN Proportion (alpha)"[Georgia]
+0 1
+"State CRN Proportion (alpha)"[Hawaii]
+0 0
+"State CRN Proportion (alpha)"[Idaho]
+0 0
+"State CRN Proportion (alpha)"[Illinois]
+0 0
+"State CRN Proportion (alpha)"[Indiana]
+0 1
+"State CRN Proportion (alpha)"[Iowa]
+0 1
+"State CRN Proportion (alpha)"[Kansas]
+0 1
+"State CRN Proportion (alpha)"[Kentucky]
+0 0
+"State CRN Proportion (alpha)"[Louisiana]
+0 0
+"State CRN Proportion (alpha)"[Maine]
+0 0
+"State CRN Proportion (alpha)"[Maryland]
+0 1
+"State CRN Proportion (alpha)"[Massachusetts]
+0 0
+"State CRN Proportion (alpha)"[Michigan]
+0 0
+"State CRN Proportion (alpha)"[Minnesota]
+0 0
+"State CRN Proportion (alpha)"[Mississippi]
+0 0
+"State CRN Proportion (alpha)"[Missouri]
+0 0
+"State CRN Proportion (alpha)"[Montana]
+0 0
+"State CRN Proportion (alpha)"[Nebraska]
+0 0
+"State CRN Proportion (alpha)"[Nevada]
+0 0
+"State CRN Proportion (alpha)"[New Hampshire]
+0 0
+"State CRN Proportion (alpha)"[New Jersey]
+0 0
+"State CRN Proportion (alpha)"[New Mexico]
+0 1
+"State CRN Proportion (alpha)"[New York]
+0 1
+"State CRN Proportion (alpha)"[North Carolina]
+0 0
+"State CRN Proportion (alpha)"[North Dakota]
+0 0
+"State CRN Proportion (alpha)"[Ohio]
+0 1
+"State CRN Proportion (alpha)"[Oklahoma]
+0 0
+"State CRN Proportion (alpha)"[Oregon]
+0 0
+"State CRN Proportion (alpha)"[Pennsylvania]
+0 0
+"State CRN Proportion (alpha)"[Rhode Island]
+0 1
+"State CRN Proportion (alpha)"[South Carolina]
+0 0
+"State CRN Proportion (alpha)"[South Dakota]
+0 1
+"State CRN Proportion (alpha)"[Tennessee]
+0 0
+"State CRN Proportion (alpha)"[Texas]
+0 1
+"State CRN Proportion (alpha)"[Utah]
+0 1
+"State CRN Proportion (alpha)"[Vermont]
+0 0
+"State CRN Proportion (alpha)"[Virginia]
+0 1
+"State CRN Proportion (alpha)"[Washington]
+0 0
+"State CRN Proportion (alpha)"[West Virginia]
+0 0
+"State CRN Proportion (alpha)"[Wisconsin]
+0 0
+"State CRN Proportion (alpha)"[Wyoming]
+0 0.809302
+"Output Gap Decay Time (dy)"
+0 1.30779
+"Mitigation Learning Decay Time (dl)"
+0 0.502352
+"Learning Time (tl)"
+0 300
+"Psychological Scale (beta)"
+0 2
+Payoff
+0 -6.27527e+06
+Best_Payoff
+0 -6.27527e+06
+Simulations
+0 1921

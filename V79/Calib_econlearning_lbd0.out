@@ -1,0 +1,90 @@
+:COMSYS After 1923 simulations
+:COMSYS Best payoff is -6.27527e+06
+:COMSYS Normally terminated optimization
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=RRandom
+:RANDOM_NUMBER=Default
+:OUTPUT_LEVEL=On
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=3
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=0.0003
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCLIMIT=0
+:MCJUMP=0.05
+:MCBURNIN=0
+:MCDELTA=0.0001
+:MCTEMP=1
+:MCNCHAINS=2
+:MCUPDATEPAIRS=2
+:MCSCHEDULE=0
+:MCOUTLIER=0.05
+:MCXOVER=0.2
+:MCCOOLING=1000
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCGAMMA=1
+:MCRECORD=0
+:MCKNN=0
+:MCEPSILON=0.01
+:MCFTEMP=1
+0 <= "State CRN Proportion (alpha)"[Alabama] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Alaska] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Arizona] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Arkansas] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[California] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Colorado] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Connecticut] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[District of Columbia] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Delaware] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Florida] = 0.999372  <= 1
+0 <= "State CRN Proportion (alpha)"[Georgia] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Hawaii] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Idaho] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Illinois] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Indiana] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Iowa] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Kansas] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Kentucky] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Louisiana] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Maine] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Maryland] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Massachusetts] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Michigan] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Minnesota] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Mississippi] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Missouri] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Montana] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Nebraska] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Nevada] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[New Hampshire] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[New Jersey] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[New Mexico] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[New York] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[North Carolina] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[North Dakota] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Ohio] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Oklahoma] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Oregon] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Pennsylvania] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Rhode Island] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[South Carolina] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[South Dakota] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Tennessee] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Texas] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Utah] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Vermont] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Virginia] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Washington] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[West Virginia] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Wisconsin] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Wyoming] = 0.809302  <= 1
+1 <= "Output Gap Decay Time (dy)" = 1.30779  <= 10
+0 <= "Mitigation Learning Decay Time (dl)" = 0.502352  <= 1
+1 <= "Learning Time (tl)" = 300  <= 300
+0 <= "Psychological Scale (beta)" = 2  <= 2

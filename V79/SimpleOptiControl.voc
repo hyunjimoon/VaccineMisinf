@@ -1,11 +1,11 @@
 :OPTIMIZER=Powell
 :SENSITIVITY=Off
-:MULTIPLE_START=RRandom
+:MULTIPLE_START=XParallel
 :RANDOM_NUMBER=Default
-:OUTPUT_LEVEL=On
+:OUTPUT_LEVEL=3
 :TRACE=Off
 :MAX_ITERATIONS=1000
-:RESTART_MAX=3
+:RESTART_MAX=5
 :PASS_LIMIT=2
 :FRACTIONAL_TOLERANCE=0.0003
 :TOLERANCE_MULTIPLIER=21
@@ -30,8 +30,10 @@
 :MCKNN=0
 :MCEPSILON=0.01
 :MCFTEMP=1
-1.000000<="Learning Time (tl)"[Rgn]=150<=1000.000000
-1.000000<="Mitigation Learning Decay Time (dl)"[Rgn]=1000<=1000.000000
-0<="Psychological Scale (beta)"=1<=1
-0.000000<="State CRN Proportion (alpha)"[Rgn]=0.5<=1.000000
-1.000000<="Output Gap Decay Time (dy)"=60<=100.000000
+0<="State CRN Proportion (alpha)"[Rgn]=0.5<=1
+1<="Output Gap Decay Time (dy)"=60<=200
+1<="Mitigation Learning Decay Time (dl)"=1000<=1000
+1<="Learning Time (tl)"=150<=1000
+0<="Psychological Exponent (epsilon)"=1<=1
+0<="Contact Input Scale (f)"=0.01<=1
+0<="Direct Infection Impact Scale (ds)"=0.1<=10
