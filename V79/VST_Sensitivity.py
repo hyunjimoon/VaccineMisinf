@@ -136,7 +136,7 @@ def find_marginal_vax_eff(param_name, percent_change):
         run = vst.Script(cf, f"param_{param_name.split()[0]}", log, setvals=[(param_name, param_new_val), ("VaxInc", VaxInc_val)], simtype='r')
         run.compile_script(vgpath, log, subdir="VAMA", check_funcs=[lambda a, b: True])
         output_df = pandas.read_csv(f"VAMA/Covidparam_{param_name.split()[0]}.csv")
-        output_vals = output_df[output_df.columns[-1]]
+        output_vals = output_df
         output_vals.rename(VaxInc_val, inplace=True)
         full_output_df = full_output_df.append(
             output_vals)
