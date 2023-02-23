@@ -12,11 +12,15 @@ tests/cover/
 tests/htmlcov/
 .idea/*
 docs/_build/*
-docs/tables/*.csv                                                           
+docs/tables/*.csv  
+                                                         
 States/data/*
 States/*.csv
 States/*.vdf
 States/*.cmd
+**/*.csv
+**/*.tsv
+
 States/data/*.cmd
 V78/*
 States/bbg_data_getter/build/*

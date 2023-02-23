@@ -68,3 +68,49 @@ Transmission changes if any (biggest selling point)
 Assumed vs estimated parameters for vaccine efficacy, variants, etc.\ 
 
 Go article by article 
+
+
+---
+10/20/2022
+Three to automate:
+### partial calibration and projections
+- `vdfx` is projections which should be attached to plot time-series
+
+
+### calculating counterfactual costs
+We do two runs here - a simple model run (as indicated by simtype='r'), followed by a sensitivity run (simtype='s') that uses the previously derived MCMC subsample to generate uncertainty / credible intervals on the projections. We include Projection.cin, created in the previous step, in the chglist, in order to change the FINAL TIME of the model for these runs for projecting future model behaviour.
+Run policy analysis w/ parametric sensitivity,
+
+#### plot
+i) VensimCommand to export vdfx as tab file format, plot in python
+calculate elasciticty over time (out file is fixed)
+- compute marginal value of vaccine of $ per one vaccinated person.
+- test different policies and scenarios' impact by making projections with additional model changes
+(e.g. `cin`  = `out` files, such as `Hunting.cin` incorporated in the `chglist` here);
+
+write cin files include all change of parameter (change); subscripted - cycles
+force of infection
+- need time sereies of all vdfx as the we aim for time heterogenous elasciiticy
+- 1% change of two parmeters for global model (1: `vaxinc`+ 1  'Vax Acuity') vs (1 `vaxinc` + 51 Regional')
+Not for every state yet (but if two states have stark elasciticity difference, reporting regional ela would be useful
+
+- The outcomes (i.e. resultant projected behaviour) can then be compared against baseline projections to quantify the potential impacts of policies.
+
+
+- Running epidemic model with six dataflows:
+````
+			"CovidModelInputs - ConstantDataStates.vdf",
+			"CovidModelInputs - CRWStates.vdf",
+			"CovidModelInputs - DeathDataStates.vdf",
+			"CovidModelInputs - FlowDataStates.vdf",
+			"CovidModelInputs - FormattedDataStates.vdf",
+			"CovidModelInputs - TestDataStates.vdf",
+			"CovidModelInputs - ConstantDataStates.vdf",
+			"CovidModelInputs - CRWStates.vdf",
+			"CovidModelInputs - FlowDataStates.vdf",
+			"CovidModelInputs - FormattedDataStates.vdf",
+```
+
+
+- model estimates (.voc ~ prior block) to return (.out ~ gq block) format
+

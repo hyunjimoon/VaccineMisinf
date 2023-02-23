@@ -1,0 +1,9 @@
+Cost of Deaths Cumulative All
+Cost of GDP Cumulative All
+Cost of Hospitalizations Cumulative All
+Vaccine Taking Population All
+
+Cost of Deaths Cumulative
+Cost of GDP Cumulative
+Cost of Hospitalizations Cumulative
+Vaccine Taking Population

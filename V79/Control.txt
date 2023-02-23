@@ -1,25 +1,26 @@
 {
 	"basename": "Covid",
 	"simcontrol": {
-		"model": "CovidUSA-Econ-V79.mdl",
+		"model": "CovidUSA-Econ-V79-Updated.mdl",
 		"data": [
 			"CovidModelInputs - ConstantDataStates.vdf",
 			"CovidModelInputs - CRWStates.vdf",
 			"CovidModelInputs - DeathDataStates.vdf",
 			"CovidModelInputs - FlowDataStates.vdf",
 			"CovidModelInputs - FormattedDataStates.vdf",
-			"CovidModelInputs - TestDataStates.vdf"
+			"CovidModelInputs - TestDataStates.vdf",
+			"GDP_Vensim.vdfx"
 			], 
 		"payoff": "PayoffFlowV77-Policy.vpd",
 		"sensitivity": "", 
-		"optparm": "COVID-V79-All.voc",
+		"optparm": "",
 		"changes": [], 
 		"savelist": "", 
 		"senssavelist": ""
 		},
 	"venginepath": "C:/Program Files (x86)/Vengine2/Vensim - vengine.exe",
 	"runcmd": "",
-	"savecmd": "VDF2CSV|!|!|../SAVEFILE.txt|||",
+	"savecmd": "VDF2CSV|!|!|SAVEFILE.txt|||",
 	"timelimit": 600,
 	"mccores": 0
 	}

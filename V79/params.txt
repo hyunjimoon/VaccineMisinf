@@ -1,0 +1,22 @@
+Variant Impact on Immunity Loss Time[Omicron]
+Variant Impact on Immunity Loss Time[Delta]
+Variant Impact on Immunity Loss Time[BA5]
+Impact of Treatment on Fatality Rate
+Base Fatality Rate for Unit Acuity
+Reference Force of Infection
+Strength of Adherence Fatigue
+Variant Intro Start Time
+Variant Intro Start Time2
+Extra Vaccine Impact on Responsiveness[Vx]
+Extra Vaccine Impact on Responsiveness[NVx]
+Extra Vaccine Impact on Responsiveness[Naive]
+Immunity Loss Time[Vx]
+Immunity Loss Time[NVx]
+Immunity Loss Time[Naive]
+Variant Accuity Multiplier[Omicron]
+Variant Accuity Multiplier[Delta]
+Variant Accuity Multiplier[BA5]
+Variant Intro Start Time3
+Variant Transmission Multiplier[Omicron]
+Variant Transmission Multiplier[Delta]
+Variant Transmission Multiplier[BA5]
