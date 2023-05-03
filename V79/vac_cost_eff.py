@@ -34,7 +34,7 @@ param_lst_lst=[
     # state_lst_3,
     # state_lst_4,
     # state_lst_5,
-    state_lst_6,
+    # state_lst_6,
     # ['Variant Impact on Immunity Loss Time[Omicron]'],
     # ['Variant Impact on Immunity Loss Time[Delta]'],
     # ['Variant Impact on Immunity Loss Time[BA5]'],
@@ -55,7 +55,7 @@ param_lst_lst=[
 vax_inc_1dot1=1.01
 vax_inc_base=1
 vax_inc_zero=0
-TIME_PERIODS=89#1071
+TIME_PERIODS=1071
 x=pd.date_range(start = '10/15/2019', periods = TIME_PERIODS)
 dv = {
     "coords": {
@@ -67,11 +67,6 @@ dv = {
     },
     "dims": {"value", "component", "params"},
     "data_vars":{ #5+ 3
-        'VV_cstv': {"dims": ("component","space", "value", "time"), "data": np.zeros(shape = (3, len(state_names), 5, TIME_PERIODS))},
-        'VV_ctv': {"dims": ("component", "value", "time"), "data": np.zeros(shape = (3, 5, TIME_PERIODS))},
-        'VV_stv': {"dims": ("space", "value", "time"), "data": np.zeros(shape = (len(state_names), 5, TIME_PERIODS))},
-        'VV_tv': {"dims": ("value", "time"), "data": np.zeros(shape = (5, TIME_PERIODS))},
-
         'VV_1_pcstv': {"dims": ("params", "component", "space", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,3,len(state_names), 5, TIME_PERIODS))},
         'VV_1_pctv': {"dims": ("params", "component", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,3, 5, TIME_PERIODS))},
         'VV_1_ptv': {"dims": ("params", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 5, TIME_PERIODS))},
@@ -133,7 +128,6 @@ def calc_param_impact_on_cost(param_name_list, percent_change, storage_xarr, use
             run = vst.Script(cf, f"param_{param_name.split()[0]}", log, setvals=setval_lst, simtype='r')
             run.compile_script(vgpath, log, subdir="VAMA", check_funcs=[lambda a, b: True])
         param_vv = pandas.read_csv(f"VAMA/Covidparam_{param_name.split()[0]}.csv", index_col=0).T
-        param_vv = param_vv.iloc[0:89]
         param_vv = calc_change_with_respect_to_pop(param_vv)
 
         storage_xarr["VV_1_pctv"].loc[{
@@ -197,32 +191,26 @@ for param_lst in param_lst_lst:
     vds["epsilon_ptv"]=((vds["VV_1_ptv"].loc[{"params":param_lst[0]}]-vds["VV_1_ptv"].loc[{"params":"baseline"}])/vds["VV_1_ptv"].loc[{"params":"baseline"}])/0.01
 
 print(vds)
+vds.to_netcdf("data.nc")
 
-import matplotlib
+import matplotlib.pyplot, matplotlib.dates
 
 def plot_sensitivity(vds):
     matplotlib.pyplot.rcdefaults()
-    fig_avg, ax_avg = matplotlib.pyplot.subplots()
-    fig_marg, ax_marg = matplotlib.pyplot.subplots()
-
-    x_avg=vds['VV_tv'].loc[{"value":"average"}]
-    x_marg=vds['VV_tv'].loc[{"value":"marginal"}]
-    x_label=[val for val in vds.params.values]
-    y_vars=[x for x in range(len(vds['VV_1_ptv']))]
-
-    ax_avg.barh(x_label_sorted, x_avg_sorted, align='center')
-    ax_avg.set_yticks(y_vars)
-    ax_avg.invert_yaxis()  # labels read top-to-bottom
-    ax_avg.set_xlabel('Average Vaccine Cost Efficacy')
-    ax_avg.set_title('Elasticity of Average Vaccine Cost Efficacy')
-
-    ax_marg.barh(x_label_sorted, x_marg_sorted, align='center')
-    ax_marg.set_yticks(y_vars)
-    ax_marg.invert_yaxis()  # labels read top-to-bottom
-    ax_marg.set_xlabel('Marginal Vaccine Cost Efficacy')
-    ax_marg.set_title('Elasticity of Marginal Vaccine Cost Efficacy')
-
+    #ax_marg = matplotlib.pyplot.subplot()
+    # fig, axes = matplotlib.pyplot.subplots(2, sharex=True)
+    fig, axes = matplotlib.pyplot.subplots(1, sharex=True)
+    axes.plot(vds.time, vds['VV_1_pctv'].loc[{"value":"marginal","params":"baseline","component":"death"}])
+    axes.plot(vds.time, vds['VV_1_pctv'].loc[{"value":"marginal","params":"baseline","component":"gdp"}])
+    axes.plot(vds.time, vds['VV_1_pctv'].loc[{"value":"marginal","params":"baseline","component":"hospitalization"}])
+    axes.set_title('Marginal Vaccine Value')
+    # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
+    # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
+    # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
+    # axes[1].set_title('Average Vaccine Value')
+    fig.suptitle('Vaccine Value Over Time')
+    fig.legend(vds.component.values)
+    matplotlib.pyplot.gcf().autofmt_xdate()
     matplotlib.pyplot.show()
-    return
 
 plot_sensitivity(vds)
