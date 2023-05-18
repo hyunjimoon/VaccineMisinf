@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from VST.vst import vst_text, vst
+#from VST.vst import vst_text, vst
 import pandas
 import os
 import json
@@ -79,11 +79,11 @@ dv = {
     }
 vds = xr.Dataset.from_dict(dv)
 
-controlfilename = 'Control.txt' #input("Enter control file name (with extension):")
-cf = json.load(open(controlfilename, 'r'))
-# Unpack controlfile into variables
-for k,v in cf.items():
-    exec(k + '=v')
+# controlfilename = 'Control.txt' #input("Enter control file name (with extension):")
+# cf = json.load(open(controlfilename, 'r'))
+# # Unpack controlfile into variables
+# for k,v in cf.items():
+#     exec(k + '=v')
 
 def calc_change_with_respect_to_pop(raw_values: pandas.DataFrame) -> pandas.DataFrame:
     values_normalized_by_pop=pandas.DataFrame()
@@ -127,7 +127,8 @@ def calc_param_impact_on_cost(param_name_list, percent_change, storage_xarr, use
             setval_lst = [("VaxInc", VaxInc_val)]+[(param_name, param_new_val) for param_name, param_new_val in zip(param_name_list, param_new_val_list)]
             run = vst.Script(cf, f"param_{param_name.split()[0]}", log, setvals=setval_lst, simtype='r')
             run.compile_script(vgpath, log, subdir="VAMA", check_funcs=[lambda a, b: True])
-        param_vv = pandas.read_csv(f"VAMA/Covidparam_{param_name.split()[0]}.csv", index_col=0).T
+        print(os.getcwd())
+        param_vv = pandas.read_csv(f"nc_data/Covidparam_{param_name.split()[0]}_{VaxInc_val}.csv", index_col=0).T
         param_vv = calc_change_with_respect_to_pop(param_vv)
 
         storage_xarr["VV_1_pctv"].loc[{
@@ -191,7 +192,7 @@ for param_lst in param_lst_lst:
     vds["epsilon_ptv"]=((vds["VV_1_ptv"].loc[{"params":param_lst[0]}]-vds["VV_1_ptv"].loc[{"params":"baseline"}])/vds["VV_1_ptv"].loc[{"params":"baseline"}])/0.01
 
 print(vds)
-vds.to_netcdf("data.nc")
+vds.to_netcdf("nc_data/vv_pcstv.nc")
 
 import matplotlib.pyplot, matplotlib.dates
 
@@ -204,7 +205,7 @@ def plot_sensitivity(vds):
     axes.plot(vds.time, vds['VV_1_pctv'].loc[{"value":"marginal","params":"baseline","component":"gdp"}])
     axes.plot(vds.time, vds['VV_1_pctv'].loc[{"value":"marginal","params":"baseline","component":"hospitalization"}])
     axes.set_title('Marginal Vaccine Value')
-    # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
+    # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"ssbaseline"}])
     # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
     # axes[1].plot(vds.time, vds['VV_1_pctv'].loc[{"value":"average","params":"baseline"}])
     # axes[1].set_title('Average Vaccine Value')
