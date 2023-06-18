@@ -88,7 +88,7 @@ x=pd.date_range(start = '10/15/2019', periods = TIME_PERIODS)
 dv = {
     "coords": {
         'value': {"dims": ("value"), "data": ["marginal", "average", str(vax_inc_1dot1), str(vax_inc_base), str(vax_inc_zero)]},
-        'component': {"dims": ("component"),  "data": ['death', 'gdp', 'hospitalization']},
+        'component': {"dims": ("component"),  "data": ['death', 'gdp', 'hospitalization', 'population']},
         'params': {"dims": ("params"), "data": [param[0] for param in param_lst_lst]+["baseline"]},
         'space': {"dims" : ("space"), "data": state_names},
         'time': {"dims" : ("time"), "data": pd.date_range(start = '10/15/2019', periods = TIME_PERIODS)},
@@ -96,16 +96,16 @@ dv = {
     },
     "dims": {"value", "component", "params"},
     "data_vars":{ #5+ 3
-        'VV_1_pcstv': {"dims": ("params", "component", "space", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,3,len(state_names), 5, TIME_PERIODS))},
-        'VV_1_pctv': {"dims": ("params", "component", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,3, 5, TIME_PERIODS))},
+        'VV_1_pcstv': {"dims": ("params", "component", "space", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,4,len(state_names), 5, TIME_PERIODS))},
+        'VV_1_pctv': {"dims": ("params", "component", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1,4, 5, TIME_PERIODS))},
         'VV_1_ptv': {"dims": ("params", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 5, TIME_PERIODS))},
-        'VV_1_csth': {"dims": ("component", "space", "time", "shift"), "data": np.zeros(shape = (3, len(state_names), TIME_PERIODS, 11))},
-        'VV_1_cth': {"dims": ("component", "time", "shift"), "data": np.zeros(shape = (3, TIME_PERIODS, 11))},
+        'VV_1_csth': {"dims": ("component", "space", "time", "shift"), "data": np.zeros(shape = (4, len(state_names), TIME_PERIODS, 11))},
+        'VV_1_cth': {"dims": ("component", "time", "shift"), "data": np.zeros(shape = (4, TIME_PERIODS, 11))},
         'VV_1_th': {"dims": ("time", "shift"), "data": np.zeros(shape = (TIME_PERIODS, 11))},
 
         'epsilon_ptv': {"dims": ("params", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 5, TIME_PERIODS))},
-        'epsilon_pctv': {"dims": ("params", "component", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 3, 5, TIME_PERIODS))},
-        'epsilon_pcstv': {"dims": ("params", "component", "space", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 3, len(state_names), 5, TIME_PERIODS))},
+        'epsilon_pctv': {"dims": ("params", "component", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 4, 5, TIME_PERIODS))},
+        'epsilon_pcstv': {"dims": ("params", "component", "space", "value", "time"), "data": np.zeros(shape = (len(param_lst_lst)+1, 4, len(state_names), 5, TIME_PERIODS))},
     },
    "attrs": {"title": "vaccine value disaggregated by parameter, time, space, component"}
     }
@@ -233,7 +233,7 @@ def calc_param_impact_on_cost(param_name_list, percent_change, storage_xarr, use
             run.compile_script(vgpath, log, subdir="VAMA", check_funcs=[lambda a, b: True])
         print(os.getcwd())
         param_vv = pandas.read_csv(f"nc_data/Covidparam_{param_name.split()[0]}_{VaxInc_val}.csv", index_col=0).T
-        param_vv = calc_change_with_respect_to_pop(param_vv)
+        # param_vv = calc_change_with_respect_to_pop(param_vv)
 
         storage_xarr["VV_1_pctv"].loc[{
             "params":param_name,
@@ -250,6 +250,11 @@ def calc_param_impact_on_cost(param_name_list, percent_change, storage_xarr, use
             "component": "hospitalization",
             "value": str(VaxInc_val)
         }] = param_vv["Cost of Hospitalizations Cumulative All"].values.flatten()
+        storage_xarr["VV_1_pctv"].loc[{
+            "params":param_name,
+            "component": "population",
+            "value": str(VaxInc_val)
+        }] = param_vv["Vaccine Taking Population All"].values.flatten()
         for state in state_names:
             storage_xarr["VV_1_pcstv"].loc[{
                 "params":param_name,
@@ -269,22 +274,40 @@ def calc_param_impact_on_cost(param_name_list, percent_change, storage_xarr, use
                 "value": str(VaxInc_val),
                 "space": state
             }] = param_vv[f"Cost of Hospitalizations Cumulative[{state}]"].values.flatten()
+            storage_xarr["VV_1_pcstv"].loc[{
+                "params":param_name,
+                "component": "population",
+                "value": str(VaxInc_val),
+                "space": state
+            }] = param_vv[f"Vaccine Taking Population[{state}]"].values.flatten()
 
     storage_xarr["VV_1_pcstv"].loc[{
         "value": "average"
-    }] = storage_xarr["VV_1_pcstv"].loc[{
+    }] = (storage_xarr["VV_1_pcstv"].loc[{
         "value": str(vax_inc_base)
     }] - storage_xarr["VV_1_pcstv"].loc[{
         "value": str(vax_inc_zero)
-    }]
+    }])/(storage_xarr["VV_1_pcstv"].loc[{
+        "value": str(vax_inc_base),
+        "component": "population"
+    }] - storage_xarr["VV_1_pcstv"].loc[{
+        "value": str(vax_inc_zero),
+        "component": "population"
+    }])
     
     storage_xarr["VV_1_pcstv"].loc[{
         "value": "marginal"
-    }] = storage_xarr["VV_1_pcstv"].loc[{
+    }] = (storage_xarr["VV_1_pcstv"].loc[{
         "value": str(vax_inc_1dot1)
     }] - storage_xarr["VV_1_pcstv"].loc[{
         "value": str(vax_inc_base)
-    }]
+    }])/(storage_xarr["VV_1_pcstv"].loc[{
+        "value": str(vax_inc_1dot1),
+        "component": "population"
+    }] - storage_xarr["VV_1_pcstv"].loc[{
+        "value": str(vax_inc_base),
+        "component": "population"
+    }])
 
     storage_xarr["VV_1_pstv"] = storage_xarr["VV_1_pcstv"].sum(dim="component")
     storage_xarr["VV_1_ptv"] = storage_xarr["VV_1_pctv"].sum(dim="component")
@@ -296,7 +319,7 @@ for param_lst in param_lst_lst:
     calc_param_impact_on_cost(param_lst, 1.01, vds, use_vengine=False)
     vds["epsilon_ptv"]=((vds["VV_1_ptv"].loc[{"params":param_lst[0]}]-vds["VV_1_ptv"].loc[{"params":"baseline"}])/vds["VV_1_ptv"].loc[{"params":"baseline"}])/0.01
 
-vds.to_netcdf("nc_data/vv_cstv.nc")
+vds.to_netcdf("nc_data/vv_cstv2.nc")
 
 def plot_sensitivity(vds):
     matplotlib.pyplot.rcdefaults()
@@ -349,9 +372,9 @@ def convert_timeshift_csv_to_nc(base_filename):
     vds["VV_1_th"] = vds["VV_1_cth"].sum(dim="component")
     
 
-convert_timeshift_csv_to_nc("/Users/hyunjimoon/Dropbox (MIT)/WINcode/VaccineMisinf/nc_data/timeshift/timeshift")
+# convert_timeshift_csv_to_nc("/Users/hyunjimoon/Dropbox (MIT)/WINcode/VaccineMisinf/nc_data/timeshift/timeshift")
 
-vds.to_netcdf("nc_data/vv_cstv_timeshift.nc")
+# vds.to_netcdf("nc_data/vv_cstv_timeshift.nc")
 
 def plot_timeshift_sens():
     matplotlib.pyplot.rcdefaults()
@@ -388,7 +411,8 @@ def plot_by_st_vv():
     fig.tight_layout(pad=0.5)
 
 def plot_by_c_vv_timeshift_sens():
-    vv_xr = xr.open_dataset("../nc_data/vv_pcstv.nc")
+    import matplotlib.pyplot as plt
+    vv_xr = xr.open_dataset("nc_data/vv_cstv2.nc")
     plottable=vv_xr.drop_sel(space="District of Columbia").sortby("space")
     plt.figure(figsize=(12, 10))  # width:10, height:8
     death_zip = list(zip(plottable["space"].values,
@@ -445,3 +469,6 @@ def plot_by_c_vv_timeshift_sens():
     plottable["VV_1_pstv"].loc[
                 {"value": "marginal", "params": "baseline", "time": vv_xr["time"][-1], "space": "Alabama"}
             ].values
+    plt.show()
+
+plot_by_c_vv_timeshift_sens()
