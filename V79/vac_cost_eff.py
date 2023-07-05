@@ -30,28 +30,28 @@ for name in state_names:
     state_lst_6.append(f"Variant Intro Start Time2[{name}]")
 
 param_lst_lst=[ # for testing parameter sensitivity, uncomment
-    # state_lst_1,
-    # state_lst_2,
-    # state_lst_3,
-    # state_lst_4,
-    # state_lst_5,
-    # state_lst_6,
-    # ['Variant Impact on Immunity Loss Time[Omicron]'],
-    # ['Variant Impact on Immunity Loss Time[Delta]'],
-    # ['Variant Impact on Immunity Loss Time[BA5]'],
-    # ['Extra Vaccine Impact on Responsiveness[Vx]'],
-    # ['Extra Vaccine Impact on Responsiveness[NVx]'],
-    # ['Extra Vaccine Impact on Responsiveness[Naive]'],
-    # ['Immunity Loss Time[Vx]'],
-    # ['Immunity Loss Time[NVx]'],
-    # ['Immunity Loss Time[Naive]'],
-    # ['Variant Accuity Multiplier[Omicron]'],
-    # ['Variant Accuity Multiplier[Delta]'],
-    # ['Variant Accuity Multiplier[BA5]'],
-    # ['Variant Intro Start Time3'],
-    # ['Variant Transmission Multiplier[Omicron]'],
-    # ['Variant Transmission Multiplier[Delta]'],
-    # ['Variant Transmission Multiplier[BA5]']
+    state_lst_1,
+    state_lst_2,
+    state_lst_3,
+    state_lst_4,
+    state_lst_5,
+    state_lst_6,
+    ['Variant Impact on Immunity Loss Time[Omicron]'],
+    ['Variant Impact on Immunity Loss Time[Delta]'],
+    ['Variant Impact on Immunity Loss Time[BA5]'],
+    ['Extra Vaccine Impact on Responsiveness[Vx]'],
+    ['Extra Vaccine Impact on Responsiveness[NVx]'],
+    ['Extra Vaccine Impact on Responsiveness[Naive]'],
+    ['Immunity Loss Time[Vx]'],
+    ['Immunity Loss Time[NVx]'],
+    ['Immunity Loss Time[Naive]'],
+    ['Variant Accuity Multiplier[Omicron]'],
+    ['Variant Accuity Multiplier[Delta]'],
+    ['Variant Accuity Multiplier[BA5]'],
+    ['Variant Intro Start Time3'],
+    ['Variant Transmission Multiplier[Omicron]'],
+    ['Variant Transmission Multiplier[Delta]'],
+    ['Variant Transmission Multiplier[BA5]']
 ]
 vv_param_names=['Variant Impact on Immunity Loss Time[Omicron]',
  'Variant Impact on Immunity Loss Time[Delta]',
@@ -319,7 +319,7 @@ for param_lst in param_lst_lst:
     calc_param_impact_on_cost(param_lst, 1.01, vds, use_vengine=False)
     vds["epsilon_ptv"]=((vds["VV_1_ptv"].loc[{"params":param_lst[0]}]-vds["VV_1_ptv"].loc[{"params":"baseline"}])/vds["VV_1_ptv"].loc[{"params":"baseline"}])/0.01
 
-vds.to_netcdf("nc_data/vv_cstv2.nc")
+vds.to_netcdf("nc_data/vv_cstv2_timeshift.nc")
 
 def plot_sensitivity(vds):
     matplotlib.pyplot.rcdefaults()
@@ -374,9 +374,11 @@ def convert_timeshift_csv_to_nc(base_filename):
 
 # convert_timeshift_csv_to_nc("/Users/hyunjimoon/Dropbox (MIT)/WINcode/VaccineMisinf/nc_data/timeshift/timeshift")
 
-# vds.to_netcdf("nc_data/vv_cstv_timeshift.nc")
+# vds.to_netcdf("nc_data/vv_cstv2_timeshift.nc")
+
 
 def plot_timeshift_sens():
+    vds = xr.open_dataset("nc_data/vv_cstv2_timeshift.nc")
     matplotlib.pyplot.rcdefaults()
     death_vals = np.divide(vds["VV_1_cth"].loc[{"time": x[-1], "component": "death"}].values, 10**12)
     death_vals = np.subtract(death_vals, vds["VV_1_cth"].loc[{"time": x[-1], "component": "death", "shift": 0}].values.tolist()/10**12)
@@ -395,24 +397,11 @@ def plot_timeshift_sens():
     matplotlib.pyplot.ylabel("Total vaccine value (Trillion USD)")
     matplotlib.pyplot.axhline(y=0, color='k', linestyle='-')
     matplotlib.pyplot.show()
-
-# plot_timeshift_sens()
-def plot_by_st_vv():
-    '''
-    analysis for vaccine value disseminated to all previous periods was tricky so replaced with `plot_timeshift_sens`
-    '''
-    bigstate = ["New York", "California", "Massachusetts", "Texas"]
-    fig, axes = plt.subplots(1, 4, figsize = (30,10))
-    for i, space in enumerate(bigstate):
-        vv_xr["VV_1_pcstv"].loc[{"value": "marginal", "params": "baseline", "space": f'{space}'}].plot.line(ax = axes[i], x="time")
-        plt.title("Vaccination Value Over Time")
-        axes[i].set_ylabel("Marginal Value of Vaccine (USD $)")
-        axes[i].axes.set_xlabel(f"{space}")
-    fig.tight_layout(pad=0.5)
+plot_timeshift_sens()
 
 def plot_by_c_vv_timeshift_sens():
     import matplotlib.pyplot as plt
-    vv_xr = xr.open_dataset("nc_data/vv_cstv2.nc")
+    vv_xr = xr.open_dataset("nc_data/vv_cstv2_timeshift.nc")
     plottable=vv_xr.drop_sel(space="District of Columbia").sortby("space")
     plt.figure(figsize=(12, 10))  # width:10, height:8
     death_zip = list(zip(plottable["space"].values,
@@ -471,4 +460,18 @@ def plot_by_c_vv_timeshift_sens():
             ].values
     plt.show()
 
-plot_by_c_vv_timeshift_sens()
+#plot_by_c_vv_timeshift_sens()
+
+###########################################
+def plot_by_st_vv():
+    '''
+    DEPRECATED analysis for vaccine value disseminated to all previous periods was tricky so replaced with `plot_timeshift_sens`
+    '''
+    bigstate = ["New York", "California", "Massachusetts", "Texas"]
+    fig, axes = plt.subplots(1, 4, figsize = (30,10))
+    for i, space in enumerate(bigstate):
+        vv_xr["VV_1_pcstv"].loc[{"value": "marginal", "params": "baseline", "space": f'{space}'}].plot.line(ax = axes[i], x="time")
+        plt.title("Vaccination Value Over Time")
+        axes[i].set_ylabel("Marginal Value of Vaccine (USD $)")
+        axes[i].axes.set_xlabel(f"{space}")
+    fig.tight_layout(pad=0.5)
