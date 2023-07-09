@@ -63,3 +63,34 @@ counterfactual reads 10 timeshifted values, store to `store_xarr`
 ```
         param_vv = pandas.read_csv(f"nc_data/Covidparam_{param_name.split()[0]}_{VaxInc_val}.csv", index_col=0).T
 ```
+
+### vaccine value xarray
+```
+dv = {
+    "dims": {"f_stat", "param_scal", "costcomp_tvec", "noncost_tvec", "space", "time", "hparam_vax_time"}, #action as hparam
+    "coords": { #pcstvh
+        'f_stat': {"dims": ("f_stat"), "data": f_stat}, #value
+
+        'param_scal': {"dims": ("param_scal"), "data": param_lst},
+
+        'costcomp_tvec': {"dims": ("costcomp_tvec"), "data": costcomp_tvec},
+        'noncost_tvec': {"dims": ("noncost_tvec"), "data": noncost_tvec},
+
+        'space': {"dims": ("space"), "data": state_names},
+        'time': {"dims": ("time"), "data": hparam_time},
+        'hparam_vax_time': {"dims": ("hparam_vax_time"), "data": [str(vt) for vt in hparam_vax_time]}
+    },
+    "data_vars": {  # 5+3 three vdot_ coordinate is only needed for data variables with 'p' coordinate
+        "f_pcst": {"dims": ("f_stat", "param_scal", "costcomp_tvec", "space", "time",),  "data": np.zeros(shape=(len(f_stat), len(param_lst), len(costcomp_tvec),  len(state_names), len(hparam_time)))},
+        "f_pnst": {"dims": ("f_stat", "param_scal", "noncost_tvec", "space", "time",),  "data": np.zeros(shape=(len(f_stat), len(param_lst), len(noncost_tvec),  len(state_names), len(hparam_time)))},
+
+        "f_pct":  {"dims": ("f_stat", "param_scal", "costcomp_tvec", "time",), "data": np.zeros(shape=(len(f_stat), len(param_lst), len(costcomp_tvec), len(hparam_time)))},
+        "f_pnt":  {"dims": ("f_stat", "param_scal", "noncost_tvec", "time",), "data": np.zeros(shape=(len(f_stat), len(param_lst), len(noncost_tvec), len(hparam_time)))},
+        "f_pst":  {"dims": ("f_stat", "param_scal", "space", "time",),  "data": np.zeros(shape=(len(f_stat), len(param_lst), len(state_names), len(hparam_time)))},
+
+        "f_pt":  {"dims": ("f_stat", "param_scal", "time",),  "data": np.zeros(shape=(len(f_stat), len(param_lst), len(hparam_time)))},
+    },
+    "attrs": {"title": "1.vaccine value disaggregated by parameter, time, space, component, 2.counterfactual by parameter for validity, 3.counterfactual by datahp for summary stat."}
+    # 1 and 2 are descriptive, 3 is prescriptive
+}
+```
