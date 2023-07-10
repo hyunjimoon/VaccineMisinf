@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from VST.vst import vst_text, vst
+#import VST
 import matplotlib.pyplot, matplotlib.dates
 import os
 import xarray as xr
@@ -57,267 +57,205 @@ def gen_param_names():
                          'Variant Transmission Multiplier[BA5]']
     return state_names, t_sharing_sbatched_params, ts_sharing_params
 
-def store4testing(state_names, param_lst):
+def create_f12x1_pcsth12():
     # function
-    # 1. marginal, 2. avg vaccine value 3. sensitivity of mvv, avv w.r.t each parameter 4.
-    f_stat = ["vi_1dot1", "vi_base", "vi_zero", "m_vv", "a_vv", "m_vv_sens", "a_vv_sens"]  # better if functional form
-    vi_1dot1 = "1.01"
-    vi_base = "1"
-    vi_zero = "0"
+    f1x = ["mvv", "avv"] #better if functional form
+    f2x = ["mvv_sens", "avv_sens"]
 
-    # param_scal
-    t_sharing_sbatched_params, ts_sharing_params = gen_param_names()[1:]
+    # param
+    t_sharing_sbatched_params, ts_sharing_params  = gen_param_names()[1:]
+    #param_lst = t_sharing_sbatched_params + ts_sharing_params + ["baseline"]
+
+    # component_time_vec
+    costcomp_tv = ['death', 'gdp', 'hospitalization']
+    noncostcomp_tv = ['population']
+    # space
+    state_names  = gen_param_names()[0]
+
+    # time
+    time = pd.date_range(start='10/15/2019', periods=1071)
+
+    # hyperparameter/action/counterfactual
+        # no p, no 
+        
+        # vv["f_pst"] = vv["f_pcst"].sum(dim="costcomp_tv")
+        # vv["f_pt"] = vv["f_pct"].sum(dim="costcomp_tv")
+        # vv["f_c"] = vv["f_pt"].loc[{"f_stat": "mvv", "param" = "baseline"}]
+    # function
+    f1x = ["mvv", "avv"] #better if functional form
+    f2x = ["mvv_sens", "avv_sens"]
+
+    # param
+    t_sharing_sbatched_params, ts_sharing_params  = gen_param_names()[1:]
     param_lst = t_sharing_sbatched_params + ts_sharing_params + ["baseline"]
 
     # component_time_vec
-    costcomp_tvec = ['death', 'gdp', 'hospitalization']
-    noncost_tvec = ['population']
+    costcomp_tv = ['death', 'gdp', 'hospitalization']
+    noncostcomp_tv = ['population']
     # space
-    state_names = gen_param_names()[0]
+    state_names  = gen_param_names()[0]
 
     # time
-    hparam_time = pd.date_range(start='10/15/2019', periods=1071)
-    hparam_vax_time = [range(-50, 60, 10)]
+    time = pd.date_range(start='10/15/2019', periods=1071)
+
+    # hyperparameter/action/counterfactual
+    vax_amt_lst = [1.01, 1, 0]
+    vax_time_lst = [range(-50, 60, 10)]
     dv = {
-        "dims": {"f_stat", "param_scal", "costcomp_tvec", "noncost_tvec", "space", "time", "hparam_vax_time"},
-        # action as hparam
-        "coords": {  # pcstvh
-            'f_stat': {"dims": ("f_stat"), "data": f_stat},  # value
+        "dims": {"f1x", "f2x", "param", "costcomp_tv", "noncostcomp_tv", "space", "time", "hp_vax_amt", "hp_vax_time"}, #action as hparam
+        "coords": { #pcstvh
+            'f1x': {"dims": ("f1x"), "data": f1x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON 
+            'f2x': {"dims": ("f2x"), "data": f2x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON w.r.t. PARAMETER
+            
+            'param': {"dims": ("param"), "data": param_lst},
 
-            'param_scal': {"dims": ("param_scal"), "data": param_lst},
-
-            'costcomp_tvec': {"dims": ("costcomp_tvec"), "data": costcomp_tvec},
-            'noncost_tvec': {"dims": ("noncost_tvec"), "data": noncost_tvec},
+            'costcomp_tv': {"dims": ("costcomp_tv"), "data": costcomp_tv},
+            'noncostcomp_tv': {"dims": ("noncostcomp_tv"), "data": noncostcomp_tv},
 
             'space': {"dims": ("space"), "data": state_names},
-            'time': {"dims": ("time"), "data": hparam_time},
-            'hparam_vax_time': {"dims": ("hparam_vax_time"), "data": [str(vt) for vt in hparam_vax_time]}
+            'time': {"dims": ("time"), "data": time},
+            'hp_vax_amt': {"dims": ("hp_vax_amt"), "data": [str(va) for va in vax_amt_lst]},
+            'hp_vax_time': {"dims": ("hp_vax_time"), "data": [str(vt) for vt in vax_time_lst]}
         },
-        "data_vars": {  # 5+3
-            "f_pcst": {"dims": ("f_stat", "param_scal", "costcomp_tvec", "space", "time",), "data": np.zeros(
-                shape=(len(f_stat), len(param_lst), len(costcomp_tvec), len(state_names), len(hparam_time)))},
-            "f_pnst": {"dims": ("f_stat", "param_scal", "noncost_tvec", "space", "time",), "data": np.zeros(
-                shape=(len(f_stat), len(param_lst), len(noncost_tvec), len(state_names), len(hparam_time)))},
+        "data_vars": {  # 5+3 three vdot_ coordinate is only needed for data variables with 'p' coordinate
+            "x1_pcsth1": {"dims": ("param", "costcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(costcomp_tv), len(state_names), len(time), len(vax_amt_lst)))}, # vaccine value for each component, space, time, for vaxinc 0, 1, 1.01
+            "x2_pnsth1": {"dims": ("param", "noncostcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(noncostcomp_tv), len(state_names), len(time), len(vax_amt_lst)))},
+            #3*23
 
-            "f_pct": {"dims": ("f_stat", "param_scal", "costcomp_tvec", "time",),
-                      "data": np.zeros(shape=(len(f_stat), len(param_lst), len(costcomp_tvec), len(hparam_time)))},
-            "f_pnt": {"dims": ("f_stat", "param_scal", "noncost_tvec", "time",),
-                      "data": np.zeros(shape=(len(f_stat), len(param_lst), len(noncost_tvec), len(hparam_time)))},
-            "f_pst": {"dims": ("f_stat", "param_scal", "space", "time",),
-                      "data": np.zeros(shape=(len(f_stat), len(param_lst), len(state_names), len(hparam_time)))},
-
-            "f_pt": {"dims": ("f_stat", "param_scal", "time",),
-                     "data": np.zeros(shape=(len(f_stat), len(param_lst), len(hparam_time)))},
+            "x_cth2": {"dims": ("costcomp_tv", "time", "hp_vax_time"), "data": np.zeros(shape=(len(noncostcomp_tv), len(time), len(vax_time_lst)))},
+            #3*23
+            
+            "f1x_pcsth": {"dims": ("f1x", "param", "costcomp_tv", "space", "time","hp_vax_amt"), "data": np.zeros(shape=(len(f1x), len(param_lst), len(costcomp_tv),  len(state_names), len(time), len(vax_amt_lst)))}, #marginal vaccine value per person
+            "f2x_pcst": {"dims": ("f2x", "param", "costcomp_tv", "space", "time",), "data": np.zeros(shape=(len(f2x), len(param_lst), len(costcomp_tv),  len(state_names), len(time)))}, #marginal vaccine value per person w.r.t. parameter
         },
-        "attrs": {
-            "title": "1.vaccine value disaggregated by parameter, time, space, component, 2.counterfactual by parameter for validity, 3.counterfactual by datahp for summary stat."}
+        "attrs": {"title": "1.vaccine value disaggregated by parameter, time, space, component, 2.counterfactual by parameter for validity, 3.counterfactual by datahp for summary stat."}
         # 1 and 2 are descriptive, 3 is prescriptive
     }
     vv = xr.Dataset.from_dict(dv)
-
-    # 51 states * 4 (efficacy of  death, gdp, health, population)
-    # row 0, 4-54 (csv's 6-56) -> 1 set, death
-    # row 1,55 -105 (csv's 57-107)-> 2 set, gdp
-    # row 2, 106-156(csv's 108-158) -> 3 set, hosp
-
-    # BASELINE HAPPENS ONCE
-    # TODO do we need to generate two csv files? (how to compute average and marginal in python)
-    avg = pd.read_csv("avg_cost_per_person_base.tsv", sep="\t", index_col=0)
-    marg = pd.read_csv("marg_cost_per_person_base.tsv", sep="\t", index_col=0)
-    vv['VV_csv'].loc[dict(component='death', value='average')] = avg.loc[4:54].values.flatten()
-    vv['VV_csv'].loc[dict(component='gdp', value='average')] = avg.loc[55:105].values.flatten()
-    vv['VV_csv'].loc[dict(component='hospitalization', value='average')] = avg.loc[106:156].values.flatten()
-
-    vv['VV_csv'].loc[dict(component='death', value='marginal')] = marg.loc[4:54].values.flatten()
-    vv['VV_csv'].loc[dict(component='gdp', value='marginal')] = marg.loc[55:105].values.flatten()
-    vv['VV_csv'].loc[dict(component='hospitalization', value='marginal')] = marg.loc[106:156].values.flatten()
-
-    vv['VV_cv'].loc[dict(component='death', value='average')] = avg.loc[0].values.item()
-    vv['VV_cv'].loc[dict(component='gdp', value='average')] = avg.loc[1].values.item()
-    vv['VV_cv'].loc[dict(component='hospitalization', value='average')] = avg.loc[2].values.item()
-
-    vv['VV_cv'].loc[dict(component='death', value='marginal')] = marg.loc[0].values.item()
-    vv['VV_cv'].loc[dict(component='gdp', value='marginal')] = marg.loc[1].values.item()
-    vv['VV_cv'].loc[dict(component='hospitalization', value='marginal')] = marg.loc[2].values.item()
-
-    vv['VV_sv'] = vv['VV_csv'].sum(dim='component')
-    vv['VV_v'] = vv['VV_cv'].sum(dim='component')
-
-    # COUNTERFACTUAL HAPPENS 22 times
-    for file_param, param in zip(param_lst, param_lst):
-        file = file_param.replace(" ", "_")
-        avg = pd.read_csv(file + '_avg.tsv', sep='\t', index_col=0)
-        marg = pd.read_csv(file + '_marg.tsv', sep='\t', index_col=0)
-
-        vv['VV_1_pcsv'].loc[dict(params=param, component='death', value='average')] = avg.loc[4:54].values.flatten()
-        vv['VV_1_pcsv'].loc[dict(params=param, component='gdp', value='average')] = avg.loc[55:105].values.flatten()
-        vv['VV_1_pcsv'].loc[dict(params=param, component='hospitalization', value='average')] = avg.loc[
-                                                                                                 106:156].values.flatten()
-
-        vv['VV_1_pcsv'].loc[dict(params=param, component='death', value='marginal')] = marg.loc[4:54].values.flatten()
-        vv['VV_1_pcsv'].loc[dict(params=param, component='gdp', value='marginal')] = marg.loc[55:105].values.flatten()
-        vv['VV_1_pcsv'].loc[dict(params=param, component='hospitalization', value='marginal')] = marg.loc[
-                                                                                                  106:156].values.flatten()
-
-        vv['VV_1_pcv'].loc[dict(params=param, component='death', value='average')] = avg.loc[0].values.item()
-        vv['VV_1_pcv'].loc[dict(params=param, component='gdp', value='average')] = avg.loc[1].values.item()
-        vv['VV_1_pcv'].loc[dict(params=param, component='hospitalization', value='average')] = avg.loc[2].values.item()
-
-        vv['VV_1_pcv'].loc[dict(params=param, component='death', value='marginal')] = marg.loc[0].values.item()
-        vv['VV_1_pcv'].loc[dict(params=param, component='gdp', value='marginal')] = marg.loc[1].values.item()
-        vv['VV_1_pcv'].loc[dict(params=param, component='hospitalization', value='marginal')] = marg.loc[2].values.item()
-
-        vv['VV_1_pv'] = vv['VV_1_pcv'].sum(dim='component')
-
-    for param_lst in param_lst:
-        print(param_lst)
-        calc_param_impact_on_cost(param_lst, 1.01, vv, use_vengine=True)
-        vv["epsilon_ptv"] = ((vv["VV_1_ptv"].loc[{"params": param_lst[0]}] - vv["VV_1_ptv"].loc[
-            {"params": "baseline"}]) / vv["VV_1_ptv"].loc[{"params": "baseline"}]) / 0.01
-    vv.to_netcdf("nc_data/vv_pcstvh.nc")
     return vv
 
+def tf11234_vgcsv2xr(param_lst, param_multiplier, use_vengine = False) -> xr.Dataset:
+    def fx_pcsth_h1(param, vax_amt, vv):
+        paramvv = pd.read_csv(f"V79/CSV/Covidparam_{param}_{vax_amt}.csv", index_col=0).T
+        vi_r2s = {1.01: '1.01', 1: '1', 0:  '0',}
 
-def f_stat_given_hparam(param_name_list, percent_change, vv, use_vengine=False,
-                              param_name=None):  # list of str or list of list (local variables), # real
-    """Find the costs of the pandemic at vaxinc vals of 0, 1, 1.01 when the params passed in are changed by percent_change
-        with base parameter
-        b1. calc the cost difference VaxInc: diff_cost_01, diff_cost_1_1dot1
-        b2. calculate vaccinated people difference VaxInc: diff_ppl_01, diff_ppl_1_1dot1
-        b3. marginal cost: mc_01 = diff_cost_01 / diff_ppl_01, mc_1_1dot1 = diff_cost_1_1dot1/diff_ppl_1_1dot1
-        with 1.01 * base parameter
-        c1. calc the cost differece VaxInc: diff_cost_01_c, diff_cost_1_1dot1_c
-        c2. calculate vaccinated people difference VaxInc: diff_ppl_01_c, diff_ppl_1_1dot1_c
-        c3. marginal cost: mc_01_c = diff_cost_01_c / diff_ppl_01_c, mc_1_1dot1_c = diff_cost_1_1dot1_c/diff_ppl_1_1dot1_c
-        ela_01 = ((mc_01_c - mc_01) / mc_01) / 0.01
-        ela_1_1dot1 = ((mc_1_1dot1_c - mc_1_1dot1) / mc_1_1dot1) / 0.01 #not doing this right now"""
+        # INPUT FROM CSV
+        for state in state_names:
+            vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "death", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of Deaths Cumulative[{state}]"].values.flatten()
+            vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "gdp", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of GDP Cumulative[{state}]"].values.flatten()
+            vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "hospitalization", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of Hospitalizations Cumulative[{state}]"].values.flatten()
 
-    def calc_vvdiff_by_pop(raw_values: pd.DataFrame) -> pd.DataFrame:
-        values_normalized_by_pop = pd.DataFrame()
-        columns_to_adjust = [
-            "Cost of Deaths Cumulative",
-            "Cost of GDP Cumulative",
-            "Cost of Hospitalizations Cumulative"
-        ]
-        population_column = "Vaccine Taking Population"
-        locations = [f"[{state}]" for state in state_names]
-        locations += [" All"]
-        for location in locations:
-            for column in columns_to_adjust:
-                values_normalized_by_pop[column + location] = raw_values[column + location] / raw_values[
-                    population_column + location]
-        return values_normalized_by_pop
+            vv["x2_pnsth1"].loc[{"param": param, "noncostcomp_tv": "population", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Vaccine Taking Population[{state}]"].values.flatten()
 
-    if not param_name:
-        param_name = param_name_list[0]
-    hparam_vi = [vi_1dot1, vi_base, vi_zero]
-    hparam_vax_time = [range(-50, 60, 10)]
+        vv["x1_pcth1"] = vv["x1_pcsth1"].sum(dim="space") # TODO: compare same value 
+        vv["x2_pnth1"] = vv["x2_pnsth1"].sum(dim="space")
+        print("VERIFY1: vensim-xarray space aggregation is same")
+        print("VENSIM :", paramvv["Cost of Deaths Cumulative All"].values.flatten())
+        print("xarray :", vv["x1_pcth1"].values)
+        return vv
+    
+    def fx_pcsth_h2(vax_time, vv):
+        costcomp_noncostcomp_tv = pd.read_csv(f"V79/CSV/Covidparam_{vax_time}.csv", index_col=0).T
+        vt_r2s = {1.01: '1.01', 1: '1', 0:  '0',}
+        #tf8_x_ch2
+        #"f2x_ch2": {"dims": ("f2x", "costcomp_tv", "vax_time_lst"), "data": np.zeros(shape=(len(f2x), len(costcomp_tv), len(vax_time_lst)))}, 
+        # vv['f2x_p']= vv['f2_pcst'].sum(dim=["costcomp_tvec","space"]) NO
+        # does "baseline" be regarded as one parameter do we need separate data_variable for "f_c"? (on top of "f_pc") vv["f_pc"].loc[{"f1x": vi_r2s[vax_amt], "param": param, "costcomp_tv": "death"}]
+        vv["x1_pcth2"].loc[{"param": param, "costcomp_tv": "death", "hp_vax_time": vt_r2s[vax_time],}] = costcomp_noncostcomp_tv["Cost of Deaths Cumulative All"].values.flatten()
+        vv["x1_pcth2"].loc[{"param": param, "costcomp_tv": "gdp", "hp_vax_time": vt_r2s[vax_time], }] = costcomp_noncostcomp_tv["Cost of GDP Cumulative All"].values.flatten()
+        vv["x1_pcth2"].loc[{"param": param, "costcomp_tv": "hospitalization", "hp_vax_time": vt_r2s[vax_time]}] = costcomp_noncostcomp_tv["Cost of Hospitalizations Cumulative All"].values.flatten()
 
-    for VaxInc_val in hparam_vi: #[0]:#, 1, 1.01]:
-        if use_vengine:
+        vv["x2_nth"].loc[{"noncostcomp_tv": "population", "hp_vax_amt": vt_r2s[vax_time],}] = costcomp_noncostcomp_tv["Vaccine Taking Population All"].values.flatten()
+        vv['f2x_ch2'] = vv['f2x_pct'].loc[{'param':"baseline", "time":vv["time"][-1]}] #tf8 
+        return vv
+
+    if use_vengine:
+        cf={
+            "basename": "Covid",
+            "simcontrol": {
+                "model": "CovidUSA-Econ-V81.mdl",
+                "data": [
+                    "CovidModelInputs - ConstantDataStates.vdf",
+                    "CovidModelInputs - CRWStates.vdf",
+                    "CovidModelInputs - DeathDataStates.vdf",
+                    "CovidModelInputs - FlowDataStates.vdf",
+                    "CovidModelInputs - FormattedDataStates.vdf",
+                    "CovidModelInputs - TestDataStates.vdf",
+                    "GDP_Vensim.vdfx"
+                    ],
+                "payoff": "",
+                "sensitivity": "",
+                "optparm": "",
+                "changes": [],
+                "savelist": "",
+                "senssavelist": ""
+                },
+            "venginepath": vgpath,
+            "runcmd": "",
+            "savecmd": "VDF2CSV|!|!|SAVEFILE.lst|||",
+            "timelimit": 600,
+            "mccores": 0
+        }
+        for param in param_lst:
             param_new_val_list = []
-            for item in log_file:
+            for vax_amt in vax_amt_lst:
                 try:
-                    param_base = vst_text.get_value(f'{posterior_out}', item)
+                    param_base = vst_text.get_value(f'{posterior_out}', param)
                 except TypeError:  # if we can't find param in optimization output, pull it out of model directly, should be done form mdl but is currently from .tab generated from vensim
-                    param_base = vst_text.get_value(f'{datahp_mdl}', item)
-                    # df = pd.read_csv(f"{test_file}", sep="\t",
-                    #                      index_col=0)  # raw values (all params outside .out, manually generated from .mdl/ can read from .mdl)
-                    # param_base = df.loc[item][0]
-                param_new_val_list.append(param_base * percent_change)  # TODO: make this function with list param for rgn
-            setval_lst = [("VaxInc", VaxInc_val)] + [(param_name, param_new_val) for param_name, param_new_val in zip(param_name_list, param_new_val_list)]
+                    param_base = vst_text.get_value(f'{datahp_mdl}', param)
+                    # df = pd.read_csv(f"{test_file}", sep="\t", index_col=0)  # raw values (all params outside .out, manually generated from .mdl/ can read from .mdl)
+                    # param_base = df.loc[param][0]
+                param_new_val_list.append(param_base * param_multiplier)  # TODO: make this function with list param for rgn
+            setval_lst = [("VaxInc", vax_amt)] + [(param_name, param_new_val) for param_name, param_new_val in zip(param_lst, param_new_val_list)]
             run = vst.Script(cf, f"param_{param_name}", log_file, setvals=setval_lst, simtype='r')
             run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
-            os.replace(f"VAMA/Covidparam_{param_name}.csv", f"CSV/Covidparam_{param_name}_{VaxInc_val}.csv")
+            os.replace(f"VAMA/Covidparam_{param_name}.csv", f"CSV/Covidparam_{param_name}_{vax_amt}.csv")
 
-    for vax_time in hparam_vax_time:
-        if use_vengine:
-            param_new_val_list = []
-            for item in log_file:
-                try:
-                    param_base = vst_text.get_value(f'{posterior_out}', item)
-                except TypeError:  # if we can't find param in optimization output, pull it out of model directly, should be done form mdl but is currently from .tab generated from vensim
-                    param_base = vst_text.get_value(f'{datahp_mdl}', item)
-                    # df = pd.read_csv(f"{test_file}", sep="\t",
-                    #                      index_col=0)  # raw values (all params outside .out, manually generated from .mdl/ can read from .mdl)
-                    # param_base = df.loc[item][0]
-                param_new_val_list.append(
-                    param_base * percent_change)  # TODO: make this function with list param for rgn
-            setval_lst = [("VaccinationShift", hparam_vax_time)]
+        for vax_time in vax_time_lst:
+            setval_lst = [("VaccinationShift", vax_time)]
             run = vst.Script(cf, f"vax_time_{vax_time}", log_file, setvals=setval_lst, simtype='r')
             run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
-            os.replace(f"VAMA/m_vv_{param_name}.csv", f"CSV/m_vv_{vax_time}.csv")
-        param_vv_raw = pd.read_csv(f"CSV/Covidparam_{param_name}_{VaxInc_val}.csv", index_col=0).T
-        vi_r2s = {1.01: 'vi_1dot1', 1: 'vi_base', 0: 'vi_zero', }
+            os.replace(f"VAMA/timeshift_{param_name}.csv", f"CSV/timeshift_{vax_time}.csv")
 
-        def calc_vvdiff_by_pop(raw_values: pd.DataFrame) -> pd.DataFrame:
-            values_normalized_by_pop = pd.DataFrame()
-            columns_to_adjust = [
-                "Cost of Deaths Cumulative",
-                "Cost of GDP Cumulative",
-                "Cost of Hospitalizations Cumulative"
-            ]
-            population_column = "Vaccine Taking Population"
-            locations = [f"[{state}]" for state in state_names]
-            locations += [" All"]
-            for location in locations:
-                for column in columns_to_adjust:
-                    values_normalized_by_pop[column + location] = raw_values[column + location] / raw_values[
-                        population_column + location]
-            return values_normalized_by_pop
+    vax_amt_lst = [1.01, 1, 0]
+    vax_time_lst = [range(-50, 60, 10)]
 
-        param_vv = calc_vvdiff_by_pop(param_vv_raw)
+    # VAX_AMT
+    for param in param_lst:
+        for vax_amt in vax_amt_lst:
+            vv = fx_pcsth_h1(param, vax_amt, vv)
+    
+    #tf5_x_ctnt
+    vv['x1_ct']=vv["x1_pcth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}].sum(dim='space')
+    vv['x2_nt']=vv["x2_pnth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}].sum(dim='space')
 
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "death"}] = \
-        param_vv_raw["Cost of Deaths Cumulative All"].values.flatten()
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "gdp"}] = \
-        param_vv_raw["Cost of GDP Cumulative All"].values.flatten()
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "hospitalization"}] = \
-        param_vv_raw["Cost of Hospitalizations Cumulative All"].values.flatten()
+    #tf6_f2x_cs
+    # TRANSFORM X TO F1(X): MARGINAL AVERAGE VACCINE VALUE PER PERSON (addivitive then multiplicative centralization)
+    vv["f1x_pcst"].loc[{"f1x": "avv", "param": param}] = (vv["x1_pcsth1"].loc[{"hp_vax_amt": "1"}] - vv["x1_pcsth1"].loc[{"hp_vax_amt": "0"}]) / (vv["x_pnst"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"0"}])
+    vv["f1x_pcst"].loc[{"f1x": "mvv", "param": param}] = (vv["x1_pcsth1"].loc[{"x1_pcsth1": "1.01"}] - vv["x1_pcsth1"].loc[{"x1_pcsth1": "1"}]) / (vv["x_pnst"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1.01"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}])
 
-        vv["f_pnt"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "noncost_tvec": "population"}] = \
-        param_vv_raw["Vaccine Taking Population All"].values.flatten()
+    vv['f2x_cs'] = vv['f2x_pcst'].loc[{'param':'baseline', 'time':time[-1]}]
 
-        for state in state_names:
-            vv["f_pcst"].loc[
-                {"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "death", "space": state}] = \
-            param_vv[f"Cost of Deaths Cumulative[{state}]"].values.flatten()
-            vv["f_pcst"].loc[
-                {"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "gdp", "space": state}] = \
-            param_vv[f"Cost of GDP Cumulative[{state}]"].values.flatten()
-            vv["f_pcst"].loc[
-                {"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "hospitalization",
-                 "space": state}] = param_vv[f"Cost of Hospitalizations Cumulative[{state}]"].values.flatten()
+    #tf7_f2x_p
+    # TRANSFORM F1(X) TO F2(X): 
+    # aggregation rules: over space should be done in the level of x, not fx + component aggregation then s
+    #vv['f2x_pcst'] = (vv['f1x_pcsth'].loc[{"params": param}] - vv['f1x_pcsth'].loc[{"params": "baseline"}]) / (param_multiplier - 1) NOT BEING USED
+    vv['x1_pth1']=vv["x1_cpth1"].sum(dim ='costcomp_tv') # space aggregated population???
+    vv['x1_ph1'] = vv['x1_pth1'].loc[{'time':time[-1]}] 
+    vv["f1x_p"].loc[{"f1x": "mvv", "param": param}] = (vv["x1_ph1"].loc[{"hp_vax_amt": "1.01"}] - vv["x1_ph1"].loc[{"hp_vax_amt": "1"}]) / (vv["x2_ph1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1.01"}] - vv["x2_ph1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}])
+    vv['f2x_p'] = (vv['f1x_p'].loc[{"params": param}] - vv['f1x_p'].loc[{"params": "baseline"}]) / (param_multiplier - 1) 
 
-            vv["f_pnst"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "noncost_tvec": "population",
-                              "space": state}] = param_vv_raw[f"Vaccine Taking Population[{state}]"].values.flatten()
+    # VAX_TIME
+    for vax_time in vax_time_lst:
+        vv = fx_pcsth_h2(vax_time, vv)
+    
+    return vv
 
-        vv["f_pcst"].loc[{"f_stat": "a_vv"}] = (vv["f_pcst"].loc[{"f_stat": "vi_base"}] - vv["f_pcst"].loc[
-            {"f_stat": "vi_zero"}]) / (vv["f_pnst"].loc[{"f_stat": "vi_base", "noncost_tvec": "population"}] -
-                                       vv["f_pnst"].loc[{"f_stat": "vi_zero", "noncost_tvec": "population"}])
-        vv["f_pcst"].loc[{"f_stat": "m_vv"}] = (vv["f_pcst"].loc[{"f_stat": "vi_1dot1"}] - vv["f_pcst"].loc[
-            {"f_stat": "vi_base"}]) / (vv["f_pnst"].loc[{"f_stat": "vi_1dot1", "noncost_tvec": "population"}] -
-                                       vv["f_pnst"].loc[{"f_stat": "vi_base", "noncost_tvec": "population"}])
-
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "death"}] = param_vv[
-            "Cost of Deaths Cumulative All"].values.flatten()
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "gdp"}] = param_vv[
-            "Cost of GDP Cumulative All"].values.flatten()
-        vv["f_pct"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "costcomp_tvec": "hospitalization"}] = \
-        param_vv["Cost of Hospitalizations Cumulative All"].values.flatten()
-
-        vv["f_pnt"].loc[{"f_stat": vi_r2s[VaxInc_val], "param_scal": param_name, "noncost_tvec": "population"}] = \
-        param_vv_raw["Vaccine Taking Population All"].values.flatten()
-
-        vv["f_pst"] = vv["f_pcst"].sum(dim="costcomp_tvec")
-        vv["f_pt"] = vv["f_pct"].sum(dim="costcomp_tvec")
-
-
-def tf5_mavv_by_t(vv):
+def tf5_x_ctnt(vv):
     """
     validating calibration via comparing real and simulated (i.e. posterior retrodictive check)
     input: vv
-    output: three timeseirs plots for `costcomp_tvec` death and hospitalization (overall) + gdp (new york, california, texas)
+    output: three timeseirs plots for `costcomp_tv` death and hospitalization (overall) + gdp (new york, california, texas)
     """
     df=pd.read_csv("Sim_DataAgg.csv", index_col=[0,1]).transpose()
     df.columns.set_levels(['Sim', 'Data'], level = 0, inplace = True)
@@ -372,18 +310,18 @@ def tf5_mavv_by_t(vv):
     plt.show()
     return
 
-def tf6_mavv_by_cs(vv):
+def tf6_f2x_cs(vv):
     """
-    marginal vaccine value of the last day for each state
+    marginal vaccine value for each state
     """
     plottable=vv.drop_sel(space="District of Columbia").sortby("space")
     plt.figure(figsize=(12, 10))  # width:10, height:8
     death_zip = list(zip(plottable["space"].values,
         -plottable["f_pcst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1], "costcomp_tvec": "death"}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1], "costcomp_tv": "death"}
             ].values,
         plottable["f_pst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1]}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1]}
             ].values
     ))
     death_zip.sort(key = lambda x: x[2], reverse=True)
@@ -395,10 +333,10 @@ def tf6_mavv_by_cs(vv):
     death.set_label("Deaths")
     gdp_zip = list(zip(plottable["space"].values,
         -plottable["f_pcst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1], "costcomp_tvec": "gdp"}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1], "costcomp_tv": "gdp"}
             ].values,
         plottable["f_pst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1]}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1]}
             ].values
     ))
     gdp_zip.sort(key = lambda x: x[2], reverse=True)
@@ -410,10 +348,10 @@ def tf6_mavv_by_cs(vv):
         )
     hosp_zip = list(zip(plottable["space"].values,
         -plottable["f_pcst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1], "costcomp_tvec": "hospitalization"}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1], "costcomp_tv": "hospitalization"}
             ].values,
         plottable["f_pst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1]}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1]}
             ].values
     ))
     hosp_zip.sort(key = lambda x: x[2], reverse=True)
@@ -430,19 +368,19 @@ def tf6_mavv_by_cs(vv):
     plt.xlabel("Marginal Vaccine Value ($)")
     plt.ylabel("State")
     plottable["f_pst"].loc[
-                {"f_stat": "m_vv", "param_scal": "baseline", "time": vv["time"][-1], "space": "Alabama"}
+                {"f_stat": "mvv", "param": "baseline", "time": vv["time"][-1], "space": "Alabama"}
             ].values
     return
 
-def tf7_mavv_by_p(vv):
+def tf7_f2x_p(vv):
     matplotlib.pyplot.rcdefaults()
     fig_avg, ax_avg = matplotlib.pyplot.subplots()
     fig_marg, ax_marg = matplotlib.pyplot.subplots()
 
-    x_avg = [avg for marg, avg in vv["f_p"].values]
-    x_marg = [marg for marg, avg in vv['f_p'].values]
+    x_avg = [avg for marg, avg in vv["f2x_p"].values]
+    x_marg = [marg for marg, avg in vv['f2x_p'].values]
     x_label = [val for val in vv.params.values]
-    y_vars = [x for x in range(len(vv['f_p']))]
+    y_vars = [x for x in range(len(vv['f_p']))] ###
     x_avg_sorted = []
     x_marg_sorted = []
     x_label_sorted = []
@@ -465,23 +403,26 @@ def tf7_mavv_by_p(vv):
 
     matplotlib.pyplot.show()
     return
-def tf8_vv_by_h(vv):
+
+def tf8_x_ch2(vv):
     matplotlib.pyplot.rcdefaults()
-    death_vals = vv["f_cth"].loc[{"time": hparam_time[-1], "costcomp_tvec": "death"}].values/10 ** 12
-    death_vals = np.subtract(death_vals, vv["f_cth"].loc[
-        {"f_stat": "vi_base", "time": hparam_time[-1], "costcomp_tvec": "death", "hparam": 0}].values.tolist() / 10 ** 12)
-    gdp_vals = vv["f_cth"].loc[{"time": hparam_time[-1], "costcomp_tvec": "gdp"}].values/ 10 ** 12
-    gdp_vals = np.subtract(gdp_vals, vv["f_cth"].loc[
-        {"time": hparam_time[-1], "costcomp_tvec": "gdp", "hparam": 0}].values.tolist() / 10 ** 12)
-    hosp_vals = np.divide(vv["VV_1_cth"].loc[{"time": hparam_time[-1], "component": "hospitalization"}].values, 10 ** 12)
-    hosp_vals = np.subtract(hosp_vals, vv["f_cth"].loc[
-        {"time": hparam_time[-1], "costcomp_tvec": "hospitalization", "hparam": 0}].values.tolist() / 10 ** 12)
-    plot_d = matplotlib.pyplot.bar(vv.coords["hparam"].values, death_vals, width=2)
+    death_vals = vv["x_cth2"].loc[{"time": time[-1], "costcomp_tv": "death"}].values/10 ** 12
+    death_vals = np.subtract(death_vals, vv["x_cth2"].loc[
+        {"f_stat": "1", "time": time[-1], "costcomp_tv": "death", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
+    gdp_vals = vv["x_cth2"].loc[{"time": time[-1], "costcomp_tv": "gdp"}].values/ 10 ** 12
+    gdp_vals = np.subtract(gdp_vals, vv["x_cth2"].loc[
+        {"time": time[-1], "costcomp_tv": "gdp", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
+    hosp_vals = np.divide(vv["x_cth2"].loc[{"time": time[-1], "component": "hospitalization"}].values, 10 ** 12)
+    hosp_vals = np.subtract(hosp_vals, vv["x_cth2"].loc[
+        {"time": time[-1], "costcomp_tv": "hospitalization", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
+    
+    plot_d = matplotlib.pyplot.bar(vv.coords["hp_vax_time"].values, death_vals, width=2)
     plot_d.set_label("Deaths")
-    plot_g = matplotlib.pyplot.bar(vv.coords["hparam"].values, gdp_vals, bottom=death_vals, width=2)
+    plot_g = matplotlib.pyplot.bar(vv.coords["hp_vax_time"].values, gdp_vals, bottom=death_vals, width=2)
     plot_g.set_label("GDP")
-    plot_h = matplotlib.pyplot.bar(vv.coords["hparam"].values, hosp_vals, bottom=death_vals + gdp_vals, width=2)
+    plot_h = matplotlib.pyplot.bar(vv.coords["hp_vax_time"].values, hosp_vals, bottom=death_vals + gdp_vals, width=2)
     plot_h.set_label("Hospitalization")
+    
     matplotlib.pyplot.legend()
     matplotlib.pyplot.xlabel("Vaccine start time offset (days)")
     matplotlib.pyplot.ylabel("Total vaccine value (Trillion USD)")
@@ -494,44 +435,9 @@ vgpath = "./vendss64MC.exe"
 log_file = "log.txt"
 posterior_out = "OptimV81-Base.out"
 datahp_mdl = "CovidUSA-Econ-V81.mdl" #previously generated via test.tab with vensim manually
+param_lst = ["Variant Intro Start Time", "Variant Impact on Immunity Loss Time[Omicron]", "baseline"]
+#param_lst = [param.replace(" ", "_") for param in param_lst]
 
-vi_1dot1 = 1.01
-vi_base = 1
-vi_zero = 0
-FINAL_TIME = 1100
-hparam_time = pd.date_range(start='10/15/2019', periods= 1071)
-
-state_names, t_sharing_sbatched_params, ts_sharing_params  = gen_param_names()
-param_lst = t_sharing_sbatched_params + ts_sharing_params
-vv = store4testing(state_names, param_lst)
-
-results = calc_param_impact_on_cost(["Sensitivity to Weather"], 1, vv, use_vengine=True, param_name="baseline")  # baseline
-
-# convert_timeshift_csv_to_nc("/Users/hyunjimoon/Dropbox (MIT)/WINcode/VaccineMisinf/nc_data/timeshift/timeshift")
-
-cf={
-    "basename": "Covid",
-    "simcontrol": {
-        "model": "CovidUSA-Econ-V81.mdl",
-        "data": [
-            "CovidModelInputs - ConstantDataStates.vdf",
-            "CovidModelInputs - CRWStates.vdf",
-            "CovidModelInputs - DeathDataStates.vdf",
-            "CovidModelInputs - FlowDataStates.vdf",
-            "CovidModelInputs - FormattedDataStates.vdf",
-            "CovidModelInputs - TestDataStates.vdf",
-            "GDP_Vensim.vdfx"
-            ],
-        "payoff": "",
-        "sensitivity": "",
-        "optparm": "",
-        "changes": [],
-        "savelist": "",
-        "senssavelist": ""
-        },
-    "venginepath": vgpath,
-    "runcmd": "",
-    "savecmd": "VDF2CSV|!|!|SAVEFILE.lst|||",
-    "timelimit": 600,
-    "mccores": 0
-}
+vv = create_f12x1_pcsth12()
+tf11234_vgcsv2xr(param_lst, param_multiplier = 1.01)
+vv.to_netcdf("nc_data/fx_pcsth.nc")
