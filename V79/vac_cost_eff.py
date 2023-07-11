@@ -58,29 +58,10 @@ def gen_param_names():
     return state_names, t_sharing_sbatched_params, ts_sharing_params
 
 def create_f12x1_pcsth12():
-    # function
-    f1x = ["mvv", "avv"] #better if functional form
-    f2x = ["mvv_sens", "avv_sens"]
+    # x
+    x1 = ["cost"]
+    x2 = ["population"]
 
-    # param
-    t_sharing_sbatched_params, ts_sharing_params  = gen_param_names()[1:]
-    #param_lst = t_sharing_sbatched_params + ts_sharing_params + ["baseline"]
-
-    # component_time_vec
-    costcomp_tv = ['death', 'gdp', 'hospitalization']
-    noncostcomp_tv = ['population']
-    # space
-    state_names  = gen_param_names()[0]
-
-    # time
-    time = pd.date_range(start='10/15/2019', periods=1071)
-
-    # hyperparameter/action/counterfactual
-        # no p, no 
-        
-        # vv["f_pst"] = vv["f_pcst"].sum(dim="costcomp_tv")
-        # vv["f_pt"] = vv["f_pct"].sum(dim="costcomp_tv")
-        # vv["f_c"] = vv["f_pt"].loc[{"f_stat": "mvv", "param" = "baseline"}]
     # function
     f1x = ["mvv", "avv"] #better if functional form
     f2x = ["mvv_sens", "avv_sens"]
@@ -101,11 +82,15 @@ def create_f12x1_pcsth12():
     # hyperparameter/action/counterfactual
     vax_amt_lst = [1.01, 1, 0]
     vax_time_lst = [range(-50, 60, 10)]
+
     dv = {
-        "dims": {"f1x", "f2x", "param", "costcomp_tv", "noncostcomp_tv", "space", "time", "hp_vax_amt", "hp_vax_time"}, #action as hparam
+        "dims": {"x1", "x2", "f1x", "f2x", "param", "costcomp_tv", "noncostcomp_tv", "space", "time", "hp_vax_amt", "hp_vax_time"}, #action as hparam
         "coords": { #pcstvh
-            'f1x': {"dims": ("f1x"), "data": f1x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON 
-            'f2x': {"dims": ("f2x"), "data": f2x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON w.r.t. PARAMETER
+            'x1': {"dims": ("x1"), "data": x1}, #COST ($) TODO: if I use ["cost"], should i change x1_pcsth1 as "x1" or "cost"?
+            'x2': {"dims": ("x2"), "data": x2}, #POPULATION (person)
+            
+            'f1x': {"dims": ("f1x"), "data": f1x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON ($/person)
+            'f2x': {"dims": ("f2x"), "data": f2x}, #MARGINAL AVERAGE VACCINE VALUE PER PERSON w.r.t. PARAMETER ($/person/punit)
             
             'param': {"dims": ("param"), "data": param_lst},
 
@@ -118,14 +103,12 @@ def create_f12x1_pcsth12():
             'hp_vax_time': {"dims": ("hp_vax_time"), "data": [str(vt) for vt in vax_time_lst]}
         },
         "data_vars": {  # 5+3 three vdot_ coordinate is only needed for data variables with 'p' coordinate
-            "x1_pcsth1": {"dims": ("param", "costcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(costcomp_tv), len(state_names), len(time), len(vax_amt_lst)))}, # vaccine value for each component, space, time, for vaxinc 0, 1, 1.01
-            "x2_pnsth1": {"dims": ("param", "noncostcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(noncostcomp_tv), len(state_names), len(time), len(vax_amt_lst)))},
-            #3*23
-
-            "x_cth2": {"dims": ("costcomp_tv", "time", "hp_vax_time"), "data": np.zeros(shape=(len(noncostcomp_tv), len(time), len(vax_time_lst)))},
-            #3*23
+            "x1_pcsth1": {"dims": ("x1", "param", "costcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(x1), len(param_lst), len(costcomp_tv), len(state_names), len(time), len(vax_amt_lst)))}, # vaccine value for each component, space, time, for vaxinc 0, 1, 1.01
+            "x2_pnsth1": {"dims": ("x2", "param", "noncostcomp_tv", "space", "time", "hp_vax_amt"), "data": np.zeros(shape=(len(x2), len(param_lst), len(noncostcomp_tv), len(state_names), len(time), len(vax_amt_lst)))},
             
-            "f1x_pcsth": {"dims": ("f1x", "param", "costcomp_tv", "space", "time","hp_vax_amt"), "data": np.zeros(shape=(len(f1x), len(param_lst), len(costcomp_tv),  len(state_names), len(time), len(vax_amt_lst)))}, #marginal vaccine value per person
+            "x1_cth2": {"dims": ("x1","costcomp_tv", "time", "hp_vax_time"), "data": np.zeros(shape=(len(x1),len(costcomp_tv), len(time), len(vax_time_lst)))},
+            
+            "f1x_pcsth1": {"dims": ("f1x", "param", "costcomp_tv", "space", "time","hp_vax_amt"), "data": np.zeros(shape=(len(f1x), len(param_lst), len(costcomp_tv),  len(state_names), len(time), len(vax_amt_lst)))}, #marginal vaccine value per person
             "f2x_pcst": {"dims": ("f2x", "param", "costcomp_tv", "space", "time",), "data": np.zeros(shape=(len(f2x), len(param_lst), len(costcomp_tv),  len(state_names), len(time)))}, #marginal vaccine value per person w.r.t. parameter
         },
         "attrs": {"title": "1.vaccine value disaggregated by parameter, time, space, component, 2.counterfactual by parameter for validity, 3.counterfactual by datahp for summary stat."}
@@ -134,13 +117,13 @@ def create_f12x1_pcsth12():
     vv = xr.Dataset.from_dict(dv)
     return vv
 
-def tf11234_vgcsv2xr(param_lst, param_multiplier, use_vengine = False) -> xr.Dataset:
+def tf11234_vgcsv2xr(param_lst, param_multiplier, vv, use_vengine = False) -> xr.Dataset:
     def fx_pcsth_h1(param, vax_amt, vv):
         paramvv = pd.read_csv(f"V79/CSV/Covidparam_{param}_{vax_amt}.csv", index_col=0).T
         vi_r2s = {1.01: '1.01', 1: '1', 0:  '0',}
 
         # INPUT FROM CSV
-        for state in state_names:
+        for state in gen_param_names()[0]:
             vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "death", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of Deaths Cumulative[{state}]"].values.flatten()
             vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "gdp", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of GDP Cumulative[{state}]"].values.flatten()
             vv["x1_pcsth1"].loc[{"param": param,"costcomp_tv": "hospitalization", "space": state, "hp_vax_amt": vi_r2s[vax_amt]}] = paramvv[f"Cost of Hospitalizations Cumulative[{state}]"].values.flatten()
@@ -149,9 +132,9 @@ def tf11234_vgcsv2xr(param_lst, param_multiplier, use_vengine = False) -> xr.Dat
 
         vv["x1_pcth1"] = vv["x1_pcsth1"].sum(dim="space") # TODO: compare same value 
         vv["x2_pnth1"] = vv["x2_pnsth1"].sum(dim="space")
-        print("VERIFY1: vensim-xarray space aggregation is same")
-        print("VENSIM :", paramvv["Cost of Deaths Cumulative All"].values.flatten())
-        print("xarray :", vv["x1_pcth1"].values)
+        # print("VERIFY1: vensim-xarray space aggregation is same")
+        # print("VENSIM :", paramvv["Cost of Deaths Cumulative All"].values.flatten())
+        # print("xarray :", vv["x1_pcth1"].values)
         return vv
     
     def fx_pcsth_h2(vax_time, vv):
@@ -226,20 +209,20 @@ def tf11234_vgcsv2xr(param_lst, param_multiplier, use_vengine = False) -> xr.Dat
             vv = fx_pcsth_h1(param, vax_amt, vv)
     
     #tf5_x_ctnt
-    vv['x1_ct']=vv["x1_pcth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}].sum(dim='space')
-    vv['x2_nt']=vv["x2_pnth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}].sum(dim='space')
+    vv['x1_ct']=vv["x1_pcth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}]
+    vv['x2_nt']=vv["x2_pnth1"].loc[{'param':'baseline', 'hp_vax_amt': "1"}]
 
     #tf6_f2x_cs
     # TRANSFORM X TO F1(X): MARGINAL AVERAGE VACCINE VALUE PER PERSON (addivitive then multiplicative centralization)
-    vv["f1x_pcst"].loc[{"f1x": "avv", "param": param}] = (vv["x1_pcsth1"].loc[{"hp_vax_amt": "1"}] - vv["x1_pcsth1"].loc[{"hp_vax_amt": "0"}]) / (vv["x_pnst"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"0"}])
-    vv["f1x_pcst"].loc[{"f1x": "mvv", "param": param}] = (vv["x1_pcsth1"].loc[{"x1_pcsth1": "1.01"}] - vv["x1_pcsth1"].loc[{"x1_pcsth1": "1"}]) / (vv["x_pnst"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1.01"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}])
+    vv["f1x_pcsth1"].loc[{"f1x": "avv", "param": param}] = (vv["x1_pcsth1"].loc[{"hp_vax_amt": "1"}] - vv["x1_pcsth1"].loc[{"hp_vax_amt": "0"}]) / (vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"0"}])
+    vv["f1x_pcsth1"].loc[{"f1x": "mvv", "param": param}] = (vv["x1_pcsth1"].loc[{"x1_pcsth1": "1.01"}] - vv["x1_pcsth1"].loc[{"x1_pcsth1": "1"}]) / (vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1.01"}] - vv["x2_pnsth1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}])
 
     vv['f2x_cs'] = vv['f2x_pcst'].loc[{'param':'baseline', 'time':time[-1]}]
 
     #tf7_f2x_p
     # TRANSFORM F1(X) TO F2(X): 
     # aggregation rules: over space should be done in the level of x, not fx + component aggregation then s
-    #vv['f2x_pcst'] = (vv['f1x_pcsth'].loc[{"params": param}] - vv['f1x_pcsth'].loc[{"params": "baseline"}]) / (param_multiplier - 1) NOT BEING USED
+    #vv['f2x_pcst'] = (vv['f1x_pcsth1'].loc[{"params": param}] - vv['f1x_pcsth1'].loc[{"mparams": "baseline"}]) / (param_multiplier - 1) NOT BEING USED
     vv['x1_pth1']=vv["x1_cpth1"].sum(dim ='costcomp_tv') # space aggregated population???
     vv['x1_ph1'] = vv['x1_pth1'].loc[{'time':time[-1]}] 
     vv["f1x_p"].loc[{"f1x": "mvv", "param": param}] = (vv["x1_ph1"].loc[{"hp_vax_amt": "1.01"}] - vv["x1_ph1"].loc[{"hp_vax_amt": "1"}]) / (vv["x2_ph1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1.01"}] - vv["x2_ph1"].loc[{"noncostcomp_tv": "population", "hp_vax_amt":"1"}])
@@ -406,14 +389,14 @@ def tf7_f2x_p(vv):
 
 def tf8_x_ch2(vv):
     matplotlib.pyplot.rcdefaults()
-    death_vals = vv["x_cth2"].loc[{"time": time[-1], "costcomp_tv": "death"}].values/10 ** 12
-    death_vals = np.subtract(death_vals, vv["x_cth2"].loc[
+    death_vals = vv["x1_cth2"].loc[{"time": time[-1], "costcomp_tv": "death"}].values/10 ** 12
+    death_vals = np.subtract(death_vals, vv["x1_cth2"].loc[
         {"f_stat": "1", "time": time[-1], "costcomp_tv": "death", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
-    gdp_vals = vv["x_cth2"].loc[{"time": time[-1], "costcomp_tv": "gdp"}].values/ 10 ** 12
-    gdp_vals = np.subtract(gdp_vals, vv["x_cth2"].loc[
+    gdp_vals = vv["x1_cth2"].loc[{"time": time[-1], "costcomp_tv": "gdp"}].values/ 10 ** 12
+    gdp_vals = np.subtract(gdp_vals, vv["x1_cth2"].loc[
         {"time": time[-1], "costcomp_tv": "gdp", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
-    hosp_vals = np.divide(vv["x_cth2"].loc[{"time": time[-1], "component": "hospitalization"}].values, 10 ** 12)
-    hosp_vals = np.subtract(hosp_vals, vv["x_cth2"].loc[
+    hosp_vals = np.divide(vv["x1_cth2"].loc[{"time": time[-1], "component": "hospitalization"}].values, 10 ** 12)
+    hosp_vals = np.subtract(hosp_vals, vv["x1_cth2"].loc[
         {"time": time[-1], "costcomp_tv": "hospitalization", "hp_vax_time": "0"}].values.tolist() / 10 ** 12)
     
     plot_d = matplotlib.pyplot.bar(vv.coords["hp_vax_time"].values, death_vals, width=2)
@@ -439,5 +422,5 @@ param_lst = ["Variant Intro Start Time", "Variant Impact on Immunity Loss Time[O
 #param_lst = [param.replace(" ", "_") for param in param_lst]
 
 vv = create_f12x1_pcsth12()
-tf11234_vgcsv2xr(param_lst, param_multiplier = 1.01)
+tf11234_vgcsv2xr(param_lst, param_multiplier = 1.01, vv=vv)
 vv.to_netcdf("nc_data/fx_pcsth.nc")
