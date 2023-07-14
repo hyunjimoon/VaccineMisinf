@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
+import datetime
 #from VST.vst import vst_text, vst
+import datetime
 import matplotlib.pyplot, matplotlib.dates
 from matplotlib import pyplot as plt
 import os
@@ -32,32 +34,17 @@ def gen_param_names():
         state_lst_5.append(f"Variant Intro Start Time[{name}]")
         state_lst_6.append(f"Variant Intro Start Time2[{name}]")
 
-    t_sharing_params =  [
-            state_lst_1,
-            state_lst_2,
-            state_lst_3,
-            state_lst_4,
-            state_lst_5,
-            state_lst_6,
-        ]
-
+    t_sharing_params = [state_lst_1, state_lst_2, state_lst_3, state_lst_4, state_lst_5, state_lst_6, ]
     t_sharing_sbatched_params = [param[0].replace("[Alabama]", "") for param in t_sharing_params]
-    ts_sharing_params = ['Variant Impact on Immunity Loss Time[Omicron]',
-                         'Variant Impact on Immunity Loss Time[Delta]',
-                         'Variant Impact on Immunity Loss Time[BA5]',
-                         'Extra Vaccine Impact on Responsiveness[Vx]',
-                         'Extra Vaccine Impact on Responsiveness[NVx]',
-                         'Extra Vaccine Impact on Responsiveness[Naive]',
-                         'Immunity Loss Time[Vx]',
-                         'Immunity Loss Time[NVx]',
-                         'Immunity Loss Time[Naive]',
-                         'Variant Accuity Multiplier[Omicron]',
-                         'Variant Accuity Multiplier[Delta]',
-                         'Variant Accuity Multiplier[BA5]',
-                         'Variant Intro Start Time3',
-                         'Variant Transmission Multiplier[Omicron]',
-                         'Variant Transmission Multiplier[Delta]',
-                         'Variant Transmission Multiplier[BA5]']
+    ts_sharing_params = ['Variant Accuity Multiplier[Delta]', 'Variant Accuity Multiplier[Omicron]', 'Variant Accuity Multiplier[BA5]',
+                        'Variant Impact on Immunity Loss Time[Delta]', 'Variant Impact on Immunity Loss Time[Omicron]', 'Variant Impact on Immunity Loss Time[BA5]',
+                        'Variant Transmission Multiplier[Delta]', 'Variant Transmission Multiplier[Omicron]', 'Variant Transmission Multiplier[BA5]'
+                                                                                        
+                        'Extra Vaccine Impact on Responsiveness[Naive]', 'Extra Vaccine Impact on Responsiveness[Vx]', 'Extra Vaccine Impact on Responsiveness[NVx]',
+                        'Immunity Loss Time[Naive]', 'Immunity Loss Time[Vx]', 'Immunity Loss Time[NVx]',
+
+                        'Variant Intro Start Time3', ]
+    
     vengine_param_lst_lst=[
         state_lst_1,
         state_lst_2,
@@ -137,6 +124,8 @@ def create_f123x1_pcsth12(vax_amt_lst, vax_time_lst):
             #sens
             "f3x_pcst": {"dims": ("f3x", "param", "costcomp_tv", "space", "time",), "data": np.zeros(shape=(len(f3x), len(xr_param_lst), len(costcomp_tv),  len(states), len(time)))}, #marginal vaccine value per person w.r.t. parameter (cost/person/param)
             "f3x_p":{"dims": ("f3x", "param",), "data": np.zeros(shape=(len(f3x), len(xr_param_lst)))},
+            #DVP
+            "f4x_cst":{"dims": ("f4x","costcomp_tv", "space", "time",), "data": np.zeros(shape=(len(f4x), len(costcomp_tv),  len(states), len(time)))}, #marginal vaccine value per person w.r.t. parameter (cost/person/param)
         },
         "attrs": {"title": "1.vaccine value disaggregated by parameter, time, space, component, 2.counterfactual by parameter for validity, 3.counterfactual by datahp for summary stat."}
         # 1 and 2 are descriptive, 3 is prescriptive
@@ -156,9 +145,9 @@ def multi_center(obj, ref):
     """
     return np.divide(obj, ref)
 
-def tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst, param_multiplier, vv, use_vengine = False) -> xr.Dataset:
+def tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst, vv, write_csv = False, run_vengine_va=False, param_multiplier=1, run_vengine_vt=False) -> xr.Dataset:
     def f1234x_pcst_h1(param, vax_amt, vv):
-        df = pd.read_csv(f"V79/CSV/Covidparam_{param}_{vax_amt}.csv", index_col=0).T
+        df = pd.read_csv(f"V79/CSV/Covidh1_va_{param}_{vax_amt}.csv", index_col=0).T
         vi_r2s = {1.01:'1.01', 1:'1', 0:'0',}
 
         # INPUT FROM CSV
@@ -216,13 +205,14 @@ def tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param
             vv["f3x_p"].loc[{"f3x": "avvpp_sens", 'param':param}] = multi_center(add_center(vv["f2x_p"].sel(f2x="avvpp", param= f"{param}"), vv["f2x_p"].sel(f2x="avvpp", param= "baseline")), 0.01)
 
         # F2(X) TO F4(X): MARGINAL AVERAGE VACCINE VALUE PER PERSON PER PARAMETER PER DAY
-        # for t in range(len(time)+1):
-        #     vv["f4x_cst"].loc[{"f4x": "mvvpp_t"}] = add_center(vv["f2x_pcst"].sel(time= f"{t}", param="baseline"), vv["f2x_pcst"].sel(time= f"{t-1}", param="baseline")).squeeze('f2x')
-
+        for t in time[1:]:
+            vv["f4x_cst"].loc[{"f4x": "mvvpp_dt", "time":f"{t}"}] = add_center(vv["f2x_pcst"].sel(time= f"{t}", param="baseline"), vv["f2x_pcst"].sel(time= f"{t-datetime.timedelta(days=1)}", param="baseline")).sel(f2x='mvvpp')
+            vv["f4x_cst"].loc[{"f4x": "avvpp_dt", "time":f"{t}"}] = add_center(vv["f2x_pcst"].sel(time= f"{t}", param="baseline"), vv["f2x_pcst"].sel(time= f"{t-datetime.timedelta(days=1)}", param="baseline")).sel(f2x='avvpp')
+        
         return vv
     
     def f5x_cst_h2(vax_time, vv):
-        df = pd.read_csv(f"V79/CSV/timeshift_{vax_time}.csv", header=None)
+        df = pd.read_csv(f"V79/CSV/Covidh2_vt_{vax_time}.csv", header=None)
         vt_r2s = {-50: "-50", -40: "-40", -30: "-30", -20:"-20", -10: "-10", 0:"0", 10:"10", 20: "20", 30:"30", 40:"40", 50:"50"} 
     
         df['var'] = df.iloc[:, 0] + "[" + df.iloc[:, 1] + "]"
@@ -239,61 +229,80 @@ def tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param
         vv["f5x_cst"] = add_center(vv["x1_csth2"].sel(h2=f'{vax_time}'), vv["x1_csth2"].sel(h2="0")).squeeze('x1')
         return vv
 
-    if use_vengine:
-        cf={
-            "basename": "Covid",
-            "simcontrol": {
-                "model": "CovidUSA-Econ-V81.mdl",
-                "data": [
-                    "CovidModelInputs - ConstantDataStates.vdf",
-                    "CovidModelInputs - CRWStates.vdf",
-                    "CovidModelInputs - DeathDataStates.vdf",
-                    "CovidModelInputs - FlowDataStates.vdf",
-                    "CovidModelInputs - FormattedDataStates.vdf",
-                    "CovidModelInputs - TestDataStates.vdf",
-                    "GDP_Vensim.vdfx"
-                    ],
-                "payoff": "",
-                "sensitivity": "",
-                "optparm": "",
-                "changes": [],
-                "savelist": "",
-                "senssavelist": ""
-                },
-            "venginepath": vgpath,
-            "runcmd": "",
-            "savecmd": "VDF2CSV|!|!|SAVEFILE.lst|||",
-            "timelimit": 600,
-            "mccores": 0
-        }
-        for param_sbatched in vengine_param_lst_lst:
-            param_new_val_list = []
-            for vax_amt in vax_amt_lst:
-                try:
-                    param_base_scal = vst_text.get_value(f'{posterior_out}', param_sbatched)
-                except TypeError:  # if we can't find param in optimization output, pull it out of model directly, should be done form mdl but is currently from .tab generated from vensim
-                    param_base_scal = vst_text.get_value(f'{datahp_mdl}', param_sbatched)
-                    # df = pd.read_csv(f"{test_file}", sep="\t", index_col=0)  # raw values (all params outside .out, manually generated from .mdl/ can read from .mdl)
-                    # param_base_scal = df.loc[param][0]
-                param_new_val_list.append(param_base_scal * param_multiplier)  # TODO: make this function with list param for rgn
-            setval_lst = [("VaxInc", vax_amt)] + [(param_name, param_new_val) for param_name, param_new_val in zip(vengine_param_lst_lst, param_new_val_list)]
-            run = vst.Script(cf, f"param_{param_name}", log_file, setvals=setval_lst, simtype='r')
-            run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
-            os.replace(f"VAMA/Covidparam_{param_name}.csv", f"CSV/Covidparam_{param_name}_{vax_amt}.csv")
+    if write_csv:
+        cf = {"basename": "Covid", "simcontrol": {"model": "CovidUSA-Econ-V81.mdl",
+                                                  "data": ["CovidModelInputs - ConstantDataStates.vdf", "CovidModelInputs - CRWStates.vdf", "CovidModelInputs - DeathDataStates.vdf", "CovidModelInputs - FlowDataStates.vdf", "CovidModelInputs - FormattedDataStates.vdf",
+                                                           "CovidModelInputs - TestDataStates.vdf", "GDP_Vensim.vdfx"], "payoff": "", "sensitivity": "", "optparm": "", "changes": [], "savelist": "", "senssavelist": ""}, "venginepath": vgpath, "runcmd": "", "savecmd": "VDF2CSV|!|!|SAVEFILE.lst|||",
+              "timelimit": 600, "mccores": 0}
+        if run_vengine_va:
+           for param_sbatched in vengine_param_lst_lst:
+                param_new_val_list = []
+                for vax_amt in vax_amt_lst:
+                    if param_multiplier ==1:
+                        cmd_name = "baseline"  # sensitivity to weather
+                        setval_lst = [("VaxInc", vax_amt)]
+                    elif "[Alabama]" in param_sbatched[0]:
+                        s_len = len("[Alabama]")
+                        cmd_name = f"{param_sbatched[0][:-s_len]}"
+                        for param_s in param_sbatched:
+                            try:
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', param_s)
+                            except TypeError:  # if we can't find param in optimization output, pull it out of model directly, should be done form mdl but is currently from .tab generated from vensim
+                                param_base_scal = vst_text.get_value(f'{datahp_mdl}', param_s)  # df = pd.read_csv(f"{test_file}", sep="\t", index_col=0)  # raw values (all params outside .out, manually generated from .mdl/ can read from .mdl)  # param_base_scal = df.loc[param][0]
+                            param_new_val_list.append(param_base_scal * param_multiplier)
+                        setval_lst = [("VaxInc", vax_amt)] + [(param_s, param_new_val) for param_s, param_new_val in zip(param_sbatched, param_new_val_list)]
+                    else:
+                        cmd_name = f"{param_sbatched}"
+                        if "Variant Accuity Multiplier" in param_sbatched:
+                            if "[Delta]" in param_sbatched:
+                                param_base_scal = 1
+                            else: #Omicron, BA5 read from .out
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', param_sbatched)  #initial .90,.80 ; range .2~1.0-> estimated .80,.60
+                        elif "Variant Impact on Immunity Loss Time" in param_sbatched:
+                            if "[Delta]" in param_sbatched: #hyperparam [Delta]
+                                param_base_scal = 1
+                            else: #estimated param [Omicron, BA5] as Variant Impact on Immunity Loss Time[BA5] = "Variant Impact on Immunity Loss Time[Omicron], though former is not in .out file
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', "Variant Impact on Immunity Loss Time[Omicron]")
 
-        for vax_time in vax_time_lst:
-            setval_lst = [("VaccinationShift", vax_time)]
-            run = vst.Script(cf, f"vax_time_{vax_time}", log_file, setvals=setval_lst, simtype='r')
-            run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
-            os.replace(f"VAMA/timeshift_{vax_time}.csv", f"CSV/timeshift_{vax_time}.csv")
+                        elif "Extra Vaccine Impact on Responsiveness" in param_sbatched: #[Naive, Vx, NVx] encoded as [VS]
+                            param_base_scal = vst_text.get_value(f'{datahp_mdl}', "Extra Vaccine Impact on Responsiveness[VS]")
+                        elif ("Immunity Loss Time" in param_sbatched) and ("Variant" not in param_sbatched):  # Extra Vaccine Impact on Responsiveness[Naive, Vx, NVx] VIRUS (attacker) SUBSCRIPT COMES AFTER PEOPLE (defender) SUBSCRIPT
+                            if "[Naive]" in param_sbatched: #hyperparam [Naive]
+                                param_base_scal = 200
+                            else: #estimated param[NVx, Vx]
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', param_sbatched)
 
+                        elif "Variant Transmission Multiplier" in param_sbatched:
+                            if "[Delta]" in param_sbatched: #hyperparam [Delta]
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', param_sbatched) #initial 2.9; range 1~12-> estimated 2.72
+                            else: #estimated param[NVx, Vx]Omicron, BA5 read from .out
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', "Variant Transmission Multiplier[Omicron]") #initial 2.8; range 1~12-> estimated 2.44
+                        else:
+                            try:
+                                param_base_scal = vst_text.get_value(f'{posterior_out}', param_sbatched)
+                            except TypeError:  #Variant Intro Start Time3
+                                param_base_scal = vst_text.get_value(f'{datahp_mdl}', param_sbatched)
+
+                        setval_lst =[("VaxInc", vax_amt)] + [(param_sbatched, param_base_scal * param_multiplier)]
+
+                    run = vst.Script(cf, f"h1_va_{cmd_name}", log_file, setvals=setval_lst, simtype='r')
+                    run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
+                    os.replace(f"VAMA/Covidh1_va_{cmd_name}.csv", f"CSV/Covidh1_va_{cmd_name}_{vax_amt}.csv") #TODO where is Covid superscript coming from?
+        if run_vengine_vt:
+            for vax_time in vax_time_lst:
+                setval_lst = [("VaccinationShift", vax_time)]
+                run = vst.Script(cf, f"h2_vt_{vax_time}", log_file, setvals=setval_lst, simtype='r')
+                run.compile_script(vgpath, log_file, subdir="VAMA", check_funcs=[lambda a, b: True])
+                os.replace(f"VAMA/Covidh2_vt_{vax_time}.csv", f"CSV/Covidh2_vt_{vax_time}.csv")
     # VAX_AMT
     for param in xr_param_lst:
+        print(param)
         for vax_amt in vax_amt_lst:
             vv = f1234x_pcst_h1(param, vax_amt, vv)
 
     # VAX_TIME
     for vax_time in vax_time_lst:
+        print(vax_time)
         vv = f5x_cst_h2(vax_time, vv)
     
     return vv
@@ -452,6 +461,30 @@ def tf8_x_ch2(vv):
     plt.savefig('plot/tf8_x_ch2.png')
     return
 
+def tf9_f4x_dt(vv):
+    vv["f4x_ct"] = vv["f4x_cst"].sum(dim='space')
+    vv["f4x_t"] = vv["f4x_ct"].sum(dim='costcomp_tv')
+    for m_or_a in vv.coords['f4x'].values:
+        death_zip = list(zip(vv["time"].values, -vv["f4x_ct"].sel(f4x= f"{m_or_a}", costcomp_tv= "death").values, vv["f4x_t"].sel(f4x= f"{m_or_a}",).values))
+        death_zip.sort(key = lambda x: x[2], reverse=True)
+        death_lab, death_val, _ = zip(*death_zip)
+        death = plt.bar(death_lab,death_val,)
+        death.set_label("Deaths")
+
+        gdp_zip = list(zip(vv["time"].values, -vv["f4x_ct"].sel(f4x= f"{m_or_a}", costcomp_tv= "gdp").values, vv["f4x_t"].sel(f4x= f"{m_or_a}",).values))
+        gdp_zip.sort(key = lambda x: x[2], reverse=True)
+        gdp_lab, gdp_val, _ = zip(*gdp_zip)
+        gdp = plt.bar(gdp_lab,gdp_val,bottom=death_val)
+        gdp.set_label("GDPs")
+
+        hosp_zip = list(zip(vv["time"].values, -vv["f4x_ct"].sel(f4x= f"{m_or_a}", costcomp_tv= "hospitalization").values, vv["f4x_t"].sel(f4x= f"{m_or_a}",).values))
+        hosp_zip.sort(key = lambda x: x[2], reverse=True)
+        hosp_lab, hosp_val, _ = zip(*hosp_zip)
+        hosp = plt.bar(hosp_lab,hosp_val,bottom=[d+g for d, g in zip(death_val, gdp_val)])
+        hosp.set_label("Hospitalization")
+        plt.savefig('plot/tf8_x_ch2.png')
+    return
+
 vgpath = "./vendss64MC.exe"
 log_file = "log.txt"
 posterior_out = "OptimV81-Base.out"
@@ -466,9 +499,13 @@ vax_time_lst = [i for i in range(-50, 60, 10)]
 time = pd.date_range(start='10/15/2019', periods=1071)
 
 vv = create_f123x1_pcsth12(vax_amt_lst, vax_time_lst)
-tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst, param_multiplier = 1.01, vv=vv)
+# tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, ["Sensitivity to Weather"], xr_param_lst, vv=vv, write_csv = True, run_vengine_va=True, param_multiplier=1, run_vengine_vt=False) #any parameter
+# tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst,  vv=vv, write_csv = True, run_vengine_va=True, param_multiplier=1.01, run_vengine_vt=False)
+# tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst, vv=vv, write_csv = True, run_vengine_va=False,  param_multiplier=1.01, run_vengine_vt=True)
+tf112345_vgcsv2xr(vax_amt_lst, vax_time_lst, vengine_param_lst_lst, xr_param_lst, vv=vv) #
 vv.to_netcdf("nc_data/fx_pcsth.nc")
 vv = xr.open_dataset("nc_data/fx_pcsth.nc")
 tf6_f2x_cs(vv)
 tf7_f3x_p(vv)
 tf8_x_ch2(vv)
+tf9_f4x_dt(vv)
