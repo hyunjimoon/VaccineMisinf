@@ -1,0 +1,92 @@
+:COMSYS After 201982 simulations
+:COMSYS Best payoff is -2.14816e+06
+:COMSYS User terminated multiple search session
+:OPTIMIZER=Powell
+:SENSITIVITY=Off
+:MULTIPLE_START=XParallel
+:RANDOM_NUMBER=Default
+:OUTPUT_LEVEL=3
+:TRACE=Off
+:MAX_ITERATIONS=1000
+:RESTART_MAX=1
+:PASS_LIMIT=2
+:FRACTIONAL_TOLERANCE=0.0003
+:TOLERANCE_MULTIPLIER=21
+:ABSOLUTE_TOLERANCE=1
+:SCALE_ABSOLUTE=1
+:VECTOR_POINTS=25
+:MCLIMIT=0
+:MCJUMP=0.05
+:MCBURNIN=0
+:MCDELTA=0.0001
+:MCTEMP=1
+:MCNCHAINS=2
+:MCUPDATEPAIRS=2
+:MCSCHEDULE=0
+:MCOUTLIER=0.05
+:MCXOVER=0.2
+:MCCOOLING=1000
+:MCINITMETHOD=0
+:MCPAYOFFTYPE=0
+:MCGAMMA=1
+:MCRECORD=0
+:MCKNN=0
+:MCEPSILON=0.01
+:MCFTEMP=1
+0 <= "State CRN Proportion (alpha)"[Alabama] = 7.26981e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Alaska] = 0.411826  <= 1
+0 <= "State CRN Proportion (alpha)"[Arizona] = 3.1826e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Arkansas] = 0.242429  <= 1
+0 <= "State CRN Proportion (alpha)"[California] = 0.0753926  <= 1
+0 <= "State CRN Proportion (alpha)"[Colorado] = 0.738453  <= 1
+0 <= "State CRN Proportion (alpha)"[Connecticut] = 0.16478  <= 1
+0 <= "State CRN Proportion (alpha)"[District of Columbia] = 2.78171e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Delaware] = 0.0433941  <= 1
+0 <= "State CRN Proportion (alpha)"[Florida] = 0.254251  <= 1
+0 <= "State CRN Proportion (alpha)"[Georgia] = 0.165572  <= 1
+0 <= "State CRN Proportion (alpha)"[Hawaii] = 2.16559e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Idaho] = 5.51717e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Illinois] = 0.000108153  <= 1
+0 <= "State CRN Proportion (alpha)"[Indiana] = 2.01756e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Iowa] = 0.265633  <= 1
+0 <= "State CRN Proportion (alpha)"[Kansas] = 0.0486834  <= 1
+0 <= "State CRN Proportion (alpha)"[Kentucky] = 2.35682e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Louisiana] = 0.964923  <= 1
+0 <= "State CRN Proportion (alpha)"[Maine] = 9.12138e-08  <= 1
+0 <= "State CRN Proportion (alpha)"[Maryland] = 0.0296084  <= 1
+0 <= "State CRN Proportion (alpha)"[Massachusetts] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Michigan] = 0.278099  <= 1
+0 <= "State CRN Proportion (alpha)"[Minnesota] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Mississippi] = 3.94892e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Missouri] = 7.62281e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Montana] = 3.19501e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Nebraska] = 1.20489e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Nevada] = 2.85e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[New Hampshire] = 1.39844e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[New Jersey] = 0.0127754  <= 1
+0 <= "State CRN Proportion (alpha)"[New Mexico] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[New York] = 0.507142  <= 1
+0 <= "State CRN Proportion (alpha)"[North Carolina] = 1.26648e-07  <= 1
+0 <= "State CRN Proportion (alpha)"[North Dakota] = 0.274437  <= 1
+0 <= "State CRN Proportion (alpha)"[Ohio] = 4.15543e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Oklahoma] = 0  <= 1
+0 <= "State CRN Proportion (alpha)"[Oregon] = 0.10216  <= 1
+0 <= "State CRN Proportion (alpha)"[Pennsylvania] = 6.66757e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Rhode Island] = 0.594898  <= 1
+0 <= "State CRN Proportion (alpha)"[South Carolina] = 1.43972e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[South Dakota] = 1  <= 1
+0 <= "State CRN Proportion (alpha)"[Tennessee] = 1.35976e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Texas] = 6.99175e-06  <= 1
+0 <= "State CRN Proportion (alpha)"[Utah] = 0.088075  <= 1
+0 <= "State CRN Proportion (alpha)"[Vermont] = 1.7433e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Virginia] = 1.16236e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Washington] = 2.24418e-18  <= 1
+0 <= "State CRN Proportion (alpha)"[West Virginia] = 1.12564e-05  <= 1
+0 <= "State CRN Proportion (alpha)"[Wisconsin] = 0.231721  <= 1
+0 <= "State CRN Proportion (alpha)"[Wyoming] = 0.405747  <= 1
+1 <= "Output Gap Decay Time (dy)" = 148.664  <= 300
+1 <= "Mitigation Learning Decay Time (dl)" = 397.351  <= 1000
+1 <= "Learning Time (tl)" = 24.8193  <= 1000
+0 <= "Psychological Exponent (epsilon)" = 2.96378  <= 3
+0 <= "Contact Input Scale (f)" = 0.0133552  <= 1
+0 <= "Direct Infection Impact Scale (ds)" = 0.573169  <= 10
